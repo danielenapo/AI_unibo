@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#create vander matrix based on x_vander={1,2,3,...,n}
 n=17
 x_vander=np.arange(1,n)
 A_full=np.vander(x_vander, n)
@@ -11,23 +10,17 @@ k_2=np.zeros((n-2,))
 k_inf=np.zeros((n-2,))
 
 for i in range(2,n):
-    #calculating b from x_true
     x_true=np.ones((i,))
     A=A_full[:i,:i]
     b=x_true@A
 
-    #calculating x
     k_2[i-2]=np.linalg.cond(A,2)
     k_inf[i-2]=np.linalg.cond(A,np.inf)
     x=np.linalg.solve(A,b)
-    #print(x)
 
-    #calculating relative error 
     rel_err[i-2]=np.linalg.norm(x_true-x,2)/np.linalg.norm(x_true,2)
 
-#PLOTTING
 plt.figure(figsize=(10, 4))
-#plotting relative error
 plt.subplot(1, 2, 1)
 plt.title("Relative error")
 plt.xlabel("n")
@@ -35,7 +28,6 @@ plt.ylabel("Relative Error")
 plt.plot(np.arange(2,n), rel_err)
 plt.grid()
 
-#plotting condition numbers
 plt.subplot(1, 2, 2)
 plt.title("condition numbers")
 plt.xlabel("n")
