@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "dac63b1c53841d29",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c086fc2ae4c3774",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a66f1ee923a9a82",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -344.7576805821548,
+                  "y": 611.64656964657,
+                  "zoom": -1.178895154946865,
+                  "snapToGrid": false
+                }
+              }
+            }
+          },
+          {
+            "id": "7b46e32b027c31de",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -436.5,
+                  "y": 818,
+                  "zoom": -1.3295861109291243,
+                  "snapToGrid": false
+                }
+              }
+            }
+          },
+          {
+            "id": "a592bbb0811c5300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unsupervised learning/Clustering/Hierarchical Clustering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3599155ca48b0c8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unsupervised learning/Clustering/Density based Clustering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9e431473af24a58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unsupervised learning/Clustering/Model based Clustering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cf7f959068c23eaa",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -489,
+                  "y": 845,
+                  "zoom": -1.3646015520601227,
+                  "snapToGrid": false
+                }
+              }
+            }
+          },
+          {
+            "id": "daea9b7cedf3d103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning/Regression/Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c84d5e190590b04b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": 761.5,
+                  "y": 1626.5131913321702,
+                  "zoom": -1.6666666666666665,
+                  "snapToGrid": false
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a6a84d8e2ad56a25",
+    "type": "split",
+    "children": [
+      {
+        "id": "735351d4ab51fabb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5d22c70c8bce234",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4e81cb56bc55de6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9f071a5e0936a4b7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f850c3cda371cd2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f26627d26b5f032",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd26faf9f3aa1c3c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cc86ce64b5a40",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9cc53dcd6c9c984",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0babcd6ceb9d7154",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SCHEMA.canvas"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c84d5e190590b04b",
+  "lastOpenFiles": [
+    "Unsupervised learning/Clustering/Clustering.md",
+    "SCHEMA.canvas",
+    "Data.md",
+    "Machine Learning.md",
+    "Supervised Learning/Regression/Linear Regression.md",
+    "Supervised Learning/Regression/Multiple Regression.md",
+    "Supervised Learning/Classification/Classification.md",
+    "Supervised Learning/Supervised Learning.md",
+    "Unsupervised learning/Clustering/Hierarchical Clustering.md",
+    "Unsupervised learning/Clustering/Model based Clustering.md"
+  ]
+}
