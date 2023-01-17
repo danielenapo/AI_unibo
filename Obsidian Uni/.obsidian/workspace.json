@@ -8,119 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a66f1ee923a9a82",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -344.7576805821548,
-                  "y": 611.64656964657,
-                  "zoom": -1.178895154946865,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
             "id": "7b46e32b027c31de",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -436.5,
-                  "y": 818,
-                  "zoom": -1.3295861109291243,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "a592bbb0811c5300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unsupervised learning/Clustering/Hierarchical Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3599155ca48b0c8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unsupervised learning/Clustering/Density based Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9e431473af24a58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unsupervised learning/Clustering/Model based Clustering.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
             "id": "cf7f959068c23eaa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -489,
-                  "y": 845,
-                  "zoom": -1.3646015520601227,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "daea9b7cedf3d103",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Regression/Linear Regression.md",
+                "file": "Supervised Learning/Classification/Decision Trees.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c84d5e190590b04b",
+            "id": "6a1a7842333eb27b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": 761.5,
-                  "y": 1626.5131913321702,
-                  "zoom": -1.6666666666666665,
-                  "snapToGrid": false
-                }
+                "file": "Model Evaluation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -186,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Model Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Model Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,12 +146,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SCHEMA.canvas"
+                "file": "Model Evaluation.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,17 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c84d5e190590b04b",
+  "active": "6a1a7842333eb27b",
   "lastOpenFiles": [
-    "Unsupervised learning/Clustering/Clustering.md",
+    "Model Evaluation.md",
+    "Supervised Learning/Classification/Decision Trees.md",
     "SCHEMA.canvas",
-    "Data.md",
     "Machine Learning.md",
-    "Supervised Learning/Regression/Linear Regression.md",
-    "Supervised Learning/Regression/Multiple Regression.md",
+    "Supervised Learning/Classification/KNN.md",
     "Supervised Learning/Classification/Classification.md",
-    "Supervised Learning/Supervised Learning.md",
     "Unsupervised learning/Clustering/Hierarchical Clustering.md",
-    "Unsupervised learning/Clustering/Model based Clustering.md"
+    "Unsupervised learning/Clustering/Density based Clustering.md",
+    "Unsupervised learning/Clustering/Model based Clustering.md",
+    "Data.md"
   ]
 }

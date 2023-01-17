@@ -1,24 +1,24 @@
 {
 	"nodes":[
+		{"id":"194fa9a9004fcaba","x":609,"y":1341,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Model based Clustering.md"},
+		{"id":"400a185d5d6930d1","x":609,"y":1741,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Density based Clustering.md"},
 		{"id":"467ea26a83751fb5","x":-670,"y":-141,"width":682,"height":165,"type":"file","file":"Machine Learning.md"},
 		{"id":"a437c286f7fcda00","x":-1130,"y":445,"width":460,"height":157,"type":"file","file":"Supervised Learning/Supervised Learning.md"},
 		{"id":"a29f718ff74b6290","x":175,"y":391,"width":467,"height":108,"type":"file","file":"Unsupervised learning/Unsupervised Learning.md"},
 		{"id":"742a0d0331e8b771","x":242,"y":805,"width":567,"height":176,"type":"file","file":"Unsupervised learning/Clustering/Clustering.md"},
-		{"id":"00f63c644f47aafd","x":442,"y":-281,"width":654,"height":445,"type":"file","file":"Data.md"},
 		{"id":"b128b9d189fec297","x":-729,"y":829,"width":400,"height":152,"type":"file","file":"Supervised Learning/Regression/Regression.md"},
-		{"id":"510874e1bbb87a60","x":-2298,"y":829,"width":1200,"height":1112,"color":"1","type":"group","label":"CLASSIFICATION"},
-		{"id":"11e39d3f5b94ad38","x":-2298,"y":1267,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Decision Trees.md"},
-		{"id":"278ca9c83c576f5c","x":-2133,"y":1541,"width":357,"height":400,"type":"file","file":"Supervised Learning/Classification/Linear Perceptron.md"},
-		{"id":"9fdcc303f26291e6","x":-1898,"y":829,"width":400,"height":152,"type":"file","file":"Supervised Learning/Classification/Classification.md"},
 		{"id":"912118089de926cc","x":-872,"y":1106,"width":400,"height":400,"type":"file","file":"Supervised Learning/Regression/Linear Regression.md"},
 		{"id":"d21865abf6ad036c","x":-472,"y":1106,"width":400,"height":400,"type":"file","file":"Supervised Learning/Regression/Multiple Regression.md"},
-		{"id":"0ccc73c26e11c19d","x":-1898,"y":1267,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/KNN.md"},
-		{"id":"561124322b9f024f","x":-1776,"y":1541,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Support Vector Machines (SVM).md"},
 		{"id":"02e6c4a4b012d6d7","x":-1498,"y":1267,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Naive Bayes.md"},
 		{"id":"ef0bec11584d19f9","x":209,"y":1341,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/K-Means.md"},
 		{"id":"042f0109527a24f3","x":209,"y":1741,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Hierarchical Clustering.md"},
-		{"id":"194fa9a9004fcaba","x":609,"y":1341,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Model based Clustering.md"},
-		{"id":"400a185d5d6930d1","x":609,"y":1741,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Density based Clustering.md"}
+		{"id":"00f63c644f47aafd","x":442,"y":-281,"width":654,"height":445,"type":"file","file":"Data.md"},
+		{"id":"510874e1bbb87a60","x":-2298,"y":829,"width":1200,"height":1238,"color":"1","type":"group","label":"CLASSIFICATION"},
+		{"id":"9fdcc303f26291e6","x":-1898,"y":829,"width":400,"height":152,"type":"file","file":"Supervised Learning/Classification/Classification.md"},
+		{"id":"0ccc73c26e11c19d","x":-1898,"y":1267,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/KNN.md"},
+		{"id":"11e39d3f5b94ad38","x":-2298,"y":1267,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Decision Trees.md"},
+		{"id":"278ca9c83c576f5c","x":-2133,"y":1667,"width":357,"height":400,"type":"file","file":"Supervised Learning/Classification/Linear Perceptron.md"},
+		{"id":"561124322b9f024f","x":-1776,"y":1667,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Support Vector Machines (SVM).md"}
 	],
 	"edges":[
 		{"id":"1bef38140dc0f0c4","fromNode":"467ea26a83751fb5","fromSide":"right","toNode":"00f63c644f47aafd","toSide":"left"},
