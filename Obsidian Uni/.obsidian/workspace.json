@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Model Evaluation.md",
+                "file": "Supervised Learning/Classification/Ensamble methods.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5733ebdc4044859d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -699.7742955576848,
+                  "y": 614.8306962982562,
+                  "zoom": -1.2233333333333332,
+                  "snapToGrid": false
+                }
               }
             }
           },
@@ -35,20 +51,12 @@
             "id": "e534cb6ef29bfc69",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -500.95587628866053,
-                  "y": 1079.469859793815,
-                  "zoom": -1.4576457363697737,
-                  "snapToGrid": false
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e534cb6ef29bfc69",
+  "active": "5733ebdc4044859d",
   "lastOpenFiles": [
-    "Supervised Learning/Classification/Probabilities of classes.md",
-    "Supervised Learning/Model Evaluation.md",
-    "Supervised Learning/Classification/Classification.md",
-    "Supervised Learning/Classification/Ensamble methods.md",
     "Hyperparameter.md",
+    "Scikit-learn.md",
+    "SCHEMA.canvas",
+    "Supervised Learning/Classification/Ensamble methods.md",
+    "Supervised Learning/Model Evaluation.md",
+    "Supervised Learning/Classification/Probabilities of classes.md",
+    "Supervised Learning/Classification/Classification.md",
     "Machine Learning.md",
     "perceptron.md",
-    "Data.md",
-    "Supervised Learning/Classification/Decision Trees.md",
-    "SCHEMA.canvas"
+    "Data.md"
   ]
 }
