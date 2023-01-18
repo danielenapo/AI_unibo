@@ -21,3 +21,4 @@ Better data quality means better results
 ![[Pasted image 20230117113415.png]]
 - **missing values:** when that data was not collected, or not applicable for a feature. Can be dealt in different ways (ignore, estimate, ...)
 - **duplicates:** issue when merging data from different sources, have to be cleaned.
+- **balanced**: in [[Classification]], some classes can be less represented than others. Ideally, all classes should be equally present in the dataset.

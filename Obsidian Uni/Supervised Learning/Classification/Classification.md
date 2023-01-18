@@ -7,15 +7,18 @@ So the model M is **parametrized**, and ==the learning process consists on findi
 
 ## Workflow
 1. Learning the model from a train dataset (fitting the model)
-2. Estimating accuracy with a test dataset
+2. Estimating accuracy with a test dataset ([[Model Evaluation]])
 3. Label new individuals 
 
 ### "flavours" of classification
 - CRISP -> assign only one label 
 - PROBABILISTIC -> assign a probability for each possible label
+
 ## Methods
 - [[Decision Trees]]
 - [[Naive Bayes]]
 - [[KNN]]
 - [[Linear Perceptron]]
 - [[Support Vector Machines (SVM)]]
+
+on top of those, [[Ensamble methods]] can be used to increase the performance of the models.
