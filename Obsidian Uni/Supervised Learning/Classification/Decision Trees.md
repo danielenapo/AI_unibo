@@ -44,11 +44,13 @@ Tree depth is a [[Hyperparameter]]
 # Impurity functions
 looking for the split generating the maximum **purity**-> measure purity
 ![[Pasted image 20230117130652.png]]
-- Information gain ->minimizing entropy
-- Gini index
-	find frequency of classification error looking at class frequencies in current node: GINI=$1-\sum_{j}^{n}f_{p,j}^{2}$ (f is the frequency of class j in node p)
+- **Information gain** ->minimizing entropy
+- **Gini index**
+	measure of the probability of a randomly selected sample being classified incorrectly, if it were randomly labeled according to the class distribution in the region. 
+	$GINI=1-\sum_{j}^{n}f_{p,j}^{2}$ (f is the frequency of class j in node p)
 	Choose to split minimizing GINI index
-- Missclassification error
+	It should be slightly more efficient than entropy.
+- **Missclassification error**
 
 # Summary
 - **Greedy but fast** (sub-optimal solution)

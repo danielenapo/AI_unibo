@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Classification/Ensamble methods.md",
+                "file": "Supervised Learning/Classification/Classification.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "5733ebdc4044859d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -699.7742955576848,
-                  "y": 614.8306962982562,
-                  "zoom": -1.2233333333333332,
-                  "snapToGrid": false
-                }
               }
             }
           },
@@ -41,18 +25,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Model Evaluation.md",
+                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "e534cb6ef29bfc69",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -68,6 +44,7 @@
       {
         "id": "735351d4ab51fabb",
         "type": "tabs",
+        "dimension": 73.59389895138226,
         "children": [
           {
             "id": "e5d22c70c8bce234",
@@ -103,6 +80,21 @@
             }
           }
         ]
+      },
+      {
+        "id": "d1beef2674e50c80",
+        "type": "tabs",
+        "dimension": 26.406101048617735,
+        "children": [
+          {
+            "id": "5733ebdc4044859d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SCHEMA.canvas"
+                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,17 +176,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5733ebdc4044859d",
+  "active": "ce8751414a8e4513",
   "lastOpenFiles": [
-    "Hyperparameter.md",
-    "Scikit-learn.md",
-    "SCHEMA.canvas",
+    "Supervised Learning/Classification/Probabilities of classes.md",
+    "Supervised Learning/Classification/Naive Bayes.md",
+    "Supervised Learning/Classification/Linear Perceptron.md",
+    "Supervised Learning/Classification/Decision Trees.md",
+    "Supervised Learning/Classification/Classification.md",
+    "Supervised Learning/Classification/Support Vector Machines (SVM).md",
+    "Supervised Learning/Classification/KNN.md",
     "Supervised Learning/Classification/Ensamble methods.md",
     "Supervised Learning/Model Evaluation.md",
-    "Supervised Learning/Classification/Probabilities of classes.md",
-    "Supervised Learning/Classification/Classification.md",
-    "Machine Learning.md",
-    "perceptron.md",
-    "Data.md"
+    "Scikit-learn.md"
   ]
 }
