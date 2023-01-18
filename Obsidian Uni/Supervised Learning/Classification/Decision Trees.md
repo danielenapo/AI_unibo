@@ -39,6 +39,7 @@ Accuracy can be low due to **OVERFITTING**, especially if we use too many splits
 To avoid overfitting, the tree can be pruned (reduce number of splits), according to a sweet spot that can be found by comparing test accuracy for different values
 ![[Pasted image 20230117125537.png]]
 Too much pruning leads to **underfitting**.
+Tree depth is a [[Hyperparameter]]
 
 # Impurity functions
 looking for the split generating the maximum **purity**-> measure purity
