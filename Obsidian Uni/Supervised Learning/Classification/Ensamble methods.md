@@ -1,6 +1,17 @@
-_Train a set of base classifiers, the final prediction is obtaining through voting. Perform better than base classifiers._
+_Train a set of independent base classifiers, the final prediction is obtaining through voting. Perform better than base classifiers (but more computationally expensive)._
 
-One example is the Random Forest, that build many [[Decision Trees]], and then combine their predictions to make a final prediction (through a voting process). Each decision tree is built using a different random subset of the data and a random subset of the features, which makes the trees different and independent from each other.
+If the base classifiers are truly independent, we can apply binomial distribution and see that the ensemble model is wrong only when the majority of base models are wrong
+
+## Methods of data sampling
+- **Bagging** -> sample with replacement (puts back randomly), not really independent 
+- **Boosting** -> sample without replacement (increasing at each extarction the probability to find rare points)
+- **Adaboost** -> weights importance of base calssifiers depending on error rate
+- **Manipulating class labels** ->for each classifier, randomly partitions class labels in subsets, then re-labels dataset. 
+- **[[Random forest]]**
+![[Pasted image 20230119190738.png]]
+![[Pasted image 20230119191348.png]]
+
+
 
 ## Build multiple class classifiers with binary classifiers
 What if we have a binary classifier (like [[Linear Perceptron]]] or [[Support Vector Machines (SVM)]]]), but we want to classify multiple classes?
