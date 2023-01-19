@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "ce8751414a8e4513",
+            "id": "3d36cb0d78eafc65",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +30,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce8751414a8e4513",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -2592,
+                  "y": 1867,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
+              }
+            }
+          },
+          {
+            "id": "865828f1fc4fbad3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning/Classification/Neural Networks (MLP).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +72,7 @@
       {
         "id": "735351d4ab51fabb",
         "type": "tabs",
-        "dimension": 73.59389895138226,
+        "dimension": 78.65384615384615,
         "children": [
           {
             "id": "e5d22c70c8bce234",
@@ -82,9 +110,9 @@
         ]
       },
       {
-        "id": "d1beef2674e50c80",
+        "id": "4f55e677471386a9",
         "type": "tabs",
-        "dimension": 26.406101048617735,
+        "dimension": 21.346153846153847,
         "children": [
           {
             "id": "5733ebdc4044859d",
@@ -98,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 221.5
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -114,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +158,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +179,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md"
-              }
+              "state": {}
             }
           }
         ],
@@ -176,17 +200,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce8751414a8e4513",
+  "active": "5733ebdc4044859d",
   "lastOpenFiles": [
-    "Supervised Learning/Classification/Probabilities of classes.md",
-    "Supervised Learning/Classification/Naive Bayes.md",
-    "Supervised Learning/Classification/Linear Perceptron.md",
-    "Supervised Learning/Classification/Decision Trees.md",
+    "Supervised Learning/Classification/Neural Networks (MLP).md",
+    "SCHEMA.canvas",
     "Supervised Learning/Classification/Classification.md",
     "Supervised Learning/Classification/Support Vector Machines (SVM).md",
-    "Supervised Learning/Classification/KNN.md",
+    "Supervised Learning/Classification/Linear Perceptron.md",
+    "Supervised Learning/Classification/Naive Bayes.md",
     "Supervised Learning/Classification/Ensamble methods.md",
-    "Supervised Learning/Model Evaluation.md",
-    "Scikit-learn.md"
+    "Supervised Learning/Classification/Probabilities of classes.md",
+    "Supervised Learning/Classification/Decision Trees.md",
+    "Supervised Learning/Classification/KNN.md"
   ]
 }

@@ -1,5 +1,5 @@
+_Every [[Machine Learning]] algorithm has one or more parameters that influence its behaviours, that needs to be **tuned**._
 
-Every [[Machine Learning]] algorithm has one or more parameters that influence its behaviours.
 Several train/test loops are necessary to find the best combination of hyperparameters.
 Those loops can be too much computationally expensive.
 
