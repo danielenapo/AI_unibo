@@ -22,3 +22,7 @@ So the model M is **parametrized**, and ==the learning process consists on findi
 - [[Support Vector Machines (SVM)]]
 
 on top of those, [[Ensamble methods]] can be used to increase the performance of the models.
+
+## Comparison
+comparison is made with 3 different dataset (some are linearly separable, others not). Ensamble methods (like random forest) are more eccurate than their base version
+![[Pasted image 20230120160934.png]]

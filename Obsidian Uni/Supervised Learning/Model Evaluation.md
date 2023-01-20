@@ -25,6 +25,7 @@ Accuracy is not enough, so we introduce other measures:
 - F1-SCORE=$2\frac{prec \times rec}{(prec+rec)}$
 	armonic mean between precision and recall, increases when the're balanced
 ![[Pasted image 20230118130854.png]]
+Those metrics can be visually analyzed with [[Probabilities of classes#Lift chart]] and [[Probabilities of classes#ROC curve]].
 
 ## Multiple classes
 These measures can be applied also to more than 2 classes (their definition change tho)

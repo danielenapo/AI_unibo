@@ -5,7 +5,7 @@ If the base classifiers are truly independent, we can apply binomial distributio
 ## Methods of data sampling
 - **Bagging** -> sample with replacement (puts back randomly), not really independent 
 - **Boosting** -> sample without replacement (increasing at each extarction the probability to find rare points)
-- **Adaboost** -> weights importance of base calssifiers depending on error rate
+- **[[AdaBoost]]** -> weights importance of base calssifiers depending on error rate
 - **Manipulating class labels** ->for each classifier, randomly partitions class labels in subsets, then re-labels dataset. 
 - **[[Random forest]]**
 ![[Pasted image 20230119190738.png]]
@@ -22,5 +22,6 @@ There are two methods:
 	When predicting, a voting scheme is applied (the classifier with most votes wins)
 - **OVR (one vs rest)**
 	A binary model is trained for each class (C models), where the current class is considered as positive, and all the other as negative. In testing, the class with the biggest score wins.
+
 
 

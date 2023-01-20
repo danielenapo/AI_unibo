@@ -29,7 +29,7 @@ Iterations end when one of this conditions is met:
 - batch
 a learning round over all the samples is called **epoch** 
 
-## Risks
+## Downsides
 MLP can
 - get stucked on a local minima
 - Overfit
