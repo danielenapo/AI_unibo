@@ -3,7 +3,7 @@ _Every [[Machine Learning]] algorithm has one or more parameters that influence 
 Several train/test loops are necessary to find the best combination of hyperparameters.
 Those loops can be too much computationally expensive.
 
-## Testing strategies
+## Tuning
 Data has to be split in
 - Train data
 - Test data
@@ -23,3 +23,6 @@ but data is limited, so we need a way to balance the splits:
 	It's better to leave one chunk aside, wich will be used for the testing of the final model.
 
 K-fold is the best way to go (for best model quality), but it's also very computational expensive
+
+Here is a brief visual comparison of different splitting methods (ordered by increasing complexity)
+![[Pasted image 20230120181442.png]]

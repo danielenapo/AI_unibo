@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Regression/Polynomial Regression.md",
+                "file": "Hyperparameter.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
       {
         "id": "d1beef2674e50c80",
         "type": "tabs",
-        "dimension": 30.981887511916113,
+        "dimension": 30.98188751191611,
         "children": [
           {
             "id": "5733ebdc4044859d",
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hyperparameter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hyperparameter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Hyperparameter.md"
+              }
             }
           }
         ],
@@ -159,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5733ebdc4044859d",
+  "active": "a6578369b4932fd1",
   "lastOpenFiles": [
     "Supervised Learning/Regression/Polynomial Regression.md",
     "Supervised Learning/Regression/Multiple Regression.md",
