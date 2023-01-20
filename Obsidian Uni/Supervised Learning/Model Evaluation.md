@@ -32,12 +32,12 @@ These measures can be applied also to more than 2 classes (their definition chan
 ![[Pasted image 20230118132424.png]]
 There are ways to combine the results:
 - **micro**
-	uses global TP,FN and FP to calculate measures.
+	Calculate metrics globally by counting the total true positives, false negatives and false positives.
 	precision and recall are equivalent.
 	- micro=$\frac{\sum TP_{i}}{\sum TP_{i}+ \sum FP_{i}}$
 	==global accuracy (for every class), every class has same weight==
 - **macro**
-	Calculates score separated by class and adds them together
+	Calculates score separated by class and adds them together Uunweighted mean)
 	- precision_macro=$\frac{\sum prec_{i}}{num of classes}$
 	- recall_macro=$\frac{\sum rec_{i}}{num of classes}$
 	==minority classes penalize more the evaluation if the're bad==

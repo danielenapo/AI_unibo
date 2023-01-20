@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c44a5047cc2926bf",
+        "id": "a44f9db06b629c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "a6578369b4932fd1",
+            "id": "04b7aa6c1dfbcf02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hyperparameter.md",
+                "file": "Supervised Learning/Model Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hyperparameter.md",
+                "file": "Supervised Learning/Model Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hyperparameter.md",
+                "file": "Supervised Learning/Model Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hyperparameter.md"
+                "file": "Supervised Learning/Model Evaluation.md"
               }
             }
           }
@@ -163,16 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6578369b4932fd1",
+  "active": "04b7aa6c1dfbcf02",
   "lastOpenFiles": [
+    "Supervised Learning/Classification/Decision Trees.md",
+    "Hyperparameter.md",
     "Supervised Learning/Regression/Polynomial Regression.md",
     "Supervised Learning/Regression/Multiple Regression.md",
     "Supervised Learning/Regression/Linear Regression.md",
     "Supervised Learning/Classification/Probabilities of classes.md",
     "Supervised Learning/Regression/Regression.md",
-    "Supervised Learning/Classification/Decision Trees.md",
     "Supervised Learning/Classification/Random forest.md",
-    "Hyperparameter.md",
     "SCHEMA.canvas",
     "Supervised Learning/Model Evaluation.md"
   ]
