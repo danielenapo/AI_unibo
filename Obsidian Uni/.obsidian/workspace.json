@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pre-processing.md",
+                "file": "Preprocessing.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pre-processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pre-processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Pre-processing.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -163,13 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7805743289ccf9c2",
+  "active": "5733ebdc4044859d",
   "lastOpenFiles": [
+    "Preprocessing.md",
     "Supervised Learning/Regression/Regression.md",
     "Supervised Learning/Classification/Scikit-learn.md",
     "Supervised Learning/Classification/KNN.md",
     "Supervised Learning/Classification/Classification.md",
-    "Pre-processing.md",
     "Supervised Learning/Model Evaluation.md",
     "Supervised Learning/Classification/Decision Trees.md",
     "Hyperparameter.md",
