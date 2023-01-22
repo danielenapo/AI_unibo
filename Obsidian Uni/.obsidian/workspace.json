@@ -11,11 +11,15 @@
             "id": "7805743289ccf9c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Hyperparameter.md",
-                "mode": "source",
-                "source": false
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -821.8043765996355,
+                  "y": 976.9232797074948,
+                  "zoom": -1.4394246047945052,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -85,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -101,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hyperparameter.md",
+                "file": "SCHEMA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hyperparameter.md",
+                "file": "SCHEMA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hyperparameter.md"
+                "file": "SCHEMA.canvas"
               }
             }
           }
@@ -165,15 +170,15 @@
   },
   "active": "7805743289ccf9c2",
   "lastOpenFiles": [
+    "Supervised Learning/Classification/Neural Networks (MLP).md",
     "Preprocessing.md",
+    "Hyperparameter.md",
     "Supervised Learning/Regression/Regression.md",
     "Supervised Learning/Classification/Scikit-learn.md",
     "Supervised Learning/Classification/KNN.md",
     "Supervised Learning/Classification/Classification.md",
     "Supervised Learning/Model Evaluation.md",
     "Supervised Learning/Classification/Decision Trees.md",
-    "Hyperparameter.md",
-    "Supervised Learning/Regression/Polynomial Regression.md",
-    "Supervised Learning/Regression/Multiple Regression.md"
+    "Supervised Learning/Regression/Polynomial Regression.md"
   ]
 }

@@ -15,12 +15,12 @@
 		{"id":"561124322b9f024f","x":-1630,"y":1599,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Support Vector Machines (SVM).md"},
 		{"id":"02e6c4a4b012d6d7","x":-1352,"y":1199,"width":400,"height":400,"type":"file","file":"Supervised Learning/Classification/Naive Bayes.md"},
 		{"id":"278ca9c83c576f5c","x":-2012,"y":1599,"width":382,"height":400,"type":"file","file":"Supervised Learning/Classification/Linear Perceptron.md"},
-		{"id":"9b5fb0f05fd5694d","x":-952,"y":761,"width":800,"height":711,"color":"6","type":"group","label":"Regression"},
+		{"id":"9b5fb0f05fd5694d","x":-952,"y":761,"width":806,"height":711,"color":"6","type":"group","label":"Regression"},
 		{"id":"912118089de926cc","x":-952,"y":1072,"width":400,"height":400,"type":"file","file":"Supervised Learning/Regression/Linear Regression.md"},
-		{"id":"b128b9d189fec297","x":-752,"y":761,"width":400,"height":152,"type":"file","file":"Supervised Learning/Regression/Regression.md"},
 		{"id":"a437c286f7fcda00","x":-1272,"y":391,"width":460,"height":157,"type":"file","file":"Supervised Learning/Supervised Learning.md"},
 		{"id":"77abb8d0035f51da","x":-2704,"y":1166,"width":442,"height":345,"type":"file","file":"Supervised Learning/Classification/Random forest.md"},
-		{"id":"d21865abf6ad036c","x":-552,"y":1072,"width":400,"height":400,"type":"file","file":"Supervised Learning/Regression/Multiple Regression.md"},
+		{"id":"610c8d5d37ad1a9c","x":-3150,"y":1166,"width":446,"height":345,"type":"file","file":"Supervised Learning/Classification/AdaBoost.md"},
+		{"id":"b128b9d189fec297","x":-752,"y":761,"width":400,"height":152,"type":"file","file":"Supervised Learning/Regression/Regression.md"},
 		{"id":"0c269ab3a6b5878b","x":-50,"y":761,"width":800,"height":1150,"color":"4","type":"group","label":"Clustering"},
 		{"id":"ef0bec11584d19f9","x":-50,"y":1111,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/K-Means.md"},
 		{"id":"042f0109527a24f3","x":-50,"y":1511,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Hierarchical Clustering.md"},
@@ -28,7 +28,8 @@
 		{"id":"194fa9a9004fcaba","x":350,"y":1111,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Model based Clustering.md"},
 		{"id":"400a185d5d6930d1","x":350,"y":1511,"width":400,"height":400,"type":"file","file":"Unsupervised learning/Clustering/Density based Clustering.md"},
 		{"id":"a29f718ff74b6290","x":83,"y":347,"width":467,"height":133,"type":"file","file":"Unsupervised learning/Unsupervised Learning.md"},
-		{"id":"610c8d5d37ad1a9c","x":-3150,"y":1166,"width":446,"height":345,"type":"file","file":"Supervised Learning/Classification/AdaBoost.md"}
+		{"id":"bea3c1ad6a664ced","x":-546,"y":1072,"width":400,"height":391,"type":"file","file":"Supervised Learning/Regression/Polynomial Regression.md"},
+		{"id":"bcd4033ad2cc69d7","x":750,"y":146,"width":500,"height":155,"type":"file","file":"Preprocessing.md"}
 	],
 	"edges":[
 		{"id":"1bef38140dc0f0c4","fromNode":"467ea26a83751fb5","fromSide":"right","toNode":"00f63c644f47aafd","toSide":"left"},
@@ -47,7 +48,6 @@
 		{"id":"975eb18ffe1a07cb","fromNode":"742a0d0331e8b771","fromSide":"bottom","toNode":"194fa9a9004fcaba","toSide":"top"},
 		{"id":"cc3a4913515d3bfc","fromNode":"742a0d0331e8b771","fromSide":"bottom","toNode":"042f0109527a24f3","toSide":"top"},
 		{"id":"fd7b715716f3437c","fromNode":"b128b9d189fec297","fromSide":"bottom","toNode":"912118089de926cc","toSide":"top"},
-		{"id":"1fbd472f76a50d49","fromNode":"b128b9d189fec297","fromSide":"bottom","toNode":"d21865abf6ad036c","toSide":"top"},
 		{"id":"5ece1450a06843b3","fromNode":"9fdcc303f26291e6","fromSide":"left","toNode":"d37f2b00584e0525","toSide":"right"},
 		{"id":"3d4e974bd50a9601","fromNode":"9fdcc303f26291e6","fromSide":"left","toNode":"2dc54d64dee86ce6","toSide":"right"},
 		{"id":"6d135d53ec80e9a5","fromNode":"467ea26a83751fb5","fromSide":"left","toNode":"9a01ed3a97109d8d","toSide":"right"},
@@ -56,6 +56,8 @@
 		{"id":"afc4b5130488479e","fromNode":"278ca9c83c576f5c","fromSide":"left","toNode":"1934c54579a2b417","toSide":"right"},
 		{"id":"ed3274193e5a491e","fromNode":"11e39d3f5b94ad38","fromSide":"left","toNode":"77abb8d0035f51da","toSide":"right"},
 		{"id":"3ab8b64d446681d9","fromNode":"2dc54d64dee86ce6","fromSide":"bottom","toNode":"77abb8d0035f51da","toSide":"top"},
-		{"id":"d82f41173efc4195","fromNode":"2dc54d64dee86ce6","fromSide":"bottom","toNode":"610c8d5d37ad1a9c","toSide":"top"}
+		{"id":"d82f41173efc4195","fromNode":"2dc54d64dee86ce6","fromSide":"bottom","toNode":"610c8d5d37ad1a9c","toSide":"top"},
+		{"id":"2946da83836dfe43","fromNode":"b128b9d189fec297","fromSide":"bottom","toNode":"bea3c1ad6a664ced","toSide":"top"},
+		{"id":"aee7c76455f6c8b7","fromNode":"00f63c644f47aafd","fromSide":"bottom","toNode":"bcd4033ad2cc69d7","toSide":"top"}
 	]
 }

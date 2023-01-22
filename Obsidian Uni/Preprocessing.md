@@ -107,3 +107,9 @@ It depends on the kind of data:
 - sparse, asymmetrix -> cosine, jaccard
 # Correlation
 _Numerical measures of linear relationships between two attributes_.
+to compute correlation, standardize the two attributes, and consider the ordered of values in data records. compute dot product. range $[0,1]$
+- correlation 0=absence of linear relationship
+![[Pasted image 20230122124031.png]]
+## correlation on nominal data
+Using Symmetric uncertainty, entropy and **joint entropy**
+![[Pasted image 20230122124830.png]]
