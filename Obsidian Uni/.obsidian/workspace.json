@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Regression/Linear Regression.md",
+                "file": "Supervised Learning/Regression/Polynomial Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "R^",
+                "query": "p-v",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d1beef2674e50c80",
@@ -114,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Supervised Learning/Regression/Polynomial Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Supervised Learning/Regression/Polynomial Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Supervised Learning/Regression/Polynomial Regression.md"
+              }
             }
           }
         ],
@@ -172,7 +175,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5733ebdc4044859d",
+  "active": "2aef819406edad58",
   "lastOpenFiles": [
     "Supervised Learning/Regression/Linear Regression.md",
     "Supervised Learning/Model Evaluation.md",
