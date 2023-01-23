@@ -4,22 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "22480650f8f003b4",
+        "id": "bf701fc8d5016d88",
         "type": "tabs",
         "children": [
           {
-            "id": "7805743289ccf9c2",
+            "id": "2aef819406edad58",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -821.8043765996355,
-                  "y": 976.9232797074948,
-                  "zoom": -1.4394246047945052,
-                  "snapToGrid": false
-                }
+                "file": "Supervised Learning/Regression/Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19a9d7c97eb05ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Preprocessing.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -53,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "R^",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d1beef2674e50c80",
@@ -89,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5,
-    "collapsed": true
+    "width": 235.5
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -106,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SCHEMA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SCHEMA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SCHEMA.canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -168,17 +172,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7805743289ccf9c2",
+  "active": "5733ebdc4044859d",
   "lastOpenFiles": [
-    "Supervised Learning/Classification/Neural Networks (MLP).md",
+    "Supervised Learning/Regression/Linear Regression.md",
+    "Supervised Learning/Model Evaluation.md",
     "Preprocessing.md",
+    "SCHEMA.canvas",
+    "Supervised Learning/Classification/Neural Networks (MLP).md",
     "Hyperparameter.md",
     "Supervised Learning/Regression/Regression.md",
     "Supervised Learning/Classification/Scikit-learn.md",
     "Supervised Learning/Classification/KNN.md",
-    "Supervised Learning/Classification/Classification.md",
-    "Supervised Learning/Model Evaluation.md",
-    "Supervised Learning/Classification/Decision Trees.md",
-    "Supervised Learning/Regression/Polynomial Regression.md"
+    "Supervised Learning/Classification/Classification.md"
   ]
 }

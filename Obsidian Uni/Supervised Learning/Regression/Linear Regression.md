@@ -14,7 +14,7 @@ using the **normal equation method**, if $X^{T}X$ is invertible, w can be obtain
 also if $X^{T}X$ is not invertible, it could be solved with moore-penrose's pseudo-inverse matrix, or **Lasso** regularization.
 
 ## $R^{2}$
-Quality of the fitting (evaluation) can be measured by the R squared method:
+Quality of the fitting ([[Model Evaluation]]) can be measured by the R squared method:
 ![[Pasted image 20230120164111.png]]
 Compares the fit of the model with a horizoltal straight line (similarly on how [[Probabilities of classes#Lift chart]] works).
 With perfect fitting, $R^{2}=1$. If it's bad, $R^{2}<0$.
