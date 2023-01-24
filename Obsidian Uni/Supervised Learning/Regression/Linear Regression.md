@@ -15,7 +15,7 @@ also if $X^{T}X$ is not invertible, it could be solved with moore-penrose's pseu
 
 ## $R^{2}$
 _indicates the proportion of variation in the y-variable that is due to variation in the x-variables._
-Quality of the fitting ([[Model Evaluation]]) can be measured by the R squared method:
+Quality of the fitting ([[Classifier Evaluation]]) can be measured by the R squared method:
 ![[Pasted image 20230120164111.png]]
 Compares the fit of the model with a horizoltal straight line (similarly on how [[Probabilities of classes#Lift chart]] works).
 With perfect fitting, $R^{2}=1$. If it's bad, $R^{2}<0$.

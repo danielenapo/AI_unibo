@@ -7,7 +7,7 @@ So the model M is **parametrized**, and ==the learning process consists on findi
 
 ## Workflow
 1. Learning the model from a train dataset (fitting the model)
-2. Estimating accuracy with a test dataset ([[Model Evaluation]])
+2. Estimating accuracy with a test dataset ([[Classifier Evaluation]])
 3. Label new individuals 
 
 ### "flavours" of classification

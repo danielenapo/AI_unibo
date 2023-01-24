@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bf701fc8d5016d88",
+        "id": "199797f47fc661b3",
         "type": "tabs",
         "children": [
           {
-            "id": "2aef819406edad58",
+            "id": "a52e10bf4b772053",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supervised Learning/Regression/Polynomial Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19a9d7c97eb05ac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preprocessing.md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supervised Learning/Regression/Polynomial Regression.md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supervised Learning/Regression/Polynomial Regression.md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,12 +141,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supervised Learning/Regression/Polynomial Regression.md"
+                "file": "Unsupervised learning/Clustering/K-Means.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,17 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2aef819406edad58",
+  "active": "a52e10bf4b772053",
   "lastOpenFiles": [
-    "Supervised Learning/Regression/Linear Regression.md",
-    "Supervised Learning/Model Evaluation.md",
-    "Preprocessing.md",
+    "Unsupervised learning/Clustering/Clustering.md",
+    "Unsupervised learning/Clustering/Density based Clustering.md",
     "SCHEMA.canvas",
-    "Supervised Learning/Classification/Neural Networks (MLP).md",
+    "Unsupervised learning/Clustering/Hierarchical Clustering.md",
     "Hyperparameter.md",
-    "Supervised Learning/Regression/Regression.md",
-    "Supervised Learning/Classification/Scikit-learn.md",
-    "Supervised Learning/Classification/KNN.md",
-    "Supervised Learning/Classification/Classification.md"
+    "Unsupervised learning/Clustering/Model based Clustering.md",
+    "Unsupervised learning/Clustering/Clustering evaluation.md",
+    "Unsupervised learning/Clustering/K-Means.md",
+    "Supervised Learning/Classifier Evaluation.md",
+    "Supervised Learning/Classification/KNN.md"
   ]
 }
