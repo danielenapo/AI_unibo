@@ -13,13 +13,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
+                "file": "Unsupervised learning/Clustering/Density based Clustering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "94c12e6480d1b8cf",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -813.607752174973,
+                  "y": 575.2731297952773,
+                  "zoom": -1.8183761193490446,
+                  "snapToGrid": true
+                }
+              }
+            }
+          },
+          {
+            "id": "dad5155df569bfe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
+                "file": "SCHEMA.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
+                "file": "SCHEMA.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md"
+                "file": "SCHEMA.canvas"
               }
             }
           }
@@ -162,17 +191,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a52e10bf4b772053",
+  "active": "94c12e6480d1b8cf",
   "lastOpenFiles": [
-    "Unsupervised learning/Clustering/Clustering.md",
+    "Supervised Learning/Classification/Support Vector Machines (SVM).md",
     "Unsupervised learning/Clustering/Density based Clustering.md",
+    "Supervised Learning/Classification/Linear Perceptron.md",
     "SCHEMA.canvas",
-    "Unsupervised learning/Clustering/Hierarchical Clustering.md",
     "Hyperparameter.md",
+    "Unsupervised learning/Clustering/Clustering.md",
     "Unsupervised learning/Clustering/Model based Clustering.md",
+    "Unsupervised learning/Clustering/Kernel Density Estimation (KDE).md",
     "Unsupervised learning/Clustering/Clustering evaluation.md",
-    "Unsupervised learning/Clustering/K-Means.md",
-    "Supervised Learning/Classifier Evaluation.md",
-    "Supervised Learning/Classification/KNN.md"
+    "Unsupervised learning/Clustering/K-Means.md"
   ]
 }

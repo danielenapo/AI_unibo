@@ -9,10 +9,14 @@ Needs metrics to determine how good a cluster is.
 # Clustering methods
 ![[Pasted image 20230124152627.png]]
 
--[[K-Means]]
--[[Density based Clustering]]
--[[Model based Clustering]]
--[[Hierarchical Clustering]]
+- [[K-Means]]
+- [[Density based Clustering]]
+- [[Model based Clustering]]
+- [[Hierarchical Clustering]]
 
+# Clustering scalability
+- Effectiveness decreases with D and noise
+- Computational cost increases with N and D
 
+# Algorithms comparison
 ![[Pasted image 20230116234056.png]]
