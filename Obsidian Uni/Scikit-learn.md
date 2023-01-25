@@ -11,3 +11,9 @@ Most commonly, the steps in using the Scikit-Learn estimator API are as follows
 3. Apply the Model to new data:
 	- For supervised learning, often we predict labels for unknown data using the ``predict()`` method.
 	- For unsupervised learning, we often transform or infer properties of the data using the ``transform()`` or ``predict()`` method.
+
+## Useful python stuff
+for [[Hyperparameter#Tuning]], in particolar when using cross validation and parameter grids, it's essential to remember this equivalence in Python:
+![[Pasted image 20230125194141.png]]
+It's in fact possible to pass a dictionary of type {"nameOfParameter":value} as kwargs in a function.
+This is very useful when cross-validating different parameters combinations

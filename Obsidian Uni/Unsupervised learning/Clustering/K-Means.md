@@ -26,6 +26,7 @@ Distortion is calculated by **SSE (Sum of Squared Errors)**
 ## Choosing K
 Also the choice of K is an important [[Hyperparameter]] to get higher performances.
 Minimizing SSE (the distortion) is not a good way to find the optimal K value
+
 ### Elbow method
 ![[Pasted image 20230124172339.png]]
 To choose the optimal value of K, train with increasing values, and the optimal one is the **elbow** --> maximum negative slope in the graph.

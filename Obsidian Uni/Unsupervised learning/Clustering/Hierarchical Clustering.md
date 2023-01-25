@@ -23,6 +23,7 @@ distance of sets is based on distance between datapoints
 ### Protorype based
 - Distance between centroids
 - Ward's method (difference between total SSE in case of merge and original SSE)
+
 # Single linkage algorithm
 Uses the **agglomerative** approach to iteratively build clusters (based on single link distance to evaluate separation), outputs a dendogram.
 ![[Pasted image 20230124181704.png]]

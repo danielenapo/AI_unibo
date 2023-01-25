@@ -23,15 +23,11 @@
             "id": "94c12e6480d1b8cf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SCHEMA.canvas",
-                "viewState": {
-                  "x": -813.607752174973,
-                  "y": 575.2731297952773,
-                  "zoom": -1.8183761193490446,
-                  "snapToGrid": true
-                }
+                "file": "Scikit-learn.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -78,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "p-v",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 265.5
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -130,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Scikit-learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SCHEMA.canvas",
+                "file": "Scikit-learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SCHEMA.canvas"
+                "file": "Scikit-learn.md"
               }
             }
           }
@@ -193,15 +189,15 @@
   },
   "active": "94c12e6480d1b8cf",
   "lastOpenFiles": [
-    "Supervised Learning/Classification/Support Vector Machines (SVM).md",
-    "Unsupervised learning/Clustering/Density based Clustering.md",
-    "Supervised Learning/Classification/Linear Perceptron.md",
-    "SCHEMA.canvas",
     "Hyperparameter.md",
+    "Unsupervised learning/Clustering/K-Means.md",
+    "Unsupervised learning/Clustering/Density based Clustering.md",
+    "Unsupervised learning/Clustering/Hierarchical Clustering.md",
+    "Preprocessing/Rescaling.md",
     "Unsupervised learning/Clustering/Clustering.md",
-    "Unsupervised learning/Clustering/Model based Clustering.md",
-    "Unsupervised learning/Clustering/Kernel Density Estimation (KDE).md",
-    "Unsupervised learning/Clustering/Clustering evaluation.md",
-    "Unsupervised learning/Clustering/K-Means.md"
+    "SCHEMA.canvas",
+    "Supervised Learning/Classification/Support Vector Machines (SVM).md",
+    "Supervised Learning/Classification/Linear Perceptron.md",
+    "Unsupervised learning/Clustering/Model based Clustering.md"
   ]
 }

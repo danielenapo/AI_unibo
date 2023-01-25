@@ -3,7 +3,7 @@ Eg gradient descent requires scaled data, and can be used for many algorithms
 ## Scaling methods
 - map dataset to new functioln (log, abs, $e^{x}$, ...)
 - standardization for gaussian distrubutions: $\frac{x-\mu}{\sigma}$ 
-- rescaling (aka minmax) $X_{1}^{scaled}=\frac{x_{1}-x_{1}^{min}}{x_{1}^{max}-x_{1}^{min}}$
+- rescaling (aka `MinMaxScaler`) $X_{1}^{scaled}=\frac{x_{1}-x_{1}^{min}}{x_{1}^{max}-x_{1}^{min}}$
 Outliers are still present when scaling 
 ![[Pasted image 20230123152100.png]]
 In this pairplot example we have a **skewed** distribution.
