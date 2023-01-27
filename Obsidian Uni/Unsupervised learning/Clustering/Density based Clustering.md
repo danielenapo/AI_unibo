@@ -33,18 +33,23 @@ p is **density connected** to q iff there is a point s such that p and q are den
 
 ## [[Hyperparameter]]s
 $\epsilon$ and minPoints are Hyperparameters, can be found through grid search.
-For minPoint, an empirical rule states that minPoints=2*D is often good
-$\epsilon$ can be guessed using KNN where K=minPoints
+- **minPoint** -> minimum numbers of neghboors
+	an empirical rule states that minPoints=2*D is often good
+- **$\epsilon$** -> radius of the hypersphere defining the neighborhood
+	can be guessed using KNN where K=minPoints
 
 Also, datasets with clustering tendency, exhibit also a change of slope. search $\epsilon$ using grid search in that area
 ![[Pasted image 20230125120100.png]]
 
 ## Pros and Cons
-- finds clusters on any shape
+- finds clusters on any shape (also concavities)
 - It's robust with noise
+- Separates outliers from data
+- Doesen't need K (number of clusters) as parameter
 
-- problem if clusters have varyinfg densities
-- very sensitivi to hyperparameters choice
+- Computationally expensive
+- Problem if clusters have varyinfg densities
+- Very sensitive to hyperparameters choice
 
 # Kernel Density Estimation (KDE)
 _describe distribution of data by a function, overall density is the sum of **Kernel functions** associated with that point_

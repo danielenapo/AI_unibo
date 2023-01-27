@@ -16,6 +16,7 @@ The algorithm converges when the error function is mall enough. (but it's not gu
 ![[Pasted image 20230119183453.png]]
 
 $\lambda$ is the **learning rate**, it's a [[Hyperparameter]] for gradient descent that change the influence of the gradient when updating the weights (smaller $\lambda$ leads to smaller changes).
+Multiplying factor of the connection to be applied to the connection weights
 
 ### Stop criteria
 Iterations end when one of this conditions is met:

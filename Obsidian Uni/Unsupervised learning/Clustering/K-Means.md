@@ -36,7 +36,9 @@ KNN is very sensitive to outliers, since they influence badly the SSE (sometimes
 
 ## Pros and Cons
 - It's **very efficient**, almost linear to data size
+
 - requires K
 - sensitive to outliers
+- very sensitive to initial assignment of centers (several tries are needed)
 - doesen't deal with noise
-- not applicable to non-convex clusters
+- not applicable to non-convex clusters (for that there's [[Density based Clustering]])

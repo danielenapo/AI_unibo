@@ -1,5 +1,7 @@
 # Similarity/Dissimilarity and Proximity
 - **SIMILARITY** -> Numerical measure of how alike are two data-objects, in $[0,1]$
+	Computed with **simple matching coefficient (SMC)**
+	$SMC=\frac{number-of-matching-attributes}{sum-of-all-attributes}$
 - **DISSIMILARITY** -> opposite, no upper bound 
 - **PROXIMITY**
 # Distance methods

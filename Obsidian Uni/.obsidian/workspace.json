@@ -4,59 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "199797f47fc661b3",
+        "id": "67e699af96a55e9e",
         "type": "tabs",
         "children": [
           {
-            "id": "a52e10bf4b772053",
+            "id": "03ed5557f6a8d059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised learning/Clustering/Density based Clustering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94c12e6480d1b8cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scikit-learn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d083f15e327eb60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unsupervised learning/Association Rules.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dad5155df569bfe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Supervised Learning/Classification/Support Vector Machines (SVM).md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "9a58c0d8de9b3943",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3387c43a10f3c67d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Documents/past exams/mcq.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kmean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d1beef2674e50c80",
@@ -122,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -139,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised learning/Association Rules.md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised learning/Association Rules.md",
+                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised learning/Association Rules.md"
+                "file": "Unsupervised learning/Clustering/K-Means.md"
               }
             }
           }
@@ -200,17 +179,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d083f15e327eb60",
+  "active": "03ed5557f6a8d059",
   "lastOpenFiles": [
-    "SCHEMA.canvas",
-    "Unsupervised learning/Unsupervised Learning.md",
-    "Unsupervised learning/Association Rules.md",
-    "Scikit-learn.md",
-    "Hyperparameter.md",
-    "Unsupervised learning/Clustering/K-Means.md",
-    "Unsupervised learning/Clustering/Density based Clustering.md",
+    "QUESTIONS (theory exam).md",
+    "Unsupervised learning/Clustering/Clustering evaluation.md",
+    "Supervised Learning/Classification/Naive Bayes.md",
+    "Supervised Learning/Classification/Classification.md",
+    "Supervised Learning/Classification/Decision Trees.md",
+    "Documents/past exams/mcq.pdf",
+    "Documents/past exams/Machine Learning - 0901 Questions.pdf",
+    "Documents/Associationrules-mlxtend.pdf",
     "Unsupervised learning/Clustering/Hierarchical Clustering.md",
-    "Preprocessing/Rescaling.md",
-    "Unsupervised learning/Clustering/Clustering.md"
+    "Supervised Learning/Classification/Neural Networks (MLP).md"
   ]
 }

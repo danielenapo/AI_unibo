@@ -1,11 +1,12 @@
 _A runtime classifier with a tree-shaped set of tests._
 ![[Pasted image 20230117120321.png]]
-
+A tree-structured plan of tests on***single attributes** to forecast the target.
 
 ## Nodes
 two types of nodes:
-- **inner nodes** (tests) 
-- **leaf nodes** (final predictions)
+- **inner nodes** (tests) -> tests are made on single attributes
+- **leaf nodes** (final predictions) -> a single class _should_ be associated to it (can be more since it's not perfect)
+
 
 Here's their content:
 ![[Pasted image 20230117124006.png]]
@@ -36,7 +37,7 @@ Accuracy can be low due to **OVERFITTING**, especially if we use too many splits
 - lack of representative instances (umbalanced data)
 
 # Pruning
-To avoid overfitting, the tree can be pruned (reduce number of splits), according to a sweet spot that can be found by comparing test accuracy for different values
+To eliminate parts of the tree where the decision can be influenced by random effects (overfitting), the tree can be pruned (reduce number of splits), according to a sweet spot that can be found by comparing test accuracy for different values
 ![[Pasted image 20230117125537.png]]
 Too much pruning leads to **underfitting**.
 Tree depth is a [[Hyperparameter]]

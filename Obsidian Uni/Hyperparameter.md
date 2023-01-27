@@ -16,9 +16,11 @@ but data is limited, so we need a way to balance the splits:
 		splits in test, train and validation sets. Useful for testing hyperparams.
 		Iterate for each hyperparam combination to test, and use validation set to test accuracy. Take the best combination at the end, and perform final test on the test set
 - ### Cross-validation (**K-FOLD**)
+	_It's a technique to obtain a good estimation of the performance in [[Classification]] when it will be used with data different from the training set._
 	Training set divided into K subsets ("folds" or "chunks"), perform k iterations of train where the k-th chunk is the test set, and the other are for train.
 	==at each iteration, hyperparameters can be changed==
 	At the end, combine all the test results (ex average), then use the whole training set to train the final model.
+
 	![[Pasted image 20230118124201.png]]
 	It's better to leave one chunk aside, wich will be used for the testing of the final model.
 
