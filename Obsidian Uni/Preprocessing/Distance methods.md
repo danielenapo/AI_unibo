@@ -28,6 +28,8 @@ In the case below, the euclidean distance between AB and AC is the same, but $di
 in fact there are less datapoints between a and b (b is an outlier).
 ## Similarity between binary vectors
 ![[Pasted image 20230121170624.png]]
+- Simple Matching Coefficient: $SMC=\frac{number-of-matches}{number-of-attributes}=\frac{M_{00}+M_{11}}{M_{00}+M_{01}+M_{10}+M_{11}}$
+- Jaccard Coefficient: $JC=\frac{number-of-11-matches}{number-of-non-both-zero-attributes}=\frac{M_{11}}{M_{01}+M_{10}+M_{11}}$
 ## Cosine similarity
 Cosine of the angle between two vectors p and q
 it's 0 if the're equal, 1 if perpendicular (max value)

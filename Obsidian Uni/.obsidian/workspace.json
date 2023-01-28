@@ -13,25 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
+                "file": "Preprocessing/Distance methods.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "9a58c0d8de9b3943",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3387c43a10f3c67d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Documents/past exams/mcq.pdf"
               }
             }
           }
@@ -65,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kmean",
+                "query": "jaccar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Unsupervised learning/Clustering/K-Means.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -179,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03ed5557f6a8d059",
+  "active": "5733ebdc4044859d",
   "lastOpenFiles": [
+    "Preprocessing/Distance methods.md",
+    "Unsupervised learning/Clustering/K-Means.md",
     "QUESTIONS (theory exam).md",
     "Unsupervised learning/Clustering/Clustering evaluation.md",
     "Supervised Learning/Classification/Naive Bayes.md",
@@ -188,8 +170,6 @@
     "Supervised Learning/Classification/Decision Trees.md",
     "Documents/past exams/mcq.pdf",
     "Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "Documents/Associationrules-mlxtend.pdf",
-    "Unsupervised learning/Clustering/Hierarchical Clustering.md",
-    "Supervised Learning/Classification/Neural Networks (MLP).md"
+    "Documents/Associationrules-mlxtend.pdf"
   ]
 }
