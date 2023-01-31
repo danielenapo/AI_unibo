@@ -29,6 +29,6 @@ The F-test statistic is calculated as the ratio of the explained variation to th
 The F-test can be useful in cases where you want to evaluate whether a certain variable or group of variables is important for the model. If the p-value is less than the significance level, usually 0.05, it means
 
 ## P-value
-**LOWER IS BETTER** (<0.05 is best)
+**LOWER IS BETTER** (<0.05 is best aka in 5% of cases we have false positives)
 The p-value is a statistical measure used to assess the strength of evidence against a null hypothesis. It represents the probability of obtaining a test statistic as extreme or more extreme than the one observed, assuming that the null hypothesis is true.
 In the case of the F-test, the null hypothesis is that all the independent variables in the model are not related to the dependent variable, meaning that the reduced model fits the data as well as the full model. The alternative hypothesis is that at least one independent variable is related to the dependent variable. The p-value is calculated using the F-distribution, and it represents the probability of obtaining a test statistic as extreme or more extreme than the one observed, assuming that the null hypothesis is true.

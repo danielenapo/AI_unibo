@@ -37,8 +37,10 @@ $\epsilon$ and minPoints are Hyperparameters, can be found through grid search.
 	an empirical rule states that minPoints=2*D is often good
 - **$\epsilon$** -> radius of the hypersphere defining the neighborhood
 	can be guessed using KNN where K=minPoints
+	or a better way is using **k distance vector**
+	![[Pasted image 20230129004853.png]]
 
-Also, datasets with clustering tendency, exhibit also a change of slope. search $\epsilon$ using grid search in that area
+Datasets with clustering tendency, exhibit also a change of slope in the graph of k-distance vector. search $\epsilon$ using grid search in that area
 ![[Pasted image 20230125120100.png]]
 
 ## Pros and Cons

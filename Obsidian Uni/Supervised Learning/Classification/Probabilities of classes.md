@@ -13,9 +13,9 @@ Points above the straight line represent better classifications than random choi
 It's a way to identify the best threshold value to transform soft predictions into crisp ones.
 Varying the threshold, the ratio of TP and FP changes
 ![[Pasted image 20230118165216.png]]
-DECREASE THRESHOLD -> RECALL INCREASES, PRECISION DECREASES
+==DECREASE THRESHOLD -> RECALL INCREASES, PRECISION DECREASES==
 
-The quality of the curve is summarizad by the AUC (area under curve), bigger is better.
+The qual ity of the curve is summarizad by the AUC (area under curve), bigger is better. AUC is a metric to compare different models
 
 ![[Pasted image 20230118165605.png]]
 

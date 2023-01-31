@@ -22,14 +22,16 @@ Dimensionality reduction solves this problem, while also prividing:
 Finds projections that capture most of the data variation, using the eigenvector of the covariance matrix (change of basis)
 ![[Pasted image 20230121125230.png]]
 projecting on this new line is much better than just projecting on one axis (much less information loss).
-## Feature subset selection
+
+# Feature subset selection
 _Local method to reduce dimensionality_, in particular reduntant ones or irrelevant.
 Methods:
 1. Brute force -> tries all possible feature subsets, measuring effectiveness
 2. Embedded approach-> features selection occurs naturally from data mining algorithm (eg decision trees)
 3. Filter approach -> feature are selected before the data mining algorithm starts (eg with domain knowledge).
 4. Wrapper approaches -> data mining algo can choose best set of attributes
-[[Scikit-learn]] has methods for FSS.
+[[Scikit-learn]] has methods for FSS. (module `feature_selection`, example `SelectKBest`)
+
 ## Feature creation
 _Adding new features that can capture more efficiently some characteristics of the data_.
 - feature extraction
