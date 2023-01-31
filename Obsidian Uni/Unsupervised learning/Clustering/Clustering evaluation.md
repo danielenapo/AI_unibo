@@ -28,6 +28,7 @@ To separate clusters, ==the goal is minimizing SSE (= maximise SSB)==.
 
 # Silhouette score
 _Clustering evaluation score that ranges from -1 (very bad) to 1 (good), takes into account **sparsity** ($a_{i}$) and **separation** ($b_{i}$)_
+==the higher the better==
 ![[Pasted image 20230124172249.png]]
 Silhouette score of a single datapoint $x_{i}$:
 ![[Pasted image 20230124165600.png]]
