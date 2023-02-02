@@ -11,11 +11,9 @@
             "id": "378e08375fcf3b92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Unsupervised learning/Clustering/Clustering evaluation.md",
-                "mode": "source",
-                "source": false
+                "file": "Documents/past exams/Machine Learning - 0901 Questions.pdf"
               }
             }
           }
@@ -66,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d1beef2674e50c80",
@@ -102,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unsupervised learning/Clustering/Clustering evaluation.md",
+                "file": "Documents/past exams/Machine Learning - 0901 Questions.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Unsupervised learning/Clustering/Clustering evaluation.md",
+                "file": "Documents/past exams/Machine Learning - 0901 Questions.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Unsupervised learning/Clustering/Clustering evaluation.md"
+                "file": "Documents/past exams/Machine Learning - 0901 Questions.pdf"
               }
             }
           }
@@ -165,15 +162,15 @@
   },
   "active": "378e08375fcf3b92",
   "lastOpenFiles": [
+    "Documents/past exams/mcq.pdf",
+    "Documents/past exams/Machine Learning - 0901 Questions.pdf",
+    "Documents/past exams/questions_ML.pdf",
+    "Documents/past exams/QUESTIONS (theory exam).md",
+    "Documents/past exams/ML-Python-Lab.pdf",
+    "Unsupervised learning/Clustering/Clustering evaluation.md",
     "Unsupervised learning/Clustering/K-Means.md",
     "Supervised Learning/Classification/KNN.md",
     "Supervised Learning/Classification/Classification.md",
-    "Supervised Learning/Regression/Regression Evaluation.md",
-    "Supervised Learning/Classification/Probabilities of classes.md",
-    "Documents/past exams/QUESTIONS (theory exam).md",
-    "Documents/past exams/questions_ML.pdf",
-    "Documents/past exams/ML-Python-Lab.pdf",
-    "Documents/Associationrules-mlxtend.pdf",
-    "Unsupervised learning/Clustering/Density based Clustering.md"
+    "Supervised Learning/Regression/Regression Evaluation.md"
   ]
 }
