@@ -1,10 +1,10 @@
 _A runtime classifier with a tree-shaped set of tests._
 ![[Pasted image 20230117120321.png]]
-A tree-structured plan of tests on***single attributes** to forecast the target.
+A tree-structured plan of tests on **single attributes** to forecast the target.
 
 ## Nodes
 two types of nodes:
-- **inner nodes** (tests) -> tests are made on single attributes
+- **inner nodes** (tests) -> tests are made on **single attributes**
 - **leaf nodes** (final predictions) -> a single class _should_ be associated to it (can be more since it's not perfect)
 
 

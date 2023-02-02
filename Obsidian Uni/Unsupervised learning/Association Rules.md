@@ -8,8 +8,8 @@ _Method to show the probability of relationships between data items, within larg
 
 # Mining Association rules
 there are two steps for getting the final rules
-1. **Frequent itemset generation** -> generate all itemsets whose **support** is greater than **minsup** (threshold value, [[Hyperparameter]])
-2. **Rule generation** -> generate high **confidence** rules from each frequent itemset
+1. ==**Frequent itemset generation**== -> generate all itemsets whose **support** is greater than **minsup** (threshold value, [[Hyperparameter]])
+2. ==**Rule generation**== -> generate high **confidence** rules from each frequent itemset
 
 ## Frequent itemset generation 
 To find all association rules, one could try all combinations of itemsets, but we would have $2^{D}$ itemsets (With D items)
@@ -17,6 +17,7 @@ In this example, we have only 4 items. (What if we have hundreds of thousands?)
 ![[Pasted image 20230126175859.png]]
 This graph is obtained just with 5 individual items (32 itemsets in total).
 We need a way to not generate all possible itemset, but getting all the ones with support > minsup
+
 ## Apriori algorithm
 Following the ==**apriori principle**, the support of an itemset never exceeds the support of all its subsets.== (anti-monotone property of support)
 ![[Pasted image 20230126181111.png]]
