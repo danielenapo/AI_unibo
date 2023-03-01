@@ -8,60 +8,49 @@
         "type": "tabs",
         "children": [
           {
+            "id": "378e08375fcf3b92",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -758.240233691156,
+                  "y": 558.8433075731308,
+                  "zoom": -1.5883154172998073
+                }
+              }
+            }
+          },
+          {
             "id": "912452bf656da5fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "18b88ed51afaf365",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision.md",
-                "mode": "source",
-                "source": false
+                "file": "SCHEMA.canvas",
+                "viewState": {
+                  "x": -669.5,
+                  "y": 859.5,
+                  "zoom": -1.6766714226148751
+                }
               }
             }
           },
           {
-            "id": "cd0d46b27d509e76",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230301155440.png"
-              }
-            }
-          },
-          {
-            "id": "120786747048ca81",
+            "id": "6732d969a77db3a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0176b7f48011526f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+                "file": "Supervised Learning/Classification/Decision Trees.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -144,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Supervised Learning/Classification/Decision Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Supervised Learning/Classification/Decision Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Supervised Learning/Classification/Decision Trees.md"
+              }
             }
           }
         ]
@@ -201,54 +193,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "912452bf656da5fb",
+  "active": "e5d22c70c8bce234",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230301155440.png",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Pasted image 20230301160348.png",
-    "Pasted image 20230301160300.png",
-    "Pasted image 20230301160204.png",
-    "Pasted image 20230301160141.png",
-    "Image Processing & Computer Vision/Image Processing",
-    "Image Processing",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230301155450.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230301155727.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230301155646.png",
-    "Image Processing & Computer Vision/Documents",
+    "Machine Learning",
     "Supervised Learning/Classification/Decision Trees.md",
-    "Image Processing & Computer Vision",
-    "Machine Learning/Preprocessing/Type conversion.md",
-    "Machine Learning/Preprocessing/Sampling.md",
-    "Machine Learning/Preprocessing/Rescaling.md",
-    "Machine Learning/Preprocessing/Preprocessing.md",
-    "Machine Learning/Preprocessing/Distance methods.md",
-    "Machine Learning/Preprocessing",
-    "Machine Learning/images/Pasted image 20230129004853.png",
-    "Machine Learning/images/Pasted image 20230126183036.png",
-    "Machine Learning/images",
-    "Machine Learning/Documents/past exams/questions_ML.pdf",
-    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
-    "Machine Learning/Documents/past exams/mcq.pdf",
-    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "Machine Learning/Documents/past exams",
-    "Machine Learning/Scikit-learn.md",
-    "Machine Learning/SCHEMA.canvas",
-    "Machine Learning/Machine Learning.md",
-    "Machine Learning/Hyperparameter.md",
-    "Machine Learning/Data.md",
-    "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/K-Means.md",
-    "Machine Learning/Unsupervised learning/Clustering/Hierarchical Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Density based Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
-    "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
-    "Machine Learning/Unsupervised learning/Association Rules.md",
-    "Machine Learning/Supervised Learning/Regression/Regression.md",
-    "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
-    "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
-    "SCHEMA.canvas"
+    "SCHEMA.canvas",
+    "Hyperparameter.md",
+    "Unsupervised learning/Association Rules.md",
+    "Supervised Learning/Classification/Classification.md",
+    "Supervised Learning/Supervised Learning.md",
+    "Machine Learning.md",
+    "Documents/past exams/Machine Learning - 0901 Questions.pdf",
+    "Documents/past exams/mcq.pdf",
+    "Documents/past exams/questions_ML.pdf",
+    "Documents/past exams/QUESTIONS (theory exam).md"
   ]
 }
