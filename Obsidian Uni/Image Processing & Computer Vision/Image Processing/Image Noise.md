@@ -11,3 +11,4 @@ We can take multiple images of the same scene (assuming it's static), and make a
 Using multiple images is impractical (scenes are not static, will cause motion blur):
 we can take the mean over a neighborhood square of KxK pixels.
 ![[Pasted image 20230309121523.png]]
+Bigger K means better smoothing (noise reduction), but also leads to blurry images (the window would be on the edge of an object, blending with the background)
