@@ -16,5 +16,15 @@ Its properties are different (NOT commutative)
 if h is evem then i * h=h * i =h o i, but still, h o i != i o h (not commutative)
 
 ## Discrete convolution
-same as continuous convolution, but with summatorie
+same as continuous convolution, but with summatories. The same properties still hold. 
 ![[Pasted image 20230311161026.png]]
+
+# Practical Implementation
+The kernel has a dimension much smaller than the image. Applying the discrete convolution formula, the kernel will slide across the whole input image to compute the convolution to each pixel.
+What abut edge pixels? Two options:
+- CROP (cut away 4k pixels, k is dimension of kernel)
+	![[Pasted image 20230313092552.png]]
+- PAD (e.g. zero-padding, replicate, reflect, ...), to fill the 4k border pixels with data that will be replaced by convolution.
+
+
+
