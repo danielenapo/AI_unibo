@@ -18,8 +18,8 @@ They both only sense intensity and not colour(Greyscale images)
 **OPTICAL FILTERS** are placed in front of photodetectors to render each pixel sensitive to a specific wavelength range.
 ![[Pasted image 20230307120826.png]]
 ## Signal to Noise Ratio (SNR)
-The intensity measured under perfectly static conditions varies due to random noise. The higher the better.
-![[Pasted image 20230307121037.png]]
+The intensity measured under perfectly static conditions varies due to random [[Image Noise]]. The higher the better.
+
 ![[Pasted image 20230307121425.png]]
 ## Dynamic Range (DR)
 If the sensed amount of light is too small, the true signal cannot be distinguished from noise.
