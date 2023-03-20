@@ -4,83 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "67e699af96a55e9e",
+        "id": "921a915cf17421b7",
         "type": "tabs",
         "children": [
           {
-            "id": "18b88ed51afaf365",
+            "id": "c668df09e9465c58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb4475bdfd0590ef",
+            "id": "a81cc54832e1ce6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "42106babedb5d29b",
+            "id": "0b20a4ff9f6d5ace",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4392bda439d3cf79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05c64bc26e81d426",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f494d760e526a58d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -162,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection.md"
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md"
               }
             }
           }
@@ -224,30 +189,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05c64bc26e81d426",
+  "active": "0b20a4ff9f6d5ace",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Image Processing/Edge Detection.md",
+    "Pasted image 20230320211848.png",
+    "Pasted image 20230320211813.png",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+    "Pasted image 20230320194240.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230320192414.png",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
+    "Pasted image 20230320192314.png",
+    "Pasted image 20230320192236.png",
+    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230320182826.png",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230320183141.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230320183009.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230319175005.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230319190203.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319190125.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319175848.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319175650.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319175316.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319175259.png",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319173052.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319173045.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319171221.png",
     "Image Processing & Computer Vision/Image Processing/Filters",
     "Machine Learning/Data.md",
     "Image Processing & Computer Vision/Computer Vision.md",

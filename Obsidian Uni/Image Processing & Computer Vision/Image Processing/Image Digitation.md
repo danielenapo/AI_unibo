@@ -1,4 +1,5 @@
 #image_processing 
+
 Two steps:
 1. **SAMPLING** -> the light sensors convert irradiance into electric quantity
 	Te planar _continuous_ image is sampled into both axis to a 2D matrix (NxM)
@@ -9,7 +10,7 @@ Two steps:
 
 ![[Pasted image 20230307120028.png]]
 # Camera Sensors
-Cameras are made of 2D arrays of **photodetectors**. During exposure, the light is converted into electric charge. Digital cameras have ADC circuit integrated.
+[[Pinhole Camera model]]s are made of 2D arrays of **photodetectors**. During exposure, the light is converted into electric charge. Digital cameras have ADC circuit integrated.
 ![[Pasted image 20230307120226.png]]
 There are 2 main sensor technologies:
 - **CCD** (better but expensive)

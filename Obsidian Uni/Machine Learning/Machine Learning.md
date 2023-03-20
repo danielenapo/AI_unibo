@@ -1,4 +1,4 @@
-_"field of study that gives computer the ability to learn (from [[data]]) without being explicetely programmed"_
+_"field of study that gives computer the ability to learn (from [[Data]]) without being explicetely programmed"_
 ![[Pasted image 20230116212115.png]]
 
 ![[Pasted image 20230116212211.png]]

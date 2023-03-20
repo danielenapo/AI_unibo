@@ -23,4 +23,21 @@ Gradient's direction corresponds to the edge's direction. Again, a threshold is 
 Since pixel values are discrete, the following approximation eases the work:
 We can use both backward and forward differences (both on x or y axes):
 ![[Pasted image 20230319190203.png]]
+![[Pasted image 20230320182826.png]]
 ![[Pasted image 20230319190125.png]]
+The **magnitude** can be estimated with different kind of norms, but the best is the inf norm:
+![[Pasted image 20230320183009.png]]
+This is because it is invariant with respect to edge direction (as seen on table above).
+
+# Noise
+Real images have noisy edges:
+![[Pasted image 20230320183141.png]]
+==The problem is that **derivatives amplify Noise**==
+Thus, the edge detector must be **robust to [[Image Noise]]** 
+A solution could be applying denoising techniques before edge detection, but blurrying the images makes the detection much more difficult (also blurs edges).
+Another solution is **difference of averages**, rather than averaging the image first and then computing the differences.
+![[Pasted image 20230320192236.png]]
+![[Pasted image 20230320192314.png]]
+## Prewitt and Sobel
+The Prewitt operator allows to use difference of averages with central differences, while the Sobel operator allows to weight more the central pixel.
+![[Pasted image 20230320192414.png]]
