@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md"
+                "file": "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md"
               }
             }
           }
@@ -189,12 +188,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b20a4ff9f6d5ace",
+  "active": "c668df09e9465c58",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Pasted image 20230321102158.png",
     "Pasted image 20230320211848.png",
     "Pasted image 20230320211813.png",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
     "Pasted image 20230320194240.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230320192414.png",
     "Image Processing & Computer Vision/Image Processing/Edge Detection",
@@ -209,8 +209,6 @@
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230320183141.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230320183009.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319175005.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230319190203.png",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",

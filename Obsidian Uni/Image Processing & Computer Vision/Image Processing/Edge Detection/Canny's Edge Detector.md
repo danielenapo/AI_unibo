@@ -24,3 +24,5 @@ In fact it is usually carried out by tracking edge pixels along contours
 ![[Pasted image 20230320211813.png]]
 # Example
 ![[Pasted image 20230320211848.png]]
+
+https://www.youtube.com/watch?v=sRFM5IEqR2w
