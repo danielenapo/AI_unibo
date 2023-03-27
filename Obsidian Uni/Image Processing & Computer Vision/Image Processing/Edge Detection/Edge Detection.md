@@ -4,7 +4,7 @@ edges are pixels that lie exactly in between two or more different image regions
 
 # 1D Step-Edge
 Sharp chamge of a 1D signal (line).
-Those changes can be detected using **derivatives**.
+Those changes can be detected using (first order) **derivatives**.
 The simplest edge detector uses a static threshold that is compared with the absolute value of the derivative in the given point. If it's over, it's considered as an edge.
 ![[Pasted image 20230319175316.png]]
 The absolute values is needed since in 1D the edge can have 2 **directions**:
