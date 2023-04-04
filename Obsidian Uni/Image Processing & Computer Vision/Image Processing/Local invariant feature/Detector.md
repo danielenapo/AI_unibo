@@ -36,12 +36,13 @@ Depending on distance and focal-length, objects may appear differently in the im
 Scaling changes the amount of features detectable
 ![[Pasted image 20230331131220.png]]
 Solution: applying a fixed-sized tool on different scaled and blurrier versions of the same image -> "SCALE SPACE"
+==The blurrier the image, means the bigger the feature detected is. The more detailed the image, it means that the features is small, since it was filtered out in the other layers of the scale space.==
 ![[Pasted image 20230331131322.png]]
 Scale space must be realized with [[Gaussian Filter]] smoothing:
 $L(x,y,\sigma)=G(x,y,\sigma)*I(x,y)$, increasing the kernel size when shrinking the image.
 
 # Scale-Normalized LOG
-Useful for detecting "blob-like" circular features in images, can also identify edges and corners.
+Useful for detecting **[[Local Invariant Feature#Blob]] features** in images.
 Uses the scale-normalized [[Laplacian of Gaussian (LOG)]], which uses second order derivatives.
 Convolves image with LOG filter at multiple scales:
 $F(x,y,\sigma)=\sigma^{2}(\nabla^{2}G(x,y,\sigma)*I(x,y*))$ 
@@ -51,7 +52,7 @@ the $\sigma^{2}$ does normalization, making the filter invariant to scale change
 The idea is to find extrema (min, max) across x, y, $\sigma$. because these points correspond to regions of the image that have **high curvature or intensity variation in multiple directions** (detected by 2nd derivative).
 
 ![[Pasted image 20230331132735.png]]
-
+We can see from the different sizes of the circles, that the **detected blobs are associated to different scales.**
 # Difference of Gaussian (DoG)
 $DoG(x,y,\sigma)=L(x,y,k\sigma)-L(x, y, \sigma)$ 
 Where ==**k**== is a constant [[Hyperparameter]], which controls the scale of the filter.

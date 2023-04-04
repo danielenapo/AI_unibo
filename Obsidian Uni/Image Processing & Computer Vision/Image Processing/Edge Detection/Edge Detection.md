@@ -1,4 +1,6 @@
 Edges are local features of images that campure important **semantic information**.
+They are big variations of intensity between pixels in a particular image area:
+![[Pasted image 20230404193459.png]]
 edges are pixels that lie exactly in between two or more different image regions (can be phisical objects).
 ![[Pasted image 20230319175005.png]]
 

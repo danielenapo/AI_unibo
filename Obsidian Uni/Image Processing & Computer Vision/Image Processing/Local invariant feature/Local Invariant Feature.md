@@ -13,9 +13,13 @@ There are 3 main steps and components:
 	- **Compactness**: concise descriptions (minimize memory, efficient matching)
 3. ==**Matching**== -> descriptors between images
 
-# Corners or Interesting Points
+# Interesting Points
+
+## Corners
 Edges can be hardly told apart since they look very similar along the direction of the gradient.
 Pixels having large variations along **all directions** are more distinguishable, hence better for matching -> CORNERS
 ![[Pasted image 20230331114240.png]]
-
-
+## Blob
+Corners are indeed good interesting points, but they don't show up much often in images, and they're not very unique. We need another kind of features: blobs.
+![[Pasted image 20230404193840.png]]
+They also have the very useful property to be ==fixed in position and definite in size==.
