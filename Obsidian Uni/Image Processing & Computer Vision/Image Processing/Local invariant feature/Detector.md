@@ -62,3 +62,4 @@ It gives similar result to [[#Scale-Normalized LOG]], but it's more efficient (*
 ![[Pasted image 20230331151842.png]]
 ![[Pasted image 20230331151937.png]]
 Can also detect blob-like features.
+

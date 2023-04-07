@@ -7,7 +7,7 @@ There are 3 main steps and components:
 1. **==[[Detector]]==** -> finds **salient points** (aka feature points or keypoints)
 	- **Repeatability**: should find same keypoints in different views, despite any transformation
 	- **Saliency**: find keypoints sorrounded by informative patterns (more discriminative when matching)
-2. ==**Description**== -> computes a **descriptor**, based on neighbor pixels. 
+2. ==**[[SIFT#Descriptor]]**== -> computes a **descriptor**, based on neighbor pixels. 
 	- **invariant** to any type of transformation. 
 	- **Distinctiveness vs Robustness**: description algorithm should capture salient informations, and disregard changes due to noise or light.
 	- **Compactness**: concise descriptions (minimize memory, efficient matching)

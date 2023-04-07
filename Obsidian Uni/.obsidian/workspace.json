@@ -4,26 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "43b5ef7d8727c2cb",
+        "id": "a9056e6c7459a27b",
         "type": "tabs",
         "children": [
           {
-            "id": "2cc81305d0a94551",
+            "id": "fd17e3f94c61e55d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png"
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "3b5658d1184ea567",
+            "id": "f89217c8b855924a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230404193459.png"
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -94,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -110,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png",
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png",
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png"
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md"
               }
             }
           }
@@ -172,23 +177,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5d22c70c8bce234",
+  "active": "f89217c8b855924a",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230404193459.png",
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407224556.png",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Matching.md",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407182434.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407182643.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407182723.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407183220.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407183740.png",
+    "Pasted image 20230407211400.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407211525.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230407223245.png",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331151842.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331151937.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331122530.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331122835.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331114240.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331132735.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331132119.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230331131322.png",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
