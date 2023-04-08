@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a9056e6c7459a27b",
+        "id": "74c88450fc496dbe",
         "type": "tabs",
         "children": [
           {
-            "id": "fd17e3f94c61e55d",
+            "id": "1e14aed3b8bf9ba0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f89217c8b855924a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+                "file": "Neuroscience/Action Potential.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,7 +31,7 @@
       {
         "id": "735351d4ab51fabb",
         "type": "tabs",
-        "dimension": 68.16283924843424,
+        "dimension": 69.11764705882352,
         "children": [
           {
             "id": "e5d22c70c8bce234",
@@ -62,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "multi layer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,12 +69,12 @@
         ]
       },
       {
-        "id": "d1beef2674e50c80",
+        "id": "89c5743c3aa2b152",
         "type": "tabs",
-        "dimension": 31.83716075156576,
+        "dimension": 30.88235294117647,
         "children": [
           {
-            "id": "5733ebdc4044859d",
+            "id": "f7160ee3f0515e9e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -98,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -115,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+                "file": "Neuroscience/Action Potential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+                "file": "Neuroscience/Action Potential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md"
+                "file": "Neuroscience/Action Potential.md"
               }
             }
           }
@@ -177,24 +163,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f89217c8b855924a",
+  "active": "1e14aed3b8bf9ba0",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407224556.png",
+    "Neuroscience/Glial cells.md",
+    "Neuroscience/Neurons.md",
+    "Neuroscience/Documents/Pasted image 20230408192723.png",
+    "Neuroscience/Action Potential.md",
+    "Neuroscience/Documents/Pasted image 20230408192902.png",
+    "Neuroscience/Documents/Pasted image 20230408174427.png",
+    "Neuroscience/Nervous System.md",
+    "Neuroscience/Documents/Pasted image 20230408174753.png",
+    "Neuroscience/Documents/Pasted image 20230408180056.png",
+    "Neuroscience/Documents/Pasted image 20230408180136.png",
+    "Pasted image 20230408180724.png",
+    "Neuroscience/Documents/Pasted image 20230408180748.png",
+    "Neuroscience/Documents/Pasted image 20230408184513.png",
+    "Neuroscience/Documents/Pasted image 20230408185258.png",
+    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
+    "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
+    "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
+    "Neuroscience/Documents",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
-    "Matching.md",
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407182434.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407182643.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407182723.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407183220.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407183740.png",
-    "Pasted image 20230407211400.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407211525.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230407223245.png",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+    "Neuroscience",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Matching.md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230404193840.png",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
@@ -209,10 +204,7 @@
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters",
-    "Machine Learning/Data.md",
-    "Image Processing & Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Image Processing",
     "Image Processing"
   ]

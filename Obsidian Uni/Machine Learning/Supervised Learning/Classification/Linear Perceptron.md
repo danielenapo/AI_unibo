@@ -1,4 +1,4 @@
-_It's a linear combination of weighted inputs. AKA **artificial neuron**_, since it's inspired from the functioning of biologic neurons.
+_It's a linear combination of weighted inputs. AKA **artificial neuron**_, since it's inspired from the functioning of the biological [[Neurons]].
 ![[Pasted image 20230119124759.png]]
 
 It's inherently **BINARY** -> learns an hyperplane such that all the negatives are on one side, and the positives on the other.
