@@ -1,4 +1,4 @@
-#image_processing 
+
 aims at improving the quality of images.
 ![[Pasted image 20230301155440.png]]
 
@@ -6,5 +6,5 @@ It's very useful to apply before a [[Computer Vision]] algorithm, as a preproces
 
 Studies:
 - functioning of the [[Pinhole Camera model]]
-- techniques to cancel [[Image Noise]] 
+- techniques to cancel [[Image Noise]] through [[Image Filters]]
 - Perform [[Edge Detection]]

@@ -4,22 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "74c88450fc496dbe",
+        "id": "0b4b585599048cae",
         "type": "tabs",
         "children": [
           {
-            "id": "1e14aed3b8bf9ba0",
+            "id": "dd69c143dd05806e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Neuroscience/Documents/Pasted image 20230409184007.png"
+              }
+            }
+          },
+          {
+            "id": "7d74a826e6bb6e48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Action Potential.md",
+                "file": "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d408bbb99d48abff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,10 +94,10 @@
       {
         "id": "89c5743c3aa2b152",
         "type": "tabs",
-        "dimension": 30.88235294117647,
+        "dimension": 30.882352941176475,
         "children": [
           {
-            "id": "f7160ee3f0515e9e",
+            "id": "13940b26950e9e11",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -101,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Action Potential.md",
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Action Potential.md",
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,12 +164,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Action Potential.md"
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md"
               }
+            }
+          },
+          {
+            "id": "622c5efee225017c",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -163,47 +194,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e14aed3b8bf9ba0",
+  "active": "d408bbb99d48abff",
   "lastOpenFiles": [
-    "Neuroscience/Glial cells.md",
-    "Neuroscience/Neurons.md",
-    "Neuroscience/Documents/Pasted image 20230408192723.png",
-    "Neuroscience/Action Potential.md",
-    "Neuroscience/Documents/Pasted image 20230408192902.png",
-    "Neuroscience/Documents/Pasted image 20230408174427.png",
-    "Neuroscience/Nervous System.md",
-    "Neuroscience/Documents/Pasted image 20230408174753.png",
-    "Neuroscience/Documents/Pasted image 20230408180056.png",
-    "Neuroscience/Documents/Pasted image 20230408180136.png",
-    "Pasted image 20230408180724.png",
-    "Neuroscience/Documents/Pasted image 20230408180748.png",
-    "Neuroscience/Documents/Pasted image 20230408184513.png",
-    "Neuroscience/Documents/Pasted image 20230408185258.png",
-    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
+    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
+    "Neuroscience/Learning/Pavlovian conditioning.md",
+    "Neuroscience/Neuroanatomy/Central Nervous System.md",
+    "Neuroscience/Learning/Learning.md",
+    "Neuroscience/Neuroanatomy/Brain.md",
+    "Neuroscience/Neuroanatomy/Neural Circuits.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
     "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
+    "Neuroscience/Neuroanatomy/Neurons.md",
+    "Neuroscience/Learning",
+    "Neuroscience/Documents/Pasted image 20230409213539.png",
+    "Neuroscience/Documents/Pasted image 20230409211723.png",
+    "Neuroscience/Documents/Pasted image 20230409211633.png",
+    "Neuroscience/Documents/Pasted image 20230409195917.png",
+    "Neuroscience/Documents/Pasted image 20230409195406.png",
+    "Neuroscience/Neuroanatomy/Action Potential.md",
+    "Neuroscience/Neuroanatomy",
+    "Neuroscience/Documents/Pasted image 20230409194419.png",
+    "Neuroscience/Documents/Pasted image 20230409193744.png",
+    "Neuroscience/Documents/Pasted image 20230409193542.png",
+    "Neuroscience/Documents/Pasted image 20230409193336.png",
+    "Neuroscience/Neuroanatomy/Nervous System.md",
+    "Neuroscience/Documents/Pasted image 20230409192028.png",
+    "Peripheral Nervous System.md",
+    "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Machine Learning/Hyperparameter.md",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Computer Vision.md",
+    "Neuroscience/Neuroanatomy/Glial cells.md",
+    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
     "Neuroscience/Documents",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
     "Neuroscience",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Matching.md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Edge Detection",
-    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters",
     "Image Processing & Computer Vision/Image Processing",
     "Image Processing"
