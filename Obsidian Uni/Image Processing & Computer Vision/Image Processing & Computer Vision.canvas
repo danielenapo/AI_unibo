@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md","id":"321fd1aa30cec317","x":100,"y":243,"width":548,"height":280},
+		{"id":"9668bb3518e00253","x":-337,"y":244,"width":400,"height":400,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md"},
+		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Image Noise.md","id":"aaef34be56d2b84b","x":-960,"y":304,"width":400,"height":280},
+		{"id":"04ddcdd0c65ea3f5","x":-602,"y":792,"width":422,"height":308,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md"},
+		{"id":"ec9821805fb08592","x":-180,"y":792,"width":370,"height":479,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md"},
+		{"id":"f3d5185ff712f397","x":700,"y":243,"width":400,"height":400,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md"},
+		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Image Processing.md","id":"d508a7a361ef5498","x":140,"y":-340,"width":417,"height":329},
+		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md","id":"e972ec1c082387d0","x":-960,"y":-355,"width":400,"height":360},
+		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision.md","id":"2a73dd37a8f24559","x":1160,"y":-319,"width":440,"height":289}
+	],
+	"edges":[
+		{"id":"259010e26d9d76f5","fromNode":"d508a7a361ef5498","fromSide":"right","toNode":"2a73dd37a8f24559","toSide":"left","color":"1","label":"Preprocessing"},
+		{"id":"46dd319ba296b77d","fromNode":"d508a7a361ef5498","fromSide":"left","toNode":"e972ec1c082387d0","toSide":"right"},
+		{"id":"de8534c258ffb3ba","fromNode":"d508a7a361ef5498","fromSide":"bottom","toNode":"321fd1aa30cec317","toSide":"top"},
+		{"id":"93169e16fa2c877e","fromNode":"e972ec1c082387d0","fromSide":"bottom","toNode":"aaef34be56d2b84b","toSide":"top"},
+		{"id":"960bb305af295ba0","fromNode":"d508a7a361ef5498","fromSide":"bottom","toNode":"9668bb3518e00253","toSide":"top"},
+		{"id":"2c14ee46c6b7ac98","fromNode":"aaef34be56d2b84b","fromSide":"right","toNode":"9668bb3518e00253","toSide":"left"},
+		{"id":"3f9bd057940ccbb6","fromNode":"9668bb3518e00253","fromSide":"bottom","toNode":"04ddcdd0c65ea3f5","toSide":"top"},
+		{"id":"f952c30924997b11","fromNode":"9668bb3518e00253","fromSide":"bottom","toNode":"ec9821805fb08592","toSide":"top"},
+		{"id":"1085ade620fd6f72","fromNode":"d508a7a361ef5498","fromSide":"bottom","toNode":"f3d5185ff712f397","toSide":"top"}
+	]
+}

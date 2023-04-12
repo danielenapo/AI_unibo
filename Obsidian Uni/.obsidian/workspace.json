@@ -8,41 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd69c143dd05806e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Neuroscience/Documents/Pasted image 20230409184007.png"
-              }
-            }
-          },
-          {
-            "id": "7d74a826e6bb6e48",
+            "id": "a7bd0da396d473a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d408bbb99d48abff",
+            "id": "b64cb4e1e082bedd",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+                "viewState": {
+                  "x": -55.527750780307656,
+                  "y": 271.7883092384281,
+                  "zoom": -1.3051751041346566
+                }
+              }
+            }
+          },
+          {
+            "id": "001114353362384f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Neuroscience/Neuroanatomy/Neural Circuits.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Image Processing & Computer Vision/Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Image Processing & Computer Vision/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md"
+                "file": "Image Processing & Computer Vision/Computer Vision.md"
               }
             }
           },
@@ -194,31 +199,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d408bbb99d48abff",
+  "active": "b64cb4e1e082bedd",
   "lastOpenFiles": [
-    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Neuroanatomy/Central Nervous System.md",
     "Neuroscience/Learning/Learning.md",
-    "Neuroscience/Neuroanatomy/Brain.md",
+    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
+    "Pasted image 20230412140808.png",
+    "Pasted image 20230412140750.png",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Machine Learning/Machine learning.canvas",
+    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
+    "Neuroscience/Learning/Dopamine neurons.md",
+    "Neuroscience/Learning/Instrumental Conditioning.md",
+    "Neuroscience/Documents/Pasted image 20230412135307.png",
+    "Neuroscience/Documents/Pasted image 20230412133716.png",
+    "Neuroscience/Neuroanatomy/Brain.md",
+    "Neuroscience/Documents/Pasted image 20230409184007.png",
+    "Neuroscience/Documents/Pasted image 20230412111905.png",
+    "Neuroscience/Documents/Pasted image 20230412105751.png",
+    "Neuroscience/Neuroanatomy/Glial cells.md",
+    "Neuroscience/Neuroanatomy/Nervous System.md",
+    "Neuroscience/Neuroanatomy/Action Potential.md",
+    "Neuroscience/Documents/Pasted image 20230412101511.png",
+    "Neuroscience/Learning/Pavlovian conditioning.md",
+    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
+    "Neuroscience/Neuroanatomy/Central Nervous System.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
     "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
     "Neuroscience/Neuroanatomy/Neurons.md",
     "Neuroscience/Learning",
     "Neuroscience/Documents/Pasted image 20230409213539.png",
     "Neuroscience/Documents/Pasted image 20230409211723.png",
-    "Neuroscience/Documents/Pasted image 20230409211633.png",
-    "Neuroscience/Documents/Pasted image 20230409195917.png",
-    "Neuroscience/Documents/Pasted image 20230409195406.png",
-    "Neuroscience/Neuroanatomy/Action Potential.md",
     "Neuroscience/Neuroanatomy",
-    "Neuroscience/Documents/Pasted image 20230409194419.png",
-    "Neuroscience/Documents/Pasted image 20230409193744.png",
-    "Neuroscience/Documents/Pasted image 20230409193542.png",
-    "Neuroscience/Documents/Pasted image 20230409193336.png",
-    "Neuroscience/Neuroanatomy/Nervous System.md",
-    "Neuroscience/Documents/Pasted image 20230409192028.png",
     "Peripheral Nervous System.md",
     "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
@@ -227,15 +239,10 @@
     "Machine Learning/Hyperparameter.md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md",
     "Image Processing & Computer Vision/Computer Vision.md",
-    "Neuroscience/Neuroanatomy/Glial cells.md",
     "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
     "Neuroscience/Documents",
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md",
     "Neuroscience",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature/Matching.md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md",
-    "Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md",
     "Image Processing & Computer Vision/Image Processing/Local invariant feature",
     "Image Processing & Computer Vision/Image Processing/Edge Detection",
     "Image Processing & Computer Vision/Image Processing/Filters",

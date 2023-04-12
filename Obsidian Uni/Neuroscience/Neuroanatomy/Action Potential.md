@@ -47,3 +47,5 @@ This means that **strength of signal** is not given by amplitude, but by **frequ
 The amount of neurotransmitters emitted increase with frequency. 
 ![[Pasted image 20230408192902.png]]
 
+# Summary
+![[Pasted image 20230412101511.png]]

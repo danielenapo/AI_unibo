@@ -1,5 +1,6 @@
-**an image pattern which differs from its immediate neighborhood**, aka keypoint.
-
+_**An image pattern which differs from its immediate neighborhood**, aka keypoint.
+Detecting those features is an [[Image Processing]] task._
+![[Pasted image 20230412140808.png]]
 Finding Correspondance points between 2 or more images is crucial in [[Pinhole Camera model#Stereo correspondence]], to estimate depth in images, but also for many other applications in [[Computer Vision]], such as Panorama Stitching (need 4 corr. points), object detection, AR, robot navigation and odometry (SLAM), 3D reconstruction, and many more.
 
 # Paradigm

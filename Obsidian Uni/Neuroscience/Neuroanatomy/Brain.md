@@ -9,11 +9,11 @@ It's divided in two **hemispheres** (left sa right), but one controls the opposi
 3. **Diencephalon**, divided into
 	1. **Thalamus** ->gateway to celebral cortex, mediates and links sensory information from [[Peripheral Nervous System]] to the cortex.
 	2. **Hyppothalamus** -> regulates temperature, hunger, cardiac rythm, motivation.
-## Celebral hemispheres: 
+# Celebral hemispheres: 
 Largest part of the brain. Consists of
 1. white matter (axons + [[Glial cells]])
 2. **Basal ganglia** -> motor control, **reinforcement learning** (many **dopamine receptors**)
-3. **Amygdala** ->**memory**, [[Learning]], attention, decision making
+3. **Amygdala** ->**memory**, [[Learning]], attention, decision making 
 4. **Hyppocampus**
 5. **Celebral cortex** (gray matter made of [[Neurons]]' Soma) -> "corpus callosum" with many layers of neurons. Divided into 4 lobes, distinguished by pronounced sulci. Each one has specialized funcitional roles in neural processing ("cytoarchitectonics")
 	1. **Frontal lobe**

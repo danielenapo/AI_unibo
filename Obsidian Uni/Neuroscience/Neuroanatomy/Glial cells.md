@@ -1,4 +1,5 @@
-Provide support to neurons.
+_Provide support to neurons.
+Consists of **microglial** and **macroglial**_
 ![[Pasted image 20230408154141.png]]
 
 ## Microglia
