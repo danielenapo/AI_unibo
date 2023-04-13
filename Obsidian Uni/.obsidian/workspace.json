@@ -27,9 +27,9 @@
               "state": {
                 "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "viewState": {
-                  "x": -55.527750780307656,
-                  "y": 271.7883092384281,
-                  "zoom": -1.3051751041346566
+                  "x": 560.3839015905749,
+                  "y": 738.5053403249636,
+                  "zoom": -1.5871659985430293
                 }
               }
             }
@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
