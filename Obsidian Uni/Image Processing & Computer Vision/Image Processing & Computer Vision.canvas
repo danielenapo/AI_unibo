@@ -8,15 +8,15 @@
 		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md","id":"04ddcdd0c65ea3f5","x":-898,"y":807,"width":478,"height":308},
 		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md","id":"ec9821805fb08592","x":-420,"y":807,"width":400,"height":479},
 		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Image Noise.md","id":"aaef34be56d2b84b","x":-1200,"y":219,"width":400,"height":280},
-		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Edge Detection/Edge Detection.md","id":"321fd1aa30cec317","x":140,"y":311,"width":548,"height":280},
+		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md","id":"321fd1aa30cec317","x":140,"y":311,"width":548,"height":280},
 		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Image Processing.md","id":"d508a7a361ef5498","x":197,"y":-324,"width":417,"height":329},
-		{"id":"bf719f0e6e7b4725","x":515,"y":729,"width":400,"height":141,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Edge Detection/Laplacian of Gaussian (LOG).md"},
-		{"id":"5cdd3a5e11431886","x":115,"y":729,"width":400,"height":141,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Edge Detection/Canny's Edge Detector.md"},
-		{"id":"9a14514792159da3","x":181,"y":870,"width":507,"height":198,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Edge Detection/Non-Maxima Suppression (NMS).md"},
-		{"id":"d93299d632bba375","x":1386,"y":823,"width":454,"height":245,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Local invariant feature/SIFT.md"},
-		{"id":"25d437c6243e2170","x":986,"y":823,"width":400,"height":400,"type":"file","file":"Image Processing & Computer Vision/Image Processing/Local invariant feature/Detector.md"},
-		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Local invariant feature/Local Invariant Feature.md","id":"f3d5185ff712f397","x":1186,"y":219,"width":400,"height":400},
-		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision.md","id":"2a73dd37a8f24559","x":1840,"y":-304,"width":440,"height":289}
+		{"id":"bf719f0e6e7b4725","x":515,"y":729,"width":400,"height":141,"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md"},
+		{"id":"5cdd3a5e11431886","x":115,"y":729,"width":400,"height":141,"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md"},
+		{"id":"9a14514792159da3","x":181,"y":870,"width":507,"height":198,"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md"},
+		{"id":"d93299d632bba375","x":1386,"y":823,"width":454,"height":245,"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md"},
+		{"id":"25d437c6243e2170","x":986,"y":823,"width":400,"height":400,"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md"},
+		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md","id":"f3d5185ff712f397","x":1186,"y":219,"width":400,"height":400},
+		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Computer Vision.md","id":"2a73dd37a8f24559","x":1840,"y":-304,"width":440,"height":289}
 	],
 	"edges":[
 		{"id":"259010e26d9d76f5","fromNode":"d508a7a361ef5498","fromSide":"right","toNode":"2a73dd37a8f24559","toSide":"left","color":"1","label":"Preprocessing"},
