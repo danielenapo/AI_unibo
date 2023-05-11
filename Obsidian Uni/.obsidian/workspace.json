@@ -8,29 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7bd0da396d473a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80a368efec7f4fb8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Image Processing & Computer Vision/Documents/Pasted image 20230501192607.png"
-              }
-            }
-          },
-          {
-            "id": "89ef5eb660788254",
+            "id": "60779828dd17bdcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,48 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3f9f5ae2f205940",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b64cb4e1e082bedd",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-                "viewState": {
-                  "x": 560.3839015905749,
-                  "y": 738.5053403249636,
-                  "zoom": -1.5871659985430293
-                }
-              }
-            }
-          },
-          {
-            "id": "001114353362384f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuroscience/Neuroanatomy/Neural Circuits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "multi layer",
+                "query": "ganglion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +65,17 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "d1ddf09afa3fb819",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "89c5743c3aa2b152",
@@ -233,26 +180,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5d22c70c8bce234",
+  "active": "60779828dd17bdcb",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501192607.png",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501193654.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501193602.png",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
-    "Image Processing & Computer Vision/Computer Vision",
+    "Pasted image 20230505183718.png",
+    "Pasted image 20230505183657.png",
+    "Pasted image 20230505183203.png",
+    "Pasted image 20230505181329.png",
+    "Pasted image 20230505175644.png",
+    "Pasted image 20230505175418.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501183300.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501181331.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501182600.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501181404.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501181054.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501181004.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230501173341.png",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230504111212.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230504111117.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230504110943.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230504105955.png",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration 1.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
+    "Image Processing & Computer Vision/Computer Vision",
     "Neuroscience/Learning/Learning.md",
     "Machine Learning/Machine learning.canvas",
     "Neuroscience/Neuroscience.canvas",
@@ -266,16 +221,8 @@
     "Neuroscience/Learning/Pavlovian conditioning.md",
     "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
     "Neuroscience/Neuroanatomy/Central Nervous System.md",
-    "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
-    "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
-    "Neuroscience/Neuroanatomy/Neurons.md",
     "Neuroscience/Learning",
     "Neuroscience/Neuroanatomy",
-    "Peripheral Nervous System.md",
-    "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Machine Learning/Hyperparameter.md",
     "Neuroscience/Documents",
     "Neuroscience",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature",

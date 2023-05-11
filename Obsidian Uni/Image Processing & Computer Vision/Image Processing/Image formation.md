@@ -21,15 +21,18 @@ To shift from P3 to R3 it is necessary to divide every element by xn+1 (to get t
 In projective space, points are represented as lines. This allows the representation of points at infinity, i.e. when xn+1 = 0, while in R3 this is not possible.
 
 ![[Pasted image 20230501181004.png]]
-## Intrinsic parametric matrix
+
+### Intrinsic parametric matrix
 ![[Pasted image 20230501181054.png]]
 The left 3x3 matrix of Pint is called **intrinsic parametric matrix**, often referred as **A**.
 It's always upper right triangular.
 Realistic models also include a 5th parameter, called **skew**, to take into account non orthogonalities between axes of the sensor.
 
-## Extrinsic parameter matrix
+### Extrinsic parameter matrix
 ![[Pasted image 20230501181331.png]]
 This is also referred as **G**.
+==G is defined by R and t==
+
 ## Perspective projection matrix
 Getting the two matrices together, we get the PPM, also referred as **P**:
 ![[Pasted image 20230501181404.png]]
