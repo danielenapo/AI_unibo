@@ -62,4 +62,15 @@ Though R will not be orthonormal since this is an approximation.
 To get an orthonormal R, we use again SVD, sobstituting D ($\Sigma$) with the identity matrix I.
 
 ## Distorsion parameters (k1, k2 and p)
-The coordinates predicted by the Homography H correspond to the undistorted image ($m_{undist})$, so we should consider the non-linear effect of [[Image formation#Lens distorsion]].
+The coordinates predicted by the Homography H correspond to the undistorted image ($m_{undist})$, so we should consider the non-linear effect of [[Image formation#Lens distortion]], thus estimating the two parameters $k_{1}$ and $k_{2}$ of radial distortion.
+![[Pasted image 20230516175745.png]]
+
+To do this, we need to go back to metric image coordinates (continuous):
+![[Pasted image 20230516175917.png]]
+![[Pasted image 20230516175934.png]]
+We thus get a non-homogeneous system of linear equations $Dk=d$ in the unknowns $k=[k_{1},k_{2}]^{T}$. This can be solved as a least-suqres problem, minimizing $||Dk-d||_{2}$ exploiting the pseudoinverse of D:
+![[Pasted image 20230516180245.png]]
+
+## Refinement of all parameters
+We now have all the parameters, but there still might be some algebraic error .
+To refine and align our final results, we use Maximum Likelyhood Estimator (MLE), using the current param values as initial guesses.

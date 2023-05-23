@@ -18,6 +18,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a65a3bfa08cfc8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing/Image formation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5cd5d7ef611e673",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -94,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -182,7 +203,12 @@
   },
   "active": "60779828dd17bdcb",
   "lastOpenFiles": [
+    "Pasted image 20230516180245.png",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Pasted image 20230516175934.png",
+    "Pasted image 20230516175917.png",
+    "Pasted image 20230516175745.png",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Pasted image 20230505183718.png",
     "Pasted image 20230505183657.png",
     "Pasted image 20230505183203.png",
@@ -192,13 +218,9 @@
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230504111212.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230504111117.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230504110943.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230504105955.png",
     "Image Processing & Computer Vision/Image Processing/Camera calibration 1.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",

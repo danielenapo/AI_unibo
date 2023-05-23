@@ -38,21 +38,21 @@ Getting the two matrices together, we get the PPM, also referred as **P**:
 ![[Pasted image 20230501181404.png]]
 P is a 3x4 full-rank matrix = $P_{int}G$
 
-# Lens distorsion
-PPM is based on [[Pinhole Camera model]], but real [[Lenses]] introduce distorsions to it.
+# Lens distortion
+PPM is based on [[Pinhole Camera model]], but real [[Lenses]] introduce distortions to it.
 We need to take into account their effect:
 ![[Pasted image 20230501182600.png]]
 
-KINDS OF DISTORSIONS:
-- **Radial distorsion** -> lens curvature (making straight lines curve)
-	- **Barrel distorsion** -> straight lines bend outwards
+KINDS OF DISTORTIONS:
+- **Radial distortion** -> lens curvature (making straight lines curve)
+	- **Barrel distortion** -> straight lines bend outwards
 	- **Pincushion distortion** -> straight line bend inwards
 ![[Pasted image 20230501183300.png]]
-- **Tangential distorsion** -> misallignments and defects of the components
+- **Tangential distortion** -> misallignments and defects of the components
 
-Lens distorsion is ==modeled through a non-linear transformation==.
+Lens distortion is ==modeled through a non-linear transformation==.
 ![[Pasted image 20230501192607.png]]
-L(r) is the **radial distorsion function**, proportional to the radius r (distance to the center of image in (0,0)).
+L(r) is the **radial distortion function**, proportional to the radius r (distance to the center of image in (0,0)).
 ![[Pasted image 20230501193602.png]]
 This adds k new parameters to the complete camera model
 
