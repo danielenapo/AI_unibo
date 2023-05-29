@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2aaf8c5d09fb79a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Learning/Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "89c5743c3aa2b152",
@@ -114,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -131,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Camera calibration.md"
+                "file": "Neuroscience/Learning/Pavlovian conditioning.md"
               }
             }
           },
@@ -203,24 +213,25 @@
   },
   "active": "60779828dd17bdcb",
   "lastOpenFiles": [
-    "Pasted image 20230516180245.png",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Pasted image 20230516175934.png",
-    "Pasted image 20230516175917.png",
-    "Pasted image 20230516175745.png",
+    "Neuroscience/Learning/Learning.md",
+    "Neuroscience/Documents/Pasted image 20230529104054.png",
+    "Neuroscience/Learning/Pavlovian conditioning.md",
+    "Neuroscience/Documents/Pasted image 20230529110620.png",
+    "Neuroscience/Documents/Pasted image 20230529110527.png",
+    "Neuroscience/Documents/Pasted image 20230529104646.png",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Pasted image 20230505183718.png",
-    "Pasted image 20230505183657.png",
-    "Pasted image 20230505183203.png",
-    "Pasted image 20230505181329.png",
-    "Pasted image 20230505175644.png",
-    "Pasted image 20230505175418.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230505175418.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230505175644.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230516180245.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230516175745.png",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230516175934.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230516175917.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230504111212.png",
     "Image Processing & Computer Vision/Image Processing/Camera calibration 1.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
@@ -230,7 +241,6 @@
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Computer Vision",
-    "Neuroscience/Learning/Learning.md",
     "Machine Learning/Machine learning.canvas",
     "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
@@ -240,7 +250,6 @@
     "Neuroscience/Neuroanatomy/Glial cells.md",
     "Neuroscience/Neuroanatomy/Nervous System.md",
     "Neuroscience/Neuroanatomy/Action Potential.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
     "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
     "Neuroscience/Neuroanatomy/Central Nervous System.md",
     "Neuroscience/Learning",
