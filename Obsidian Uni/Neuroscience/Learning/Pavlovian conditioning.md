@@ -13,7 +13,17 @@ The role of CS and US in classical conditioning is to establish a **contingency
 -   **Extinction** is the process of weakening and eliminating the CR. It occurs when the ==CS is repeatedly presented without the US==, leading to a decrease in the CR. Extinction does not erase the original learning, but rather creates a new association between the CS and the absence of the US. ==EXTIONTION IS NOT FORGETTING!==, it's a form of learning.
 -   **Reconsolidation** is the process of reactivating and updating a previously consolidated memory. It occurs when a reminder of the CS triggers a reactivation of the original CS-US association, which can then be modified by new learning. Reconsolidation can lead to strengthening or weakening of the CR, depending on whether the US is present or absent during reactivation. (it's much faster than acquisition, because the association was already there)
 ![[Pasted image 20230529104646.png]]
+## Timing
+**Timing** refers to the temporal relationship between the conditioned stimulus (CS) and the unconditioned stimulus (US). It affects the acquisition and expression of the conditioned response (CR).
+![[Pasted image 20230530154053.png]]
 
+- **forward conditioning**: by anticipating the CS to the US, a cause-effect relationship is established
+	- In **delay conditioning**, the CS is presented before and overlaps with the US. This is the simplest and most effective type of conditioning.
+	- In **trace conditioning**, the CS is presented before and ends before the US, leaving a gap or trace interval between them. .
+- In **simultaneous conditioning**, the CS and US are presented at the same time. This is a less effective type of conditioning, as it does not allow a prediction of the US by the CS. 
+- In **backward conditioning**, the CS is presented after the US. This is a very weak or ineffective type of conditioning, as it does not allow a prediction of the US by the CS. 
+![[Pasted image 20230530154513.png]]
+The longer the trace time, the slower (and less effective) the learning.
 ## Amygdala and Hippocampus
 
 ![[Pasted image 20230529110527.png]]

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60779828dd17bdcb",
+            "id": "c2aaf8c5d09fb79a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "c2aaf8c5d09fb79a",
+            "id": "1c1b00bfa7f5a81e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Learning.md",
+                "file": "Neuroscience/Learning/Surprise.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +126,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -141,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Neuroscience/Learning/Surprise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Neuroscience/Learning/Surprise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md"
+                "file": "Neuroscience/Learning/Surprise.md"
               }
             }
           },
@@ -211,22 +213,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60779828dd17bdcb",
+  "active": "1c1b00bfa7f5a81e",
   "lastOpenFiles": [
+    "Pasted image 20230530185847.png",
+    "Pasted image 20230530184557.png",
+    "Pasted image 20230530184348.png",
+    "Neuroscience/Neuroanatomy/Neurons.md",
+    "Neuroscience/Learning/Surprise.md",
+    "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
+    "Neuroscience/Documents/Pasted image 20230530182333.png",
+    "Neuroscience/Documents/Pasted image 20230530181700.png",
+    "Neuroscience/Documents/Pasted image 20230530181157.png",
+    "Neuroscience/Documents/Pasted image 20230530181055.png",
+    "Pasted image 20230530180855.png",
+    "Neuroscience/Documents/Pasted image 20230530180725.png",
     "Neuroscience/Learning/Learning.md",
-    "Neuroscience/Documents/Pasted image 20230529104054.png",
     "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Documents/Pasted image 20230529110620.png",
-    "Neuroscience/Documents/Pasted image 20230529110527.png",
-    "Neuroscience/Documents/Pasted image 20230529104646.png",
+    "Neuroscience/Learning/Instrumental Conditioning.md",
+    "Neuroscience/Documents/Pasted image 20230530161234.png",
+    "Neuroscience/Documents/Pasted image 20230530154513.png",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230505175418.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230505175644.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230516180245.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230516175745.png",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230516175934.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230516175917.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
@@ -245,13 +252,9 @@
     "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
     "Neuroscience/Learning/Dopamine neurons.md",
-    "Neuroscience/Learning/Instrumental Conditioning.md",
     "Neuroscience/Neuroanatomy/Brain.md",
     "Neuroscience/Neuroanatomy/Glial cells.md",
     "Neuroscience/Neuroanatomy/Nervous System.md",
-    "Neuroscience/Neuroanatomy/Action Potential.md",
-    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
-    "Neuroscience/Neuroanatomy/Central Nervous System.md",
     "Neuroscience/Learning",
     "Neuroscience/Neuroanatomy",
     "Neuroscience/Documents",

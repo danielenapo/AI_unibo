@@ -1,4 +1,8 @@
 {
   "attachmentFolderPath": "Computer Vision/Documents",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [
+    "it",
+    "en"
+  ]
 }

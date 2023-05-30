@@ -1,13 +1,13 @@
 _Different [[Linear Perceptron]]s linked together in a graph, solving the linear separability problem. Inspired by the [[Brain]]'s [[Neural Circuits]]_
 ![[Pasted image 20230119131518.png]]
 
-A neuron is a signal processor, associated with a **threshold** value. Signal transmissions between neurons is weighted.
+A (computational) neuron is a signal processor, associated with a **threshold** value. Signal transmissions between neurons is weighted.
 Signals are represented as real numbers, the threshold is a matematic function ("squashing functions")
 - Sigmoid: $\frac{1}{1+e^{-x}}$ -> maps a real functiond (domain $\Re$) to $]0,1[$ 
 - Arctangent
 
 ## Feed forward MLP
-input feeds and unput layer, that feeds hidden layers, that feeds an output layer
+input feeds and input layer, that feeds hidden layers, that feeds an output layer
 ![[Pasted image 20230119181723.png]]
 g is the **activation function** that applies the squashing function and the threshold.
 After each loop of feeding information forward, **backpropagation** is performed to propagate back the errors and update weights (according to **gradient descent**).

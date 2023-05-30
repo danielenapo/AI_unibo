@@ -7,7 +7,7 @@ _AKA **Operant conditioning**.
 An existing response is gradually changed across successive trials towards a desired _complex_ target behavior by reinforcing exact segments of behavior (==Reinforcement of successive approximations==)
 
 ### Delivering Rewards
-- **Positive reinforcement**: delivering **reward** increases probability of emmitting actions.
+- **Positive reinforcement**: delivering **reward** increases probability of emitting actions.
 - **Negative reinforcement**: omitting reward increases probability of emitting action.
 ### Delivering Outcomes
 - **Positive punishment**: delivering aversive **outcome** decreases the probability of emitting the action
