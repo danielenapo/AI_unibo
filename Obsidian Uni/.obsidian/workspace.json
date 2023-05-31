@@ -13,46 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Neuroscience/Learning/Dopamine neurons.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "1c1b00bfa7f5a81e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuroscience/Learning/Surprise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9a65a3bfa08cfc8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image formation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5cd5d7ef611e673",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Learning/Surprise.md",
+                "file": "Neuroscience/Learning/Dopamine neurons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Learning/Surprise.md",
+                "file": "Neuroscience/Learning/Dopamine neurons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Learning/Surprise.md"
+                "file": "Neuroscience/Learning/Dopamine neurons.md"
               }
             }
           },
@@ -213,13 +180,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c1b00bfa7f5a81e",
+  "active": "c2aaf8c5d09fb79a",
   "lastOpenFiles": [
-    "Pasted image 20230530185847.png",
-    "Pasted image 20230530184557.png",
-    "Pasted image 20230530184348.png",
-    "Neuroscience/Neuroanatomy/Neurons.md",
+    "Neuroscience/Neuroscience.canvas",
+    "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Learning/Surprise.md",
+    "Neuroscience/Learning/Pavlovian conditioning.md",
+    "Neuroscience/Learning/Instrumental Conditioning.md",
+    "Neuroscience/Learning/Learning.md",
+    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
+    "Neuroscience/Documents/Pasted image 20230530184348.png",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
+    "Neuroscience/Documents/Pasted image 20230530185847.png",
+    "Neuroscience/Documents/Pasted image 20230530184557.png",
+    "Neuroscience/Neuroanatomy/Neurons.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
     "Neuroscience/Documents/Pasted image 20230530182333.png",
     "Neuroscience/Documents/Pasted image 20230530181700.png",
@@ -227,12 +201,7 @@
     "Neuroscience/Documents/Pasted image 20230530181055.png",
     "Pasted image 20230530180855.png",
     "Neuroscience/Documents/Pasted image 20230530180725.png",
-    "Neuroscience/Learning/Learning.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Learning/Instrumental Conditioning.md",
     "Neuroscience/Documents/Pasted image 20230530161234.png",
-    "Neuroscience/Documents/Pasted image 20230530154513.png",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
@@ -249,12 +218,9 @@
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Computer Vision",
     "Machine Learning/Machine learning.canvas",
-    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
-    "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Neuroanatomy/Brain.md",
     "Neuroscience/Neuroanatomy/Glial cells.md",
-    "Neuroscience/Neuroanatomy/Nervous System.md",
     "Neuroscience/Learning",
     "Neuroscience/Neuroanatomy",
     "Neuroscience/Documents",

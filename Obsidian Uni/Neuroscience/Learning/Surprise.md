@@ -20,7 +20,7 @@ No learning occurs to a stimulus if it's combined with a previously conditioned 
 ![[Pasted image 20230530181700.png]]
 In this case, the light is a **redundant information**, which does not add any value (does not bring surprise), and is not learned.
 This is called **blocking effect**.
-# Surprise
+# Prediction error
 In the above case, neither contiguity and contingency were sufficent to learn the CS. In fact, it ends up that **we only learn from surprising/unpredictable events**.
 ![[Pasted image 20230530182333.png]]
 Error signals measures the difference between the outcome and the predictions (like loss functions in [[Neural Networks (MLP)]]), and this prediction error is necessary for associative learning
@@ -34,3 +34,4 @@ It states that change in value is proportional to the difference between predict
 ![[Pasted image 20230530184557.png]]
 The curve obtained is the same experimentally induced by classical conditioning. changing the learning rate $\alpha$ changes the slopes.
 ![[Pasted image 20230530185847.png]]
+Brains always make predictions to make sense of the world, often being fooled by them: it's important to remember that **CORRELATION IS NOT CAUSATION**.
