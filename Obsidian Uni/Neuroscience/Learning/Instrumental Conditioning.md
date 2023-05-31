@@ -1,5 +1,5 @@
 _AKA **Operant conditioning**. 
-[[Learning#Associative]] technique that associates between a **behaviour** and an outcome_
+[[Learning#Associative]] technique that ==associates between a **behaviour** and an outcome==_
 
 - Actions with **POSITIVE** (satisfaction) outcomes are **MORE probable** to be performed again.
 - Actions **NEGATIVE** (discomfort) positive outcomes are **LESS probable** to be performed again.
