@@ -12,8 +12,8 @@ This is essential to limbs that have protagonist and antagonist muscles: when on
 Neural circuits with feedback loops help to ensure this relationship (image A)
 ![[Pasted image 20230409180142.png]]
 
-# Neural Plasticity
-Neural connections can be modified through experience and learning (expecially chemical synapses are more able to change since they don't need to be in direct touch).
+# Plasticity
+Neural connections can be modified through experience and learning (especially chemical synapses are more able to change since they don't need to be in direct touch).
 - **Short term** changes lasts seconds/hours -> increase or decrease effectiveness of existing established connections
 - **Long term** changes are structural changes lasting days.
 

@@ -11,21 +11,33 @@
             "id": "fbc8b29b71982b17",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Neuroscience/Documents/Pasted image 20230601150509.png"
+              }
+            }
+          },
+          {
+            "id": "790d4d6a751f5bd6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+                "file": "Neuroscience/Vision/Selective attention.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ef2ba2075563e032",
+            "id": "3ad5f971a2dba71f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.3.4"
+                "file": "Neuroscience/Vision/Human vision system.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -121,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+                "file": "Neuroscience/Vision/Selective attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+                "file": "Neuroscience/Vision/Selective attention.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Learning/Goal-directed vs Habitual learning.md"
+                "file": "Neuroscience/Vision/Selective attention.md"
               }
             }
           },
@@ -172,13 +183,29 @@
               "type": "graph-analysis",
               "state": {}
             }
+          },
+          {
+            "id": "5fcd67aa47621db8",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "650c17e77303786c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 408.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,47 +218,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef2ba2075563e032",
+  "active": "5fcd67aa47621db8",
   "lastOpenFiles": [
-    "Pasted image 20230531172907.png",
-    "Pasted image 20230531172737.png",
-    "Pasted image 20230531171942.png",
-    "Neuroscience/Documents/Pasted image 20230531170816.png",
-    "Neuroscience/Documents/Pasted image 20230531171506.png",
-    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
-    "Neuroscience/Documents/Pasted image 20230531171109.png",
-    "Neuroscience/Documents/Pasted image 20230531170919.png",
-    "Neuroscience/Learning/Learning.md",
-    "Neuroscience/Learning/Dopamine neurons.md",
+    "Neuroscience/Vision/Human vision system.md",
+    "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
+    "Neuroscience/Vision/Visual cortex.md",
+    "Neuroscience/Vision/Selective attention.md",
+    "Neuroscience/Learning/Pavlovian conditioning.md",
     "Neuroscience/Learning/Surprise.md",
+    "Neuroscience/Learning/Learning.md",
+    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Untitled.md",
+    "Neuroscience/Vision/Retina.md",
+    "Neuroscience/Documents/Pasted image 20230601172821.png",
+    "Neuroscience/Documents/Pasted image 20230601174635.png",
+    "Neuroscience/Documents/Pasted image 20230601174556.png",
+    "Neuroscience/Neuroscience.canvas",
+    "Neuroscience/Documents/Pasted image 20230601174247.png",
+    "Neuroscience/Documents/Pasted image 20230601170858.png",
+    "Neuroscience/Neuroanatomy/Neural Circuits.md",
+    "Neuroscience/Documents/Pasted image 20230601170330.png",
+    "Neuroscience/Documents/Pasted image 20230601165712.png",
+    "Neuroscience/Documents/Pasted image 20230601165336.png",
+    "Neuroscience/Documents/Pasted image 20230601164316.png",
+    "Neuroscience/Documents/Pasted image 20230601164531.png",
+    "Neuroscience/Vision",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Machine Learning/Hyperparameter.md",
+    "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Vision",
     "Neuroscience/Neuroanatomy/Brain.md",
     "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
-    "Neuroscience/Documents/Pasted image 20230531151857.png",
-    "Neuroscience/Documents/Pasted image 20230531162434.png",
-    "Neuroscience/Documents/Pasted image 20230531162024.png",
-    "Neuroscience/Documents/Pasted image 20230531155331.png",
-    "Neuroscience/Neuroscience.canvas",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Neuroscience/Neuroanatomy/Neurons.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Camera calibration 1.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Computer Vision",
     "Machine Learning/Machine learning.canvas",
     "Neuroscience/Learning",
@@ -240,7 +267,6 @@
     "Neuroscience",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection",
-    "Image Processing & Computer Vision/Image Processing/Filters",
-    "Image Processing & Computer Vision/Image Processing"
+    "Image Processing & Computer Vision/Image Processing/Filters"
   ]
 }

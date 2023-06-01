@@ -20,3 +20,6 @@ Learning about association of at least **two stimuli**:
 The learner learns to predict events in order to maximize rewarding outcomes, and minimize aversive outcomes.
 ## Instrumental conditioning
 Learning about association between and action (behaviour) and an outcome 
+
+
+# [[Goal-directed vs Habitual learning]]

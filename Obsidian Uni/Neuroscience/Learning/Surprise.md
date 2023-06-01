@@ -4,7 +4,7 @@ The closest the CS and US are in time, the more effective the learning. This con
 ![[Pasted image 20230530161234.png]]
 
 # Hebbian Plasticity
-To understand why contiguity is important, Hebbs stated that _=="Neurons that fire together, wire together"==_, meaning that when a cell persistently activates another one nearby, the connection between them becomes stronger.
+To understand why contiguity is important, Hebbs stated that _=="Neurons that fire together, wire together"==_, meaning that when a cell persistently activates another one nearby, the connection between them becomes stronger (following the [[Neural Circuits#Plasticity]] principle).
 
 This can be seen in the case of sensitization in Aplysia: by applying US and CS at the same time to different sensory neurons, it is possible to sensitize the conditioned response by making its connection to the motor neuron stronger thanks to the US.
 ![[Pasted image 20230530180725.png]]

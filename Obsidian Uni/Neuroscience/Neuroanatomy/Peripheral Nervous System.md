@@ -1,6 +1,6 @@
 _Delivers sensory information to CNS, and carries motor commands from CNS to muscles and glands._
-Divided into **Somatic** and **Autonomic** nervous systems
 ![[Pasted image 20230409185547.png]]
+Divided into **Somatic** and **Autonomic** nervous systems
 # Somatic nervous system
 Senory neurons that recieve informations from skin/muscles, and motor controls for muscles.
 
