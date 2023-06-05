@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Vision/Visual cortex.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "5409dd9e1093701e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Neuroscience/Documents/Pasted image 20230605164634.png"
               }
             }
           }
@@ -93,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945,
-    "collapsed": true
+    "width": 276.51103591918945
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -110,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Vision/Visual cortex.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Vision/Visual cortex.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Vision/Visual cortex.md"
+                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md"
               }
             }
           },
@@ -163,7 +172,7 @@
             }
           },
           {
-            "id": "93bb4d8013cd0a3d",
+            "id": "c84d04365cbfff70",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -171,7 +180,7 @@
             }
           },
           {
-            "id": "2cb38b377ccd8403",
+            "id": "2dd512540eaf253e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -198,32 +207,37 @@
   },
   "active": "faa18ef1adbeb853",
   "lastOpenFiles": [
-    "Pasted image 20230605151932.png",
-    "Pasted image 20230605112917.png",
-    "Neuroscience/Vision/Retina.md",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Neuroscience/Vision/Visual cortex.md",
+    "Neuroscience/Documents/Pasted image 20230605164634.png",
+    "Neuroscience/Documents/Pasted image 20230605164950.png",
+    "Neuroscience/Vision/Extrastriate cortex.md",
+    "Neuroscience/Documents/Pasted image 20230605165135.png",
+    "Pasted image 20230605164838.png",
     "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
-    "Neuroscience/Vision/Human vision system.md",
-    "Neuroscience/Documents/Pasted image 20230604120009.png",
-    "Neuroscience/Documents/Pasted image 20230604114529.png",
-    "Neuroscience/Documents/Pasted image 20230601150509.png",
+    "Neuroscience/Vision/Retina.md",
     "Neuroscience/Vision/Selective attention.md",
-    "Neuroscience/Documents/Pasted image 20230604115825.png",
-    "Neuroscience/Documents/Pasted image 20230604115007.png",
+    "Neuroscience/Documents/Pasted image 20230605112917.png",
+    "Neuroscience/Vision/Human vision system.md",
+    "Neuroscience/Documents/Pasted image 20230605160400.png",
+    "Neuroscience/Documents/Pasted image 20230605160130.png",
+    "Neuroscience/Documents/Pasted image 20230605155636.png",
+    "Neuroscience/Documents/Pasted image 20230605151932.png",
+    "Neuroscience/Documents/Pasted image 20230604120009.png",
     "Neuroscience/Learning/Pavlovian conditioning.md",
     "Neuroscience/Learning/Surprise.md",
     "Neuroscience/Learning/Learning.md",
     "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Neuroscience/Documents/Pasted image 20230601172821.png",
-    "Neuroscience/Documents/Pasted image 20230601174635.png",
-    "Neuroscience/Documents/Pasted image 20230601174556.png",
     "Neuroscience/Neuroscience.canvas",
-    "Neuroscience/Documents/Pasted image 20230601174247.png",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
     "Neuroscience/Vision",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
     "Machine Learning/Hyperparameter.md",
     "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Vision",
@@ -232,12 +246,7 @@
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Neuroscience/Neuroanatomy/Neurons.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration 1.md",
     "Image Processing & Computer Vision/Computer Vision",
     "Machine Learning/Machine learning.canvas",
     "Neuroscience/Learning",

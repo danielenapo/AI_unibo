@@ -16,4 +16,4 @@ Visual processng is mediated by the retino-geniculo-striate pathwy, which includ
 - [[Retina]]
 - [[Lateral geniculate nucleus (LGN)]]
 - Primary [[Visual cortex#V1]] , or striate cortex
-- Extrastriate cortex (parietal cortex and ventral pathway)
+- [[Extrastriate cortex]] (parietal cortex and ventral pathway)
