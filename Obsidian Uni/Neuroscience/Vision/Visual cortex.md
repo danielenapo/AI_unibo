@@ -10,3 +10,13 @@ That neuron responds only when the stimulus is presented in its field.
 ![[Pasted image 20230601174635.png]]
 The response is strongest when is presented in the middle of the RF, and gets weaker further along: it can be described by a 2D Gaussian.
 The higher the processing level, the bigger the receptive fields get for single neurons (like in CNNs).
+## Simple and Complex cells
+- **Simple cells** add together the signals of many [[Lateral geniculate nucleus (LGN)]] cells, so that its receptive field becomes prolungated (not circularly simmetric), so that it can be ==sensible to orientation==.
+![[Pasted image 20230605112917.png]]
+- **Complex cells**, in a similar way add together many simple cells. It ==responds to both orientation and movement==.
+## Ice cube model of the cortical structure
+In V1, neurons with similar functional properties are close together.
+1) **Cortical columns** -> neurons in same column share the same preferred orientation (i.e. vertical)
+2) **Ocular dominance columns** -> groups of neurons that responds stronger to stimuli from one of the two eyes
+3) **Blob and interblob** -> blob groups of neuron sensible to certain colors of the stimulus
+![[Pasted image 20230605151932.png]]

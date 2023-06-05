@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0b4b585599048cae",
+        "id": "50b92ff53afc620c",
         "type": "tabs",
         "children": [
           {
-            "id": "fbc8b29b71982b17",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Neuroscience/Documents/Pasted image 20230601150509.png"
-              }
-            }
-          },
-          {
-            "id": "790d4d6a751f5bd6",
+            "id": "faa18ef1adbeb853",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Vision/Selective attention.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ad5f971a2dba71f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuroscience/Vision/Human vision system.md",
+                "file": "Neuroscience/Vision/Visual cortex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 276.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f850c3cda371cd2b",
@@ -132,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Vision/Selective attention.md",
+                "file": "Neuroscience/Vision/Visual cortex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Vision/Selective attention.md",
+                "file": "Neuroscience/Vision/Visual cortex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Vision/Selective attention.md"
+                "file": "Neuroscience/Vision/Visual cortex.md"
               }
             }
           },
@@ -185,23 +163,23 @@
             }
           },
           {
-            "id": "5fcd67aa47621db8",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "650c17e77303786c",
+            "id": "93bb4d8013cd0a3d",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
               "state": {}
             }
+          },
+          {
+            "id": "2cb38b377ccd8403",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -218,30 +196,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fcd67aa47621db8",
+  "active": "faa18ef1adbeb853",
   "lastOpenFiles": [
-    "Neuroscience/Vision/Human vision system.md",
-    "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
+    "Pasted image 20230605151932.png",
+    "Pasted image 20230605112917.png",
+    "Neuroscience/Vision/Retina.md",
     "Neuroscience/Vision/Visual cortex.md",
+    "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
+    "Neuroscience/Vision/Human vision system.md",
+    "Neuroscience/Documents/Pasted image 20230604120009.png",
+    "Neuroscience/Documents/Pasted image 20230604114529.png",
+    "Neuroscience/Documents/Pasted image 20230601150509.png",
     "Neuroscience/Vision/Selective attention.md",
+    "Neuroscience/Documents/Pasted image 20230604115825.png",
+    "Neuroscience/Documents/Pasted image 20230604115007.png",
     "Neuroscience/Learning/Pavlovian conditioning.md",
     "Neuroscience/Learning/Surprise.md",
     "Neuroscience/Learning/Learning.md",
     "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Neuroscience/Vision/Retina.md",
     "Neuroscience/Documents/Pasted image 20230601172821.png",
     "Neuroscience/Documents/Pasted image 20230601174635.png",
     "Neuroscience/Documents/Pasted image 20230601174556.png",
     "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Documents/Pasted image 20230601174247.png",
-    "Neuroscience/Documents/Pasted image 20230601170858.png",
     "Neuroscience/Neuroanatomy/Neural Circuits.md",
-    "Neuroscience/Documents/Pasted image 20230601170330.png",
-    "Neuroscience/Documents/Pasted image 20230601165712.png",
-    "Neuroscience/Documents/Pasted image 20230601165336.png",
-    "Neuroscience/Documents/Pasted image 20230601164316.png",
-    "Neuroscience/Documents/Pasted image 20230601164531.png",
     "Neuroscience/Vision",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
