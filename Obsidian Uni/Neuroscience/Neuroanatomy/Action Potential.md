@@ -6,13 +6,15 @@ It's given by a fast, relevant ==change in the electrical state of the neuron==,
 ![[Pasted image 20230408180748.png]]
 The cellular membrane ensures that there is a ==**-70 mV** electric potential== between the inside and outside of the cell (namely, the Cytoplasm and extracellular fluids).
 This is the **resting state**, which is mantained by **2 mechanisms**:
-- **Na+/K+ pumps**
-	- **uses energy** to transport ions through the membrane (requires ATP)
-	- Transport Na+ outside and K+ inside -> concentration gradient (imbalance)
+
+## **Na+/K+ pumps**
+- **uses energy** to transport ions through the membrane (requires ATP)
+- Transport Na+ outside and K+ inside -> concentration gradient (imbalance)
 ![[Pasted image 20230408180136.png]]
-- **Ion channels**
-	- Allow Ions to flow passively (**no energy** required) according to the natural concentration gradient imbalance provided by the Na+/K+ pumps
-	- Creates **electrical gradient**, as when K+ exits, leaves behind a negative charge
+
+## **Ion channels**
+- Allow Ions to flow passively (**no energy** required) according to the natural concentration gradient imbalance provided by the Na+/K+ pumps
+- Creates **electrical gradient**, as when K+ exits, leaves behind a negative charge
 ![[Pasted image 20230408180356.png]]
 
 Eventually, the force of the concentration gradient pushing K+ out is the same as the electrical gradient bringing K+ in -> ==**electrochemical equilibrium of -70mV**==, which can be exploited for signaling.
@@ -40,7 +42,7 @@ Eventually, the force of the concentration gradient pushing K+ out is the same a
 ## Nodes of Ranvier
 In myelinated neurons, Na+ voltage-gated channels are located in the gaps between [[Glial cells]]. These "Nodes of Ranvier" act as signal amplifiers.
 ![[Pasted image 20230408192723.png]]
-## All-or-none
+## All-or-none behavior
 All action potentials have the same amplitude, in every kind of neuron.
 This means that **strength of signal** is not given by amplitude, but by **frequency**.
 
