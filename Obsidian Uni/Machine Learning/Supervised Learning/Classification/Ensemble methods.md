@@ -4,8 +4,8 @@ If the base classifiers are truly independent, we can apply binomial distributio
 
 ## Methods of data sampling
 - **Bagging** -> sample with replacement (puts back randomly), not really independent 
-- **Boosting** -> sample without replacement (increasing at each extarction the probability to find rare points)
-- **[[AdaBoost]]** -> weights importance of base calssifiers depending on error rate
+- **Boosting** -> sample without replacement (increasing at each extraction the probability to find rare points)
+- **[[AdaBoost]]** -> weights importance of base classifiers depending on error rate
 - **Manipulating class labels** ->for each classifier, randomly partitions class labels in subsets, then re-labels dataset. 
 - **[[Random forest]]**
 ![[Pasted image 20230119190738.png]]

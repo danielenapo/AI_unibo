@@ -1,9 +1,9 @@
 Based on statistics (Bayes' theorem), and the concept of independence.
 ![[Pasted image 20230119114046.png]]
-H is the hypotesis (uncertain), and E is the evidence.
+H is the hypothesis (uncertain), and E is the evidence.
 ==It's called naive, because it makes the (naive) assumption that every attribute is independent **in each class** ==(but works in lot of cases).
 ## Zero probability problem
-In case a particular value never occurs in elements of class c, its probability becomes zero. But just because this isn't represented in the dataset, it doesen't mean that prob. should be zero! (common in domain with many possible values)
+In case a particular value never occurs in elements of class c, its probability becomes zero. But just because this isn't represented in the dataset, it doesn't mean that prob. should be zero! (common in domain with many possible values)
 
 ### Laplace smoothing
 The solution is considering the *prior probabilities*.
@@ -15,4 +15,4 @@ note: if $\alpha=0$, we obtain the unsmoothed formula. Higher values of $\alpha$
 Smoothing is not applicable, we have to use instead **Gaussian distributions** (mean and variance).
 
 ## Not independent problem
-In case the independence hypotesis is violated, feature selection should be performed to remove (or aggregate) the dependent features.
+In case the independence hypothesis is violated, feature selection should be performed to remove (or aggregate) the dependent features.

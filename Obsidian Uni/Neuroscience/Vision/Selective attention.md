@@ -63,6 +63,7 @@ In the second trial, it had to attend to one of them.
 When both were present, and the monkey was asked to pay attention to the ineffective (green) stimulus, the response was like if the red one was not in the RF at all, even though it was there!
 ![[Pasted image 20230607155017.png]]
 It's like if attention filters out unattended stimuli from the RF, or it shrinks the RF.
+
 ## Feed forward model
 Given two input neurons, x1 and x1, one for an effective stimulus, another ineffective, are connected with neuron Y in v4.
 One of them is attended (a1 for x1, a2 for x2), and attention has a multiplicative effect on the strength (excitatory or inhibitory).
@@ -71,5 +72,29 @@ Consequently, with attention the response of the cell is driven towards response
 ### Population of neurons
 By using an array of electrodes, it's possible to track together a cluster of V4 neurons. Responses of sensory neurons are variable
 Through attention based experiments. attention reduced variability of single neurons, and ==decreased noise correlation== (amount of noise of a neuron cluster). This reduction can improve the signal-to-noise ratio of the population and make it easier to read out the relevant information.
+
 # Bottom-up attention
-Early low level layers of the visual field process the whole 
+Early low level layers of the visual field process the whole visual input in a parallel way, and then decompose it through an ensamble of feature filtering processes.
+The various feature maps then feed into a **saliency map**, whose activity represents visual saliency, which can bias attention on the basis on the most salient bottom-up cues.
+![[Pasted image 20230613111002.png]]
+- **Popout** stimuli draw attention in a bottom-up manner
+- **Conjunction** features are more difficult to locate, requires time and effort
+![[Pasted image 20230613111220.png]]
+V4 neurons show enhanced respone to popout stimuli.
+Also, when recording signal in a single receptive field changing texture alignment, V4 activity got enhanced even if what changed was only the background outside the RF:
+![[Pasted image 20230613112011.png]]
+
+# Overt vs Covert
+- **Overt attention** -> gaze and focus spatially aligned
+- **Covert attention** -> changing attention without moving the eyes
+![[Pasted image 20230613112643.png]]
+## Premotor theory
+The same neural mechanisms involved in directing spatial attention also guides saccade programming
+### Frontal Eye Field (FEF)
+![[Pasted image 20230613113253.png]]
+FEF neurons receive input from visual areas and outputs to parts involved in saccade movement, but also returns feedback projections to much of the visual cortex.
+### Presaccadic enhancement
+Visual activity in brain regions is enhanced before an animal targets a RF stimulus wit eye movement (attention is shifted before saccade).
+We can see that response in the RF is enhanced when preparing a saccade, compared to fixation.
+![[Pasted image 20230613114839.png]]
+It has experimentally proved that microstimulating electricallyt the FEF area changes both the attention and saccade behaviors, confirming premotor theory and the role of FEF. 

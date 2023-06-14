@@ -4,35 +4,98 @@
     "type": "split",
     "children": [
       {
-        "id": "4c702ad4a26584c0",
+        "id": "bfbe755a340b9767",
         "type": "tabs",
         "children": [
           {
-            "id": "f954809fa3e31437",
+            "id": "d0f7796d7b9e0a87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Nervous System.md",
+                "file": "Machine Learning/Supervised Learning/Regression/Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6daa7cf2530b4f03",
+            "id": "9d7f9231e81cbd0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Neurons.md",
+                "file": "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b0e926171ef7b2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Regression/Multiple Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a2f31054553d679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f97a85bb5119c2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Vision/Human vision system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd1cd39f5b53b5a2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Neuroscience/Neuroscience.canvas",
+                "viewState": {
+                  "x": 44,
+                  "y": 1088.5006597549482,
+                  "zoom": -1.518836483223429
+                }
+              }
+            }
+          },
+          {
+            "id": "7d2adf1faba6bda6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neuroscience/Neuroanatomy/Action Potential.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Neurons.md",
+                "file": "Neuroscience/Neuroscience.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Neurons.md",
+                "file": "Neuroscience/Neuroscience.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Neuroanatomy/Neurons.md"
+                "file": "Neuroscience/Neuroscience.canvas"
               }
             }
           },
@@ -175,7 +238,7 @@
             }
           },
           {
-            "id": "c259183a74b84a2f",
+            "id": "a03d2fb81de64fdd",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -183,7 +246,7 @@
             }
           },
           {
-            "id": "7216b01d01a03752",
+            "id": "09fac6b0e99494a7",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -208,56 +271,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6daa7cf2530b4f03",
+  "active": "cd1cd39f5b53b5a2",
   "lastOpenFiles": [
-    "Neuroscience/Neuroanatomy/Brain.md",
-    "Neuroscience/Neuroanatomy/Action Potential.md",
-    "Neuroscience/Neuroanatomy/Nervous System.md",
-    "Neuroscience/Neuroanatomy/Glial cells.md",
-    "Neuroscience/Neuroanatomy/Neurons.md",
-    "Neuroscience/Neuroanatomy/Central Nervous System.md",
-    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Vision/Visual cortex.md",
-    "Neuroscience/Documents/Pasted image 20230606111424.png",
-    "Neuroscience/Documents/Pasted image 20230607203018.png",
-    "Neuroscience/Documents/Pasted image 20230607155017.png",
-    "Neuroscience/Documents/Pasted image 20230607121509.png",
-    "Neuroscience/Documents/Pasted image 20230606175554.png",
-    "Neuroscience/Documents/Pasted image 20230606173327.png",
-    "Neuroscience/Documents/Pasted image 20230606171948.png",
-    "Neuroscience/Documents/Pasted image 20230606165517.png",
-    "Neuroscience/Documents/Pasted image 20230606164055.png",
-    "Neuroscience/Documents/Pasted image 20230606125144.png",
     "Neuroscience/Vision/Extrastriate cortex.md",
-    "Neuroscience/Vision/Human vision system.md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Neuroscience/Vision/Selective attention.md",
+    "Top down attention.md",
     "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
     "Neuroscience/Vision/Retina.md",
-    "Neuroscience/Vision/Selective attention.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
+    "Neuroscience/Vision/Human vision system.md",
+    "Machine Learning/Preprocessing/Preprocessing.md",
+    "Neuroscience/Neuroanatomy/Action Potential.md",
     "Neuroscience/Learning/Surprise.md",
-    "Neuroscience/Learning/Learning.md",
     "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Neuroscience/Neuroanatomy/Neural Circuits.md",
+    "Neuroscience/Learning/Learning.md",
+    "Neuroscience/Learning/Dopamine neurons.md",
+    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
+    "Machine Learning/Data.md",
+    "Machine Learning/Preprocessing/Rescaling.md",
+    "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
+    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+    "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
+    "Machine Learning/Supervised Learning/Regression/Regression.md",
+    "Machine Learning/Supervised Learning/Regression/Multiple Regression.md",
+    "Machine Learning/Supervised Learning/Classification/Classification.md",
+    "Machine Learning/Supervised Learning/Classification/Ensemble methods.md",
+    "Machine Learning/Supervised Learning/Classification/Random forest.md",
+    "Machine Learning/Supervised Learning/Classification/Support Vector Machines (SVM).md",
+    "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
+    "Machine Learning/Machine learning.canvas",
+    "Preprocessing",
+    "Neuroscience/Neuroscience.canvas",
+    "Neuroscience/Documents/Pasted image 20230613111002.png",
+    "Neuroscience/Documents/Pasted image 20230613114839.png",
+    "Neuroscience/Documents/Pasted image 20230613113253.png",
+    "Neuroscience/Documents/Pasted image 20230613112643.png",
+    "Neuroscience/Documents/Pasted image 20230613112011.png",
+    "Neuroscience/Documents/Pasted image 20230613111220.png",
+    "Neuroscience/Documents/Pasted image 20230612160111.png",
+    "Neuroscience/Documents/Pasted image 20230612160614.png",
+    "Neuroscience/Documents/Pasted image 20230612160240.png",
+    "Neuroscience/Documents/Pasted image 20230606111424.png",
     "Neuroscience/Vision",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "Machine Learning/Hyperparameter.md",
-    "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Vision",
     "Image Processing & Computer Vision/Computer Vision",
-    "Machine Learning/Machine learning.canvas",
     "Neuroscience/Learning",
     "Neuroscience/Neuroanatomy",
     "Neuroscience/Documents",
     "Neuroscience",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection",
-    "Image Processing & Computer Vision/Image Processing/Filters"
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature"
   ]
 }

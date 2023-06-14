@@ -10,10 +10,10 @@ two types of nodes:
 
 Here's their content:
 ![[Pasted image 20230117124006.png]]
-# Tree generation
 
+# Tree generation
 ## Entropy
-DTs make their decision based on entropy in information theory (Shennon)
+DTs make their decision based on entropy in information theory (Shannon)
 Given a source X with v possible values, and $p_j$ the probability for the j-th value, the entropy of source X is:
 $H(x)= -\sum_{j}^{v} p_{j}log_{2}(p_j)$
 - high entropy=uncertainty, probabilities are similar (infinite for equiprobability)
@@ -21,16 +21,13 @@ $H(x)= -\sum_{j}^{v} p_{j}log_{2}(p_j)$
  ![[Pasted image 20230117121037.png]]
 DTs split the dataset according to a threshold value, thus changing the entropy for each subset (becomes the weighted sum of entropy in the two parts), **REDUCING THE ENTROPY** (aka information gain).
 ==The goal is finding the threshold values that maximize information gain (i.e. minimizing entropy)==
-
-## Recursion step
-each time we split the dataset, entropy is reduced. We keep splitting untl:
+### Recursion step
+each time we split the dataset, entropy is reduced. We keep splitting until:
 - Leaves have only 1 class (entropy=0).
 - No more separations are possible (no more tests).
 - No more separations give higher information gain.
-
 In the last two cases, we are left with **intrinsic training error** (model is incapable of reproduce completely the ground truth). this might depend on data.
-
-## Estimating error
+### Estimating error
 By comparing the true labels with the predicted ones we can estimate accuracy (in both train and test sets).
 Accuracy can be low due to **OVERFITTING**, especially if we use too many splits, due to:
 - presence of noise

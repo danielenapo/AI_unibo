@@ -13,10 +13,10 @@ Maximum margin is better for generalization (less overfitting)
 ## Soft margin
 It's quite common that a separating hyperplane cannot be found, so it's acceptable to find one that **almost** separates them.
 The "tolerance" for the amount of bad classification permitted is given by the [[Hyperparameter]] "C", which can control the amount of overfitting.
-Tunong of C is crucial for SVMs.
+Tuning of C is crucial for SVMs.
 
 # Non-linearly separable data
-nonlinearity can be overcome with a **non linear mapping** (a change of basis):
+non linearity can be overcome with a **non linear mapping** (a change of basis):
 Data is mapped into a new space (*"feature space"*), such that a linear hyperplane can be found.
 
 The mapping requires lot of computations, so standard **kernel functions** are used to reduce complexity.

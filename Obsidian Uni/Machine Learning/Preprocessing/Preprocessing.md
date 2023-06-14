@@ -1,4 +1,4 @@
-Procesing [[Data]] before training is essential to obtain good results, or to ease the training process (can speed up a lot).
+Processing [[Data]] before training is essential to obtain good results, or to ease the training process (can speed up a lot).
 In Data science, the phrase "garbage in garbage out" means if a model is fed with bad quality data, it will perform poorly.
 AKA **cleaning** data.
 
@@ -24,13 +24,13 @@ Finds projections that capture most of the data variation, using the eigenvector
 projecting on this new line is much better than just projecting on one axis (much less information loss).
 
 # Feature subset selection
-_Local method to reduce dimensionality_, in particular reduntant ones or irrelevant.
+_Local method to reduce dimensionality_, in particular redundant ones or irrelevant.
 Methods:
 1. Brute force -> tries all possible feature subsets, measuring effectiveness
 2. Embedded approach-> features selection occurs naturally from data mining algorithm (eg decision trees)
 3. Filter approach -> feature are selected before the data mining algorithm starts (eg with domain knowledge).
 4. Wrapper approaches -> data mining algo can choose best set of attributes
-[[Scikit-learn]] has methods for FSS. (module `feature_selection`, example `SelectKBest`)
+_[[Scikit-learn]] has methods for FSS. (module `feature_selection`, example `SelectKBest`)_
 
 ## Feature creation
 _Adding new features that can capture more efficiently some characteristics of the data_.

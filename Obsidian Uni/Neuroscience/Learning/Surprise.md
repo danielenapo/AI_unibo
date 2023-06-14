@@ -1,25 +1,30 @@
-[[Pavlovian conditioning#Timing]] has an important role in classical, associative learning.
+We only learn from surprising, unexpected events that disrupt our predictions.
+
 # Contiguity
+[[Pavlovian conditioning#Timing]] has an important role in classical, associative learning.
 The closest the CS and US are in time, the more effective the learning. This concept is known as **contiguity** (closeness in time/space between CS and US)
 ![[Pasted image 20230530161234.png]]
-
 # Hebbian Plasticity
+Neural connections change through experience and learning.
 To understand why contiguity is important, Hebbs stated that _=="Neurons that fire together, wire together"==_, meaning that when a cell persistently activates another one nearby, the connection between them becomes stronger (following the [[Neural Circuits#Plasticity]] principle).
 
 This can be seen in the case of sensitization in Aplysia: by applying US and CS at the same time to different sensory neurons, it is possible to sensitize the conditioned response by making its connection to the motor neuron stronger thanks to the US.
 ![[Pasted image 20230530180725.png]]
+
 # Contingency
 contiguity is not sufficient in some cases.
 ![[Pasted image 20230530181055.png]]
-In this example, in group 2 the CS is seen as a random stimulus, even if every time it concides with the US -> it does not give informations about when the US is going to happen, since most of times it does not.
+In this example, in group 2 the CS is seen as a random stimulus, even if every time it coincides with the US -> it does not give information about when the US is going to happen, since most of times it does not.
 ![[Pasted image 20230530181157.png]]
 In this example, 40-60 probability is not enough to be percieved as informative (almost random). In the second case, the shock is more probable to appear when the bell rings, so it generates a CR.
 In this case, temporal contiguity is not the key, but rather the information and the ==**causal relationship**== that is being perceived.
+
 ## Blocking
 No learning occurs to a stimulus if it's combined with a previously conditioned stimulus:
 ![[Pasted image 20230530181700.png]]
 In this case, the light is a **redundant information**, which does not add any value (does not bring surprise), and is not learned.
 This is called **blocking effect**.
+
 # Prediction error
 In the above case, neither contiguity and contingency were sufficent to learn the CS. In fact, it ends up that **we only learn from surprising/unpredictable events**.
 ![[Pasted image 20230530182333.png]]
