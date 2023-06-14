@@ -13,6 +13,7 @@ Dopamine is a **neuromodulator**: a neurotransmitter having effects other than (
 The last 2 are essential for reinforcement learning.
 
 ## Experiments
+<<<<<<< HEAD
 1) ==Rat brain stimulation==
 By looking at the rat's brain, the most rewarding effect came from directly exciting dopamine pathways (via electric stimulation in the brain). Even if it had to get electrocuted to press it, it would do it anyway until eventually dying by exhaustion.
 ![[Pasted image 20230531151857.png]]
@@ -54,3 +55,4 @@ On the lowerpart they overlap though -> **drugs affect mostly learning through r
 Using drugs effectively changed the behaviour (related to dopamine neurons)
 ## Actor-critic model
 ![[Pasted image 20230531162434.png]]
+ 

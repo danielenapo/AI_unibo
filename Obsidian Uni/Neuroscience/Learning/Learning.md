@@ -10,7 +10,7 @@ e.g. we're scared of fireworks at first for the loud noises, then we like them
 e.g. stop rubbing when feeling itch, since we know it may cause injuries
 
 # Associative
-Learning about associations between stimulus or actions
+Learning about associations between **multiple** stimulus or actions
 ## Classical conditioning
 Learning about association of at least **two stimuli**:
 - A neutral **conditioned stimulus**
@@ -18,8 +18,8 @@ Learning about association of at least **two stimuli**:
 	- **primary reinforcer** -> biologically prepared to elicit a response (sex, food or pain)
 	- **secondary reinforcer** -> a stimulus that has previously become relevant from associative learning. (e.g. money for humans)
 The learner learns to predict events in order to maximize rewarding outcomes, and minimize aversive outcomes.
-## Instrumental conditioning
-Learning about association between and action (behaviour) and an outcome 
 
+## Instrumental conditioning
+Learning about association between and action (behavior) and an outcome 
 
 # [[Goal-directed vs Habitual learning]]

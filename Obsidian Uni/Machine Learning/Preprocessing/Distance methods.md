@@ -4,6 +4,7 @@
 	$SMC=\frac{number-of-matching-attributes}{sum-of-all-attributes}$
 - **DISSIMILARITY** -> opposite, no upper bound 
 - **PROXIMITY**
+
 # Distance methods
 ## Euclidean distance - $L_{2}$
 It's a standard method to measure distance 
@@ -38,7 +39,8 @@ it's 0 if the're equal, 1 if perpendicular (max value)
 ## How to choose the right proximity measure
 It depends on the kind of data:
 - dense, continuous -> euclidean
-- sparse, asymmetrix -> cosine, jaccard
+- sparse, asymmetric -> cosine, Jaccard
+
 # Correlation
 _Numerical measures of linear relationships between two attributes_.
 to compute correlation, standardize the two attributes, and consider the ordered of values in data records. compute dot product. range $[0,1]$

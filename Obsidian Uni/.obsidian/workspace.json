@@ -1,54 +1,45 @@
 {
   "main": {
-    "id": "dac63b1c53841d29",
+    "id": "b936b01e987d2fde",
     "type": "split",
     "children": [
       {
-        "id": "50b92ff53afc620c",
+        "id": "b7ddc784cc6e5495",
         "type": "tabs",
         "children": [
           {
-            "id": "faa18ef1adbeb853",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Neuroscience/Neuroscience.canvas",
-                "viewState": {
-                  "x": 62,
-                  "y": 730.2713680869972,
-                  "zoom": -1.843373037690331
-                }
-              }
-            }
-          },
-          {
-            "id": "24ee9dc6b4d37d24",
+            "id": "03dd6d92d2b28f65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Pavlovian conditioning.md",
+                "file": "Machine Learning/Preprocessing/Preprocessing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "29481ebf0cb1631c",
+            "id": "977c5d5f9c00e9f3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "5409dd9e1093701e",
+            "id": "40fc2f1df117d53e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Neuroscience/Documents/Pasted image 20230605164634.png"
+                "file": "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -58,16 +49,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a6a84d8e2ad56a25",
+    "id": "6981f7944c6b4d08",
     "type": "split",
     "children": [
       {
-        "id": "735351d4ab51fabb",
+        "id": "cf0967bd8c30adf4",
         "type": "tabs",
-        "dimension": 69.11764705882352,
         "children": [
           {
-            "id": "e5d22c70c8bce234",
+            "id": "248abccca7f1c0c5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,12 +67,12 @@
             }
           },
           {
-            "id": "a4e81cb56bc55de6",
+            "id": "5ef1b3b725c3e00d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "ganglion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,15 +82,7 @@
             }
           },
           {
-            "id": "9f071a5e0936a4b7",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "d1ddf09afa3fb819",
+            "id": "99d23bf5c0f6c40a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,41 +90,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "89c5743c3aa2b152",
-        "type": "tabs",
-        "dimension": 30.882352941176475,
-        "children": [
-          {
-            "id": "13940b26950e9e11",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 276.51103591918945
+    "width": 300
   },
   "right": {
-    "id": "f850c3cda371cd2b",
+    "id": "c56b38b0174915ac",
     "type": "split",
     "children": [
       {
-        "id": "2f26627d26b5f032",
+        "id": "435da45fad0836e5",
         "type": "tabs",
         "children": [
           {
-            "id": "dd26faf9f3aa1c3c",
+            "id": "2610823ec480d35a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Neuroscience.canvas",
+                "file": "Machine Learning/Preprocessing/Preprocessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,19 +121,19 @@
             }
           },
           {
-            "id": "bb6cc86ce64b5a40",
+            "id": "bb53ce528b81e014",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Neuroscience.canvas",
+                "file": "Machine Learning/Preprocessing/Preprocessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c9cc53dcd6c9c984",
+            "id": "76bad6c74d50e917",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -177,25 +144,17 @@
             }
           },
           {
-            "id": "0babcd6ceb9d7154",
+            "id": "33de9a0f94a7c5d9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Neuroscience.canvas"
+                "file": "Machine Learning/Preprocessing/Preprocessing.md"
               }
             }
           },
           {
-            "id": "622c5efee225017c",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
-            "id": "0e1c74be5566715e",
+            "id": "4ad71975c6d88583",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -203,7 +162,7 @@
             }
           },
           {
-            "id": "2194dabaad5d0466",
+            "id": "eb830229148536f7",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -211,11 +170,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -228,55 +187,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "faa18ef1adbeb853",
+  "active": "eb830229148536f7",
   "lastOpenFiles": [
-    "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+    "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
+    "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
+    "Machine Learning/Preprocessing/Preprocessing.md",
+    "Machine Learning/Preprocessing/Distance methods.md",
+    "Machine Learning/Preprocessing/Rescaling.md",
+    "Pasted image 20230614175455.png",
+    "Machine Learning/Preprocessing/Type conversion.md",
+    "Machine Learning/Preprocessing/Sampling.md",
+    "Machine Learning/Machine learning.canvas",
+    "Machine Learning/Supervised Learning/Classification/Classification.md",
+    "Pasted image 20230614173717.png",
+    "Machine Learning/images/Pasted image 20230120160934.png",
+    "Neuroscience/Neuroscience.md",
+    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Learning/Surprise.md",
     "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Neuroscience.canvas",
-    "Neuroscience/Neuroscience.md",
-    "Neuroscience/Documents/Pasted image 20230614155112.png",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Neuroscience/Vision/Visual cortex.md",
-    "Neuroscience/Documents/Pasted image 20230605164634.png",
-    "Neuroscience/Documents/Pasted image 20230605164950.png",
-    "Neuroscience/Vision/Extrastriate cortex.md",
-    "Neuroscience/Documents/Pasted image 20230605165135.png",
-    "Pasted image 20230605164838.png",
-    "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
-    "Neuroscience/Vision/Retina.md",
-    "Neuroscience/Vision/Selective attention.md",
-    "Neuroscience/Documents/Pasted image 20230605112917.png",
-    "Neuroscience/Vision/Human vision system.md",
-    "Neuroscience/Documents/Pasted image 20230605160400.png",
-    "Neuroscience/Documents/Pasted image 20230605160130.png",
-    "Neuroscience/Documents/Pasted image 20230605155636.png",
-    "Neuroscience/Documents/Pasted image 20230605151932.png",
-    "Neuroscience/Learning/Learning.md",
-    "Neuroscience/Neuroanatomy/Neural Circuits.md",
-    "Neuroscience/Vision",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "Machine Learning/Hyperparameter.md",
-    "Neuroscience/Vision",
-    "Neuroscience/Neuroanatomy/Brain.md",
-    "Neuroscience/Neuroanatomy/Peripheral Nervous System.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Neuroscience/Neuroanatomy/Neurons.md",
-    "Image Processing & Computer Vision/Computer Vision",
-    "Machine Learning/Machine learning.canvas",
-    "Neuroscience/Learning",
-    "Neuroscience/Neuroanatomy",
-    "Neuroscience/Documents",
-    "Neuroscience",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection",
-    "Image Processing & Computer Vision/Image Processing/Filters"
+    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+    "Neuroscience/Learning/Instrumental Conditioning.md"
   ]
 }

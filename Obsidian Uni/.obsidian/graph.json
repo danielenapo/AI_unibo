@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path: machine",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path: image",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:neuro",
+      "color": {
+        "a": 1,
+        "rgb": 964098
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.08782714112529,
+  "lineSizeMultiplier": 0.998374099693361,
+  "collapse-forces": false,
+  "centerStrength": 0.808600156885117,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 108,
+  "scale": 0.083174273534981,
+  "close": true
+}
