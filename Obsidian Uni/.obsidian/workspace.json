@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Preprocessing/Preprocessing.md",
+                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Preprocessing/Preprocessing.md",
+                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Preprocessing/Preprocessing.md",
+                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,12 +149,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Preprocessing/Preprocessing.md"
+                "file": "Neuroscience/Learning/Instrumental Conditioning.md"
               }
             }
           },
           {
-            "id": "4ad71975c6d88583",
+            "id": "c0f105139e330f13",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -162,7 +162,7 @@
             }
           },
           {
-            "id": "eb830229148536f7",
+            "id": "25928e0eac1b4b5c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -187,26 +187,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb830229148536f7",
+  "active": "03dd6d92d2b28f65",
   "lastOpenFiles": [
+    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
+    "Neuroscience/Neuroscience.canvas",
+    "Machine Learning/images/Pasted image 20230614173717.png",
+    "Machine Learning/images/Pasted image 20230614175455.png",
+    "Machine Learning/Preprocessing/Preprocessing.md",
     "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
     "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
-    "Machine Learning/Preprocessing/Preprocessing.md",
     "Machine Learning/Preprocessing/Distance methods.md",
     "Machine Learning/Preprocessing/Rescaling.md",
-    "Pasted image 20230614175455.png",
     "Machine Learning/Preprocessing/Type conversion.md",
     "Machine Learning/Preprocessing/Sampling.md",
     "Machine Learning/Machine learning.canvas",
     "Machine Learning/Supervised Learning/Classification/Classification.md",
-    "Pasted image 20230614173717.png",
     "Machine Learning/images/Pasted image 20230120160934.png",
     "Neuroscience/Neuroscience.md",
-    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Learning/Dopamine neurons.md",
     "Neuroscience/Learning/Surprise.md",
     "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Learning/Instrumental Conditioning.md"
   ]
 }

@@ -33,11 +33,11 @@ Of course group 2 learned the fastest, but surprisingly group 3 learned much muc
 
 ### Testing behaviors
 To test if a behavior is goal directed or habitual:
-1. Train -> [[Instrumental Conditioning]]
-2. Post-training manipulation -> reinforcer devaluation (make the reward less motivating, for example by giving a lot without reason) -> leads to contingency degradation (extinction)
-3. Test session -> repeat the experiment, and check the behavior
-- If the action is performed less, the learning is goal-directed
-- If the action is performed in the same way, the learning is habitual
+1. **Train** -> [[Instrumental Conditioning]]
+2. Post-training manipulation -> reinforcer devaluation (make the reward less motivating, for example by giving a lot without reason) -> leads to **contingency degradation** (extinction)
+3. **Test session** -> repeat the experiment, and check the behavior
+	- If the action is performed less, the learning is goal-directed
+	- If the action is performed in the same way, the learning is habitual
 ![[Pasted image 20230531172737.png]]
 ![[Pasted image 20230531172907.png]]
 ## Human experiments
@@ -46,13 +46,13 @@ To test if a behavior is goal directed or habitual:
 - When the volunteers were extensively trained on the same task, they instead showed signs of habitual learning
 # Model based vs model free 
 Recently a computational formalization was proposed 
-- model based = goal directed-> when environment changes, the agent updates its policies (future state) values without changing them.
-- model free = habitual -> when environment changes, the agent has to experience the consequence of actions again many times to learn the new states
+- **model based** = goal directed-> when environment changes, the agent updates its policies (future state) values without changing them -> ==TREE SYSTEM==
+- **model free** = habitual -> when environment changes, the agent has to experience the consequence of actions again many times to learn the new states -> ==CACHE SYSTEM==
 ![[Pasted image 20230601153103.png]]
 ## Hybrid model in humans
-Humans were tested through a 2-step Markov decision experiment, which consists in taking two consecutive binary choices, each one having different probabilities of reaching a particular state, and in the end the reward
+Humans were tested through a 2-step Markov decision experiment, which consists in taking two consecutive binary choices, each one having different probabilities of reaching a particular state, and in the end they could get a reward
 ![[Pasted image 20230601153454.png]]
-In a first session, some path were shown to the partecipants (no choices made, no rewards), and in a second one they were free to make choices to reach rewards. 
+In a first session, some path were shown to the participants (no choices made, no rewards), and in a second one they were free to make choices to reach rewards. 
 Results showed were best explained by an **hybrid model** between model based and free, both in behavior and MRI scans.
 - reward Prediction Error -> model free
 - state Prediction Error -> model based
