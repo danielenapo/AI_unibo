@@ -13,15 +13,16 @@ contiguity is not sufficient in some cases.
 ![[Pasted image 20230530181055.png]]
 In this example, in group 2 the CS is seen as a random stimulus, even if every time it concides with the US -> it does not give informations about when the US is going to happen, since most of times it does not.
 ![[Pasted image 20230530181157.png]]
-In this example, 40-60 probability is not enough to be percieved as informative (almost random). In the second case, the shock is more probable to appear when the bell rings, so it generates a CR.
+In this example, 40-60 probability is not enough to be perceived as informative (almost random). In the second case, the shock is more probable to appear when the bell rings, so it generates a CR.
 In this case, temporal contiguity is not the key, but rather the information and the ==**causal relationship**== that is being perceived.
 ## Blocking
 No learning occurs to a stimulus if it's combined with a previously conditioned stimulus:
 ![[Pasted image 20230530181700.png]]
 In this case, the light is a **redundant information**, which does not add any value (does not bring surprise), and is not learned.
 This is called **blocking effect**.
+
 # Prediction error
-In the above case, neither contiguity and contingency were sufficent to learn the CS. In fact, it ends up that **we only learn from surprising/unpredictable events**.
+In the above case, neither contiguity and contingency were sufficient to learn the CS. In fact, it ends up that **we only learn from surprising/unpredictable events**.
 ![[Pasted image 20230530182333.png]]
 Error signals measures the difference between the outcome and the predictions (like loss functions in [[Neural Networks (MLP)]]), and this prediction error is necessary for associative learning
 ## Rescolra-Wagner model

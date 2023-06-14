@@ -13,8 +13,10 @@ Dopamine is a **neuromodulator**: a neurotransmitter having effects other than (
 The last 2 are essential for reinforcement learning.
 
 ## Experiments
-By looking at the rat's brain, the most rewarding effect came from directly exciting dopamine pathways (via electric stimulations in the brain).
+1) ==Rat brain stimulation==
+By looking at the rat's brain, the most rewarding effect came from directly exciting dopamine pathways (via electric stimulation in the brain). Even if it had to get electrocuted to press it, it would do it anyway until eventually dying by exhaustion.
 ![[Pasted image 20230531151857.png]]
+2) ==Monkey neuron monitoring==
 By giving food to a monkey and registering its neuronal activity (dopamine pathway), it's evident that the biggest response is given when the monkey first acknowledges the presence of food (reward)
 ![[Pasted image 20230531152332.png]]
 The firing rate can signal the **magnitude of the reward**: in the figure below, increasing amount of reward were given, and the firing rate increments with reward amount.

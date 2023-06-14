@@ -30,7 +30,7 @@ Of course group 2 learned the fastest, but surprisingly group 3 learned much muc
 - Simple thought process, requires almost no thinking
 - Not flexible to environment changes (learning by heart)
 - Supported by Dorsolateral Striatum
-- 
+
 ### Testing behaviors
 To test if a behavior is goal directed or habitual:
 1. Train -> [[Instrumental Conditioning]]
