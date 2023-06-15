@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "977c5d5f9c00e9f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40fc2f1df117d53e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
+                "file": "Neuroscience/Neuroanatomy/Action Potential.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
+                "file": "Neuroscience/Neuroanatomy/Action Potential.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neuroscience/Learning/Instrumental Conditioning.md",
+                "file": "Neuroscience/Neuroanatomy/Action Potential.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neuroscience/Learning/Instrumental Conditioning.md"
+                "file": "Neuroscience/Neuroanatomy/Action Potential.md"
               }
             }
           },
           {
-            "id": "c0f105139e330f13",
+            "id": "06c8245ed41e775f",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -162,7 +138,7 @@
             }
           },
           {
-            "id": "25928e0eac1b4b5c",
+            "id": "05cfcb1a77b047b6",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -189,6 +165,17 @@
   },
   "active": "03dd6d92d2b28f65",
   "lastOpenFiles": [
+    "Neuroscience/Vision/Selective attention.md",
+    "Neuroscience/Vision/Lateral geniculate nucleus (LGN).md",
+    "Neuroscience/Vision/Retina.md",
+    "Neuroscience/Vision/Human vision system.md",
+    "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
+    "Neuroscience/Neuroanatomy/Brain.md",
+    "Neuroscience/Documents/Pasted image 20230601170330.png",
+    "Neuroscience/Neuroanatomy/Neural Circuits.md",
+    "Neuroscience/Neuroanatomy/Action Potential.md",
+    "Neuroscience/Learning/Surprise.md",
+    "Neuroscience/Learning/Instrumental Conditioning.md",
     "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
     "Neuroscience/Neuroscience.canvas",
     "Machine Learning/images/Pasted image 20230614173717.png",
@@ -205,8 +192,6 @@
     "Machine Learning/images/Pasted image 20230120160934.png",
     "Neuroscience/Neuroscience.md",
     "Neuroscience/Learning/Dopamine neurons.md",
-    "Neuroscience/Learning/Surprise.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Learning/Instrumental Conditioning.md"
+    "Neuroscience/Learning/Pavlovian conditioning.md"
   ]
 }

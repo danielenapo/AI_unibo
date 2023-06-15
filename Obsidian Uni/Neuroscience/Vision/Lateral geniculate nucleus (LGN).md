@@ -1,4 +1,5 @@
 _Six layers of [[Neural Circuits]] that joins together signals from both eyes, and passes them to the primary [[Visual cortex#V1]]._
+It directly receives information from the [[Retina#Retina Ganglion Cells (RGC)]].
 ![[Pasted image 20230601170330.png]]
 It's divided into three **Magnocellular** layers and three **Parvocellular** ones:
 ![[Pasted image 20230601170858.png]]

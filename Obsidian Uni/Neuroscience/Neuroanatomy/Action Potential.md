@@ -8,6 +8,8 @@ This is the **resting state**, which is maintained by **2 mechanisms**:
 ## **Na+/K+ pumps**
 - **uses energy** to transport ions through the membrane (requires ATP)
 - Transport Na+ outside and K+ inside (more Na+ though)-> concentration gradient (imbalance)
+- Na+ channels -> let Na+ inside, voltage gated (opens at -55mV)
+- k+ channels -> let K+ out, voltage gated (opens at +30mV to rapidly polarize the cell)
 ![[Pasted image 20230408180136.png]]
 
 ## **Ion channels**
@@ -22,9 +24,9 @@ Eventually, the force of the concentration gradient pushing K+ out is the same a
 ![[Pasted image 20230408184513.png]]
 ![[Pasted image 20230408185258.png]]
 1. **DEPOLARIZATION**: 
-	When the summed signals of the postsynaptic receptors (both excitatory and inhibitory) at one time depolarize enough the Axon Hilloc (**threshold is ==-50 mV==**), Na+ channels are opened: positive charges Na+ get in, neutralizing negative charges, depolarizing the cell. This makes other channels to open too, in a positive-feedback loop.
+	When the summed signals of the postsynaptic receptors (both excitatory and inhibitory) at one time depolarize enough the Axon Hilloc (**threshold is ==-50 mV==**), voltage gated Na+ channels are opened: positive charges Na+ get in, neutralizing negative charges, depolarizing the cell. This makes other channels to open too, in a positive-feedback loop.
 2. **OVERSHOOT**: 
-	The membrane potential reaches equilibrium at a **peak of ==+30 mV==**, and then starts to decline due to the closing of sodium channels and the opening of voltage-gated potassium channels: let K+ out, thus reducing positive charges inside, repolarizing the cell.
+	The membrane potential reaches equilibrium at a **peak of ==+30 mV==**, and then starts to decline due to the closing of sodium channels and the opening of voltage-gated K+ channels, letting K+ out, thus reducing positive charges inside, repolarizing the cell.
 3. **REPOLARIZATION**: 
 	The membrane potential rapidly becomes more negative due to the efflux of potassium ions out of the cell.
 4. **HYPERPOLARIZATION** -> _**Refractory period**_: 
@@ -33,7 +35,7 @@ Eventually, the force of the concentration gradient pushing K+ out is the same a
 	- **Limits number of action potentials** in a given time window
 	- Impose **unidirectional current flow**.
 5. **MEMBRANE REST POTENTIAL**:
-	When the flow of K+ going outside the cell through ion pumps and the K+ coming inside through Na/K+ pumps is the same, an elettrochemical equilibrium is reached, and the voltage inside the cell is -70mV.
+	When the flow of K+ going outside the cell through ion pumps and the K+ coming inside through Na/K+ pumps is the same, an electrochemical equilibrium is reached, and the voltage inside the cell is -70mV.
 
 ## Nodes of Ranvier
 In myelinated neurons, Na+ voltage-gated channels are located in the gaps between [[Glial cells]]. These "Nodes of Ranvier" act as signal amplifiers.

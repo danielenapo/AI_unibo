@@ -12,7 +12,7 @@ It is a bidirectional, active, generative process. The brain has certain learned
 Once a scene has been analyzed, objects will be associated with memories and semantics by other parts of the brain.
 ![[Pasted image 20230601163657.png]]
 # Anatomy
-Visual processng is mediated by the retino-geniculo-striate pathwy, which includes
+Visual processing is mediated by the retino-geniculo-striate pathway, which includes
 - [[Retina]]
 - [[Lateral geniculate nucleus (LGN)]]
 - Primary [[Visual cortex#V1]] , or striate cortex
