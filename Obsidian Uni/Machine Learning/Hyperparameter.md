@@ -22,7 +22,7 @@ but data is limited, so we need a way to balance the splits:
 	At the end, combine all the test results (ex average), then use the whole training set to train the final model.
 
 	![[Pasted image 20230118124201.png]]
-	It's better to leave one chunk aside, wich will be used for the testing of the final model.
+	It's better to leave one chunk aside, which will be used for the testing of the final model.
 
 K-fold is the best way to go (for best model quality), but it's also very computational expensive
 

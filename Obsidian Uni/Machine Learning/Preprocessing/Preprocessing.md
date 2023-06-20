@@ -34,7 +34,7 @@ _[[Scikit-learn]] has methods for FSS. (module `feature_selection`, example `Sel
 ## Feature creation
 _Adding new features that can capture more efficiently some characteristics of the data_.
 - feature extraction
-- mapping to a new space -> eg signals to frequency with fourier transforms
+- mapping to a new space -> eg signals to frequency with Fourier transforms
 - new features
 
 # [[Type conversion]]
@@ -45,7 +45,7 @@ _Adding new features that can capture more efficiently some characteristics of t
 
 
 # Imbalanced data
-Oprimized models perform poorly for minority classes.
+Optimized models perform poorly for minority classes.
 Some estimators allow to **weight** classes, useful for [[Classifier Evaluation#Cost sensitive learning]]
 Several classifiers have the parameter `class_weight`, that changes the cost function to take into account the weighs (it's equivalent to oversampling to balance the dataset)
 ### SMOTE (Synthetic Minority Oversampling Technique)

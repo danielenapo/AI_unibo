@@ -1,22 +1,25 @@
 _Method to show the probability of relationships between data items, within large data sets in various types of databases_ 
 
 # Definitions
-- **Support** -> frequency of occurrence of an itemset over the whole dataset
-- **Confidence** -> Support of a subgroup divided by support of a supergroup
-	![[Pasted image 20230126175712.png]]
+- **Itemset** -> Collection of one or more single items (e.g. {milk, beer, diaper})
+- ==**Support** -> frequency of occurrence of an itemset over the whole dataset==
+- ==**Confidence** -> Support of a subgroup divided by support of a supergroup==
+![[Pasted image 20230126175712.png | 500]]
 - **ASSOCIATION RULE** -> expression $A \implies C$ where A and C are itemsets
-
+_NOTE: implication means co-occurrence, not causality!_
 # Mining Association rules
 there are two steps for getting the final rules
-1. ==**Frequent itemset generation**== -> generate all itemsets whose **support** is greater than **minsup** (threshold value, [[Hyperparameter]])
-2. ==**Rule generation**== -> generate high **confidence** rules from each frequent itemset
+1. ==**Frequent itemset generation**== -> generate all itemsets whose **support** is greater than **minsup** (?=minimum support, it's a threshold value, [[Hyperparameter]])
+2. ==**Rule generation**== -> generate high **confidence** rules from each frequent itemset (greater than minconf = minimum confidence)
 
 ## Frequent itemset generation 
+- **brute force approach:**
+	Find all possible association rules, compute support for each one, and only keep those with support>=minsup
 To find all association rules, one could try all combinations of itemsets, but we would have $2^{D}$ itemsets (With D items)
 In this example, we have only 4 items. (What if we have hundreds of thousands?)
 ![[Pasted image 20230126175859.png]]
 This graph is obtained just with 5 individual items (32 itemsets in total).
-We need a way to not generate all possible itemset, but getting all the ones with support > minsup
+We need a way to not generate all possible itemset, but getting all the ones with support >= minsup
 
 ## Apriori algorithm
 Following the ==**apriori principle**, the support of an itemset never exceeds the support of all its subsets.== (anti-monotone property of support)
@@ -42,10 +45,10 @@ Confidence alone can be misleading in some cases
 ![[Pasted image 20230126182605.png]]
 
 In general, confidence is used as a base method, then analyzed with other statistical-based methods:
-- **lift** -> ratio of true cases wrt independence
+- **lift** -> ratio of true cases with respect to independence
 	1 if the items are independent
 ![[Pasted image 20230126182741.png]]
-- **leverage** -> number of additional cases wrt independence
+- **leverage** -> number of additional cases with respect to independence
 	0 if items are independent
 ![[Pasted image 20230126182813.png]]
 - **conviction** (or novelty) -> frequency that rules makes an incorrect prediction
