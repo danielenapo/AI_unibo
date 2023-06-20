@@ -16,7 +16,7 @@ Largest part of the brain. Consists of
 2. **Basal ganglia** -> motor control, **reinforcement learning** (many **[[Dopamine neurons]] and receptors**)
 3. **Amygdala** ->**memory**, [[Learning]], attention, decision making 
 5. **Hippocampus** -> memory formation, spatial memory
-![[Pasted image 20230612160240.png]]
+![[Pasted image 20230612160240.png | 250]]
 6. **Cerebral cortex** (gray matter made of [[Neurons]]' Soma) -> "corpus callosum" with many layers of neurons. Divided into 4 lobes, distinguished by pronounced sulci. Each one has specialized functional roles in neural processing ("cytoarchitectonics")
 	1. **Frontal lobe**
 		1. Motor cortex -> planning of movements
@@ -25,4 +25,4 @@ Largest part of the brain. Consists of
 	3. **Occipital lobe** -> visual cortex
 	4. **Temporal lobe** -> auditory cortex (sound processing)
 	**association cortex** -> section that integrates inputs from multiple cortex areas, to produce integrated experience of the world (high level abilities: language, abstract thinking) 
-![[Pasted image 20230409213539.png]]
+![[Pasted image 20230409213539.png | 500]]

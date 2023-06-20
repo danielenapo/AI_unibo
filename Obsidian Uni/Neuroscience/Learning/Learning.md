@@ -12,6 +12,7 @@ e.g. stop rubbing when feeling itch, since we know it may cause injuries
 # Associative
 Learning about associations between **multiple** stimulus or actions
 ## Classical conditioning
+_aka [[Pavlovian conditioning]]_.
 Learning about association of at least **two stimuli**:
 - A neutral **conditioned stimulus**
 - An innated **unconditioned stimulus**, used as a reinforces 
@@ -19,7 +20,8 @@ Learning about association of at least **two stimuli**:
 	- **secondary reinforcer** -> a stimulus that has previously become relevant from associative learning. (e.g. money for humans)
 The learner learns to predict events in order to maximize rewarding outcomes, and minimize aversive outcomes.
 
-## Instrumental conditioning
+## Operant conditioning
+_aka [[Instrumental Conditioning]]_.
 Learning about association between and action (behavior) and an outcome 
 
 # [[Goal-directed vs Habitual learning]]

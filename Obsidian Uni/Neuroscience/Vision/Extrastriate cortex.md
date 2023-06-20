@@ -33,5 +33,5 @@ Requires:
 The ventral pathway has smaller receptive fields than the dorsal. It shows greater focalization, essential for object recognition
 ## Face Recognition
 There are neurons in the inferior temporal (IT) cortex that selectively respond to faces. Response changes if elements of faces are mixed or occluded
-![[Pasted image 20230605180120.png]]
+![[Pasted image 20230605180120.png | 700]]
 It's important to notice that the representation of objects occurs not through single neurons, but by populations: there isn't a single grandmother cell, aka **gnostic unit**.

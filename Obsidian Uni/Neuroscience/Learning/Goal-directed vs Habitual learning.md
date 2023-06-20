@@ -1,22 +1,22 @@
 ![[Pasted image 20230531171942.png]]
 ## Map vs response strategy
-A rat solving a maze can learn its path in 2 ways:
-- By learning a cognitive map of the enviroment and the location of the reward -> simple training
+A rat solving a maze can learn (through [[Instrumental Conditioning]]) its path in 2 ways:
+- By learning a cognitive map of the environment and the location of the reward -> simple training
 - By learning by heart the sequence of turns that he has to make to reach the reward (forward+left+forward)  -> intensive training (overfitting basically)
-![[Pasted image 20230531170816.png]]
+![[Pasted image 20230531170816.png | 250]]
 If the initial position of the rat changes, in the first case he's able to notice the difference and reach the reward anyway, in the second he turns in the wrong direction
-![[Pasted image 20230531170919.png]]
+![[Pasted image 20230531170919.png | 250]]
 
 ## Tolman's maze experiment
 A special maze was built with doors and curtains that make the maze difficult to master for rats
-![[Pasted image 20230531171109.png]]
+![[Pasted image 20230531171109.png | 300]]
 Three groups of rats were observed
 - Group 1 recieved **no rewards** for solving
 - Group 2 recieved **rewards** for solving
 - Group 3 recieved **rewards only after 11 days**
 Of course group 2 learned the fastest, but surprisingly group 3 learned much much faster than group 2 when presented with rewards. This suggest that they actually **latently learned** a cognitive map, but in a less efficient way since they had **no motivation**.
-![[Pasted image 20230531171506.png]]
-==Latent learning confirmed the existance of cognitive maps.==
+![[Pasted image 20230531171506.png | 650]]
+==Latent learning confirmed the existence of cognitive maps.==
 
 
 ## Goal directed
@@ -38,8 +38,8 @@ To test if a behavior is goal directed or habitual:
 3. **Test session** -> repeat the experiment, and check the behavior
 	- If the action is performed less, the learning is goal-directed
 	- If the action is performed in the same way, the learning is habitual
-![[Pasted image 20230531172737.png]]
-![[Pasted image 20230531172907.png]]
+![[Pasted image 20230531172737.png | 400]]
+
 ## Human experiments
 - In an experiment with devaluation of reward, humans have shown the same behavior expected for goal-directed learning
 ![[Pasted image 20230601150509.png]]
@@ -48,7 +48,7 @@ To test if a behavior is goal directed or habitual:
 Recently a computational formalization was proposed 
 - **model based** = goal directed-> when environment changes, the agent updates its policies (future state) values without changing them -> ==TREE SYSTEM==
 - **model free** = habitual -> when environment changes, the agent has to experience the consequence of actions again many times to learn the new states -> ==CACHE SYSTEM==
-![[Pasted image 20230601153103.png]]
+![[Pasted image 20230601153103.png | 600]]
 ## Hybrid model in humans
 Humans were tested through a 2-step Markov decision experiment, which consists in taking two consecutive binary choices, each one having different probabilities of reaching a particular state, and in the end they could get a reward
 ![[Pasted image 20230601153454.png]]

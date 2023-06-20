@@ -3,7 +3,7 @@ _Generates a nested structure of clusters_
 
 ### APPROACHES:
 - **AGGLOMERATIVE (bottom-up)**
-	start -> each datapoint is a cluster
+	start -> each data point is a cluster
 	iteration steps -> clusters are merged based on cohesion (**DISTANCE**)
 	==most used method==
 - **DIVISIVE (top-down)**
@@ -12,18 +12,18 @@ _Generates a nested structure of clusters_
 
 ### Output
 - dendogram
-![[Pasted image 20230124180928.png]]
+![[Pasted image 20230124180928.png | 250]]
 - nested cluster diagram
-![[Pasted image 20230124180945.png]]
+![[Pasted image 20230124180945.png | 250]]
 
 # Cluster separation 
 ### Graph based
-distance of sets is based on distance between datapoints
+distance of sets is based on distance between data points
 ![[Pasted image 20230124181323.png]]
 - **single link** -> the nearest
 - **Complete link** -> the furthest
 - **average link** 
-### Protorype based
+### Prototype based
 - Distance between centroids
 - Ward's method (difference between total SSE in case of merge and original SSE)
 

@@ -2,7 +2,7 @@ _Estimates parameters of a statistical model to maximise its ability to explain 
 ![[Pasted image 20230125124553.png]]
 The main technique is to use **mixture models** (mixture of different probability distributions),
 usually, the **base model** is a multivariate normal.
-Extimation is performed with **MLE**.
+Estimation is performed with **MLE**.
 
 # Gaussian Mixture
 ## AKA Expectation Maximization

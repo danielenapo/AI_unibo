@@ -5,12 +5,12 @@ They don't connect randomly!
 ## Divergence and Convergence
 - **Divergence**: the stretch of one muscle activates many hundreds of neurons  -> INPUT
 - **Convergence**: A single motor cell reciever up to 500 inputs from hundreds of sensory cells -> OUTPUT
-![[Pasted image 20230409175655.png]]
+![[Pasted image 20230409175655.png | 250]]
 
 ## Excitatory and Inhibitory
 Neurons can be both **excitatory** (enhances postsynaptic firing) or **inhibitory** (avoid postsynaptic firing).
 This is essential to limbs that have protagonist and antagonist muscles: when one is excited, the other must be inhibited (e.g. in the arm, biceps and triceps are antagonists).
-![[Pasted image 20230409180142.png]]
+![[Pasted image 20230409180142.png | 350]]
 - Feed-forward inhibition: excites an inhibitory neuron that connects to other neurons -> useful for regulating antagonistic muscles behavior.
 - Feed-back inhibition: excites an inhibitory neuron which inhibits the neuron itself -> useful for regulating the stimulated pathway, to prevent from exceeding critical levels of excitation.
 # Plasticity
@@ -23,7 +23,7 @@ The phantom limb phenomenon is a proof of the importance of plasticity: motor pa
 Depending on the type of [[Neurons#Synapses]], the type of communication is different:
 - **ELECTRICAL** -> pre and post synapses must physically touch. The two neurons are **isopotential** -> electrical changes are instantaneously reflected between the two neurons.
 It's useful for fast transfer and to syncronize cells. Present for reflex pathways or in synchronized ones.
-![[Pasted image 20230409184007.png]]
+![[Pasted image 20230409184007.png | 400]]
 - **CHEMICAL** -> presence of synaptic cleft (gap) between pre and post synapses.
 	- Neurotransmitters are chemical substances
 	- Presynaptic terminal: contains vesicles

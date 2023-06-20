@@ -10,18 +10,18 @@ This is the **resting state**, which is maintained by **2 mechanisms**:
 - Transport Na+ outside and K+ inside (more Na+ though)-> concentration gradient (imbalance)
 - Na+ channels -> let Na+ inside, voltage gated (opens at -55mV)
 - k+ channels -> let K+ out, voltage gated (opens at +30mV to rapidly polarize the cell)
-![[Pasted image 20230408180136.png]]
+![[Pasted image 20230408180136.png | 350]]
 
 ## **Ion channels**
 - Allow Ions to flow passively (**no energy** required) according to the natural concentration gradient imbalance provided by the Na+/K+ pumps
 - Creates **electrical gradient**, as when K+ exits, leaves behind a negative charge
-![[Pasted image 20230408180356.png]]
+![[Pasted image 20230408180356.png  | 350]]
 
 Eventually, the force of the concentration gradient pushing K+ out is the same as the electrical gradient bringing K+ in -> ==**electrochemical equilibrium of -70mV**==, which can be exploited for signaling.
 - The resting membrane potential can be quickly and radically changed 
 
 # Phases
-![[Pasted image 20230408184513.png]]
+![[Pasted image 20230408184513.png | 400]]
 ![[Pasted image 20230408185258.png]]
 1. **DEPOLARIZATION**: 
 	When the summed signals of the postsynaptic receptors (both excitatory and inhibitory) at one time depolarize enough the Axon Hilloc (**threshold is ==-50 mV==**), voltage gated Na+ channels are opened: positive charges Na+ get in, neutralizing negative charges, depolarizing the cell. This makes other channels to open too, in a positive-feedback loop.

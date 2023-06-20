@@ -21,8 +21,8 @@ By looking at the rat's brain, the most rewarding effect came from directly exci
 By giving food to a monkey and registering its neuronal activity (dopamine pathway), it's evident that the biggest response is given when the monkey first acknowledges the presence of food (reward)
 ![[Pasted image 20230531152332.png]]
 The firing rate can signal the **magnitude of the reward**: in the figure below, increasing amount of reward were given, and the firing rate increments with reward amount.
-![[Pasted image 20230531152447.png]]
-![[Pasted image 20230531152856.png]]
+![[Pasted image 20230531152447.png | 700]]
+![[Pasted image 20230531152856.png | 700]]
 - **Before learning**: dopamine firing rate increases when (unexpected) reward is presented, remains constant during CS (uninformative).
 - **After learning**: dopamine firing rate increases when CS is presented and
 	- If reward is given, rate is constant (successful prediction, no prediction error update)

@@ -16,7 +16,7 @@ When learning to pair the stimuli, the animal goes to two (or three) main stages
 	Process of weakening and eliminating the CR. It occurs when the ==CS is repeatedly presented without the US==, leading to a decrease in the CR. Extinction does not erase the original learning, but rather creates a new association between the CS and the absence of the US. ==EXTIONTION IS NOT FORGETTING!==, it's a form of learning.
 3)   **Reconsolidation** 
 	Process of reactivating and updating a previously consolidated memory. It occurs when a reminder of the CS triggers a reactivation of the original CS-US association, which can then be modified by new learning. Reconsolidation can lead to strengthening or weakening of the CR, depending on whether the US is present or absent during reactivation. (it's much faster than acquisition, because the association was already there)
-![[Pasted image 20230529104646.png]]
+![[Pasted image 20230529104646.png | 400]]
 
 ## Timing
 **Timing** refers to the temporal relationship between the conditioned stimulus (CS) and the unconditioned stimulus (US). It affects the acquisition and expression of the conditioned response (CR).
@@ -34,7 +34,7 @@ Also frequency of presenting stimuli matters.
 - **Partial** reinforcement -> CS is reinforced only part of the time
 
 ## Amygdala and Hippocampus
-![[Pasted image 20230529110527.png]]
+![[Pasted image 20230529110527.png | 250]]
 -   The **amygdala** is a [[Brain#Cerebral hemisphere]] region that processes fear and aversive learning -> damage to amygdala blocks fear conditioning and fear responses.
 -   LaBar et al. (1995) used a fear conditioning paradigm with a light (CS) and a noise (US) and measured the skin conductance response (SCR) as a fear index (CR).
 -   They showed that amygdala-damaged patients did not learn the fear, but could report the association. 
