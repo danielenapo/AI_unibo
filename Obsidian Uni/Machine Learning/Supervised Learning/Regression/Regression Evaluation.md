@@ -5,7 +5,7 @@ Could be defined in different way, but we often use the **mean squared error**:
 using the **normal equation method**, if $X^{T}X$ is invertible, w can be obtained as:
 ![[Pasted image 20230120163536.png]]
 (But it can also be found with Gradient Descent or SGD).
-also if $X^{T}X$ is not invertible, it could be solved with moore-penrose's pseudo-inverse matrix, or **Lasso** regularization.
+also if $X^{T}X$ is not invertible, it could be solved with Moore-Penrose pseudo-inverse matrix, or **Lasso** regularization.
 
 ## $R^{2}$
 _indicates the proportion of variation in the y-variable that is due to variation in the x-variables._
