@@ -5,7 +5,7 @@ there are two methods of prediction in [[Classification]]:
 	can be transformed into crisp by using binary thresholds, or output the class with max probability
 
 ## Lift chart
-We can build a lift chart, where x= sample size, y= num of positives in sample.
+We can build a lift chart, where x= sample size, y= number of positives in sample.
 It represents graphically the performance of the classification model.
 Points above the straight line represent better classifications than random choice.
 ![[Pasted image 20230118163853.png]]

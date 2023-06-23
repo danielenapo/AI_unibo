@@ -8,12 +8,60 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9bfbdfadf618aea6",
+            "id": "d541a832eb81d151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
+                "file": "Machine Learning/Supervised Learning/Classification/Classification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c2983f933ffecd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf4e292ddc2f0812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Classifier Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0fbc20f16fa093a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Regression/Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ab263dfc0a157fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Probabilities of classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +73,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
+                "file": "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62d35bcadc01bb34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Preprocessing/Distance methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lift",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,6 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,11 +213,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md"
+              }
             }
           },
           {
-            "id": "59cdeff31f2e0f23",
+            "id": "e8efb4ffb5aa8df6",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -163,7 +227,7 @@
             }
           },
           {
-            "id": "c6358011d8ce4533",
+            "id": "99ab0bcb8e69ac67",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -175,7 +239,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 370.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,34 +252,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c6358011d8ce4533",
+  "active": "2c2983f933ffecd5",
   "lastOpenFiles": [
-    "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
+    "Machine Learning/Supervised Learning/Classification/Classification.md",
+    "Machine Learning/Supervised Learning/Classifier Evaluation.md",
+    "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
+    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
+    "Machine Learning/Documents/Associationrules-mlxtend.pdf",
     "Machine Learning/Supervised Learning/Regression/Regression.md",
-    "Machine Learning/Unsupervised learning/Clustering/Density based Clustering.md",
+    "Machine Learning/Documents/past exams/questions_ML.pdf",
+    "Machine Learning/CRISP-DM.md",
     "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
+    "Machine Learning/Preprocessing/Distance methods.md",
+    "Machine Learning/Supervised Learning/Classification/Probabilities of classes.md",
+    "Pasted image 20230623144257.png",
+    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
+    "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
+    "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
+    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
+    "Machine Learning/Unsupervised learning/Clustering/K-Means.md",
+    "Machine Learning/Unsupervised learning/Clustering/Density based Clustering.md",
+    "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
     "Machine Learning/Unsupervised learning/Clustering/Hierarchical Clustering.md",
     "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/K-Means.md",
-    "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
     "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
     "Machine Learning/Supervised Learning/Classification/KNN.md",
     "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
     "Machine Learning/Supervised Learning/Classification/Ensemble methods.md",
-    "Machine Learning/Preprocessing/Distance methods.md",
     "Machine Learning/Preprocessing/Type conversion.md",
     "Machine Learning/Preprocessing/Sampling.md",
     "Machine Learning/Preprocessing/Rescaling.md",
     "Machine Learning/Preprocessing/Preprocessing.md",
     "Neuroscience/Vision/Retina.md",
-    "Neuroscience/Neuroanatomy/Glial cells.md",
-    "Neuroscience/Learning/Dopamine neurons.md",
-    "Neuroscience/Learning/Surprise.md",
-    "Neuroscience/Learning/Pavlovian conditioning.md",
-    "Neuroscience/Learning/Instrumental Conditioning.md",
-    "Neuroscience/Learning/Goal-directed vs Habitual learning.md",
-    "Neuroscience/Vision/Visual cortex.md",
-    "Neuroscience/Vision/Selective attention.md",
     "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Documents/Pasted image 20230601170330.png",
     "Machine Learning/images/Pasted image 20230614173717.png",

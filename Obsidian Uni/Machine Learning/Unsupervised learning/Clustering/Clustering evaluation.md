@@ -33,7 +33,7 @@ _Clustering evaluation score that ranges from -1 (very bad) to 1 (good), takes i
 Silhouette score of a single datapoint $x_{i}$:
 ![[Pasted image 20230124165600.png]]
 If b>>a -> good cluster (bad otherwise)
-if $S_{i}<0$, it could mean that datapoint i has been badly classified (common for outliers)
+if $S_{i}<0$, it could mean that data point i has been badly classified (common for outliers)
 
 Silhouette gives better results than Inertia to estimate K in [[K-Means]], using the [[K-Means#Elbow method]].
 ![[Pasted image 20230124172954.png]]
@@ -49,5 +49,9 @@ By comparing the clustering algorithm's results to the gold standard, it's possi
 ### [[Classification]]-oriented measures
 measures how the fold standard classes are distributed among the clusters (uses [[Classifier Evaluation]] methods such as precision, recall, ...)
 
+### Pair Confusion matrix
+For clustering, it is useful to use a **pair confusion matrix** instead of a normal one. It is used to evaluate the performance of a clustering model by comparing the pairwise relationships between the true labels and the predicted labels. It shows the number of pairs of samples that are correctly or incorrectly assigned to the same or different clusters.
 ### Similarity-oriented measures
+using [[Scikit-learn]]'s `pair_confusion_matrix` 
 ![[Pasted image 20230124175536.png]]
+

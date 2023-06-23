@@ -8,7 +8,7 @@ So the model M is **parameterized**, and ==the learning process consists on find
 ## Workflow
 1. Learning the model from a train dataset (fitting the model)
 2. Estimating accuracy with a test dataset ([[Classifier Evaluation]])
-3. Label new individuals 
+3. Label new individuals (deploy)
 
 ### "flavors" of classification
 - CRISP -> assign only one label 

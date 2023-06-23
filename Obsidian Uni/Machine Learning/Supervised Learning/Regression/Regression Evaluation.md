@@ -1,3 +1,5 @@
+_Regression evaluation consists in computing an **error function**_
+
 ## Mean Squared Error (MSE)
 Could be defined in different way, but we often use the **mean squared error**:
 ![[Pasted image 20230120163319.png]]

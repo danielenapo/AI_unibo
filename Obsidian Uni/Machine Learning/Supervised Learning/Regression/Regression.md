@@ -1,6 +1,6 @@
 _predict a continuous value, such as a numerical or quantitative output._
 
-For [[Regression Evaluation]], there is no accuracy but **error**.
+==For [[Regression Evaluation]], there is no accuracy but **error**.==
 ## Methods
 - [[Linear Regression]]
 - [[Multiple Regression]]
