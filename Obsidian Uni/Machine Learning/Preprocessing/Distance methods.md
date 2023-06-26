@@ -20,7 +20,9 @@ Different values of r makes different variations:
 - r=1 -> manhattan norm ($L_{1}$)
 - r=2 -> euclidean norm ($L_{2}$)
 - r=$\infty$ ->   consider only the dimension where the difference is maximum ($L_{\infty}$)
+
 ## Mahalanobis distance
+==useful for data with many dimensions.==
 Decreases if, with the same euclidean distance, the segment connecting the points is along a direction of greater variation of data.
 described by the covariance matrix
 ![[Pasted image 20230121165856.png]]

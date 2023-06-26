@@ -8,91 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d541a832eb81d151",
+            "id": "5668a0735598d570",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Classification.md",
+                "file": "Machine Learning/Preprocessing/Type conversion.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2c2983f933ffecd5",
+            "id": "14f39fdd0bf49d6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
+                "file": "Machine Learning/Preprocessing/Sampling.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bf4e292ddc2f0812",
+            "id": "5e44bd77734603d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classifier Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e0fbc20f16fa093a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Supervised Learning/Regression/Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ab263dfc0a157fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Probabilities of classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97f0c35d13966845",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62d35bcadc01bb34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Preprocessing/Distance methods.md",
-                "mode": "source",
-                "source": false
+                "file": "Neuroscience/Neuroscience.canvas",
+                "viewState": {
+                  "x": 44,
+                  "y": 822,
+                  "zoom": -1.6601523403681517
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
+                "file": "Machine Learning/Preprocessing/Type conversion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
+                "file": "Machine Learning/Preprocessing/Type conversion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,23 +168,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Supervised Learning/Classification/Decision Trees.md"
+                "file": "Machine Learning/Preprocessing/Type conversion.md"
               }
             }
           },
           {
-            "id": "e8efb4ffb5aa8df6",
+            "id": "7700cb7f9d8ac010",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "smart-connections-chat-view",
               "state": {}
             }
           },
           {
-            "id": "99ab0bcb8e69ac67",
+            "id": "1106069cd2bea949",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-chat-view",
+              "type": "smart-connections-view",
               "state": {}
             }
           }
@@ -239,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,20 +205,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c2983f933ffecd5",
+  "active": "1106069cd2bea949",
   "lastOpenFiles": [
+    "Machine Learning/Preprocessing/Sampling.md",
+    "Neuroscience/Neuroscience.canvas",
+    "Machine Learning/Machine learning.canvas",
+    "Machine Learning/Preprocessing/Distance methods.md",
+    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
+    "Machine Learning/Preprocessing/Rescaling.md",
+    "Machine Learning/Machine Learning.md",
+    "Machine Learning/Data.md",
+    "Machine Learning/images/Pasted image 20230623144257.png",
+    "Machine Learning/Preprocessing/Type conversion.md",
+    "Machine Learning/Preprocessing/Preprocessing.md",
+    "Machine Learning/images/Pasted image 20230614173717.png",
     "Machine Learning/Supervised Learning/Classification/Classification.md",
+    "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
     "Machine Learning/Supervised Learning/Classifier Evaluation.md",
     "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
-    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
     "Machine Learning/Documents/Associationrules-mlxtend.pdf",
     "Machine Learning/Supervised Learning/Regression/Regression.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/CRISP-DM.md",
     "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
-    "Machine Learning/Preprocessing/Distance methods.md",
     "Machine Learning/Supervised Learning/Classification/Probabilities of classes.md",
-    "Pasted image 20230623144257.png",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
     "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
     "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
@@ -276,19 +239,8 @@
     "Machine Learning/Unsupervised learning/Clustering/Hierarchical Clustering.md",
     "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
     "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
-    "Machine Learning/Supervised Learning/Classification/KNN.md",
-    "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
-    "Machine Learning/Supervised Learning/Classification/Ensemble methods.md",
-    "Machine Learning/Preprocessing/Type conversion.md",
-    "Machine Learning/Preprocessing/Sampling.md",
-    "Machine Learning/Preprocessing/Rescaling.md",
-    "Machine Learning/Preprocessing/Preprocessing.md",
-    "Neuroscience/Vision/Retina.md",
-    "Neuroscience/Neuroscience.canvas",
     "Neuroscience/Documents/Pasted image 20230601170330.png",
-    "Machine Learning/images/Pasted image 20230614173717.png",
     "Machine Learning/images/Pasted image 20230614175455.png",
-    "Machine Learning/Machine learning.canvas",
     "Machine Learning/images/Pasted image 20230120160934.png"
   ]
 }

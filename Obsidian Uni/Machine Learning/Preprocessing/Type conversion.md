@@ -4,7 +4,7 @@ _Changing [[Data]] type can be useful depending on the algorithm_
 
 ## Binarization
 _Transform different types of data (numerical, discrete, ...) into binary (boolean) type._
-- **One-Hot-Encoding** -> a feature with v possible values is substituted by v binary features (each one corresponding to one of the unique values, and all mutually exclusive).
+- **One-Hot-Encoding** -> a feature with v possible values is substituted by v binary features (each one corresponding to one of the unique values, and all mutually exclusive). ==USE WITH CATEGORICAL DATA==
 	`sklearn.preprocessing.OneHotEncoder`
 - **Ordinal Encoder** -> Ordinal sequences are transformed into consecutive integers (keeping order)
 	`sklearn.preprocessing.OrdinalEncoder`
