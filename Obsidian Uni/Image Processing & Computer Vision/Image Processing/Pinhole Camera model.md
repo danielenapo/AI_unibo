@@ -1,5 +1,5 @@
 #image_processing 
-Simplest imaging device. Light goes thorugh a very small pinhole and hits the image plane
+Simplest imaging device. Light goes through a very small pinhole and hits the image plane
 ![[Pasted image 20230301160141.png]]
 ## Perspective Projection
 ![[Pasted image 20230301160300.png]]
@@ -10,7 +10,7 @@ With this assumption, the relation between the two planes is **proportional**.
 (note: signs are positive only if we invert the z axis, which means putting the image plane BEFORE the scene plane).
 From this relation, the coefficient of the proportion are:
 - **z (depth)**: the higher, the smaller the image
-- **f(focal length)**: the bigger, the smaller the fov (the bigger the image)
+- **f(focal length)**: the bigger, the smaller the FOV (the bigger the image)
 
 # Perspective projection
 With 2D representations (projections) of the 3D space, we lose one dimension. This leads to information loss

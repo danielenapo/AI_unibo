@@ -1,6 +1,6 @@
 #image_processing 
 ## Depth of Field (DOF)
-The pinhole camera model has infinite DOF (everithyn is on focus on everty distance), but it allows little lights in (requires long exposure times, and that leads to motion blur).
+The pinhole camera model has infinite DOF (everything is on focus on every distance), but it allows little lights in (requires long exposure times, and that leads to motion blur).
 To avoid motion blur we can use a larger hole (more light in), but we lose the infinite DOF, making blurry images. the solutionis using lenses.
 # Thin lenses model
 Gather more light from scene point and focus it on a single image point. Enables small exposure times with much more light. DOF is not infinite.

@@ -8,40 +8,28 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5668a0735598d570",
+            "id": "6c0f83232ee24648",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Preprocessing/Type conversion.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "14f39fdd0bf49d6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Preprocessing/Sampling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e44bd77734603d5",
+            "id": "8bc96efe89f98629",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Neuroscience/Neuroscience.canvas",
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "viewState": {
-                  "x": 44,
-                  "y": 822,
-                  "zoom": -1.6601523403681517
+                  "x": 712.5,
+                  "y": -178.9277520600138,
+                  "zoom": -1.4015292891666526
                 }
               }
             }
@@ -128,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Preprocessing/Type conversion.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Preprocessing/Type conversion.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,23 +156,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Preprocessing/Type conversion.md"
+                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md"
               }
             }
           },
           {
-            "id": "7700cb7f9d8ac010",
+            "id": "cca8d6401ac04a84",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-chat-view",
+              "type": "smart-connections-view",
               "state": {}
             }
           },
           {
-            "id": "1106069cd2bea949",
+            "id": "4842b2815009d5e5",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "smart-connections-chat-view",
               "state": {}
             }
           }
@@ -193,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 370.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,9 +194,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1106069cd2bea949",
+  "active": "6c0f83232ee24648",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Machine Learning/Preprocessing/Sampling.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
+    "Machine Learning/Preprocessing/Type conversion.md",
     "Neuroscience/Neuroscience.canvas",
     "Machine Learning/Machine learning.canvas",
     "Machine Learning/Preprocessing/Distance methods.md",
@@ -216,7 +217,6 @@
     "Machine Learning/Machine Learning.md",
     "Machine Learning/Data.md",
     "Machine Learning/images/Pasted image 20230623144257.png",
-    "Machine Learning/Preprocessing/Type conversion.md",
     "Machine Learning/Preprocessing/Preprocessing.md",
     "Machine Learning/images/Pasted image 20230614173717.png",
     "Machine Learning/Supervised Learning/Classification/Classification.md",
@@ -228,17 +228,7 @@
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/CRISP-DM.md",
     "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
-    "Machine Learning/Supervised Learning/Classification/Probabilities of classes.md",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "Machine Learning/Supervised Learning/Regression/Polynomial Regression.md",
-    "Machine Learning/Supervised Learning/Regression/Regression Evaluation.md",
-    "Machine Learning/Supervised Learning/Regression/Linear Regression.md",
-    "Machine Learning/Unsupervised learning/Clustering/K-Means.md",
-    "Machine Learning/Unsupervised learning/Clustering/Density based Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Hierarchical Clustering.md",
-    "Machine Learning/Unsupervised learning/Clustering/Model based Clustering.md",
-    "Machine Learning/Unsupervised learning/Unsupervised Learning.md",
     "Neuroscience/Documents/Pasted image 20230601170330.png",
     "Machine Learning/images/Pasted image 20230614175455.png",
     "Machine Learning/images/Pasted image 20230120160934.png"

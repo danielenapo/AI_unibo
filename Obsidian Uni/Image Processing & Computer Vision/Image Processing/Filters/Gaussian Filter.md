@@ -1,4 +1,4 @@
-LTE operator whose kernel has the values of a 2D gaussian function (with zero mean).
+LTE operator whose kernel has the values of a 2D Gaussian function (with zero mean).
 The higher the variance $\sigma$ the stronger the smoothing.
 
 ![[Pasted image 20230313101209.png|#small]]
