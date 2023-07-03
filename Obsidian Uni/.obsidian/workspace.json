@@ -100,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 250.5
   },
   "right": {
     "id": "c56b38b0174915ac",
@@ -161,18 +161,18 @@
             }
           },
           {
-            "id": "cca8d6401ac04a84",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "4842b2815009d5e5",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "753ff8768e28de68",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
               "state": {}
             }
           }
@@ -194,19 +194,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c0f83232ee24648",
+  "active": "248abccca7f1c0c5",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Machine Learning/Preprocessing/Sampling.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Machine Learning/Preprocessing/Sampling.md",
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Machine Learning/Preprocessing/Type conversion.md",
     "Neuroscience/Neuroscience.canvas",
@@ -224,10 +228,7 @@
     "Machine Learning/Supervised Learning/Classifier Evaluation.md",
     "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
     "Machine Learning/Documents/Associationrules-mlxtend.pdf",
-    "Machine Learning/Supervised Learning/Regression/Regression.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
-    "Machine Learning/CRISP-DM.md",
-    "Machine Learning/Unsupervised learning/Clustering/Clustering evaluation.md",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
     "Neuroscience/Documents/Pasted image 20230601170330.png",
     "Machine Learning/images/Pasted image 20230614175455.png",

@@ -1,4 +1,4 @@
-Image processing operators that compute the new intensity of pixel p based on intensity of its neighborhood (aka **support**).
+Image processing operators that compute the new intensity of pixel p based on intensity of its neighbourhood (aka **support**).
 It is a  [[Image Noise#Denoising over space]] technique, that uses 2D convolutions between the input raw image and a **kernel**.
 
 # Convolution
@@ -13,7 +13,7 @@ Similar to convolution, but there is no reflection.
 ![[Pasted image 20230311110618.png]]
 Its properties are different (NOT commutative)
 ![[Pasted image 20230311110652.png]]
-if h is evem then i * h=h * i =h o i, but still, h o i != i o h (not commutative)
+if h is even, then i * h=h * i =h o i, but still, h o i != i o h (==not commutative==)
 
 ## Discrete convolution
 same as continuous convolution, but with summatories. The same properties still hold. 
