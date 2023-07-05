@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,16 +151,6 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md"
-              }
-            }
-          },
-          {
-            "id": "04aa0982dd8f2a25",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
               "state": {}
             }
           },
@@ -171,6 +159,14 @@
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a47917f70858e46",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
               "state": {}
             }
           }
@@ -192,10 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bc96efe89f98629",
+  "active": "6a47917f70858e46",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
