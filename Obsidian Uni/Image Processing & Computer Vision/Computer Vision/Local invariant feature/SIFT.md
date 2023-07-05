@@ -17,10 +17,10 @@ After finding the extremas, 2 thresholds are applied:
 ![[Pasted image 20230407183740.png]]
 ### [[Hyperparameter#Tuning]] 
 according to Lowe, the best values are s=3 and $\sigma=1.6$
+
 # Descriptor
 ==**local feature descriptor** that is computed for each keypoint detected by the SIFT Detector.==
 More specifically, a 16x16 neighborhood patch is considered.
-
 
 ## Canonical orientation 
 _"By assigning a consistent orientation to each keypoint based on local image properties, the keypoint descriptor can be represented relative to this orientation and therefore achieve invariance to image rotation"_

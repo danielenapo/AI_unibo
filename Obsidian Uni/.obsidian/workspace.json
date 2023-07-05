@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Lenses.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,18 +23,16 @@
             "id": "8bc96efe89f98629",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-                "viewState": {
-                  "x": 712.5,
-                  "y": -178.9277520600138,
-                  "zoom": -1.4015292891666526
-                }
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,23 +154,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md"
               }
             }
           },
           {
-            "id": "4842b2815009d5e5",
+            "id": "04aa0982dd8f2a25",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-chat-view",
+              "type": "smart-connections-view",
               "state": {}
             }
           },
           {
-            "id": "753ff8768e28de68",
+            "id": "e0187124620a98ff",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "smart-connections-chat-view",
               "state": {}
             }
           }
@@ -194,22 +192,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "248abccca7f1c0c5",
+  "active": "8bc96efe89f98629",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Machine Learning/Preprocessing/Sampling.md",
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Machine Learning/Preprocessing/Type conversion.md",
@@ -218,15 +223,8 @@
     "Machine Learning/Preprocessing/Distance methods.md",
     "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
     "Machine Learning/Preprocessing/Rescaling.md",
-    "Machine Learning/Machine Learning.md",
-    "Machine Learning/Data.md",
     "Machine Learning/images/Pasted image 20230623144257.png",
-    "Machine Learning/Preprocessing/Preprocessing.md",
     "Machine Learning/images/Pasted image 20230614173717.png",
-    "Machine Learning/Supervised Learning/Classification/Classification.md",
-    "Machine Learning/Supervised Learning/Classification/Decision Trees.md",
-    "Machine Learning/Supervised Learning/Classifier Evaluation.md",
-    "Machine Learning/Supervised Learning/Classification/Linear Perceptron.md",
     "Machine Learning/Documents/Associationrules-mlxtend.pdf",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",

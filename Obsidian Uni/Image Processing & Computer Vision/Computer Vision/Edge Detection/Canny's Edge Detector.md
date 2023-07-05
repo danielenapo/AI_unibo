@@ -4,7 +4,7 @@ Most cited paper on [[Image Processing]] and [[Edge Detection]].
 ==Defines **THREE CRITERIA** that an edge detector should have==
 - **GOOD DETECTION** -> must correctly extract edges also in noisy images
 - **GOOD LOCALIZATION** -> the distance between true and found edge should be minimal
-- **ONE RESPONSE TO ONE EDGE** -> Filter shouuld detect **one** single edge pixel  at each true edge (sharp edges)
+- **ONE RESPONSE TO ONE EDGE** -> Filter should detect **one** single edge pixel  at each true edge (sharp edges)
 
 ## Simple implementation
 Canny's edge detectors can be implemented using:

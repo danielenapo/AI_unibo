@@ -1,4 +1,4 @@
-Edges are local features of images that campure important **semantic information**.
+Edges are local features of images that capture important **semantic information**.
 They are big variations of intensity between pixels in a particular image area:
 ![[Pasted image 20230319175005.png]]
 ![[Pasted image 20230404193459.png]]
@@ -28,7 +28,7 @@ We can use both backward and forward differences (both on x or y axes):
 ![[Pasted image 20230319190203.png]]
 ![[Pasted image 20230320182826.png]]
 ![[Pasted image 20230319190125.png]]
-The **magnitude** can be estimated with different kind of norms, but the best is the inf norm:
+The **magnitude** can be estimated with different kind of norms, but the best is the **inf norm**:
 ![[Pasted image 20230320183009.png]]
 This is because it is invariant with respect to edge direction (as seen on table above).
 
