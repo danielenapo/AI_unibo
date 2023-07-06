@@ -40,5 +40,20 @@ So basically the comparison is done between control points, which lays on edges.
 ![[Pasted image 20230706132735.png]]
 This one uses cosine similarity 
 ![[Pasted image 20230706133013.png]]
+
 # Hough Transform
-Detects objects with shapes that can be expressed by an equation
+Detects objects with shapes that can be expressed by an equation, based on projection of the input into **Hough space** (or parameter space).
+- It's applied after [[Edge Detection]]. 
+- Robust to noise, and partially to occlusion.
+- Generalized Hough Transform -> advanced version that recognizes any shape
+
+### Hough space
+Given the linear equation $y-mx-c=0$, one can fix y and x (instead of m and c), and find all possible lines through the specific fixed point at $(x,y)$.
+If we consider the intercepting line between two points $P_1$ and $P_2$ in parameter space, we end up with two lines in Hough space that intercept in one point, which represents the image line through $P_1$ and $P_2$.
+![[Pasted image 20230706155005.png]]
+Moreover, given n colinear image points in image space, projected in Hough space, the all the lines will merge in a single point
+![[Pasted image 20230706155125.png]]
+**Therefore, rather than looking at extended shapes in images, we look for interceptions in the parameter space of lines!**
+### Implementation
+The actual Hough space needs to be quantized and allocated as a matrix, known as the **Accumulator Array (AA)
+![[Pasted image 20230706163741.png]]

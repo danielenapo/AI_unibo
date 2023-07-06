@@ -11,11 +11,31 @@
             "id": "5f576aead6fbb742",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing/Image formation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec260f5a7e1d8947",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+                "viewState": {
+                  "x": 1164.331118638884,
+                  "y": 723.4111187482251,
+                  "zoom": -1.543177183678786
+                }
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -27,7 +47,7 @@
       {
         "id": "cf0967bd8c30adf4",
         "type": "tabs",
-        "dimension": 68.07692307692308,
+        "dimension": 72.78846153846153,
         "children": [
           {
             "id": "248abccca7f1c0c5",
@@ -67,7 +87,7 @@
       {
         "id": "768e99b4cd2cd280",
         "type": "tabs",
-        "dimension": 31.92307692307692,
+        "dimension": 27.21153846153846,
         "children": [
           {
             "id": "176e844e245f67d4",
@@ -81,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 253.5
   },
   "right": {
     "id": "c56b38b0174915ac",
@@ -97,6 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,11 +156,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas"
+              }
             }
           },
           {
-            "id": "923b7a10c2f1ff9f",
+            "id": "1ee227eebd5f5efe",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -146,7 +170,7 @@
             }
           },
           {
-            "id": "8c1e144712f8e179",
+            "id": "fa06308cdf02e74c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -171,13 +195,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f576aead6fbb742",
+  "active": "ec260f5a7e1d8947",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Documents/Pasted image 20230706154722.png",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230706163741.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230706155125.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230706155005.png",
+    "Neuroscience/Neuroscience.canvas",
+    "Neuroscience/Neuroscience.md",
+    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Documents/Pasted image 20230706115320.png",
     "Untitled.canvas",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230706133013.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230706132735.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230706132643.png",
@@ -202,19 +234,11 @@
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Machine Learning/Preprocessing/Sampling.md",
-    "Machine Learning/Preprocessing/Type conversion.md",
-    "Neuroscience/Neuroscience.canvas",
     "Machine Learning/Machine learning.canvas",
-    "Machine Learning/Preprocessing/Distance methods.md",
-    "Machine Learning/images/Pasted image 20230623144257.png",
-    "Machine Learning/images/Pasted image 20230614173717.png",
     "Machine Learning/Documents/Associationrules-mlxtend.pdf",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
-    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "Neuroscience/Documents/Pasted image 20230601170330.png",
-    "Machine Learning/images/Pasted image 20230614175455.png"
+    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf"
   ]
 }

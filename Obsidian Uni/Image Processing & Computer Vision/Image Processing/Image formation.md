@@ -9,6 +9,7 @@ To pass from WRF to CRF we need to change the origin, performing **rototranslati
 ![[Pasted image 20230501173018.png]]
 ## Intrinsic parameters
 ==4 PARAMETERS NEEDED:==
+$f_{u}=\frac{f}{\Delta u}$, $f_{v}=\frac{f}{\Delta v}$, $u_0$ and $v_0$ -> **camera geometry**.
 ![[Pasted image 20230501173142.png]]
 
 # Projective space
@@ -43,7 +44,7 @@ PPM is based on [[Pinhole Camera model]], but real [[Lenses]] introduce distorti
 We need to take into account their effect:
 ![[Pasted image 20230501182600.png]]
 
-KINDS OF DISTORTIONS:
+**KINDS OF DISTORTIONS:**
 - **Radial distortion** -> lens curvature (making straight lines curve)
 	- **Barrel distortion** -> straight lines bend outwards
 	- **Pincushion distortion** -> straight line bend inwards
