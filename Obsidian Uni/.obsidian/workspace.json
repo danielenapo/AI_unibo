@@ -87,7 +87,7 @@
       {
         "id": "768e99b4cd2cd280",
         "type": "tabs",
-        "dimension": 27.21153846153846,
+        "dimension": 27.211538461538463,
         "children": [
           {
             "id": "176e844e245f67d4",
@@ -162,7 +162,7 @@
             }
           },
           {
-            "id": "1ee227eebd5f5efe",
+            "id": "5b0a10bbf93e55a0",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -170,7 +170,7 @@
             }
           },
           {
-            "id": "fa06308cdf02e74c",
+            "id": "b42c70558700505e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5,
-    "collapsed": true
+    "width": 370.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +194,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec260f5a7e1d8947",
+  "active": "b42c70558700505e",
   "lastOpenFiles": [
     "Image Processing & Computer Vision/Documents/Pasted image 20230706154722.png",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
