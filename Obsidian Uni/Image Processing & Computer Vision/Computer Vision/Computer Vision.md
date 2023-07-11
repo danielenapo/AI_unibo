@@ -5,6 +5,7 @@ In the last years, with the advent of [Deep Leaning], its performance and usage 
 ![[Pasted image 20230301155646.png]]
 
 # Deep Learning CV tasks
+Uses [[ML approach]]es to solve complex tasks relying on the training data.
 ![[Pasted image 20230301155727.png]]
 - Image classification
 - Semantic segmentation
