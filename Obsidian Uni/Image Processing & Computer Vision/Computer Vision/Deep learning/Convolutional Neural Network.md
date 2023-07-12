@@ -36,3 +36,9 @@ Batchnorm behaves differently based on batches values. Since we want this layer 
 - initialization of parameters is less important
 - no overhead during test
 ![[Pasted image 20230711180628.png]]
+
+# Popular architectures
+- [[AlexNet]]
+- [[AlexNet#VGG]]
+- [[Inception]]
+- [[ResNet]]

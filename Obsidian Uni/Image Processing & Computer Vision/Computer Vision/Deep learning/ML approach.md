@@ -41,3 +41,4 @@ Given an image of size HxW, the layers require a lot of memory and FLOPS, which 
 ![[Pasted image 20230711155442.png]]
 Not only it's a very difficult process, but it's also not efficient at all.
 We should use instead [[Convolutional Layer]]s.
+

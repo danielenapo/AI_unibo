@@ -21,3 +21,5 @@ There is a repetition of "**stages**"
 a stage for example is $conv+conv*2+pool$, or $conv+conv+conv+pool$.
 
 One stage ha same receptive field of larger convolutions, but requires less parameters and computation, introduces non-linearities.
+### VGG-16
+![[Pasted image 20230712151831.png]]

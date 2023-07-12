@@ -13,7 +13,9 @@ Convolution can be seen as a matrix multiplication operation if we reshape input
 - Adapts to different input sizes
 - Equivariant to translations of input (not rotation and scale) -> $T(x)*K=T(x*K)$. Allows for better generalization and data efficiency, possible thanks to weights sharing.
 ![[Pasted image 20230711163151.png]]
-
+## conv layer vs dense layer
+We can see below that Conv layers are just dense layers which aren't fully connected. the weights of the connections are the kernel values, and are shared between neurons, as seen below.
+![[Pasted image 20230712163416.png]]
 # Channels
 Colored images have 3 channels, corresponding to a 3D tensor $3\times H\times W$.
 We need to have 3 kernels: one for each channel ($3\times K \times K$).
@@ -22,5 +24,4 @@ Each filter generates a single channel **feature map**.
 To get more output channels, we need to use multiple filters and stack the ouptuts.
 ![[Pasted image 20230711165704.png]]
 In general, we can have as many input and output channels as we want, as long we use the right kernel dimensions.
-
 
