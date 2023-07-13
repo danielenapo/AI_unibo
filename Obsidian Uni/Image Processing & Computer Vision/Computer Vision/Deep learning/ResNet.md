@@ -24,9 +24,19 @@ To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channel
 ![[Pasted image 20230712180235.png]]
 ## Bottleneck residual block
 When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.
-Adds a third 1x1 conv layer before adding the skip, with 4 times the number of channels.
+Adds a third 1x1 conv layer before adding the skip, with 4 times the number of channels. Also the first conv layer is 1x1.
 ![[Pasted image 20230712181515.png]]
 # Inception-ResNet
 [[Inception]] modules with skip connections
 # ResNeXt
-Inc
+Decomposes [[#Bottleneck residual block]]s into G parallel branches, though the complexity remains similar to a standard ResNet block.
+Only one skip connection is present for all the G branches:
+![[Pasted image 20230713100243.png]]
+Follow the **split-transform-merge** paradigm.
+## Grouped convolutions
+A technique to split the input and output channels into G groups, obtaining the same result but with less filter channels, thus reducing parameters and flops, and being able to parallelize the computation with multiple GPUs
+![[Pasted image 20230713110733.png]]
+ResNext uses grouped convolutions in residual blocks, so it can have more paths while keeping the n° of parameters small.
+
+The ResNext block is approximable to an [[#Inception-ResNet]] block
+![[Pasted image 20230713121418.png]]
