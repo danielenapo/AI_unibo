@@ -13,7 +13,7 @@ We know **number of internal corners** (has to be odd in one side for rotation a
 ![[Pasted image 20230504104901.png]]
 ### World Reference Frame
 The WRF can be defined on the calibration pattern as follows:
-- origin on the same corner (eg top left one)
+- origin on the same corner (e.g. top left one)
 - X=shorter side
 - Y=longer side
 - Z=0 (planar image), direction perpendicular to X and Y.
@@ -28,13 +28,14 @@ The **H matrix** is known as **homography** (simplification of P).
 
 Given a pattern with m corners, we can write 3 linear equations for each corner j.
 We know already 2D and 3D cooridinates, but the unknowns are the 9 variables in $H_{i}$ of the i-th image $(p_{1,1}, ... , p_{3,4})$.
-With some magic operations, we get this linear system of equations:
+H* is a point in projection space that lies on the same line of $\tilde m_j$, meaning that the are parallel, hence $\tilde m_{j}\times H\tilde w_j=0$. 
+![[Pasted image 20230713155259.png]]
+We get this linear system of equations for all $w_1, ..., w_m$:
 ![[Pasted image 20230504110943.png]]
-To remove the trivial (useless) solution with h=0, we impose that $||h||=1$.
-
+To remove the trivial (useless) solution with h=0, we also impose that $||h||=1$.
 Solution h* is found by minimizing the norm of Lh. 
 ![[Pasted image 20230504111117.png]]
-This is a **least squares problem**, solvable with Singular Value Decomposition (SVD).
+This is a **least squares problem**, solvable with **Singular Value Decomposition (SVD)**
 ![[Pasted image 20230504111212.png]]
 h* is the matrix V (orthonormal), more precisely its last column.
 

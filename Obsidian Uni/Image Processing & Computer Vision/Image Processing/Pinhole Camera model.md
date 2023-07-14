@@ -35,7 +35,7 @@ since the two images are parallel, given a projection point $P_{L}$, if we want 
 ## Epipolar Geometry and Rectification
 But what if the cameras are not aligned (in reality in fact this never happens).
 ![[Pasted image 20230302110015.png]]
-The **epipolar line** is the projection of the first image's line which connects Pl to P, projected to the first plane.
+The **epipolar line** is the projection of the first image's line which connects $P_L$ to P, projected to the first plane.
 This method is hard and not efficient though.
 It's simpler to just **rectify** both images (warping them) to virtually align them (so we can use straight horizontal lines again).
 **BEFORE** (find correspondace point by following the
