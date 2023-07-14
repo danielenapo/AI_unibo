@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Noise.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md"
               }
             }
           }
@@ -165,16 +165,26 @@
   },
   "active": "e80dd0e3f3c65a3e",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing/Image formation.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713155259.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
@@ -192,20 +202,10 @@
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Machine Learning/Supervised Learning/Classification/Classification.md",
-    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",
-    "Neuroscience/Neuroscience.md",
-    "Machine Learning/Documents/past exams/QUESTIONS (theory exam).md",
     "Untitled.canvas",
     "Image Processing & Computer Vision/Computer Vision/Object detection",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
     "Machine Learning/Machine learning.canvas",
     "Machine Learning/Documents/Associationrules-mlxtend.pdf",
     "Machine Learning/Documents/past exams/questions_ML.pdf",

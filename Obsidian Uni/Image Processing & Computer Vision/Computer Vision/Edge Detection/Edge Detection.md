@@ -37,7 +37,8 @@ Real images have noisy edges:
 ![[Pasted image 20230320183141.png]]
 ==The problem is that **derivatives amplify Noise**==
 Thus, the edge detector must be **robust to [[Image Noise]]** 
-A solution could be applying denoising techniques before edge detection, but blurrying the images makes the detection much more difficult (also blurs edges).
+A solution could be applying denoising techniques before edge detection, but blurring the images makes the detection much more difficult (also blurs edges).
+### Difference of averages
 Another solution is **difference of averages**, rather than averaging the image first and then computing the differences.
 ![[Pasted image 20230320192236.png]]
 ![[Pasted image 20230320192314.png]]

@@ -1,4 +1,4 @@
-Image processing operators that compute the new intensity of pixel p based on intensity of its neighbourhood (aka **support**).
+Image processing operators that compute the new intensity of pixel p based on intensity of its neighborhood (aka **support**).
 It is a  [[Image Noise#Denoising over space]] technique, that uses 2D convolutions between the input raw image and a **kernel**.
 
 # Convolution

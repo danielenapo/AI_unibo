@@ -12,14 +12,14 @@ Canny's edge detectors can be implemented using:
 - Gradient computation (edge detection)
 - [[Non-Maxima Suppression (NMS)]] along gradient direction
 
-# Hysteresis Thresholding
+# Hysteresis threshold
 ![[Pasted image 20230320194240.png]]
 Canny proposes a hysteresis threshold relying on higher $T_{h}$ and lower $T_{l}$:
 
 A pixel will be considered as edge if the gradient magnitude  $| \nabla I |$ is either:
 -  higher than $T_{h}$ --> $| \nabla I |> T_{h}$ 
-OR
-- higher than $T_{l}$  **AND** the pixel is neighbour of an already detected edge
+-OR-
+- higher than $T_{l}$  **AND** the pixel is neighbor of an already detected edge
 In fact it is usually carried out by tracking edge pixels along contours
 ![[Pasted image 20230320211813.png]]
 # Example
