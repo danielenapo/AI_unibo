@@ -25,4 +25,8 @@ In fact it is usually carried out by tracking edge pixels along contours
 # Example
 ![[Pasted image 20230320211848.png]]
 
-https://www.youtube.com/watch?v=sRFM5IEqR2w
+
+## Additional material
+- [Computerphile's video on Canny edge detector](https://www.youtube.com/watch?v=sRFM5IEqR2w)
+- Canny vs Sobel comparison:
+![[Pasted image 20230714152658.png]]

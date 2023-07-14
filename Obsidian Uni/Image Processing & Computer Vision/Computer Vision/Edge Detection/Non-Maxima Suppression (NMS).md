@@ -15,3 +15,4 @@ But the gradient is continuous, and our domain is made of discrete pixels -> nee
 ==Applying magnitude thresholding AFTER NMS helps in filtering out irrelevant edges== (due to noise or not important details)
 
 
+![[Pasted image 20230714152519.png]]

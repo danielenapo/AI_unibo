@@ -1,10 +1,13 @@
 ## Moravec Interesting Point Detector
 **cornerness** of a pixel p is a measure of the likelihood of that point being a corner:
-$C(p)=min_{q\in neigh(p)} ||N(p)-N(q)||^{2}$ 
+$$C(p)=min_{q\in neigh(p)} ||N(p)-N(q)||^{2}$$
 ![[Pasted image 20230331121152.png]]
 ## Harris Corner Detector
 Continuous formulation of [[#Moravec Interesting Point Detector]]:
 shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $f(x+\Delta x)=f(x)+f'(x)\Delta x$ 
+
+We consider a window function (usually of size 1): $w(x,y)$ which is 1 inside the window, 0 outside
+![[Pasted image 20230714174736.png]]
 In the end you end up with a weighted sum of derivatives:
 ![[Pasted image 20230331121623.png]]
 This matrix M encodes the local image structure around the pixel p. If M is a diagonal matrix, it becomes the **matrix of eigenvalues**:
@@ -13,12 +16,12 @@ This matrix M encodes the local image structure around the pixel p. If M is a di
 
 But M can always be diagonalized with rotations:
 ![[Pasted image 20230331121835.png]]
+That's why this method is **invariant to rotations.**
 
-Computing eigenvalues for every pixel is very expensive though, so a better solution is using an approximation:
+Computing eigenvalues for every pixel is very expensive though, so a better solution is using an approximation that exploits determinant and trace.
 ![[Pasted image 20230331122530.png]]
 ### Steps
 Harris Corner Detector follow usually 3 steps:
-
 **1. Compute C for each pixel**
 ![[Pasted image 20230331122835.png]]
 **2. Select only pixels where C is higher than a threshold T**
@@ -26,9 +29,9 @@ Harris Corner Detector follow usually 3 steps:
 **3. Detect as corners only those pixels that are _local maxima of C_, using [[Non-Maxima Suppression (NMS)]]**
 ![[Pasted image 20230331122924.png]]
 ### Properties
-- Rotation invariant
+- ==Rotation invariant==
 - NOT illumination invariant (as seen above)
-- NOT scale invariant, since the neighbouring window is fixed
+- NOT scale invariant, since the neighboring window is fixed
 ![[Pasted image 20230331124515.png]]
 
 # Scale-Space

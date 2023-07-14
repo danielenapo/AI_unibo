@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md"
               }
             }
           }
@@ -165,9 +165,19 @@
   },
   "active": "e80dd0e3f3c65a3e",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Pasted image 20230714175834.png",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Pasted image 20230714174736.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230714152336.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230714172058.png",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230714152658.png",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230714152519.png",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
@@ -187,21 +197,10 @@
     "Image Processing & Computer Vision/Documents/Pasted image 20230713155259.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713100243.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713121418.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713110733.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712165635.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712181541.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712181515.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712180235.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712175232.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230712175132.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
-    "Machine Learning/Supervised Learning/Classification/Classification.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",
     "Untitled.canvas",
