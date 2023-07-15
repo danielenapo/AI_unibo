@@ -2,8 +2,8 @@ _Different [[Linear Perceptron]]s linked together in a graph, solving the linear
 ![[Pasted image 20230119131518.png]]
 
 A (computational) neuron is a signal processor, associated with a **threshold** value. Signal transmissions between neurons is weighted.
-Signals are represented as real numbers, the threshold is a matematic function ("squashing functions")
-- Sigmoid: $\frac{1}{1+e^{-x}}$ -> maps a real functiond (domain $\Re$) to $]0,1[$ 
+Signals are represented as real numbers, the threshold is a mathematical function ("**squashing functions**")
+- Sigmoid: $\frac{1}{1+e^{-x}}$ -> maps a real function (domain $\Re$) to $]0,1[$ 
 - Arctangent
 
 ## Feed forward MLP
@@ -32,7 +32,7 @@ a learning round over all the samples is called **epoch**
 
 ## Downsides
 MLP can
-- get stucked on a local minima
+- get stuck on a local minima
 - Overfit
 
 this can be avoided thanks to **regularization**:

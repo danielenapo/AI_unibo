@@ -15,10 +15,10 @@ The layer of the detected extremas define the **scale** of the blob feature: ==t
 ### Thresholds
 After finding the extremas, 2 thresholds are applied:
 1. 1st removes useless points (for example in the background)
-2. 2nd removes features along edges (useless since we can use edge detection)
+2. 2nd removes features along edges (useless since we can use [[Edge Detection]])
 ![[Pasted image 20230407183740.png]]
 ### [[Hyperparameter#Tuning]] 
-according to Lowe, the best values are s=3 and $\sigma=1.6$
+according to Lowe, the best values are $s=3$ and $\sigma=1.6$
 
 # Descriptor
 ==**local feature descriptor** that is computed for each keypoint detected by the SIFT Detector.==

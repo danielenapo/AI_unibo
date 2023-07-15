@@ -5,8 +5,9 @@ $$C(p)=min_{q\in neigh(p)} ||N(p)-N(q)||^{2}$$
 ## Harris Corner Detector
 Continuous formulation of [[#Moravec Interesting Point Detector]]:
 shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $f(x+\Delta x)=f(x)+f'(x)\Delta x$ 
+so $I(x+\Delta x, y+ \Delta y)= I(x,y)+I_{x}\Delta x + I_{y}\Delta y$
 
-We consider a window function (usually of size 1): $w(x,y)$ which is 1 inside the window, 0 outside
+We consider a window function (usually of +size 1): $w(x,y)$ which is 1 inside the window, 0 outside
 ![[Pasted image 20230714174736.png]]
 In the end you end up with a weighted sum of derivatives:
 ![[Pasted image 20230331121623.png]]
@@ -29,9 +30,9 @@ Harris Corner Detector follow usually 3 steps:
 **3. Detect as corners only those pixels that are _local maxima of C_, using [[Non-Maxima Suppression (NMS)]]**
 ![[Pasted image 20230331122924.png]]
 ### Properties
-- ==Rotation invariant==
-- NOT illumination invariant (as seen above)
-- NOT scale invariant, since the neighboring window is fixed
+- ==**Rotation invariant**==
+- **NOT** illumination invariant (as seen above)
+- **NOT** scale invariant, since the neighboring window is fixed (usually 1, thus it's detailed)
 ![[Pasted image 20230331124515.png]]
 
 # Scale-Space
@@ -39,7 +40,7 @@ Depending on distance and focal-length, objects may appear differently in the im
 Scaling changes the amount of features detectable
 ![[Pasted image 20230331131220.png]]
 Solution: applying a fixed-sized tool on different scaled and blurrier versions of the same image -> "SCALE SPACE"
-==The blurrier the image, means the bigger the feature detected is. The more detailed the image, it means that the features is small, since it was filtered out in the other layers of the scale space.==
+==The blurrier the image, means the bigger the feature detected is.== The more detailed the image, it means that the features is small, since it was filtered out in the other layers of the scale space.
 ![[Pasted image 20230331131322.png]]
 Scale space must be realized with [[Gaussian Filter]] smoothing:
 $L(x,y,\sigma)=G(x,y,\sigma)*I(x,y)$, increasing the kernel size when shrinking the image.
