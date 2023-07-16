@@ -1,5 +1,4 @@
-_Determining if the (instance) object in a given model (template) image is present in a given (target) image. In case of detection, estimating the pose._
-
+_ Given a **template image** of a specific **instance object**, determine if it is present in the **target image** under analysis. In case of detection, also estimate the pose._
 The pose can be:
 - Translation
 - Roto-translation
@@ -10,18 +9,30 @@ There are different methods that can be applied.
 
 # Template matching
 Model image is slid across target image to be compared at each position to an equally sized window. **Based on similarity functions.**
-It's a slow technique: O(MNWH) -> size of template*size target.
+It's a slow technique: $O(MN \cdot WH)$ -> size of template (MN) $\cdot$ size of target (WH)
 
 ![[Pasted image 20230706115320.png | 600]]
 ## Similarity functions
 The matching is performed according to similarity functions, that compute how much the current grid is dissimilar to the template.
-- **Sum of Squared Differences SSD**
-- **Sum of Absolute Differences SAD**
-- **Normalized Cross Correlation NCC**
+![[Pasted image 20230716184305.png]]
+Left: template grid -> size MN
+Right: template grid sliding onto the Image -> size HW. 
+(i,j) is top left pixel corner coordinates of target grid
+
+- **Sum of Squared Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(I(i+m,j+n)-T(m,n))^2$$
+- **Sum of Absolute Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}|I(i+m,j+n)-T(m,n)|$$
+- **Normalized Cross Correlation:** $$NCC(i,j)=\frac{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)\cdot T(m,n)}{\sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)^{2}} \cdot \sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}T(m,n)^{2}}}$$
 	It is invariant to linear intensity changes
-- **Zero-mean Normalize Cross correlation ZNCC**
-	It is invariant to affine intensity changes (linear + bias)
+- **Zero-mean Normalize Cross correlation:** 
+	==It is invariant to affine intensity changes (linear + bias)==
+	First we compute the means: $$\mu(\tilde I)=\frac{1}{MN} \sum_{m=0}^{M-1} \sum_{n=0}^{N-1} I(i+m, j+n)$$
+	$$\mu(T)=\frac{1}{MN} \sum_{m=0}^{M-1} \sum_{n=0}^{N-1} T(m,n)$$
+Then the ZNCC is just the NCC there those means are subtracted
+	$$ZNCC(i,j)=\frac{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(I(i+m,j+n)-\mu(\tilde I)) (T(m,n)-\mu(T))}{\sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(I(i+m,j+n)-\mu(\tilde I))^{2}} \cdot \sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(T(m,n)-\mu(T))^{2}}}$$
+It's invariant to affine intensity changes: $\tilde I(i,j)=\alpha \cdot T + \beta$
+
 ![[Pasted image 20230706131918.png]]
+
 ## Fast template matching
 To speed up the slow template matching, we can use an image pyramid, similar to the [[Detector#Scale-Space]].
 Each level is a smoothed and sub-sampled
@@ -30,7 +41,6 @@ Full search at top (smallest) level, then local refinements traversing down the 
 
 # Shape-based Matching
 **Edge-based** [[#Template matching]] approach.
-
 1) A set of **control points $P_k$** is extracted from the model image by an edge detector, also gradient direction is computed and stored for each $P_k$.
 2) At each position $(i,j)$ of the target image, the recorded gradient directions associated with control points are compared to their corresponding image points $\tilde P_{k}(i,j)$ to compute a similarity function.
 ![[Pasted image 20230706132643.png | 600]]

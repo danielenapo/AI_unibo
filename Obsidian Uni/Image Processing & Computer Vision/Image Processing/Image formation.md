@@ -1,7 +1,7 @@
 the [[Pinhole Camera model]] might be too simplistic of a model. We need something more realistic.
 
 # From 3D to 2D
-The 3D **World Reference Model (WRF)** has to be projected in the **Camera Reference Model (CRM)**, and then in a 2D plane (the image plane).
+The 3D **World Reference Model (WRF)** has to be projected in the **Camera Reference Model (CRF)**, and then in a 2D plane (the image plane).
 ![[Pasted image 20230501172900.png]]
 ## Extrinsic parameters
 To pass from WRF to CRF we need to change the origin, performing **rototranslation**.
@@ -20,18 +20,20 @@ We can make it linear by considering a virtual ==**Projective space**, equivalen
 The generic vector $[x, y, z] ∈ R^{3}$ becomes $[x, y, z, 1] ∈ P^{3}$ , i.e. a fourth dimension is added to the vector. Moreover, the new vector can be multiplied by a constant k 6= 0 and can still represent the same original point from $R^{3}$ . In general, if a n-dimensional projective space vector is given, this will just be represented as a vector of n + 1 elements: $[x1, x2, . . . , xn+1]$. 
 To shift from P3 to R3 it is necessary to divide every element by xn+1 (to get the 1 in the additional dimension) and than remove the last dimension.
 In projective space, points are represented as lines. This allows the representation of points at infinity, i.e. when xn+1 = 0, while in R3 this is not possible.
-
+### Intrinsic parametric matrix
+We can rewrite the linear equation of the intrinsic parameters in matrix form in projective space, as follows:
 ![[Pasted image 20230501181004.png]]
 
-### Intrinsic parametric matrix
+
 ![[Pasted image 20230501181054.png]]
-The left 3x3 matrix of Pint is called **intrinsic parametric matrix**, often referred as **A**.
-It's always upper right triangular.
+The left 4x3 matrix $P_{int}$ is called **intrinsic parametric matrix**, often referred as $[A|0]$.
+A is always upper right triangular.
 Realistic models also include a 5th parameter, called **skew**, to take into account non orthogonalities between axes of the sensor.
 
 ### Extrinsic parameter matrix
+We just take the already known parameter matrices and project in projective space
 ![[Pasted image 20230501181331.png]]
-This is also referred as **G**.
+This matrix is also referred as **G**.
 ==G is defined by R and t==
 
 ## Perspective projection matrix

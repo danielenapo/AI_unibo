@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe28dd18234fb95",
+        "id": "a6c71011ec1e532d",
         "type": "tabs",
         "children": [
           {
-            "id": "e80dd0e3f3c65a3e",
+            "id": "c65aa855a47a89ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19ee328c0dda71fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Neuroscience/Neuroanatomy/Brain.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -43,7 +27,7 @@
       {
         "id": "cf0967bd8c30adf4",
         "type": "tabs",
-        "dimension": 72.78846153846153,
+        "dimension": 66.66666666666666,
         "children": [
           {
             "id": "248abccca7f1c0c5",
@@ -61,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lift",
+                "query": "nearest neigh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +67,7 @@
       {
         "id": "768e99b4cd2cd280",
         "type": "tabs",
-        "dimension": 27.211538461538463,
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "176e844e245f67d4",
@@ -173,14 +157,20 @@
   },
   "active": "176e844e245f67d4",
   "lastOpenFiles": [
+    "Neuroscience/Neuroanatomy/Brain.md",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
+    "Pasted image 20230716184305.png",
+    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
+    "Image Processing & Computer Vision/Image Processing/Image formation.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230714175834.png",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230716160117.png",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
-    "Neuroscience/Neuroanatomy/Brain.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "detector.md#harris.md",
-    "Pasted image 20230714175834.png",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Pasted image 20230714174736.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230714152336.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230714172058.png",
@@ -201,15 +191,8 @@
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713155259.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230713100243.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230713121418.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230713110733.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",
     "Untitled.canvas",

@@ -1,7 +1,7 @@
 _Process whereby all parameters defining the [[Image formation#Complete camera model]] are estimated for a **specific camera device**_.
 
 ## Calibration patterns
-Checkboard patterns useful for being easy to process.
+Checkerboard patterns useful for being easy to process.
 Two categories:
 - Single image of a 3D calibration object
 - Multiple images of the same planar pattern (different orientations)

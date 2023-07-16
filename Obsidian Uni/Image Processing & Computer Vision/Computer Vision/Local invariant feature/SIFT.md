@@ -29,8 +29,9 @@ This kind of descriptor, based on orientation, is biologically inspired from the
 _"By assigning a consistent orientation to each keypoint based on local image properties, the keypoint descriptor can be represented relative to this orientation and therefore achieve invariance to image rotation"_
 magnitude and orientations are computed for each pixel using partial derivatives.
 ![[Pasted image 20230407211525.png]]
-The **characteristic orientation** is the highest peak (and the other 80% highest values)
-
+Then ==build an **orientation histogram** for each keypoint== (considering a neighboring window whose size depends on the keypoint size). Taking into account the direction and magnitude of each neighboring pixels (weighted by a 2D Gaussian), with a bin size of 10°, we count the occurrences of the orientations and build the histogram.
+The **characteristic orientation** is the highest peak of the histogram (and the other 80% highest values)
+![[Pasted image 20230716160117.png | 400]]
 ## SIFT Descriptor
 Given m(x,y) and $\theta(x,y)$ for each pixel: 
 - A 16x16 neighborhood patch is considered for every keypoint. 
@@ -46,7 +47,18 @@ Descriptor is **normalized** to be more robust to intensity variations (i.e. lig
 # Matching
 ### Why?
 Can be used for **object recognition, image stitching, 3D modeling, gesture recognition, video tracking**, and other applications.
-All the invariance properties are needed to have reliable matching across all kind of variable domains (lfor ight, rotation and scale).
+Comparing descriptors from 2 different images (different views) of the same scene/object, to find corresponding keypoints.
+All the invariance properties are needed to have reliable matching across all kind of variable domains (for light, rotation and scale).
 ### How
-SIFT descriptors are compared to find corresponding keypoints, using **Nearest Neighbor Search** and **Euclidean Distance**.
+SIFT descriptors are compared to find corresponding keypoints, using **Nearest Neighbor ([[KNN]]) Search** and **Euclidean Distance**. 
 ![[Pasted image 20230407224556.png]]
+Distance is computed for each keypoint in T, and we count as matches the ones where $$\frac{d_nn}{d_{2-nn}}\le T $$ 
+_("Lowe's Ratio")_
+
+Where T is a threshold of 0.8 (empirically the best value to reject 90% of wrong matches and miss 5% of right matches).
+$d_{2-nn}$ is the distance of the neighbor's neighbor. This works best since real matches also have near neighbors with small distances.
+
+### Efficient search
+This search method is computationally expensive. Faster alternatives are:
+- **k-d tree** -> uses a kind of binary tree search
+- **Best Bin First (BBF)** -> efficient in high dimensional spaces
