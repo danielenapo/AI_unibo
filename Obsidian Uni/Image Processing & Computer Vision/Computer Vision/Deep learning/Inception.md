@@ -1,3 +1,4 @@
+aka GoogLeNet 
 With the aim of reducing computing resources to scale the model, exploiting "inception modules" and increasing depth and width while keeping the computational budget constant.
 It can process multiple activaitons in parallel
 ![[Pasted image 20230712152358.png]]

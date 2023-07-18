@@ -28,15 +28,27 @@ Adds a third 1x1 conv layer before adding the skip, with 4 times the number of c
 ![[Pasted image 20230712181515.png]]
 # Inception-ResNet
 [[Inception]] modules with skip connections
+![[Pasted image 20230718180657.png]]
+The whole network has the same structure of vanilla ResNet, but uses Inception-resnet blocks instead.
 # ResNeXt
 Decomposes [[#Bottleneck residual block]]s into G parallel branches, though the complexity remains similar to a standard ResNet block.
 Only one skip connection is present for all the G branches:
 ![[Pasted image 20230713100243.png]]
 Follow the **split-transform-merge** paradigm.
 ## Grouped convolutions
-A technique to split the input and output channels into G groups, obtaining the same result but with less filter channels, thus reducing parameters and flops, and being able to parallelize the computation with multiple GPUs
+A technique to split the input and output channels into G groups, obtaining the same result but with less filter channels, thus reducing parameters and flops, allowing parallel computation with multiple GPUs
 ![[Pasted image 20230713110733.png]]
 ResNext uses grouped convolutions in residual blocks, so it can have more paths while keeping the n° of parameters small.
 
-The ResNext block is approximable to an [[#Inception-ResNet]] block
+The ResNext block is approximately an [[#Inception-ResNet]] block
 ![[Pasted image 20230713121418.png]]
+## SENet
+Uses a **squeeze and excitation** module to capture global context ant to reweight channels in each block
+![[Pasted image 20230718182801.png]]
+- squeeze = global average pooling
+- excitation = FC+ReLU+FC+sigmoid
+There are 2 skip connections: 
+1) vanilla between input and last relu
+2) between residual block and scale after the S-E block
+## Depthwise separable convolutions
+

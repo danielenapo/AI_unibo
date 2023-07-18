@@ -14,10 +14,10 @@ Works with 2 parallel GPUs (using [[ResNet#Grouped convolutions]]), each of them
 - **6th** (dense): flatten + 4096 dense + 4096 dense + 1000 dense + softmax activation (output)
 
 Nearly all parameters are in the fully connected layers.
-The first stem layer thakes the most activation memory (big convolution 11x11)
+The first stem layer takes the most activation memory (big convolution 11x11)
 The largest number of flop is required by the conv layers
 ## ZFNet
-An improved AlexNet (won in 2013). Introduces deconvnets and gradient ascent for layer visualization. This allowed to find structural flaws like too large filter sizes and strides.
+An improved AlexNet (won in 2013). Introduces deconvnets and gradient ascent for layer visualization. This allowed to find structural flaws like too large filter sizes and strides (2 instead of 3).
 
 # VGG
 Very schematic network, divided into **stages** of fixed components. 

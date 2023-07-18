@@ -11,11 +11,64 @@
             "id": "c65aa855a47a89ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing/Calibration/Camera calibration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa2ec95626d7cd7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f12a2fb19ecf5e7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a8033744ff22508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dea76fc9ad9b037",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -27,7 +80,7 @@
       {
         "id": "cf0967bd8c30adf4",
         "type": "tabs",
-        "dimension": 66.66666666666666,
+        "dimension": 73.5576923076923,
         "children": [
           {
             "id": "248abccca7f1c0c5",
@@ -67,7 +120,7 @@
       {
         "id": "768e99b4cd2cd280",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 26.442307692307693,
         "children": [
           {
             "id": "176e844e245f67d4",
@@ -97,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md"
+              }
             }
           }
         ],
@@ -155,44 +212,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "176e844e245f67d4",
+  "active": "3a8033744ff22508",
   "lastOpenFiles": [
-    "Neuroscience/Neuroanatomy/Brain.md",
-    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
-    "Pasted image 20230716184305.png",
-    "Image Processing & Computer Vision/Image Processing/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing/Image formation.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230714175834.png",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230716160117.png",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
-    "Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "detector.md#harris.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Pasted image 20230714174736.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230714152336.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230714172058.png",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230714152658.png",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230714152519.png",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718225409.png",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718230837.png",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718230417.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718230119.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718225926.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718225812.png",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718180657.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718183635.png",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718182801.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Camera calibration.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230713155259.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230713100243.png",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230718142808.png",
+    "Image Processing & Computer Vision/Image Processing/Calibration",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
+    "Neuroscience/Neuroanatomy/Brain.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",
     "Untitled.canvas",

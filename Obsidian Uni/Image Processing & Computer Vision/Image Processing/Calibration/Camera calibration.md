@@ -29,6 +29,7 @@ The **H matrix** is known as **homography** (simplification of P).
 Given a pattern with m corners, we can write 3 linear equations for each corner j.
 We know already 2D and 3D cooridinates, but the unknowns are the 9 variables in $H_{i}$ of the i-th image $(p_{1,1}, ... , p_{3,4})$.
 H* is a point in projection space that lies on the same line of $\tilde m_j$, meaning that the are parallel, hence $\tilde m_{j}\times H\tilde w_j=0$. 
+![[Pasted image 20230718105311.png]]
 ![[Pasted image 20230713155259.png]]
 We get this linear system of equations for all $w_1, ..., w_m$:
 ![[Pasted image 20230504110943.png]]

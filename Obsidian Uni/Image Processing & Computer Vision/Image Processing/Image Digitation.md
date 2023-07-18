@@ -1,6 +1,6 @@
-#image_processing 
+_Process in which the light is turned into discrete electric signals, and the image becomes a tensor of pixels_
 
-Two steps:
+### Steps
 1. **SAMPLING** -> the light sensors convert irradiance into electric quantity
 	Te planar _continuous_ image is sampled into both axis to a 2D matrix (NxM)
 	![[Pasted image 20230307115721.png]]
