@@ -43,6 +43,7 @@ epipolar line)
 ![[Pasted image 20230307114940.png]]
 **AFTER** (we can look at the correspondance point by following the horizontal line)
 ![[Pasted image 20230307104642.png]]
+This is possible thanks to [[Camera calibration#Homography]].
 ## Stereo correspondence
 When we look for the corresponding point on the left image, we can get an estimate of the distance from the camera
 ![[Pasted image 20230307104732.png]]

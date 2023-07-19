@@ -2,10 +2,10 @@ _Process in which the light is turned into discrete electric signals, and the im
 
 ### Steps
 1. **SAMPLING** -> the light sensors convert irradiance into electric quantity
-	Te planar _continuous_ image is sampled into both axis to a 2D matrix (NxM)
-	![[Pasted image 20230307115721.png]]
+	The planar _continuous_ image is sampled into both axis to a 2D matrix (NxM), but with continues values (discretization of space)
+![[Pasted image 20230307115721.png]]
 
-2. **QUANTIZATION** -> the electric values are quantized into $2^{m}$ discrete values. m is the number of bits used to represent a pixel. The final size will be NxMxm
+2. **QUANTIZATION** -> the electric values are quantized into $2^{m}$ discrete values. m is the number of bits used to represent a pixel. The final size will be NxMxm (discretization of values)
 ![[Pasted image 20230307115625.png]]
 
 ![[Pasted image 20230307120028.png]]
