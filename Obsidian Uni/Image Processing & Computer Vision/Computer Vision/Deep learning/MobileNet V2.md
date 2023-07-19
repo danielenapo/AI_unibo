@@ -9,11 +9,20 @@ MobileNet solves this issue by using **inverted residual blocks**, where
 - second compresses back again
 expansion works according to an **expansion ratio t**
 
-The inner 3x3 conv layer is implemented as a [[ResNet#Depthwise separable convolutions]].
-
-lastly, there are no ReLUs between residual blocks
+There are no ReLUs between residual blocks
 ![[Pasted image 20230718183635.png | 400]]
+## Depthwise separable convolution
+==The inner 3x3 conv layer is implemented as a depthwise separable convolution:==
+Instead of doing one big convolution, the matrix is split in 2, and we just do two smaller convolutions. The result is the same, but the complexity is **much** smaller.
+Splits the computation into two steps: 
+- **Depthwise convolution** is used to create a linear combination of the output of the depthwise convolution.
+- **Pointwise convolution** is used to create a linear combination of the output of the depthwise convolution (1x1 conv)
+![[Pasted image 20230719120010.png]]
+Using this kind of convolution allows to deal with more channel, while keeping the cost down.
+![[Pasted image 20230719120536.png]]
 
+
+## Architecture
 MobileNet V2 is a stack of inverted residual blocks:
 ![[Pasted image 20230718225409.png]]
 Has few parameters since stem layer does not have to make heavy downsampling, and channels grow slowly

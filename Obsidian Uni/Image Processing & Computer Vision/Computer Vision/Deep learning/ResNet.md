@@ -50,5 +50,5 @@ Uses a **squeeze and excitation** module to capture global context ant to reweig
 There are 2 skip connections: 
 1) vanilla between input and last relu
 2) between residual block and scale after the S-E block
-## Depthwise separable convolutions
+
 
