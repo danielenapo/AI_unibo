@@ -15,8 +15,8 @@
               "state": {
                 "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "viewState": {
-                  "x": 2519.7255717255716,
-                  "y": 339.5032224532225,
+                  "x": 1177.1446985446978,
+                  "y": 1384.2149460065439,
                   "zoom": -1.622608954481565
                 }
               }
@@ -104,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1212cf48bd4ad058",
+  "active": "176e844e245f67d4",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120010.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
@@ -176,7 +173,6 @@
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120536.png",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718225409.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230837.png",
     "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
