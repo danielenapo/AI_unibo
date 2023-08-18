@@ -21,13 +21,15 @@ That's why this method is **invariant to rotations.**
 
 Computing eigenvalues for every pixel is very expensive though, so a better solution is using an approximation that exploits determinant and trace.
 ![[Pasted image 20230331122530.png]]
-### Steps
+## Steps
 Harris Corner Detector follow usually 3 steps:
+
 **1. Compute C for each pixel**
 ![[Pasted image 20230331122835.png]]
 **2. Select only pixels where C is higher than a threshold T**
 ![[Pasted image 20230331122848.png]]
-**3. Detect as corners only those pixels that are _local maxima of C_, using [[Non-Maxima Suppression (NMS)]]**
+**3. Detect as corners only those pixels that are _local maxima of C_**
+using [[Non-Maxima Suppression (NMS)]]
 ![[Pasted image 20230331122924.png]]
 ### Properties
 - ==**Rotation invariant**==

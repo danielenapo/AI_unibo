@@ -14,5 +14,5 @@ In order to do this, it uses **spatial and range distances**
 The kernel is **computed at runtime**, since it's different for each pixel. 
 
 Below, an example of the smoothing of a noisy edge.
-![[Pasted image 20230319172743.png]]
-(VIDEO explanation: https://www.youtube.com/watch?v=yenye2s90BA)
+
+![VIDEO explanation](https://www.youtube.com/watch?v=yenye2s90BA)

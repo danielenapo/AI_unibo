@@ -45,6 +45,6 @@ Another solution is **difference of averages**, rather than averaging the image 
 # Prewitt and Sobel
 The Prewitt operator allows to use difference of averages with central differences, while the Sobel operator allows to weight more the central pixel.
 ![[Pasted image 20230320192414.png]]
-https://www.youtube.com/watch?v=uihBwtPIBxM
+![computerphile video on sobel operator](https://www.youtube.com/watch?v=uihBwtPIBxM)
 
 ![[Pasted image 20230714152336.png]]
