@@ -27,8 +27,8 @@ If the sensed amount of light is too small, the true signal cannot be distinguis
 - $E_{min}$ = minimum detectable irradiation
 - $E_{max}$ = saturation irradiation (amount of lights that fills the capacity of a photodetector)
 $DR=\frac{E_{max}}{E_{min}}$
-The higher the DR, the better is the ability to simultaneusly capture both dark and bright structures of the scene (higher the better)
+The higher the DR, the better is the ability to simultaneously capture both dark and bright structures of the scene (higher the better)
 
 ### High Dynamic Range (HDR)
-images obtaining by combining togheter a sequence of images of the same subject taken under different exposure times. This result in a very high DR.
+images obtaining by combining together a sequence of images of the same subject taken under different exposure times. This result in a very high DR.
 [example of HDR](https://www.hdrsoft.com/index.html)

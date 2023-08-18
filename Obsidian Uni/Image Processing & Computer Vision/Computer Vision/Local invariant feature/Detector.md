@@ -2,6 +2,7 @@
 **cornerness** of a pixel p is a measure of the likelihood of that point being a corner:
 $$C(p)=min_{q\in neigh(p)} ||N(p)-N(q)||^{2}$$
 ![[Pasted image 20230331121152.png]]
+If this number is sufficiently high, it means that on every neighboring direction the change is high, meaning that the point p is a corner.
 ## Harris Corner Detector
 Continuous formulation of [[#Moravec Interesting Point Detector]]:
 shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $f(x+\Delta x)=f(x)+f'(x)\Delta x$ 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md"
+                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md"
               }
             }
           }
@@ -165,6 +165,16 @@
   },
   "active": "2026a11b1e8dedba",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
@@ -179,22 +189,13 @@
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120010.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120536.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718225409.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230837.png",
-    "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230417.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230119.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718225926.png",

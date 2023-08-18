@@ -6,6 +6,8 @@ The 3D **World Reference Model (WRF)** has to be projected in the **Camera Refer
 ## Extrinsic parameters
 To pass from WRF to CRF we need to change the origin, performing **rototranslation**.
 ==6 PARAMETERS NEEDED:==
+- 3 for translation
+- 3 for rotation (they are actually 9, but only 3 are linearly independent)
 ![[Pasted image 20230501173018.png]]
 ## Intrinsic parameters
 ==4 PARAMETERS NEEDED:==
@@ -48,10 +50,10 @@ We need to take into account their effect:
 
 **KINDS OF DISTORTIONS:**
 - **Radial distortion** -> lens curvature (making straight lines curve)
-	- **Barrel distortion** -> straight lines bend outwards
-	- **Pincushion distortion** -> straight line bend inwards
+	- **Barrel distortion** -> straight lines bend outwards ("botte")
+	- **Pincushion distortion** -> straight line bend inwards ("puntaspilli")
 ![[Pasted image 20230501183300.png]]
-- **Tangential distortion** -> misallignments and defects of the components
+- **Tangential distortion** -> misalignment and defects of the camera components
 
 Lens distortion is ==modeled through a non-linear transformation==.
 ![[Pasted image 20230501192607.png]]
