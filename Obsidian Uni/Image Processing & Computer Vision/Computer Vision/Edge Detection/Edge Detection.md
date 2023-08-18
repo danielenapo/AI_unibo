@@ -42,7 +42,7 @@ A solution could be applying denoising techniques before edge detection, but blu
 Another solution is **difference of averages**, rather than averaging the image first and then computing the differences.
 ![[Pasted image 20230320192236.png]]
 ![[Pasted image 20230320192314.png]]
-## Prewitt and Sobel
+# Prewitt and Sobel
 The Prewitt operator allows to use difference of averages with central differences, while the Sobel operator allows to weight more the central pixel.
 ![[Pasted image 20230320192414.png]]
 https://www.youtube.com/watch?v=uihBwtPIBxM
