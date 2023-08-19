@@ -8,18 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2026a11b1e8dedba",
+            "id": "dd887b43ae58be37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9384bed1b3bba3d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+                "viewState": {
+                  "x": 815.4431920753126,
+                  "y": 1095.192460028481,
+                  "zoom": -1.4788640667773043
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Image Digitation.md"
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas"
               }
             }
           }
@@ -163,45 +179,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2026a11b1e8dedba",
+  "active": "a9384bed1b3bba3d",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Documents/multiple_channels_convolution_CNN.gif",
+    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif",
+    "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif.crdownload",
+    "Pasted image 20230819124850.png",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Lenses.md",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
     "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
-    "Image Processing & Computer Vision/Image Processing/Lenses.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120010.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120536.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718225409.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230837.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230417.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718230119.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230718225926.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230718225812.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230718180657.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230718183635.png",
     "Image Processing & Computer Vision/Image Processing/Calibration",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",

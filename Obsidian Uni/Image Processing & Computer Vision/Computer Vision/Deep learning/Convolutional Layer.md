@@ -20,6 +20,7 @@ We can see below that Conv layers are just dense layers which aren't fully conne
 Colored images have 3 channels, corresponding to a 3D tensor $3\times H\times W$.
 We need to have 3 kernels: one for each channel ($3\times K \times K$).
 Each filter generates a single channel **feature map**. 
+![[multiple_channels_convolution_CNN.gif]]
 ![[Pasted image 20230711165448.png]]
 To get more output channels, we need to use multiple filters and stack the ouptuts.
 ![[Pasted image 20230711165704.png]]

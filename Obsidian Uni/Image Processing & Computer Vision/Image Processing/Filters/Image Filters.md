@@ -1,11 +1,13 @@
-Image processing operators that compute the new intensity of pixel p based on intensity of its neighborhood (aka **support**).
+![[Convolution_arithmetic_-_Padding_strides.gif ]]
+Image processing operators that compute the new intensity of pixel $p$ based on intensity of its neighborhood (aka **support**).
 It is a  [[Image Noise#Denoising over space]] technique, that uses 2D convolutions between the input raw image and a **kernel**.
 
 # Convolution
 **Linear and Translation equivariant** filters apply a linear operator T to an image i(x,y).
 The output is given by the **convolution** between the input and the **impulse response function (KERNEL)** of the operator T.
-![[Pasted image 20230311105720.png]]
+![[Pasted image 20230311105720.png | 500]]
 It is equivalent to reflect in both axis then translate the kernel.
+
 ## Properties of convolution
 ![[Pasted image 20230311105923.png]]
 # Correlation
