@@ -16,7 +16,7 @@ Due to maxpooling, which doubles the n°of channels, the total number becomes pr
 ![[Pasted image 20230712163802.png]]
 ### 1x1 convolution
 Introduced in the [Network in Network](https://arxiv.org/pdf/1312.4400v3.pdf) paper in 2013.
-A good solution is using **1x1 convolutions**, which allows to shrink the activation depth (n° of channels) while preserving spatial size.
+A good solution is using **1x1 convolutions**, which ==allows to shrink the activation depth (n° of channels) while preserving spatial size==.
 It's like applying a linear fully connected layer at each spatial location (all the channels of a pixel)
 ![[Pasted image 20230712164050.png]]
 The final inception module exploits this property by applying 1x1 convolutions **before** large convolutions and after maxpooling.
