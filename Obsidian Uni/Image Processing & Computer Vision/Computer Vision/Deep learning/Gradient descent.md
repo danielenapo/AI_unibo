@@ -1,19 +1,3 @@
-Image [[Classification]] is a standard problem in [[Computer Vision]]. It requires to classify an image into a finite set of categorical classes.
-
-- This problem is very hard if we only rely on classical [[Computer Vision]]: There are too many possible variation in images, making this task almost impossible.
-- It's mandatory to rely on [[Machine Learning]], more specifically [[Supervised Learning]]: feeding lots of labelled images to train the parameters of a model, and doing [[Hyperparameter#Tuning]].
-![[Pasted image 20230820200736.png]]
-In this new paradigm, data becomes essential (in fact it's called **data-driven** approach)
-Andrew NG said that 80% of machine learning is data preparation (in this case, it's [[Image Processing]]).
-## Curse of dimensionality
-But with shallow (classical) ML we will face the same problem: the task is simply too difficult since we have too many dimensions (if each pixel is a dimension, then a 32x32 image has 1024 dimensions, then grows exponentially).
-
-For example, the [[KNN]] model is distance based, but with an exponential number of dimensions, the distances become meaningless, making it impossible to learn effective decision boundaries of the data.
-![[Pasted image 20230820201215.png]]
-KNN can only get up to 38% accuracy on ImageNet.
-
-Also parametric approach like the [[Linear Regression]] classifier is a bad idea, since classes are categorical (not ordinal).
-
 # Optimization
 We need to use optimization models to solve this problem, minimizing a **loss function** which is related to the actual problem.
 This objective function is much simpler to optimize, and if chosen correctly, will result in a good outcome for the original problem.
@@ -42,3 +26,13 @@ Given an example of predicted label, with a softmax activation:
 - If the true class is car, the loss is 2.4 (=-log(0.09)), which is a much higher value, that has much more impact when updating the parameters.
 
 # Gradient descent
+The algorithm that updates the parameters of [[Neural Networks (MLP)]], thus performing the actual learning. 
+It kinda resembles the natural way in which [[Neurons]] change their connections with [[Surprise#Prediction error]].
+
+1. **Forward pass** -> compute prediction and its loss
+2. **Backward pass** -> compute the gradient for all nodes, starting from the output going back to the input.
+	It is a non trivial operation, which can be performed:
+	- numerically, applying the derivation formula
+	- analytically, applying the chain rule 
+	- algorithmically, with **backpropagation**
+1. **Update parameters** -> update values of each node according to gradient values: $$\theta^{n}=\theta^{n-1}-\alpha g$$Where $\alpha$ is the learning rate and $g$ the gradient (similar to [[Surprise#Rescolra-Wagner model]] of [[Pavlovian conditioning]])

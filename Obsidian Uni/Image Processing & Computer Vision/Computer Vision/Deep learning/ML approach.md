@@ -1,24 +1,7 @@
 We can use [[Machine Learning]] approaches for image [[Classification]], without relying too much on complicated algorithm, letting the computer do the hard work given enough training labelled data (e.g. Imagenet dataset).
 
-## Curse of dimensionality
-For example we can use the [[KNN]] to compute distance in feature space between test sample and all the training example, but this would be crazy with images, since each pixel is a different dimension, we would have hundreds of thousands of dimensions, making KNN useless (**curse of dimensionality**) -> 38%accuracy
-
-## Loss function
-Instead of directly optimizing accuracy, we often optimize a proxy measure: the loss function, that is easier to optimize, but still correlated with how good the classifier is:
-- RMSE
-- SOFTMAX
-- CROSS-ENTROPY
-
-## Gradient descent
-To optimize the [[#Loss function]].
-The model starts by using random parameter values (i.e. neuron weights)
-1. **Forward pass:** make prediction and compute its loss
-2. **Compute gradient** using the **backpropagation** algorithm: automatic differentiation based on the chain rule
-4. **Update parameter values**
-
-
 # Neural networks
-Using Deep Learning and [[Neural Networks (MLP)]] has proven to be a major breakthrough in Computer Vision, for many kinds of tasks. 
+Using Deep Learning and [[Neural Networks (MLP)]] has proven to be a major breakthrough in Computer Vision, for many kinds of tasks, thanks to [[Gradient descent]] which greatly improves the problems associated with the [[Image classification#Curse of dimensionality]].
 
 Compared to the [[Bag of words]] (Shallow ML approach) for image classification for example, we can see that instead of having a fixed representation, the neural network can learn its own representation:
 ![[Pasted image 20230711151904.png]]
