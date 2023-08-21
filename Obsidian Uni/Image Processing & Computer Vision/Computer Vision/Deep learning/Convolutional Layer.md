@@ -1,7 +1,7 @@
-In traditional [[Image Processing]], for [[Image Filters]] we rely on [[Image Filters#Convolution]]s/correlations with handcrafted filters.
+In traditional [[Image Processing]], for [[Image Filters]] we rely on [[Image Filters#Convolution]]s with handcrafted filters.
 We could build convolutional layers that have the objective to learn the composition of such filters from data.
 - Input and output are not flattened, preserving the spatial structure
-- The parameters associated with connections are the same for all output units, so **parameters are shared** and the convolution learns the same detector regardless of the input position.
+- The parameters associated with connections are the same for all output units, so ==**parameters are shared**== and the convolution learns the same detector regardless of the input position.
 - A convolution only processes a small set of neighbor pixels at a time, like in the [[Visual cortex#Receptive field]].
 - Image exhibit informative **local** patterns that may appear anywhere across an image, that's why convolutions are so effective with images.
 ![[Pasted image 20230711163000.png]]
@@ -16,6 +16,7 @@ Convolution can be seen as a matrix multiplication operation if we reshape input
 ## conv layer vs dense layer
 We can see below that Conv layers are just dense layers which aren't fully connected. the weights of the connections are the kernel values, and are shared between neurons, as seen below.
 ![[Pasted image 20230712163416.png]]
+To better understand how weight sharing works and how CNN differs from FC networks, look at this [useful website](https://adamharley.com/nn_vis/).
 # Channels
 Colored images have 3 channels, corresponding to a 3D tensor $3\times H\times W$.
 We need to have 3 kernels: one for each channel ($3\times K \times K$).

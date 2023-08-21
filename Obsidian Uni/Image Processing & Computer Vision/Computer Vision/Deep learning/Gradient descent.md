@@ -1,5 +1,5 @@
 # Optimization
-We need to use optimization models to solve this problem, minimizing a **loss function** which is related to the actual problem.
+To solve the curse of dimensionality problem, we convert it to a similar, simpler problem: minimizing a **loss function** which is related to the actual problem.
 This objective function is much simpler to optimize, and if chosen correctly, will result in a good outcome for the original problem.
 - if the loss is high, the classifier is bad -> LOW ACCURACY
 - if the loss is low, the classifier is good -> HIGH ACCURACY
