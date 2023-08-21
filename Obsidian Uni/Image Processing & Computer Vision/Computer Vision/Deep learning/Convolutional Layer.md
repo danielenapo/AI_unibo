@@ -13,7 +13,7 @@ Convolution can be seen as a matrix multiplication operation if we reshape input
 - Adapts to different input sizes
 - Equivariant to translations of input (not rotation and scale) -> $T(x)*K=T(x*K)$. Allows for better generalization and data efficiency, possible thanks to weights sharing.
 ![[Pasted image 20230711163151.png]]
-## conv layer vs dense layer
+## Conv layer vs dense layer
 We can see below that Conv layers are just dense layers which aren't fully connected. the weights of the connections are the kernel values, and are shared between neurons, as seen below.
 ![[Pasted image 20230712163416.png]]
 To better understand how weight sharing works and how CNN differs from FC networks, look at this [useful website](https://adamharley.com/nn_vis/).

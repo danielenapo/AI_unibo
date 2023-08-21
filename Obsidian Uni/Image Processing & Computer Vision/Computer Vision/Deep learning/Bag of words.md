@@ -3,7 +3,7 @@ In the same way, we could extract a bunch of "visual keywords" to build a **Visu
 ![[Pasted image 20230711122910.png]]
 We would like to represent an image as an histogram counting the frequency of appearance of visual words from a dictionary
 ![[Pasted image 20230711123303.png]]
-Visual words can be extracted using a regular grid, or keypoint detectors (i.e.[[Detector#Difference of Gaussian (DoG)]] and [[Detector#Harris Corner Detector]]) and then computing its [[SIFT]] descriptor and using it as a word.
+Visual words can be extracted using a regular grid, or keypoint detectors (i.e.[[Detector#Difference of Gaussian (DoG)]] and [[Detector#Harris Corner Detector]]) and then computing its [[SIFT#Descriptor]] and using it as a word.
 ![[Pasted image 20230711123556.png]]
 We then cluster the keypoints in a finite set of centroids, using [[K-Means]], obtaining a "**codebook**"
 ![[Pasted image 20230711124021.png]]
@@ -14,4 +14,4 @@ This is a **fixed-sized representation**, that works also with images of differe
 
 # VLAD
 Stands for Vector of Locally Aggregated Descriptors
-It's the successor of the vanilla BoW, making the codeword assignment more informative: stores the difference of intput words with respect to the codewords (relative position).
+It's the successor of the vanilla BoW, making the codeword assignment more informative: stores the difference of input words with respect to the codewords (relative position).

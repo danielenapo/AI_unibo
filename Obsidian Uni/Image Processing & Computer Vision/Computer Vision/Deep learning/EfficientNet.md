@@ -1,4 +1,3 @@
-
 ## Scaling ResNet
 [[ResNet]] allowed to scale depth.
 Model scaling can also increase width (n° of channels) or resolution:
@@ -8,7 +7,7 @@ The best solution, is scaling everything together: **compound scaling**
 
 In fact, by only scaling one dimension (inevitably increasing flops), we reach a plateau around 80% accuracy
 ![[Pasted image 20230718225926.png]]
-In the graph below, width is increased. The other two parameters viariation changes depending on the color of the line.
+In the graph below, width is increased. The other two parameters variation changes depending on the color of the line.
 The red line represent variation in all dimensions, and is able to reach the highest score, while also using less flops than other ones:
 ![[Pasted image 20230718230119.png]]
 ### Compound scaling coefficient

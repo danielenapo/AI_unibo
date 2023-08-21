@@ -10,11 +10,12 @@ Compared to the [[Bag of words]] (Shallow ML approach) for image classification 
 In the image above, $\phi$ represents the **Activation function**: a non-linear function applied to every element of the input tensor.
 This element is essential to catch non-linear relationships in the data, and without it we would just have a simple linear classifier.
 ### Most common activation functions
-- **Sigmoid** -> maps into [0,1] range, but has the **vanishing gradient** problem
+- **Sigmoid** -> maps into $[0,1]$ range, but has the **vanishing gradient** problem (it's best to use it only as an output layer if we need a binary label).
 - **ReLU** (Rctified Linear Unit) -> solves vanishing gradient, but can cause dead neurons
 ![[Pasted image 20230711152358.png]]
 - **Leaky ReLU** -> solves ReLU's problems 
 ![[Pasted image 20230711152609.png]]
+- [[Gradient descent#Softmax activation function]] 
 # Deep Neural Networks
 Neural networks with just one hidden layer are **universal approximators** (can approximate any mathematical function), and NNs with >2 hidden layers are called _"**Deep** Neural Networks"_.
 If we stick to only 2 layers, the width of the network needs to grow exponentially with the number of inputs (not acceptable with flattened images). If we instead increase the number of layers, the width can grow **linearly**!
