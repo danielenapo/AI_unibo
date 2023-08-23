@@ -1,5 +1,5 @@
 It has been observed that when scaling [[Convolutional Neural Network]]s, not always the performance increases, due to training problems, since optimizing very big networks is hard.
-
+![ResNet](https://www.youtube.com/watch?v=o_3mboe1jYI)
 ## Residual block
 The solution is changing the network, by allowing to learn identity functions thanks to **residual blocks**, implemented by adding **skip connections** between input and last activation.
 A skip connection is just a concatenation:
@@ -19,8 +19,8 @@ They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 - maxpool 3x3 stride 2
 ![[Pasted image 20230712175232.png]]
 ## Skip connections
-Since the size halves and the number of channels doubles at the first conv layer of a stage, the skip input would not match with the stage output. 
-To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm).
+Since the size halves and the number of channels doubles at the first conv layer of a stage (stride 2), the skip input would not match with the stage output. 
+To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm), so we can successfully apply the sum.
 ![[Pasted image 20230712180235.png]]
 ## Bottleneck residual block
 When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.

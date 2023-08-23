@@ -21,6 +21,7 @@ Due to maxpooling, which doubles the n°of channels, the total number becomes pr
 ![inception reason by Andrew NG](https://www.youtube.com/watch?v=C86ZXvgpejM)
 ### 1x1 convolution
 Introduced in the [Network in Network](https://arxiv.org/pdf/1312.4400v3.pdf) paper in 2013.
+![1x1 conv by Andrew NG](https://www.youtube.com/watch?v=c1RBQzKsDCk)
 A good solution is using **1x1 convolutions**, which ==allows to shrink the activation depth (n° of channels) while preserving spatial size==.
 It's like applying a linear fully connected layer at each spatial location (all the channels of a pixel)
 ![[Pasted image 20230712164050.png]]
