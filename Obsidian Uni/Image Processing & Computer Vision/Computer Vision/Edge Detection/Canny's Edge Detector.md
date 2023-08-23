@@ -1,6 +1,6 @@
 Most cited paper on [[Image Processing]] and [[Edge Detection]].
 
-# Criterias
+# Criteria
 ==Defines **THREE CRITERIA** that an edge detector should have==
 - **GOOD DETECTION** -> must correctly extract edges also in noisy images
 - **GOOD LOCALIZATION** -> the distance between true and found edge should be minimal

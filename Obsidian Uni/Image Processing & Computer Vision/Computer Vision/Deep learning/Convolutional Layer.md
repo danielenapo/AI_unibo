@@ -28,3 +28,10 @@ To get **more output channels**, we need to use multiple filters and stack the o
 ![[Pasted image 20230711165704.png]]
 In general, we can have as many input and output channels as we want, as long we use the right kernel dimensions.
 
+# Stride
+How many pixels to shift each time we apply a convolution.
+Stride 1 vs stride 2:
+![[Pasted image 20230823154636.png]]
+It is a useful way to reduce the spatial size of the output (downsampling).
+Most often, to downsample we use Max pooling with stride > 1
+![padding + stride](https://www.youtube.com/watch?v=3TdBtI9dh2I)
