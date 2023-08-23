@@ -1,4 +1,4 @@
-It has been observed that when scaling CNNs, not always the performance increases, due to training problems, since optimizing very big networks is hard.
+It has been observed that when scaling [[Convolutional Neural Network]]s, not always the performance increases, due to training problems, since optimizing very big networks is hard.
 
 ## Residual block
 The solution is changing the network, by allowing to learn identity functions thanks to **residual blocks**, implemented by adding **skip connections** between input and last activation.
@@ -7,7 +7,7 @@ A skip connection is just a concatenation:
 Heavily uses batch norm layers.
 ![[Pasted image 20230712181541.png]]
 # Residual Network
-They are inspired by [[AlexNet#VGG]]'s regular design, stacking together fixed stages:
+They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 - stages are stacks of residual blocks
 - **each residual block is a stack of two 3x3 conv with batch norm and ReLU in between**
 - First block (conv layer) of each stage halves the resolution and doubles channels by using stride 2

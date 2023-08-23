@@ -1,6 +1,7 @@
 In Natural Language Processing, the Bag of Words (BoW) method is a way to classify a text using only a few keywords extracted from the text.
-In the same way, we could extract a bunch of "visual keywords" to build a **Visual Bag of Words**.
 ![[Pasted image 20230711122910.png]]
+In the same way, we could extract a bunch of "visual keywords" to build a **Visual Bag of Words**.
+
 We would like to represent an image as an histogram counting the frequency of appearance of visual words from a dictionary
 ![[Pasted image 20230711123303.png]]
 Visual words can be extracted using a regular grid, or keypoint detectors (i.e.[[Detector#Difference of Gaussian (DoG)]] and [[Detector#Harris Corner Detector]]) and then computing its [[SIFT#Descriptor]] and using it as a word.

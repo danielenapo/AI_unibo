@@ -10,7 +10,7 @@ To obtain large receptive fields with a limited number of layers, we **downsampl
 ![[Pasted image 20230711173342.png]]
 ## Strides
 The stride indicates how many pixels we want to move right when we slide the kernel over the image.
-The strides affects the output image size, and for a given s, we get:
+The strides affects the output image (feature map) size, and for a given s, we get:
 ![[Pasted image 20230711173658.png]]
 The size of the receptive field grows exponentially with respect to the number of layers with stride>1
 ![[Pasted image 20230711173817.png]]
@@ -39,6 +39,6 @@ Batchnorm behaves differently based on batches values. Since we want this layer 
 
 # Popular architectures
 - [[AlexNet]]
-- [[AlexNet#VGG]]
+- [[VGG]]
 - [[Inception]]
 - [[ResNet]]

@@ -11,9 +11,24 @@
             "id": "dd887b43ae58be37",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+                "viewState": {
+                  "x": 1418.4313576778904,
+                  "y": -207.58674970316753,
+                  "zoom": -1.6666666666666667
+                }
+              }
+            }
+          },
+          {
+            "id": "ab12d997cd37225d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,14 +60,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1d ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md"
+                "file": "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas"
               }
             }
           }
@@ -196,18 +210,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9b7a30674865f35",
+  "active": "dd887b43ae58be37",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+    "Image Processing & Computer Vision/Documents/Pasted image 20230823120442.png",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
@@ -228,14 +245,10 @@
     "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
     "Pasted image 20230819124850.png",
     "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Documents/multiple_channels_convolution_CNN.gif",
     "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif",
     "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif.crdownload",
     "Image Processing & Computer Vision/Documents/Pasted image 20230719120010.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230719120536.png",
     "Image Processing & Computer Vision/Image Processing/Calibration",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
     "Neuroscience/Neuroscience.canvas",

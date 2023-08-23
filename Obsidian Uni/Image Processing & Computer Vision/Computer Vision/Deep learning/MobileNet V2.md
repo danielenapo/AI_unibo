@@ -18,10 +18,10 @@ Splits the computation into two steps: 
 - **Depthwise convolution** is used to create a linear combination of the output of the depthwise convolution.
 - **Pointwise convolution** is used to create a linear combination of the output of the depthwise convolution (1x1 conv)
 ![[Pasted image 20230719120010.png]]
-Using this kind of convolution allows to deal with more channel, while keeping the cost down.
+Using this kind of convolution allows to deal with more channel, while keeping the cost down. The groups are computed in parallel, allowing a speedup up to 9x!!!
 ![[Pasted image 20230719120536.png]]
 
-
+![Depthwise separable convolution](https://www.youtube.com/watch?v=vVaRhZXovbw)
 ## Architecture
 MobileNet V2 is a stack of inverted residual blocks:
 ![[Pasted image 20230718225409.png]]

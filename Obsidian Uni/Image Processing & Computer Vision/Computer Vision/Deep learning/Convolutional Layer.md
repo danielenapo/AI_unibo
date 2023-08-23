@@ -1,3 +1,4 @@
+![[multiple_channels_convolution_CNN.gif | 500]]
 In traditional [[Image Processing]], for [[Image Filters]] we rely on [[Image Filters#Convolution]]s with handcrafted filters.
 We could build convolutional layers that have the objective to learn the composition of such filters from data.
 - Input and output are not flattened, preserving the spatial structure
@@ -21,7 +22,7 @@ To better understand how weight sharing works and how CNN differs from FC networ
 Colored images have 3 channels, corresponding to a 3D tensor $3\times H\times W$.
 We need to have 3 kernels: one for each channel ($3\times K \times K$).
 Each filter generates a single channel **feature map**. 
-![[multiple_channels_convolution_CNN.gif]]
+
 ![[Pasted image 20230711165448.png]]
 To get **more output channels**, we need to use multiple filters and stack the ouptuts.
 ![[Pasted image 20230711165704.png]]
