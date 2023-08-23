@@ -14,4 +14,4 @@ KNN can only get up to 38% accuracy on ImageNet.
 
 Also parametric approach like the [[Linear Regression]] classifier is a bad idea, since classes are categorical (not ordinal).
 
-The only way to solve this problem is through [[Gradient descent]] and an [[ML approach]].
+The only way to solve this problem is through [[Gradient descent]] and an [[Deep Learning computer vision]].

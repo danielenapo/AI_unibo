@@ -1,4 +1,4 @@
-The first [[ML approach]] classifier to win the ILSVRC contest in 2012, before there were only [[Bag of words#VLAD]].
+The first [[Deep Learning computer vision]] classifier to win the ILSVRC contest in 2012, before there were only [[Bag of words#VLAD]].
 By Geoffrey Hinton, Ilya Sutskever and Alex Krizhevsky.
 ![[Pasted image 20230712113554.png]]
 It is an evolution of LeNet, with 5 convolutional layers + ReLU, some of them followed by maxpooling. Finally 3 Fully connected layers.

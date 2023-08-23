@@ -1,4 +1,5 @@
 We can use [[Machine Learning]] approaches for image [[Classification]], without relying too much on complicated algorithm, letting the computer do the hard work given enough training labelled data (e.g. Imagenet dataset).
+Traditional or classical Computer vision only relies on handwritten algorithms.
 
 # Neural networks
 Using Deep Learning and [[Neural Networks (MLP)]] has proven to be a major breakthrough in Computer Vision, for many kinds of tasks, thanks to [[Gradient descent]] which greatly improves the problems associated with the [[Image classification#Curse of dimensionality]].

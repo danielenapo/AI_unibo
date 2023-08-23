@@ -4,7 +4,7 @@ Computer vision is a field of Artificial Intelligence, that deals with extractio
 In the last years, with the advent of [Deep Leaning], its performance and usage has been increasing exponentially.
 ![[Pasted image 20230301155646.png]]
 # Deep Learning CV tasks
-Uses [[ML approach]]es to solve complex tasks relying on the training data.
+Uses [[Deep Learning computer vision]]es to solve complex tasks relying on the training data.
 ![[Pasted image 20230301155727.png]]
 - Image classification
 - Semantic segmentation

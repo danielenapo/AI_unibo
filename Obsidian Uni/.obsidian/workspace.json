@@ -47,8 +47,12 @@
             "id": "a9384bed1b3bba3d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -63,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md"
               }
             }
           }
@@ -207,24 +212,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd887b43ae58be37",
+  "active": "a9384bed1b3bba3d",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "Pasted image 20230823154636.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/ML approach.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230823120442.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
     "Image Processing & Computer Vision/Computer Vision/Image classification.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820200736.png",
