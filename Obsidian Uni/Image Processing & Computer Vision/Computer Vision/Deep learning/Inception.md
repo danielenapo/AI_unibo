@@ -1,7 +1,7 @@
-![[Pasted image 20230823120442.png]]
-aka GoogLeNet 
-With the aim of reducing computing resources to scale the model, exploiting "inception modules" and increasing depth and width while keeping the computational budget constant.
-It can process multiple activaitons in parallel
+![[Pasted image 20230823120442.png | 400]]
+_aka GoogLeNet 
+With the aim of reducing computing resources to scale the model, exploiting "inception modules" and increasing depth and width while keeping the computational budget constant._
+It can process multiple activations in parallel
 ![[Pasted image 20230712152358.png]]
 ![Inception by Andrew NG](https://www.youtube.com/watch?v=KfV8CJh7hE0)
 
@@ -35,6 +35,7 @@ The final inception module exploits this property by applying 1x1 convolutions *
 - Time complexity is reduced for convolutions
 - Less parameters
 ![[Pasted image 20230712164333.png]]
+![[Pasted image 20230824181028.png]]
 So the final inception module is composed of 4 parallel paths:
 - 1x1 conv + 5x5 conv
 - 1x1 conv + 3x3 conv

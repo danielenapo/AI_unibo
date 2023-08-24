@@ -11,7 +11,8 @@ expansion works according to an **expansion ratio t**
 
 There are no ReLUs between residual blocks
 ![[Pasted image 20230718183635.png | 400]]
-## Depthwise separable convolution
+![[Pasted image 20230824181133.png]]
+# Depthwise separable convolution
 ==The inner 3x3 conv layer is implemented as a depthwise separable convolution:==
 Instead of doing one big convolution, the matrix is split in 2, and we just do two smaller convolutions. The result is the same, but the complexity is **much** smaller.
 Splits the computation into two steps: 
