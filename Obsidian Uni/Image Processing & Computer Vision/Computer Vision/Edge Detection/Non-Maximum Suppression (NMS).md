@@ -12,6 +12,7 @@ Setting a good threshold for value to find edges is difficult. An alternative is
 In fact the correct direction needs to be estimated locally based on gradient's direction.
 But the gradient is continuous, and our domain is made of discrete pixels -> need discretization (of the direction):
 ![[Pasted image 20230321102158.png]]
+The actual magnitude at a direction not present in the discretized pixel grid is computed using a **linear interpolation**, to get more accurate results. 
 
 ==Applying magnitude thresholding AFTER NMS helps in filtering out irrelevant edges== (due to noise or not important details)
 

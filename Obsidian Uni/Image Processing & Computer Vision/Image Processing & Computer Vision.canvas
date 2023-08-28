@@ -25,7 +25,7 @@
 		{"type":"text","text":"# Laplacian of Gaussian (LoG)","id":"294fc77cd264ec42","x":1983,"y":1482,"width":300,"height":103},
 		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md","id":"321fd1aa30cec317","x":828,"y":376,"width":655,"height":347},
 		{"type":"text","text":"# Difference of Gaussians (DoG)","id":"224299b48e7f3dce","x":1996,"y":1665,"width":275,"height":98},
-		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md","id":"9a14514792159da3","x":902,"y":1186,"width":507,"height":174},
+		{"type":"file","file":"Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maximum Suppression (NMS).md","id":"9a14514792159da3","x":902,"y":1186,"width":507,"height":174},
 		{"type":"text","text":"# Harris","id":"4de3cfdbd07fa8b8","x":1348,"y":1482,"width":227,"height":103},
 		{"type":"text","text":"# Moravec","id":"a0f651ae3c19cce2","x":1671,"y":1482,"width":250,"height":103},
 		{"type":"file","file":"Image Processing & Computer Vision/Image Processing/Filters/Image Filters.md","id":"9668bb3518e00253","x":227,"y":217,"width":357,"height":333},

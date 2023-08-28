@@ -41,14 +41,13 @@ Given m(x,y) and $\theta(x,y)$ for each pixel:
 	- Gradient magnitude
 	- Gaussian weighting function
 ![[Pasted image 20230407223245.png]]
-Finally, to avoid **boundary effects**, a ==**trilinear interpolation** scheme== is applied: tha contribution of two adjacent bins is weighted by distance of the bin center (done also between different regions).
+Finally, to avoid **boundary effects**, a ==**trilinear interpolation** scheme== is applied: the contribution of two adjacent bins is weighted by distance of the bin center (done also between different regions).
 Descriptor is **normalized** to be more robust to intensity variations (i.e. light)
 # Matching
-### Why?
 Can be used for **object recognition, image stitching, 3D modeling, gesture recognition, video tracking**, and other applications.
 Comparing descriptors from 2 different images (different views) of the same scene/object, to find corresponding keypoints.
 All the invariance properties are needed to have reliable matching across all kind of variable domains (for light, rotation and scale).
-### How
+
 SIFT descriptors are compared to find corresponding keypoints, using **Nearest Neighbor ([[KNN]]) Search** and **Euclidean Distance**. 
 ![[Pasted image 20230407224556.png]]
 Distance is computed for each keypoint in T, and we count as matches the ones where $$\frac{d_nn}{d_{2-nn}}\le T $$ 

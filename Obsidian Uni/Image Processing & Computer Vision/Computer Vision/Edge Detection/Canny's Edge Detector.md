@@ -10,7 +10,7 @@ Most cited paper on [[Image Processing]] and [[Edge Detection]].
 Canny's edge detectors can be implemented using:
 - [[Gaussian Filter]] (denoising)
 - Gradient computation (edge detection)
-- [[Non-Maxima Suppression (NMS)]] along gradient direction
+- [[Non-Maximum Suppression (NMS)]] along gradient direction
 
 # Hysteresis threshold
 ![[Pasted image 20230320194240.png]]

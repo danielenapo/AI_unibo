@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md"
               }
             }
           }
@@ -227,44 +227,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0153a47c336c5a59",
+  "active": "960ff10205e514ea",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/SIFT.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maximum Suppression (NMS).md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/Computer Vision/Image classification.md",
+    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/MobileNet V2.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230824181133.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230824181028.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Gradient descent.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Canny's Edge Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/EfficientNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230823154636.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230823120442.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Edge Detection.md",
     "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Computer Vision/Image classification.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820200736.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820203708.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820202847.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820202558.png",
     "Image Processing & Computer Vision/Documents/Pasted image 20230820201215.png",
-    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Lenses.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
-    "Image Processing & Computer Vision/Image Processing/Calibration/Image formation.md",
     "Pasted image 20230819124850.png",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
     "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif.crdownload",
     "Image Processing & Computer Vision/Image Processing/Calibration",
     "Image Processing & Computer Vision/Computer Vision/Deep learning",
