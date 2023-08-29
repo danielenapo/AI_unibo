@@ -1,11 +1,17 @@
 It has been observed that when scaling [[Convolutional Neural Network]]s, not always the performance increases, due to training problems, since optimizing very big networks is hard.
+They are easy to optimize, making it possible to train deeper networks (which are also more accurate)
+
+In standard networks (green), having more layers also means having more **train** error. ResNet aims to solves this problem with a heavy use of [[Batch normalization]].
+![[Pasted image 20230829154244.png]]
 ![ResNet](https://www.youtube.com/watch?v=o_3mboe1jYI)
 ## Residual block
 The solution is changing the network, by allowing to learn identity functions thanks to **residual blocks**, implemented by adding **skip connections** between input and last activation.
 A skip connection is just a concatenation:
 ![[Pasted image 20230712165635.png]]
-Heavily uses batch norm layers.
+This network makes a heavy use of [[Batch normalization]], using it after any convolution operation (even 1x1). This allows to have really deep networks without having bad consequences on the learning.
 ![[Pasted image 20230712181541.png]]
+We can see below that in ResNet (middle graph), increasing the layer count does not affect as much the training and test error, as opposed to the plain network (Same resnet architecture, without skip connections).
+![[Pasted image 20230829173751.png]]
 # Residual Network
 They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 - stages are stacks of residual blocks
@@ -19,8 +25,9 @@ They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 - maxpool 3x3 stride 2
 ![[Pasted image 20230712175232.png]]
 ## Skip connections
-Since the size halves and the number of channels doubles at the first conv layer of a stage (stride 2), the skip input would not match with the stage output. 
-To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm), so we can successfully apply the sum.
+- ResNet blocks never use maxpooling to downsample, instead the first 3x3 convolution will have stride 2 and double the channels
+- Since the size halves and the number of channels doubles at the first conv layer of a stage (stride 2), the skip input would not match with the stage output. 
+- To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm), so we can successfully apply the sum.
 ![[Pasted image 20230712180235.png]]
 ## Bottleneck residual block
 When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.
@@ -50,5 +57,4 @@ Uses a **squeeze and excitation** module to capture global context ant to reweig
 There are 2 skip connections: 
 1) vanilla between input and last relu
 2) between residual block and scale after the S-E block
-
 

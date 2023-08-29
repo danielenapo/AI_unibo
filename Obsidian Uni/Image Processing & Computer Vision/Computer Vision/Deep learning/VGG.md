@@ -13,13 +13,16 @@ CONS:
 
 pre-initialization of weight was still necessary since batchnorm was not invented yet
 ![[Pasted image 20230712123256.png]]
-There is a repetition of "**stages**"
-a stage for example is $conv+conv*2+pool$, or $conv+conv+conv+pool$.
+- There is a repetition of "**stages**"
+	a stage for example is $conv+conv*2+pool$, or $conv+conv+conv+pool$.
+- One stage ha same receptive field of larger convolutions, but requires less parameters and computation, introduces non-linearities.
+- After each downsampling of the image size (with maxpool), the number of channels is doubled, to keep the computational cost per layer constant, and still having a bigger receptive field.
 
-One stage ha same receptive field of larger convolutions, but requires less parameters and computation, introduces non-linearities.
 
 ## 3x3 convolutions
-With VGG came the understanding that we don't need large convolutions, and that multiple 3x3 convs can have the same effect of a bigger one. Smaller convolutions = less parameters = less computation. Although, in the first layers (stem), it's best to use bigger convolutions to rapidly squeeze the image.
+With VGG came the understanding that we don't need large convolutions, and that ==multiple 3x3 convs can have the same effect of a bigger one==. 
+Smaller convolutions = less parameters = less computation. 
+Although, in the first layers (stem), it's best to use bigger convolutions to rapidly squeeze the image.
 ![3x3 conv](https://www.youtube.com/watch?v=V9ZYDCnItr0)
 ### VGG-16
 ![[Pasted image 20230712151831.png]]
