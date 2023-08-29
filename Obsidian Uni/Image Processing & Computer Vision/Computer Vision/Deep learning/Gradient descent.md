@@ -1,3 +1,4 @@
+_The algorithm used in [[Neural Networks (MLP)]] to optimize the parameters. (and to perform training)._
 # Optimization
 To solve the curse of dimensionality problem, we convert it to a similar, simpler problem: minimizing a **loss function** which is related to the actual problem.
 This objective function is much simpler to optimize, and if chosen correctly, will result in a good outcome for the original problem.

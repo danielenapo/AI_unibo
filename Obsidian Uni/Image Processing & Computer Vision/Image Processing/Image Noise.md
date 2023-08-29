@@ -1,4 +1,6 @@
-Images will have noise for different reasons. It is more noticeable on plain regions.
+_Real images will present some sort of noise due to errors in the capturing process. Noise makes CV techniques less accurate, thus it is important to remove it as much as possible._
+
+Gaussian noise is more noticeable on plain regions.
 It can be seen as a random variable (normal distribution with zero mean):
 ![[Pasted image 20230309121149.png]]
 

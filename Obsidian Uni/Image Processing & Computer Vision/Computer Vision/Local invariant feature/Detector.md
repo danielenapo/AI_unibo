@@ -1,12 +1,13 @@
+_Algorithms that detect [[Local Invariant Feature]] points._
 ## Moravec Interesting Point Detector
-**cornerness** of a pixel p is a measure of the likelihood of that point being a corner:
+_**cornerness** of a pixel p is a measure of the likelihood of that point being a corner:_
 $$C(p)=min_{q\in neigh(p)} ||N(p)-N(q)||^{2}$$
 ![[Pasted image 20230331121152.png]]
 If this number is sufficiently high, it means that on every neighboring direction the change is high, meaning that the point p is a corner.
 ## Harris Corner Detector
 Continuous formulation of [[#Moravec Interesting Point Detector]]:
-shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $f(x+\Delta x)=f(x)+f'(x)\Delta x$ 
-so $I(x+\Delta x, y+ \Delta y)= I(x,y)+I_{x}\Delta x + I_{y}\Delta y$
+shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $$f(x+\Delta x)=f(x)+f'(x)\Delta x$$
+so the image with infinitesimal shift is written as: $$I(x+\Delta x, y+ \Delta y)= I(x,y)+I_{x}\Delta x + I_{y}\Delta y$$
 
 We consider a window function (usually of +size 1): $w(x,y)$ which is 1 inside the window, 0 outside
 ![[Pasted image 20230714174736.png]]
@@ -49,8 +50,8 @@ Scale space must be realized with [[Gaussian Filter]] smoothing:
 $L(x,y,\sigma)=G(x,y,\sigma)*I(x,y)$, increasing the kernel size when shrinking the image.
 
 # Scale-Normalized LOG
-Useful for detecting **[[Local Invariant Feature#Blob]] features** in images.
-Uses the scale-normalized [[Laplacian of Gaussian (LOG)]], which uses second order derivatives.
+_Useful for detecting **[[Local Invariant Feature#Blob]] features** in images.
+Uses the scale-normalized [[Laplacian of Gaussian (LOG)]], which uses second order derivatives._
 Convolves image with LOG filter at multiple scales:
 $F(x,y,\sigma)=\sigma^{2}(\nabla^{2}G(x,y,\sigma)*I(x,y))$ 
 the $\sigma^{2}$ does normalization, making the filter invariant to scale changes. 

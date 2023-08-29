@@ -1,5 +1,4 @@
-#image_processing 
-Simplest imaging device. Light goes through a very small pinhole and hits the image plane
+_Simplest imaging device. Light goes through a very small pinhole and hits the image plane_
 ![[Pasted image 20230301160141.png]]
 ## Perspective Projection
 ![[Pasted image 20230301160300.png]]

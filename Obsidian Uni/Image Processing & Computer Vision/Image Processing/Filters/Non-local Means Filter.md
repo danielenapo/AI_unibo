@@ -1,4 +1,4 @@
-==**non-linear** edge preserving smoothing filter, that exploits the similarity among patches spread all over the image to achieve denoising==
+_**Non-linear** edge preserving smoothing filter, that exploits the similarity among patches spread all over the image to achieve denoising_
 ![[Pasted image 20230319173045.png]]
 This kernel needs to be computed at runtime, and it's much slower than a simple linear filter.
 

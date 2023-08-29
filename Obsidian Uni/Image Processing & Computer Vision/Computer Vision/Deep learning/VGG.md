@@ -1,4 +1,4 @@
-Very **simple and schematic** network, divided into **stages** of fixed components. 
+_Very **simple and schematic** network, divided into **stages** of fixed components. _
 
 Uses a combination of:
 - **3x3 conv** with stride 1, P 1

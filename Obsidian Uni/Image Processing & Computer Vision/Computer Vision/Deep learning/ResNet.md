@@ -1,3 +1,5 @@
+_Very deep network that uses residual connections and [[Batch normalization]], easy to optimize._
+
 It has been observed that when scaling [[Convolutional Neural Network]]s, not always the performance increases, due to training problems, since optimizing very big networks is hard.
 They are easy to optimize, making it possible to train deeper networks (which are also more accurate)
 
@@ -30,9 +32,10 @@ They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 - To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm), so we can successfully apply the sum.
 ![[Pasted image 20230712180235.png]]
 ## Bottleneck residual block
-When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.
-Adds a third 1x1 conv layer before adding the skip, with 4 times the number of channels. Also the first conv layer is 1x1.
-![[Pasted image 20230712181515.png]]
+- When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.
+- Adds a third 1x1 conv layer before adding the skip, with 4 times the number of channels. Also the first conv layer is 1x1. Only one 3x3 layer in the middle.
+- The 3x3 conv layer operates in a compressed domain (might lead to information loss)
+![[Pasted image 20230829174940.png | 500]]
 # Inception-ResNet
 [[Inception]] modules with skip connections
 ![[Pasted image 20230718180657.png]]
@@ -50,7 +53,7 @@ ResNext uses grouped convolutions in residual blocks, so it can have more paths 
 The ResNext block is approximately an [[#Inception-ResNet]] block
 ![[Pasted image 20230713121418.png]]
 ## SENet
-Uses a **squeeze and excitation** module to capture global context ant to reweight channels in each block
+Uses a **squeeze and excitation** module to capture global context ant to reweight channels in each block.
 ![[Pasted image 20230718182801.png]]
 - squeeze = global average pooling
 - excitation = FC+ReLU+FC+sigmoid

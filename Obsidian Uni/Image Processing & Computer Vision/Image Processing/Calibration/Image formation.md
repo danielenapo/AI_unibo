@@ -1,5 +1,4 @@
-the [[Pinhole Camera model]] might be too simplistic of a model. We need something more realistic.
-
+_A more realistic mathematical model than the [[Pinhole Camera model]], useful for [[Camera calibration]]_
 # From 3D to 2D
 The 3D **World Reference Model (WRF)** has to be projected in the **Camera Reference Model (CRF)**, and then in a 2D plane (the image plane).
 ![[Pasted image 20230501172900.png]]

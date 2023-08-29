@@ -1,5 +1,6 @@
+_instead of using first order derivatives, another effective way to extract edges in [[Edge Detection]], is using **second order derivatives** and the **Laplacian operator**._
 # Zero Crossing
-instead of using first order derivatives, another effective way to extract edges in [[Edge Detection]], is using **second order derivatives**: instead of searching the peak of the 1st derivative, we now look for the zero crossing point of the 2nd.
+Instead of searching the peak of the 1st derivative, we now look for the zero crossing point of the 2nd.
 ![[Pasted image 20230327103325.png]]
 ## Laplacian
 As second order derivative operator, we can use the Laplacian:

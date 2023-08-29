@@ -7,9 +7,8 @@ so the middle 3x3 conv operates with reduced dimensions, that might lead to info
 MobileNet solves this issue by using **inverted residual blocks**, where 
 - the first 1x1 layer expands the channels
 - second compresses back again
-expansion works according to an **expansion ratio t**
-
-There are no ReLUs between residual blocks
+- expansion works according to an **expansion ratio t**
+- There are ==no ReLUs between residual blocks==
 ![[Pasted image 20230718183635.png | 400]]
 ![[Pasted image 20230824181133.png]]
 # Depthwise separable convolution

@@ -1,4 +1,4 @@
-Stands for "Scale Invariant Feature Transform" **invariant to image scaling, translation, and rotation** (canonical orientation) and partially invariant to illumination changes and affine or 3D projection.
+_Stands for "Scale Invariant Feature Transform" **invariant to image scaling, translation, and rotation** (canonical orientation) and partially invariant to illumination changes and affine or 3D projection._
 # Detector
 Makes a scale space of the image with different $\sigma$ for the Gaussian kernels (within an octave). In an octave, we sample $s$ scales: $$2\sigma=k^{s}\sigma \rightarrow k=2^{\frac{1}{s}}$$Between each pair of layer, difference is performed, obtaining multiple  [[Detector#Difference of Gaussian (DoG)]] layers:
 ![[Pasted image 20230407183220.png]]
@@ -16,8 +16,8 @@ After finding the extremas, 2 thresholds are applied:
 1. 1st removes useless points (for example in the background)
 2. 2nd removes features along edges (useless since we can use [[Edge Detection]])
 ![[Pasted image 20230407183740.png]]
-### [[Hyperparameter#Tuning]] 
-according to Lowe, the best values are $s=3$ and $\sigma=1.6$
+- **[[Hyperparameter#Tuning]]**:
+	according to Lowe, the best values are $s=3$ and $\sigma=1.6$
 
 # Descriptor
 ==**local feature descriptor** that is computed for each keypoint detected by the SIFT Detector.==

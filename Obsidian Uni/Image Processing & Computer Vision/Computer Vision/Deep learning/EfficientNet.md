@@ -14,7 +14,7 @@ Flops increase linearly for depth, but quadratically for width and resolution. w
 ![[Pasted image 20230718230417.png]]
 It is like a linear programming problem, performing grid search to find the optimal combination of parameters.
 # EfficientNet-B0
-The baseline network for EfficientNet was searched using Neural Architecture Search, letting it perturb a model similar to [[MobileNet V2]].
+The baseline network for EfficientNet was searched using **Neural Architecture Search** (a neural network which optimizes ResNet architectures), letting it perturb a model similar to [[MobileNet V2]].
 It ended up alternating apparently random convolution sizes (3x3 and 5x5), while always using Squeeze and Excitation modules (from [[ResNet#SENet]]).
 ![[Pasted image 20230718230837.png]]
 Indeed EfficientNet managed to score the highest accuracy with moderate flops compared to its competitors.

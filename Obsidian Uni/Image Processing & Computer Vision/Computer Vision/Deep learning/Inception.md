@@ -18,7 +18,7 @@ LAYERS:
 The main reason of the inception module is to try different approaches of layers altogether, and combine them (as if it were an [[Ensemble methods]]).
 Due to maxpooling, which doubles the n°of channels, the total number becomes prohibitively expensive with big convolutions
 ![[Pasted image 20230712163802.png]]
-![inception reason by Andrew NG](https://www.youtube.com/watch?v=C86ZXvgpejM)
+![inception reason by Andrew NG | 200](https://www.youtube.com/watch?v=C86ZXvgpejM)
 # 1x1 convolution
 Introduced in the [Network in Network](https://arxiv.org/pdf/1312.4400v3.pdf) paper in 2013.
 ![1x1 conv by Andrew NG](https://www.youtube.com/watch?v=c1RBQzKsDCk)

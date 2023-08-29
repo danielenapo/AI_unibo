@@ -1,4 +1,4 @@
-Image [[Classification]] is a standard problem in [[Computer Vision]]. It requires to classify an image into a finite set of categorical classes.
+_Image [[Classification]] is a standard problem in [[Computer Vision]]. It requires to classify an image into a finite set of categorical classes._
 
 - This problem is very hard if we only rely on classical [[Computer Vision]]: There are too many possible variation in images, making this task almost impossible.
 - It's mandatory to rely on [[Machine Learning]], more specifically [[Supervised Learning]]: feeding lots of labelled images to train the parameters of a model, and doing [[Hyperparameter#Tuning]].

@@ -1,4 +1,5 @@
-[[Convolutional Layer]]s are just constrained forms of linear layers.
+_[[Convolutional Layer]]s are just constrained forms of linear layers, more useful and appropriate to deal with images or signals._
+
 If we want to stack more layers, we still need to use non-linear activation functions.
 ## Padding
 If we stack multiple layers, size will shrink if we don't use padding ("valid").

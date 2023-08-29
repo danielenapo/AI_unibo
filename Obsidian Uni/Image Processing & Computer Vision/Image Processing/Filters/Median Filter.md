@@ -1,4 +1,4 @@
-**non-linear** filter where each pixel intensity is replaced by the **median** over a given neighborhood
+_**non-linear** filter where each pixel intensity is replaced by the **median** over a given neighborhood_
 ![[Pasted image 20230319165559.png]]
 The kernel is not fixed, and needs to be computed for each pixel (though it is an easy computation)
 ==It is **very effective** to contrast [[Image Noise#Impulse Noise]]==, while also preserving sharp edges ==(**no blurring**)==
