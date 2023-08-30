@@ -11,6 +11,7 @@ We now look for extremas in each of the DoG layer, comparing with neighborhood, 
 ![[Pasted image 20230407182643.png]]
 The layer of the detected extremas define the **scale** of the blob feature: ==the blurrier the image, the bigger the feature! ==
 ![[Pasted image 20230407182723.png]]
+
 ### Thresholds
 After finding the extremas, 2 thresholds are applied:
 1. 1st removes useless points (for example in the background)
@@ -18,7 +19,7 @@ After finding the extremas, 2 thresholds are applied:
 ![[Pasted image 20230407183740.png]]
 - **[[Hyperparameter#Tuning]]**:
 	according to Lowe, the best values are $s=3$ and $\sigma=1.6$
-
+![SIFT](https://www.youtube.com/watch?v=ram-jbLJjFg)
 # Descriptor
 ==**local feature descriptor** that is computed for each keypoint detected by the SIFT Detector.==
 More specifically, a 16x16 neighborhood patch is considered.
@@ -43,6 +44,7 @@ Given m(x,y) and $\theta(x,y)$ for each pixel:
 ![[Pasted image 20230407223245.png]]
 Finally, to avoid **boundary effects**, a ==**trilinear interpolation** scheme== is applied: the contribution of two adjacent bins is weighted by distance of the bin center (done also between different regions).
 Descriptor is **normalized** to be more robust to intensity variations (i.e. light)
+![descriptor](https://www.youtube.com/watch?v=IBcsS8_gPzE&t=216s)
 # Matching
 Can be used for **object recognition, image stitching, 3D modeling, gesture recognition, video tracking**, and other applications.
 Comparing descriptors from 2 different images (different views) of the same scene/object, to find corresponding keypoints.
@@ -60,3 +62,4 @@ $d_{2-nn}$ is the distance of the neighbor's neighbor. This works best since rea
 This search method is computationally expensive. Faster alternatives are:
 - **k-d tree** -> uses a kind of binary tree search
 - **Best Bin First (BBF)** -> efficient in high dimensional spaces
+

@@ -17,5 +17,11 @@ Nearly all parameters are in the fully connected layers.
 The first stem layer takes the most activation memory (big convolution 11x11)
 The largest number of flop is required by the conv layers
 ![AlexNet](https://www.youtube.com/watch?v=jvC5eP3Wdcc)
-## ZFNet
-An improved AlexNet (won in 2013). Introduces deconvnets and gradient ascent for layer visualization. This allowed to find structural flaws like too large filter sizes and strides (2 instead of 3).
+# ZFNet
+An improved AlexNet (won in 2013). Introduces deconvnets for layer visualization. This allowed to find structural flaws like too large filter sizes and strides (2 instead of 4).
+Thy showed that the learned filters are far from random, uninterpretable patterns.
+### Deconvnet
+Understanding the operation of a convnet requires interpreting the feature activity in intermediate layers. Deconvnets are a way to map these activities back to the input pixel space, showing what input pattern originally caused a given activation in the feature maps. 
+![[Pasted image 20230830121555.png | 400]]
+It can be thought of as a convnet model that uses the same components (filtering, pooling) but in reverse, so instead of mapping pixels to features does the opposite. 
+![[Pasted image 20230830120412.png]]

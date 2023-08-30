@@ -21,6 +21,7 @@ Right: template grid sliding onto the Image -> size HW.
 
 - **Sum of Squared Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(I(i+m,j+n)-T(m,n))^2$$
 - **Sum of Absolute Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}|I(i+m,j+n)-T(m,n)|$$
+Normalization is essential, since change in intensity would mess up the matching process (a bright area would have high correlation than the actual target just for the intensity)
 - **Normalized Cross Correlation:** $$NCC(i,j)=\frac{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)\cdot T(m,n)}{\sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)^{2}} \cdot \sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}T(m,n)^{2}}}$$
 	It is invariant to linear intensity changes
 - **Zero-mean Normalize Cross correlation:** 
@@ -32,7 +33,7 @@ Then the ZNCC is just the NCC there those means are subtracted
 It's invariant to affine intensity changes: $\tilde I(i,j)=\alpha \cdot T + \beta$
 
 ![[Pasted image 20230706131918.png]]
-
+![template matching video](https://www.youtube.com/watch?v=1_hwFc8PXVE)
 ## Fast template matching
 To speed up the slow template matching, we can use an image pyramid, similar to the [[Detector#Scale-Space]].
 Each level is a smoothed and sub-sampled
@@ -64,6 +65,11 @@ If we consider the intercepting line between two points $P_1$ and $P_2$ in param
 Moreover, given n colinear image points in image space, projected in Hough space, the all the lines will merge in a single point
 ![[Pasted image 20230706155125.png]]
 **Therefore, rather than looking at extended shapes in images, we look for interceptions in the parameter space of lines!**
+
+Below, an example where we got blue points from the same orange line, and a green point that does not belong to it. Its line in Hough space does not pass through the orange point.
+![[Pasted image 20230830162437.png | 400]]
 ### Implementation
 The actual Hough space needs to be quantized and allocated as a matrix, known as the **Accumulator Array (AA)
 ![[Pasted image 20230706163741.png]]
+
+![hough transform](https://www.youtube.com/watch?v=XRBc_xkZREg)
