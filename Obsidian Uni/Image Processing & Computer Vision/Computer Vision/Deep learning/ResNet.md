@@ -28,9 +28,11 @@ They are inspired by [[VGG]]'s regular design, stacking together fixed stages:
 ![[Pasted image 20230712175232.png]]
 ## Skip connections
 - ResNet blocks never use maxpooling to downsample, instead the first 3x3 convolution will have stride 2 and double the channels
-- Since the size halves and the number of channels doubles at the first conv layer of a stage (stride 2), the skip input would not match with the stage output. 
-- To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C channels (followed by batch norm), so we can successfully apply the sum.
+- Since the size halves (for the stride=2) and the number of channels doubles **after** the first conv layer of a stage (since we use 2C filters), the skip input would not match with the stage output. 
+- To solve this, it's best to apply a 1x1 convolution with stride 2 and 2C filters (followed by batch norm), so we can successfully apply the sum.
+_(remember: the number of filters determine the number of output channels. The number of filter channel must be the same of the number of input channels)_
 ![[Pasted image 20230712180235.png]]
+![[Pasted image 20230831175055.png]]
 ## Bottleneck residual block
 - When designing very deep residual nets, it's best to use these kind of block, which enable faster depth increase without altering computational budget.
 - Adds a third 1x1 conv layer before adding the skip, with 4 times the number of channels. Also the first conv layer is 1x1. Only one 3x3 layer in the middle.

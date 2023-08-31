@@ -1,3 +1,4 @@
+_Scales [[ResNet]] in depth, width and resolution in an optimal way._
 ## Scaling ResNet
 [[ResNet]] allowed to scale depth.
 Model scaling can also increase width (n° of channels) or resolution:

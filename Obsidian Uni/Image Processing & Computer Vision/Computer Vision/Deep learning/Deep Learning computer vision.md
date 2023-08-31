@@ -13,7 +13,7 @@ This element is essential to catch non-linear relationships in the data, and wit
 ### Most common activation functions
 - **Sigmoid** -> maps into $[0,1]$ range, but has the **vanishing gradient** problem (it's best to use it only as an output layer if we need a binary label).
 - **ReLU** (Rctified Linear Unit) -> solves vanishing gradient, but can cause dead neurons
-![[Pasted image 20230711152358.png]]
+![[Pasted image 20230711152358.png | 700]]
 - **Leaky ReLU** -> solves ReLU's problems 
 ![[Pasted image 20230711152609.png]]
 - [[Gradient descent#Softmax activation function]] 

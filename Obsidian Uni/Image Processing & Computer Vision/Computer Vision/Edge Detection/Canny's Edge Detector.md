@@ -17,12 +17,14 @@ Canny's edge detectors can be implemented using:
 Canny proposes a hysteresis threshold relying on higher $T_{h}$ and lower $T_{l}$:
 
 A pixel will be considered as edge if the gradient magnitude  $| \nabla I |$ is either:
--  higher than $T_{h}$ --> $| \nabla I |> T_{h}$ 
--OR-
-- higher than $T_{l}$  **AND** the pixel is neighbor of an already detected edge
+-  higher than $T_{h}$ 
+**-OR-**
+- higher than $T_{l}$  **AND** the pixel is ==neighbor of an already accepted edge==
+
 In fact it is usually carried out by tracking edge pixels along contours
 ![[Pasted image 20230320211813.png]]
-# Example
+In the example below, A and B are sure-edges as they are above ‘High’ threshold. Similarly, D is a sure non-edge. Both ‘E’ and ‘C’ are weak edges but since ‘C’ is connected to ‘B’ which is a sure edge, ‘C’ is also considered as a strong edge. Using the same logic ‘E’ is discarded. This way we will get only the strong edges in the image.
+![[Pasted image 20230831110648.png]]
 ![[Pasted image 20230320211848.png]]
 
 

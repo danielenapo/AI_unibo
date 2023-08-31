@@ -7,8 +7,10 @@ If this number is sufficiently high, it means that on every neighboring directio
 ## Harris Corner Detector
 Continuous formulation of [[#Moravec Interesting Point Detector]]:
 shifting the image on infinitesimal scale ($\Delta x , \Delta y$), being able to deploy Taylor's expansion at (x,y): $$f(x+\Delta x)=f(x)+f'(x)\Delta x$$
-so the image with infinitesimal shift is written as: $$I(x+\Delta x, y+ \Delta y)= I(x,y)+I_{x}\Delta x + I_{y}\Delta y$$
+![[Pasted image 20230831111336.png | 600]]
+_(we only need the first degree approximation)_
 
+so the 2D image with infinitesimal shift is written as: $$I(x+\Delta x, y+ \Delta y)= I(x,y)+I_{x}\Delta x + I_{y}\Delta y$$
 We consider a window function (usually of +size 1): $w(x,y)$ which is 1 inside the window, 0 outside
 ![[Pasted image 20230714174736.png]]
 In the end you end up with a weighted sum of derivatives:
@@ -70,4 +72,3 @@ It gives similar result to [[#Scale-Normalized LOG]], but it's more efficient (*
 ![[Pasted image 20230331151842.png]]
 ![[Pasted image 20230331151937.png]]
 Can also detect blob-like features.
-

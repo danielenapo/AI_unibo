@@ -7,7 +7,7 @@ In the same way, we could extract a bunch of "visual keywords" to build a **Visu
 
 We would like to represent an image as an histogram counting the frequency of appearance of visual words from a dictionary
 ![[Pasted image 20230711123303.png]]
-Visual words can be extracted using a regular grid, or keypoint detectors (i.e.[[Detector#Difference of Gaussian (DoG)]] and [[Detector#Harris Corner Detector]]) and then computing its [[SIFT#Descriptor]] and using it as a word.
+Visual words can be extracted using a regular grid, or keypoint [[Detector]] (i.e.[[Detector#Difference of Gaussian (DoG)]] and [[Detector#Harris Corner Detector]]) and then computing its [[SIFT#Descriptor]] and using it as a word.
 ![[Pasted image 20230711123556.png]]
 We then cluster the keypoints in a finite set of centroids, using [[K-Means]], obtaining a "**codebook**"
 ![[Pasted image 20230711124021.png]]

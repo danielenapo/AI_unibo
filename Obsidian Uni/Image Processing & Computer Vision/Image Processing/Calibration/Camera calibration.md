@@ -70,9 +70,10 @@ The coordinates predicted by the Homography H correspond to the undistorted imag
 To do this, we need to go back to metric image coordinates (continuous):
 ![[Pasted image 20230516175917.png]]
 ![[Pasted image 20230516175934.png]]
-We thus get a non-homogeneous system of linear equations $Dk=d$ in the unknowns $k=[k_{1},k_{2}]^{T}$. This can be solved as a least-suqres problem, minimizing $||Dk-d||_{2}$ exploiting the pseudoinverse of D:
+We thus get a non-homogeneous system of linear equations $Dk=d$ in the unknowns $k=[k_{1},k_{2}]^{T}$. This can be solved as a least-squares problem, minimizing $||Dk-d||_{2}$ exploiting the pseudoinverse of D:
 ![[Pasted image 20230516180245.png]]
 
 ## Refinement of all parameters
 We now have all the parameters, but there still might be some algebraic error .
 To refine and align our final results, we use Maximum Likelyhood Estimator (MLE), using the current param values as initial guesses.
+![[Pasted image 20230831190624.png]]

@@ -1,4 +1,4 @@
-Processing [[Data]] before training is essential to obtain good results, or to ease the training process (can speed up a lot).
+_Processing [[Data]] before training is essential to obtain good results, or to ease the training process (can speed up a lot)._
 In Data science, the phrase _"garbage in garbage out"_ means if a model is fed with bad quality data, it will perform poorly.
 AKA **cleaning** data.
 
@@ -9,7 +9,6 @@ _Combining two or more attributes into a single one_. Useful for:
 - More stable data -> aggregated data has less variability
 
 # [[Sampling]]
-
 
 # Dimensionality reduction
 _With high dimensional data, sparsity increases, and using distances becomes ineffective_ (ex using KNN becomes impractical).

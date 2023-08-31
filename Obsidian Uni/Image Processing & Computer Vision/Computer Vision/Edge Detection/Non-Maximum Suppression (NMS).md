@@ -1,9 +1,7 @@
-Setting a good threshold for value to find edges is difficult. An alternative is: 
+![[Pasted image 20230714152519.png]]
 - finding the local maxima of the absolute value of the derivative.
 - Looking along the gradient direction
-![[Pasted image 20230714152519.png]]
-
--   The image is scanned along the image gradient direction, and if pixels are not part of the local maxima they are set to zero (aka black)
+-   If pixels are not part of the local maxima (along the direction), they are set to zero (aka black)
 -   This has the effect of suppressing all image information that is not part of local maxima.
 -   The reason is to thin out the edges and reduce noise in the image.
 -   This helps to make the edges more distinct and easier to detect.

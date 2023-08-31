@@ -5,6 +5,8 @@ If we want to stack more layers, we still need to use non-linear activation func
 If we stack multiple layers, size will shrink if we don't use padding ("valid").
 It's common to use zero or same padding to extend the input image and obtain the same image size after each conv layer.
 ![[Pasted image 20230711172455.png]]
+When applying a filter of size $k*k$ to a $n*n$ image, the output of the convolution will be of size $n-k+1$.
+When adding padding of size p to the image, it becomes of size $(n+2p)*(n+2p)$, so in order to the output to remain $n*n$, the padding should be: $$p=\frac{k-1}{2}$$
 ## Receptive field
 The input pixels affecting a hidden unit are called **receptive field**, and works much like the [[Visual cortex#Receptive field]].
 To obtain large receptive fields with a limited number of layers, we **downsample** the activations inside the network.
@@ -13,8 +15,11 @@ To obtain large receptive fields with a limited number of layers, we **downsampl
 The stride indicates how many pixels we want to move right when we slide the kernel over the image.
 The strides affects the output image (feature map) size, and for a given s, we get:
 ![[Pasted image 20230711173658.png]]
+
+so, given size $n*n$, kernel size of $k*k$, padding p and stride s, we get an output size of: $$[(\frac{n-k+2p}{s})+1]*[(\frac{n-k+2p}{s})+1]$$
 The size of the receptive field grows exponentially with respect to the number of layers with stride>1
 ![[Pasted image 20230711173817.png]]
+In general, we should not have s>k (size of stride bigger than the size of the kernel), otherwise we would miss some rows and columns of pixel.
 ## Pooling 
 Pooling layers are able to downsample the image by aggregating pixels with a pre-specified kernel (not learned). 
 It's different from convolution layers, since each input channel is aggregated independently ($C_{out}=C_{in}$).

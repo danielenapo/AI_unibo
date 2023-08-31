@@ -1,7 +1,8 @@
 {
   "accentColor": "",
-  "baseFontSize": 19,
+  "baseFontSize": 18,
   "theme": "obsidian",
   "translucency": true,
-  "cssTheme": "Catppuccin"
+  "cssTheme": "Catppuccin",
+  "nativeMenus": false
 }

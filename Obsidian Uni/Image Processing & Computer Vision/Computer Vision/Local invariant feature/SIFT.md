@@ -1,6 +1,6 @@
 _Stands for "Scale Invariant Feature Transform" **invariant to image scaling, translation, and rotation** (canonical orientation) and partially invariant to illumination changes and affine or 3D projection._
 # Detector
-Makes a scale space of the image with different $\sigma$ for the Gaussian kernels (within an octave). In an octave, we sample $s$ scales: $$2\sigma=k^{s}\sigma \rightarrow k=2^{\frac{1}{s}}$$Between each pair of layer, difference is performed, obtaining multiple  [[Detector#Difference of Gaussian (DoG)]] layers:
+Based on the DoG formula: $$DoG(x,y,\sigma)=L(x,y,k\sigma)-L(x, y, \sigma)=(G(x,y,k\sigma)-G(x,y,\sigma))*I(x,y)$$makes a scale space of the image with different $\sigma$ for the Gaussian kernels (within an octave). In an octave, we sample $s$ scales: $$2\sigma=k^{s}\sigma \rightarrow k=2^{\frac{1}{s}}$$Between each pair of layer, difference is performed, obtaining multiple  [[Detector#Difference of Gaussian (DoG)]] layers:
 ![[Pasted image 20230407183220.png]]
 (two additive layers are added on top and bottom of scale space to have more DoG layers)
 

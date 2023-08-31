@@ -1,5 +1,6 @@
 ### Internal Covariate Shift (ICS)
-LeNet is the first CNN, made in 98. It didn't have much success because of the low computational resources of the time, and because of the Internal Covariate Shift problem: change in the distribution of network activations due to change in network parameters during training.
+_"We define Internal Covariate Shift as the change in the distribution of network activations due to the change in network parameters during training."_
+LeNet is the first CNN, made in 98. It didn't have much success because of the low computational resources of the time, and because of the Internal Covariate Shift problem.
 Even when using ReLUs, deep architecture were very slow to train for that problem.
 ## Batch normalization
 Normalize the output of a layer **during training**, so that each dimension has **zero mean and unit variance in a batch**.

@@ -20,7 +20,7 @@ Right: template grid sliding onto the Image -> size HW.
 (i,j) is top left pixel corner coordinates of target grid
 
 - **Sum of Squared Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}(I(i+m,j+n)-T(m,n))^2$$
-- **Sum of Absolute Differences:** $$SSD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}|I(i+m,j+n)-T(m,n)|$$
+- **Sum of Absolute Differences:** $$SAD(i,j)=\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}|I(i+m,j+n)-T(m,n)|$$
 Normalization is essential, since change in intensity would mess up the matching process (a bright area would have high correlation than the actual target just for the intensity)
 - **Normalized Cross Correlation:** $$NCC(i,j)=\frac{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)\cdot T(m,n)}{\sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}I(i+m,j+n)^{2}} \cdot \sqrt{\sum_{m=0}^{M-1} \sum_{n=0}^{N-1}T(m,n)^{2}}}$$
 	It is invariant to linear intensity changes

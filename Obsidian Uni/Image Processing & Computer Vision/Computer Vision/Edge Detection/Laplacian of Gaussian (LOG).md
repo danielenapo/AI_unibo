@@ -11,9 +11,9 @@ LOG simply consist in applying a Gaussian filter BEFORE applying the Laplacian k
 2. applying Laplacian kernel
 3. extracting zero crossing points (the edges)
 
-Thanks to [[Gaussian Filter#Separability]], LoG can be applied with four 1D convolutions, which makes the computations easier than applying a two 2D convolution, with a speed up of $\frac{1}{2}K$, where K is the dimension of the Gaussian kernel.
-
-ideally, the Laplacian operator would return something like this: $[-10, 0, 20]$, where 0 is the zero-crossing point. This does not actually happen, so we get something like $[-10, 20]$. In this case, the pixel closest to zero is chosen as edge candidate (-10 in the previous example).
+Thanks to [[Gaussian Filter#Separability]], LoG can be applied with four 1D convolutions, which makes the computations easier than applying a two 2D convolution, with a speed up of $\frac{1}{2}K$, where K is the dimension of the Gaussian kernel: $\nabla(I(x,y)*G(x,y))=I(x,y)*\nabla G(x,y)$
+which becomes: $$(I(x,y)*G''(x))*G(y) + (I(x,y)*G''(y))*G(x)$$
+Ideally, the Laplacian operator would return something like this: $[-10, 0, 20]$, where 0 is the zero-crossing point. This does not actually happen, so we get something like $[-10, 20]$. In this case, the pixel closest to zero is chosen as edge candidate (-10 in the previous example).
 
 ## Example
 ![[Pasted image 20230327111303.png]]
