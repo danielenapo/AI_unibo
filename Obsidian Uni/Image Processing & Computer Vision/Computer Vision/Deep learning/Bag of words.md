@@ -1,7 +1,7 @@
 _Shallow [[Machine Learning]] approach to [[Image classification]], inspired from NLP._
 
 # NLP approach
-In Natural Language Processing, the Bag of Words (BoW) method is a way to classify a text using only a few keywords extracted from the text.
+In [[Natural Language Processing]], the Bag of Words (BoW) method is a way to classify a text using only a few keywords extracted from the text.
 ![[Pasted image 20230711122910.png]]
 In the same way, we could extract a bunch of "visual keywords" to build a **Visual Bag of Words**.
 
