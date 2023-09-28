@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+                "file": "ML4CV/Learning Rate.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238,
-    "collapsed": true
+    "width": 238
   },
   "right": {
     "id": "c56b38b0174915ac",
@@ -139,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Optimizers.md",
+                "file": "ML4CV/Learning Rate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Optimizers.md",
+                "file": "ML4CV/Learning Rate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Optimizers.md"
+                "file": "ML4CV/Learning Rate.md"
               }
             }
           }
@@ -201,16 +199,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c097b255aa6993f7",
+  "active": "7e7be3f05563d55e",
   "lastOpenFiles": [
-    "Pasted image 20230928111943.png",
-    "Pasted image 20230928111620.png",
-    "Pasted image 20230928111525.png",
-    "Pasted image 20230928111516.png",
-    "NLP/Natural Language Processing.md",
+    "Pasted image 20230928210727.png",
     "ML4CV/Optimizers.md",
-    "NLP/Morphology.md",
+    "Machine Learning/Supervised Learning/Classification/AdaBoost.md",
+    "ML4CV/Learning Rate.md",
+    "ML4CV/Documents/Pasted image 20230928190744.png",
+    "ML4CV/Documents/Pasted image 20230928111516.png",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "NLP/Natural Language Processing.md",
+    "ML4CV/Documents/Pasted image 20230928111943.png",
+    "ML4CV/Documents/Pasted image 20230928111620.png",
+    "ML4CV/Documents/Pasted image 20230928111525.png",
+    "NLP/Morphology.md",
     "NLP/Documents/Pasted image 20230919131223.png",
     "NLP/Documents",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Bag of words.md",
@@ -239,13 +241,9 @@
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "Image Processing & Computer Vision/Documents/Pasted image 20230831180642.png",
     "Image Processing & Computer Vision/Computer Vision/Object detection/Object Detection.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-    "Neuroscience/Learning/Dopamine neurons.md",
     "Machine Learning/Machine learning.canvas",
     "Neuroscience/Neuroscience.canvas",
     "Image Processing & Computer Vision/Documents/Pasted image 20230831155518.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230831155801.png",
-    "Image Processing & Computer Vision/Documents/Pasted image 20230831155547.png",
     "Image Processing & Computer Vision/Documents/depthwise-separable-convolution-animation-3x3-kernel.gif.crdownload",
     "Image Processing & Computer Vision/Documents/Convolution_arithmetic_-_Padding_strides.gif.crdownload",
     "Image Processing & Computer Vision/Image Processing/Calibration",

@@ -27,7 +27,7 @@ This kind of descriptor, based on orientation, is biologically inspired from the
 
 ## Canonical orientation 
 _"By assigning a consistent orientation to each keypoint based on local image properties, the keypoint descriptor can be represented relative to this orientation and therefore achieve invariance to image rotation"_
-magnitude and orientations are computed for each pixel using partial derivatives.
+magnitude and orientations are computed for each pixel using partial derivatives (with **central differences**).
 ![[Pasted image 20230407211525.png]]
 Then ==build an **orientation histogram** for each keypoint== (considering a neighboring window whose size depends on the keypoint size). Taking into account the direction and magnitude of each neighboring pixels (weighted by a 2D Gaussian), with a bin size of 10°, we count the occurrences of the orientations and build the histogram.
 The **characteristic orientation** is the highest peak of the histogram (and the other 80% highest values)

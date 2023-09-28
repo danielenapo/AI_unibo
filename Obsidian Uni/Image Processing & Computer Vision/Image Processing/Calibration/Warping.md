@@ -1,4 +1,4 @@
-_After finding all camera parameters with [[Camera calibration#Zhang's method]], we can **warp** the images without worrying of [[Image formation#Lens distortion]]._
+\_After finding all camera parameters with [[Camera calibration#Zhang's method]], we can **warp** the images without worrying of [[Image formation#Lens distortion]]._
 ![[Pasted image 20230718140416.png]]
 After applying warping function we get continuous coordinates. We can apply
 - truncation (easier)

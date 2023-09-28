@@ -28,10 +28,8 @@ We can use both backward and forward differences (both on x or y axes):
 ![[Pasted image 20230319190203.png]]
 ![[Pasted image 20230320182826.png]]
 ![[Pasted image 20230319190125.png]]
-The **magnitude** can be estimated with different kind of norms, but the best is the **inf norm**:
+The **magnitude** can be estimated with different kind of norms, but the best is the **inf norm**. This is because it is **invariant with respect to edge direction** (as seen on table below).
 ![[Pasted image 20230320183009.png]]
-This is because it is invariant with respect to edge direction (as seen on table above).
-
 # Noise
 Real images have noisy edges:
 ![[Pasted image 20230320183141.png]]
