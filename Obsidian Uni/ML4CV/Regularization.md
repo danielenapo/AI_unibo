@@ -35,3 +35,12 @@ Drop probability increases with network depth.
 At test time the network is unmodified.
 
 # Data augmentation
+Artificially enrich the train set by applying transformations (like rotations, scaling, flipping, ...)  
+### Multi-scale training
+Random sampling multiple scales by cropping the images, sampling random crops and scales.
+1) pick a scale S randomly from a range $[S_{min},S_{max}]$
+2) resize image soo that short size=S
+3) sample a random small square patch (smaller than the image)
+4) Random horizontal flip
+5) Random **color augmentation** (aka jittering)
+Randomly change the instensity of all pixels by a multiplicative factor
