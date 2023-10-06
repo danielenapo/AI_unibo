@@ -44,3 +44,45 @@ Random sampling multiple scales by cropping the images, sampling random crops an
 4) Random horizontal flip
 5) Random **color augmentation** (aka jittering)
 Randomly change the instensity of all pixels by a multiplicative factor
+
+### Multi-scale testing (enable)
+Only at test scale: rescale at fixed scales and average results
+1) pick an array of scale values Q
+2) resize a test image in all those scales (short side)
+3) compute scores over classes for each scale
+4) average predictions
+This is actually **ensebmling**, since it does not affect train, but benefits the final prediction.
+### FixRes
+Different resolutions between test set and train set improve performance. More precisely, a higher resolution train set is better (but costly)
+
+### Cutout
+Remove a random square region from an input of trainset.
+It's like [[#Dropout]], but for images (since dropping random pixels has no effect, we need to drop contiguous regions).
+Allows the CNN to disentangle information and make predictions based on multiple features (improving generalization).
+![[Pasted image 20231006110622.png]]
+### Mixup
+Randomly blending some images of different classes together with a linear interpolation, with a random coefficient based on a PDF $\beta$.
+![[Pasted image 20231006110743.png]]
+Also the labels are blended following the coefficient.
+In this way, the network learns smoother boundaries between classes, looking at data in the image space that could not exist in reality, but that benefit classification.
+### CutMix
+blends together [[#Cutout]] and [[#Mixup]], by randomly putting small patches of an image on another one (different classes).
+![[Pasted image 20231006110953.png]]
+Improves generalization.
+
+# Ensembles
+[[Ensemble methods]] are proven to be effective in [[Machine Learning]], since adding many similar models together and averaging their results, the single small errors get averaged out.
+1) Train multiple (randomly initialized) models on the same dataset
+2) Run each model over a test image and average the results
+This approach is very costly though, and can only bring 1/2% improvements. There are ways to approximate this process:
+### Snapshot ensembling
+using a cyclic [[Learning Rate]] schedule, we can simulate M trainings in the span of one.
+![[Pasted image 20231006111421.png]]
+### Distillation or Teacher-student
+Instead of training multiple full-sized networks, we can train only one and "distill" its knowledge into a smaller model.
+![[Pasted image 20231006111612.png]]
+### Exponential moving average (EMA)
+Snapshot in weight space: storing a vector of parameters to use at test time, with an exponential moving average at each step:
+$\theta^{test}=(1-\rho)\theta^{(i+1)}+\rho \theta^{test}$, where $\rho \in [0,1]$
+# Double descent
+![[Pasted image 20231006112628.png]]
