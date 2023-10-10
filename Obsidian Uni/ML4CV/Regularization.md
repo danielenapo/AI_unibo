@@ -88,4 +88,4 @@ Snapshot in weight space: storing a vector of parameters to use at test time, wi
 $\theta^{test}=(1-\rho)\theta^{(i+1)}+\rho \theta^{test}$, where $\rho \in [0,1]$
 # Double descent
 ![[Pasted image 20231006112628.png]]
->>>>>>> 986b9b1f4c9684e1dff7e9c2ec703df96f69e172
+
