@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "394bcbbf54a14e97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visual transformers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238,
-    "collapsed": true
+    "width": 238
   },
   "right": {
     "id": "c56b38b0174915ac",
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Regularization.md",
+                "file": "Visual transformers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Regularization.md",
+                "file": "Visual transformers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Regularization.md"
+                "file": "Visual transformers.md"
               }
             }
           }
@@ -164,11 +176,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc71c7f7ae6bd5cb",
+  "active": "394bcbbf54a14e97",
   "lastOpenFiles": [
-    "Pasted image 20231002163730.png",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "ML4CV/Regularization.md",
+    "Visual transformers.md",
+    "ML4CV/Optimizers.md",
+    "ML4CV/Documents/Pasted image 20231002163730.png",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "ML4CV/Documents/Pasted image 20231002134917.png",
     "ML4CV/Documents/Pasted image 20231002161838.png",
     "ML4CV/Documents/Pasted image 20231002140526.png",
@@ -179,9 +193,7 @@
     "ML4CV/Documents/Pasted image 20231002135030.png",
     "ML4CV/Documents/Pasted image 20231002134039.png",
     "ML4CV/Documents/Pasted image 20231002134709.png",
-    "ML4CV/Documents/Pasted image 20231002134645.png",
     "NLP/Natural Language Processing.md",
-    "ML4CV/Optimizers.md",
     "ML4CV/Learning Rate.md",
     "Machine Learning/Supervised Learning/Classification/AdaBoost.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
