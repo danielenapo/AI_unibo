@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "beabb9b67e29abea",
+        "id": "a35a8325e1c51d5a",
         "type": "tabs",
         "children": [
           {
-            "id": "2cab189ff362483f",
+            "id": "f10672624944b320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/Regularization.md",
+                "file": "ML4CV/Transformer/Transformer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d18988f83854240f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Transformer/Attention mechanism.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,10 +78,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "09cf02204ec2601b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cab189ff362483f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.00418853759766
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -85,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Regularization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Regularization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +148,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML4CV/Regularization.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,9 +170,23 @@
   },
   "active": "2cab189ff362483f",
   "lastOpenFiles": [
-    "ML4CV/Learning Rate.md",
-    "ML4CV/Optimizers.md",
-    "ML4CV/Regularization.md",
-    "ML4CV/Vision Transformers.md"
+    "ML4CV/Transformer/Transformer.md",
+    "ML4CV/Transformer",
+    "ML4CV/Training recipees",
+    "ML4CV/Training recipees/Learning Rate.md",
+    "ML4CV/Documents/Pasted image 20231012101904.png",
+    "ML4CV/Documents/Pasted image 20231012104936.png",
+    "ML4CV/Documents/Pasted image 20231012104735.png",
+    "ML4CV/Transformer/Attention mechanism.md",
+    "ML4CV/Documents/Pasted image 20231012104352.png",
+    "ML4CV/Documents/Pasted image 20231012104333.png",
+    "Neuroscience/Vision/Selective attention.md",
+    "ML4CV/Documents/Pasted image 20231012103638.png",
+    "ML4CV/Documents/Pasted image 20231012093118.png",
+    "ML4CV/Documents/Pasted image 20231012094948.png",
+    "Visual transformers.md",
+    "ML4CV/Documents/Pasted image 20231012093531.png",
+    "ML4CV/Training recipees/Regularization.md",
+    "ML4CV/Training recipees/Optimizers.md"
   ]
 }
