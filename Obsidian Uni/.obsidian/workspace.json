@@ -111,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ML4CV/Transformer/Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ML4CV/Transformer/Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ML4CV/Transformer/Transformer.md"
+              }
             }
           }
         ]
