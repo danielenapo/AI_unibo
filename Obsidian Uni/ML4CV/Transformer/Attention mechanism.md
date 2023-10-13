@@ -16,3 +16,8 @@ It is partially bio-inspired from the [[Selective attention]] mechanism of our b
 - **Multi-head**: split the keys, queries and values into H groups (number of heads), each computing its attention values in parallel (taking advantage of _GPU parallelism_), and concatenating them at the end, along the **channel** dimension. 
 Ideally, each head extracts different kinds of information (like multiple filters in CNNs, working as an ensemble).
 ![[Pasted image 20231012104333.png]]
+
+## Encoder-Decoder attention
+Differently from [[#Multi-Head Self-Attention]], where key, query and value are computed from the same input sequence, [[Transformer#Decoder layer]]s combine their input with the [[Transformer#Encoder]]'s output (inner representation) using a variation, called **Cross-attention**.
+![[Pasted image 20231013192305.png]]
+The **query** is given by the decoder's input, while the keys and values come from the ouptut of the **last encoder's layer**.

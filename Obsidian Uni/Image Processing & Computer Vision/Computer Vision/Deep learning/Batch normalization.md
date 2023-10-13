@@ -11,3 +11,8 @@ Batchnorm behaves differently based on batches values. Since we want this layer 
 - initialization of parameters is less important
 - no overhead during test
 ![[Pasted image 20230711180628.png]]
+
+### Linear Normalization
+Unlike [[Batch normalization]], Linear normalization normalizes each input vector (i.e. each training sample) in isolation, so that each vector has zero mean and unit variance, regardless of other batch elements.
+![[Pasted image 20231012104735.png]]
+![[Pasted image 20231012104936.png]]

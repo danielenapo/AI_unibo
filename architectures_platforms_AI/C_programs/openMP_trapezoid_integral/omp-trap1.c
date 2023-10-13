@@ -98,10 +98,10 @@ int main( int argc, char* argv[] )
     tstart = omp_get_wtime();
     
     /* Try adding a "default(none)" clause */
-    #pragma omp parallel private(partial_result)
+    #pragma omp parallel private(partial_result) //now partial_result is PRIVATE (was shared in version 0)
     {
-        partial_result = trap(a, b, n);
-        #pragma omp atomic
+        partial_result = trap(a, b, n); //computation is parallel
+        #pragma omp atomic //atomic is an openmp directive that protects memory locations from being accessed by more than one thread at a time (shared result )
         result += partial_result;
     }
     

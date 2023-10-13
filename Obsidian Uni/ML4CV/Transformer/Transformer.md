@@ -1,5 +1,5 @@
 Transformers are a [[Neural Networks (MLP)]] architecture, originally developed for [[Natural Language Processing]] (automatic translation) by Google, in the paper "Attention is all you need" (2017).
-Transformers only rely on Attention blocks, and use an **autoregressive** prediction mechanism.
+Transformers only rely on the [[Attention mechanism]], and use an **autoregressive** prediction mechanism.
 ![[Pasted image 20231012093118.png]]
 Originally they were thought for automatic language translation:
 When translating, we don't need to pay attention to the whole sentence, rather on few subset of words: Transformers compute weights for the contribution of each original words when creating each output words 
@@ -15,13 +15,33 @@ This allows the input and output sequences to have different lenghts.
 The Transformer is divided in **Encoder and Decoder**.
 ![video](https://www.youtube.com/watch?v=4Bdc55j80l8)
 ## Encoder
+It's a stack of L identical encoder layers.
+- **INPUT**: the input sequence (i.e. original language)
+- **OUTPUT**: the last layer produces an internal representation (like Autoencoders), and passes it to all decoder layers
+![[Pasted image 20231013191022.png]]
+### Encoder Layer
 ![[Pasted image 20231012103638.png]]
-1) Linear norm
+1) [[Batch normalization#Linear Normalization]]
 2) [[Attention mechanism#Multi-Head Self-Attention]]
 3) add (skip connection) + linear norm
 4) Feed forward dense network (one hidden layer 4 times larger than the input)
 5) add (skip connection)
-### Linear Norm
-Unlike [[Batch normalization]], Linear normalization normalizes each input vector (i.e. each training sample) in isolation, so that each vector has zero mean and unit variance, regardless of other batch elements.
-![[Pasted image 20231012104735.png]]
-![[Pasted image 20231012104936.png]]
+
+## Decoder
+As the encoder, it's a stack of L identical decoder layers.
+- **INPUT**: the output sequence (i.e. the target language)
+- **OUTPUT**: the predicted token (in the target language) with Softmax activation
+![[Pasted image 20231013191232.png]]
+The input of the decoder network differs from train and test time, since it makes autoregressive predictions.
+
+### Decoder layer
+![[Pasted image 20231013192037.png]]
+Uses both MHSA and [[Attention mechanism#Encoder-Decoder attention]] to combine the output sequence with the output of the last encoder layer. The rest of the structure is similar.
+
+### Decoder at Test time 
+At test time, the Decoder's input is just the SoS token. Each time the network makes a token prediction, the new token gets added to the input, until the EoS is generated (or the length limit is reached).
+### Decoder at Train time
+At training time, the whole ground-truth output sequence is available. We put the whole sequence as decoder input (shifted right to include the SoS token).
+The predictions are compared with the unshifted ground truth, with Cross-Entropy loss.
+
+# Positional Encoding
