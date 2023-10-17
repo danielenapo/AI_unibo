@@ -107,7 +107,8 @@ int main( int argc, char* argv[] )
     #pragma omp parallel default(none) shared(a,b,n,partial_result)
     {
         const int thr = omp_get_thread_num();
-        partial_result[thr] = trap(a, b, n); //each thread has its own region to integrate
+        //each thread has its own region to integrate
+        partial_result[thr] = trap(a, b, n); //notice that a,b,n are used as parameters of the function trap
     }
     /* Implicit barrier here */
     

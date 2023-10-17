@@ -69,7 +69,7 @@ double trap( double a, double b, int n )
        need to worry about it. h is constant, so there can be no race
        condition. result is within a 'reduction' clause, so it is
        guaranteed to be updated correctly. */
-#pragma omp parallel for reduction(+:result)
+#pragma omp parallel for reduction(+:result) //the parallel for automatically distributes iterations between threads
     for ( i = 0; i<n; i++ ) {
 	result += h*(f(a+i*h) + f(a+(i+1)*h))/2;
     }
