@@ -33,7 +33,7 @@ Harris Corner Detector follow usually 3 steps:
 **2. Select only pixels where C is higher than a threshold T**
 ![[Pasted image 20230331122848.png]]
 **3. Detect as corners only those pixels that are _local maxima of C_**
-using [[Non-Maximum Suppression (NMS)]]
+using [[Non-Maxima Suppression (NMS)]]
 ![[Pasted image 20230331122924.png]]
 ### Properties
 - ==**Rotation invariant**==

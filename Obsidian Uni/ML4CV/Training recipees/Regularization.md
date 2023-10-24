@@ -73,7 +73,7 @@ blends together [[#Cutout]] and [[#Mixup]], by randomly putting small patches of
 Improves generalization.
 
 # Ensembles
-[[Ensemble methods]] are proven to be effective in [[Machine Learning]], since adding many similar models together and averaging their results, the single small errors get averaged out.
+[[Ensemble]] are proven to be effective in [[Machine Learning]], since adding many similar models together and averaging their results, the single small errors get averaged out.
 1) Train multiple (randomly initialized) models on the same dataset
 2) Run each model over a test image and average the results
 This approach is very costly though, and can only bring 1/2% improvements. There are ways to approximate this process:

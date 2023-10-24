@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f10672624944b320",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Batch normalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cd38536e00248111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/Transformer/Transformer.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,6 +31,7 @@
       {
         "id": "549d1c82c2296115",
         "type": "tabs",
+        "dimension": 67.64705882352942,
         "children": [
           {
             "id": "ade3d6409066c43d",
@@ -61,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "precision ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,6 +71,7 @@
       {
         "id": "09cf02204ec2601b",
         "type": "tabs",
+        "dimension": 32.35294117647059,
         "children": [
           {
             "id": "2cab189ff362483f",
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Transformer/Transformer.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Transformer/Transformer.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Transformer/Transformer.md"
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md"
               }
             }
           }
@@ -173,25 +162,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd38536e00248111",
+  "active": "ade3d6409066c43d",
   "lastOpenFiles": [
-    "ML4CV/Documents/Pasted image 20231013191022.png",
-    "ML4CV/Documents/Pasted image 20231013192037.png",
-    "ML4CV/Transformer/Transformer.md",
+    "ML4CV/NN Object Detection/R-CNN.md",
+    "ML4CV/Documents/img/Pasted image 20230928111516.png",
+    "ML4CV/NN Object Detection/Viola Jones Detector.md",
+    "ML4CV/Documents/img",
+    "ML4CV/Documents/img/Pasted image 20231024142615.png",
+    "ML4CV/Documents/Papers/viola-cvpr-01.pdf",
+    "ML4CV/Documents/Papers",
+    "ML4CV/Documents/img/Pasted image 20231024153145.png",
+    "ML4CV/Documents/img/Pasted image 20231024152939.png",
+    "ML4CV/Documents/img/Pasted image 20231024152626.png",
+    "ML4CV/Documents/img/Pasted image 20231024151926.png",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Batch normalization.md",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
+    "ML4CV/Documents/img/Pasted image 20231024151622.png",
+    "ML4CV/Documents/img/Pasted image 20231024142729.png",
+    "ML4CV/Documents/img/Pasted image 20231024130837.png",
+    "ML4CV/Documents/img/Pasted image 20231024142338.png",
+    "Machine Learning/Supervised Learning/Classification/AdaBoost.md",
+    "Machine Learning/Supervised Learning/Classification/Ensemble.md",
+    "ML4CV/NN Object Detection/Object detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Instance Detection.md",
+    "ML4CV/NN Object Detection",
+    "ML4CV/Transformer/Vision Transformer (ViT).md",
+    "ML4CV/Transformer/Transformer.md",
     "ML4CV/Transformer/Attention mechanism.md",
-    "ML4CV/Documents/Pasted image 20231013192305.png",
-    "ML4CV/Documents/Pasted image 20231013191232.png",
     "ML4CV/Transformer",
     "ML4CV/Training recipees",
     "ML4CV/Training recipees/Learning Rate.md",
-    "ML4CV/Documents/Pasted image 20231012101904.png",
-    "ML4CV/Documents/Pasted image 20231012104936.png",
-    "ML4CV/Documents/Pasted image 20231012104735.png",
-    "ML4CV/Documents/Pasted image 20231012104352.png",
-    "ML4CV/Documents/Pasted image 20231012104333.png",
     "Neuroscience/Vision/Selective attention.md",
-    "ML4CV/Documents/Pasted image 20231012103638.png",
     "Visual transformers.md",
     "ML4CV/Training recipees/Regularization.md",
     "ML4CV/Training recipees/Optimizers.md"

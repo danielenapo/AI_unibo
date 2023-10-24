@@ -1,4 +1,4 @@
-_[[Ensemble methods]] where base models are [[Decision Trees]]._
+_[[Ensemble]] where base models are [[Decision Trees]]._
 ![[Pasted image 20230120154227.png]]
 Each decision tree is built using a different random subset of the data (sample with replacement -> boost) and a subset of the features (random or by domain knowledge), which makes the trees different and independent from each other.
 

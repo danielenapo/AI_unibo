@@ -44,4 +44,13 @@ At test time, the Decoder's input is just the SoS token. Each time the network m
 At training time, the whole ground-truth output sequence is available. We put the whole sequence as decoder input (shifted right to include the SoS token).
 The predictions are compared with the unshifted ground truth, with Cross-Entropy loss.
 
+### Masked self-attention
+**Problem**: the tokens on the right are ground-truth data that might leak into the output through MHSA modules. 
+**The net should never attend to future tokens!**
+To solve this, the scores of the future tokens are set to $-\infty$, so that their weights become 0, effectively masking them.  
+
 # Positional Encoding
+Transformers are **equivariant to position**: if we permute the input sequence, the attention weights will remain the same (but permuted), then the MHSA will just be the same but permuted!
+In language (but also with images), the positional embedding is very important (e.g. "john kills a bear" != "a bear kills john"), so we need to add it to the embeddings.
+![[Pasted image 20231024115041.png]]
+
