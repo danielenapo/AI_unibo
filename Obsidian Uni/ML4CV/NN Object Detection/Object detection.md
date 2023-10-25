@@ -4,4 +4,4 @@ It's a problem much more difficult than classical [[Instance Detection]], since 
 - spatial (bounding box)
 ![[Pasted image 20231024122800.png]]
 
-Although there have been attempts to solve this task with classical methods like [[Viola Jones Detector]], the [[Deep Learning computer vision]] approaches like [[R-CNN]] have been proven to be much more effective.
+Although there have been attempts to solve this task with classical methods like [[Viola Jones Detector]], the [[Deep Learning computer vision]] approaches like [[ML4CV/NN Object Detection/R-CNN]] have been proven to be much more effective.

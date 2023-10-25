@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a35a8325e1c51d5a",
+        "id": "eecc2b3b34343dc8",
         "type": "tabs",
         "children": [
           {
-            "id": "cd38536e00248111",
+            "id": "8d4ee9b76b72ae26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,7 +70,7 @@
         "dimension": 32.35294117647059,
         "children": [
           {
-            "id": "2cab189ff362483f",
+            "id": "c8da355a506c1fb7",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -85,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.00418853759766
+    "width": 241
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -101,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,8 +154,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd38536e00248111",
+  "active": "c8da355a506c1fb7",
   "lastOpenFiles": [
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+    "ML4CV/Documents/img/Pasted image 20231025172139.png",
+    "ML4CV/NN Object Detection/R-CNN.md",
+    "ML4CV/Documents/img/Pasted image 20231025182044.png",
+    "ML4CV/Documents/img/Pasted image 20231025174546.png",
+    "ML4CV/Documents/img/Pasted image 20231025173921.png",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
+    "pasted-image-rename.py",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
     "Image Processing & Computer Vision/Computer Vision/Object detection/Instance Detection.md",
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
@@ -184,14 +184,9 @@
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
     "Machine Learning/Data.md",
-    "Machine Learning/Supervised Learning/Supervised Learning.md",
-    "Machine Learning/Supervised Learning/Classifier Evaluation.md",
-    "Machine Learning/Supervised Learning/Classification/Support Vector Machines (SVM).md",
-    "Machine Learning/Supervised Learning/Classification/Random forest.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/mcq.pdf",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
@@ -202,10 +197,6 @@
     "ML4CV/Documents/Papers",
     "ML4CV/Documents/img/Pasted image 20231024153145.png",
     "ML4CV/Documents/img/Pasted image 20231024152939.png",
-    "ML4CV/Documents/img/Pasted image 20231024152626.png",
-    "ML4CV/Documents/img/Pasted image 20231024151926.png",
-    "ML4CV/Documents/img/Pasted image 20231024151622.png",
-    "ML4CV/Documents/img/Pasted image 20231024142729.png",
     "ML4CV/NN Object Detection",
     "ML4CV/Transformer",
     "ML4CV/Training recipees"
