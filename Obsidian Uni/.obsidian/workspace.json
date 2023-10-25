@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md"
+                "file": "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md"
               }
             }
           }
@@ -162,11 +162,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ade3d6409066c43d",
+  "active": "cd38536e00248111",
   "lastOpenFiles": [
-    "ML4CV/NN Object Detection/R-CNN.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
+    "Image Processing & Computer Vision/Computer Vision/Object detection/Instance Detection.md",
+    "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
+    "Image Processing & Computer Vision/Computer Vision/Image classification.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/img/Convolution_arithmetic_-_Padding_strides.gif",
+    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
+    "Image Processing & Computer Vision/img/Pasted image 20230301155727.png",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
+    "Machine Learning/Data.md",
+    "Machine Learning/Supervised Learning/Supervised Learning.md",
+    "Machine Learning/Supervised Learning/Classifier Evaluation.md",
+    "Machine Learning/Supervised Learning/Classification/Support Vector Machines (SVM).md",
+    "Machine Learning/Supervised Learning/Classification/Random forest.md",
+    "Machine Learning/Documents/past exams/questions_ML.pdf",
+    "Machine Learning/Documents/past exams/mcq.pdf",
+    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
     "ML4CV/Documents/img/Pasted image 20230928111516.png",
-    "ML4CV/NN Object Detection/Viola Jones Detector.md",
     "ML4CV/Documents/img",
     "ML4CV/Documents/img/Pasted image 20231024142615.png",
     "ML4CV/Documents/Papers/viola-cvpr-01.pdf",
@@ -175,26 +204,10 @@
     "ML4CV/Documents/img/Pasted image 20231024152939.png",
     "ML4CV/Documents/img/Pasted image 20231024152626.png",
     "ML4CV/Documents/img/Pasted image 20231024151926.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Batch normalization.md",
-    "Image Processing & Computer Vision/Computer Vision/Edge Detection/Non-Maxima Suppression (NMS).md",
     "ML4CV/Documents/img/Pasted image 20231024151622.png",
     "ML4CV/Documents/img/Pasted image 20231024142729.png",
-    "ML4CV/Documents/img/Pasted image 20231024130837.png",
-    "ML4CV/Documents/img/Pasted image 20231024142338.png",
-    "Machine Learning/Supervised Learning/Classification/AdaBoost.md",
-    "Machine Learning/Supervised Learning/Classification/Ensemble.md",
-    "ML4CV/NN Object Detection/Object detection.md",
-    "Image Processing & Computer Vision/Computer Vision/Object detection/Instance Detection.md",
     "ML4CV/NN Object Detection",
-    "ML4CV/Transformer/Vision Transformer (ViT).md",
-    "ML4CV/Transformer/Transformer.md",
-    "ML4CV/Transformer/Attention mechanism.md",
     "ML4CV/Transformer",
-    "ML4CV/Training recipees",
-    "ML4CV/Training recipees/Learning Rate.md",
-    "Neuroscience/Vision/Selective attention.md",
-    "Visual transformers.md",
-    "ML4CV/Training recipees/Regularization.md",
-    "ML4CV/Training recipees/Optimizers.md"
+    "ML4CV/Training recipees"
   ]
 }

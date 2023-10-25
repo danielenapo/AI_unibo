@@ -1,4 +1,4 @@
-![[multiple_channels_convolution_CNN.gif | 500]]
+![](../../img/multiple_channels_convolution_CNN.gif | 500 )
 In traditional [[Image Processing]], for [[Image Filters]] we rely on [[Image Filters#Convolution]]s with handcrafted filters.
 We could build convolutional layers that have the objective to learn the composition of such filters from data.
 - Input and output are not flattened, preserving the spatial structure
