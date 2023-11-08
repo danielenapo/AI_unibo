@@ -28,7 +28,7 @@ This is called **blocking effect**.
 # Prediction error
 In the above case, neither contiguity and contingency were sufficient to learn the CS. In fact, it ends up that **we only learn from surprising/unpredictable events**.
 ![[Pasted image 20230530182333.png]]
-Error signals measures the difference between the outcome and the predictions (like loss functions in [[Neural Networks (MLP)]]), and this prediction error is necessary for associative learning
+Error signals measures the difference between the outcome and the predictions (like loss functions in [[Neural Network]]), and this prediction error is necessary for associative learning
 ## Rescolra-Wagner model
 It's a mathematical formalization of the learning theories, based on prediction error.
 It states that change in value is proportional to the difference between predicted and actual outcome.

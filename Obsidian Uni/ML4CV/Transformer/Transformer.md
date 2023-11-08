@@ -1,4 +1,4 @@
-Transformers are a [[Neural Networks (MLP)]] architecture, originally developed for [[Natural Language Processing]] (automatic translation) by Google, in the paper "Attention is all you need" (2017).
+Transformers are a [[Neural Network]] architecture, originally developed for [[Natural Language Processing]] (automatic translation) by Google, in the paper "Attention is all you need" (2017).
 Transformers only rely on the [[Attention mechanism]], and use an **autoregressive** prediction mechanism.
 ![[Pasted image 20231012093118.png]]
 Originally they were thought for automatic language translation:

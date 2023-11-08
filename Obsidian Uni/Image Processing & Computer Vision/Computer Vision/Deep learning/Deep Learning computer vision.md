@@ -2,7 +2,7 @@ We can use [[Machine Learning]] approaches for image [[Classification]], without
 Traditional or classical Computer vision only relies on handwritten algorithms.
 
 # Neural networks
-Using Deep Learning and [[Neural Networks (MLP)]] has proven to be a major breakthrough in Computer Vision, for many kinds of tasks, thanks to [[Gradient descent]] which greatly improves the problems associated with the [[Image classification#Curse of dimensionality]].
+Using Deep Learning and [[Neural Network]] has proven to be a major breakthrough in Computer Vision, for many kinds of tasks, thanks to [[Gradient descent]] which greatly improves the problems associated with the [[Image classification#Curse of dimensionality]].
 
 Compared to the [[Bag of words]] (Shallow ML approach) for image classification for example, we can see that instead of having a fixed representation, the neural network can learn its own representation:
 ![[Pasted image 20230711151904.png]]

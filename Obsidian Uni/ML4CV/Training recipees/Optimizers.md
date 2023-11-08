@@ -1,4 +1,4 @@
-[[Neural Networks (MLP)]] are based on the Gradient Descent algorithm to update the parameters by
+[[Neural Network]] are based on the Gradient Descent algorithm to update the parameters by
 1) Computing the output with a forward pass, and the corresponding loss function.
 2) Computing the gradient of the loss with the analytical Backpropagation algorithm (starting from output nodes to the input).
 3) Updating all the parameters according to the gradients.

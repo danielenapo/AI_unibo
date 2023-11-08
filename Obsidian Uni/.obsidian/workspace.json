@@ -11,8 +11,36 @@
             "id": "8d4ee9b76b72ae26",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/NN Object Detection/R-CNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53c3d9470bbee4d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning/Classification/Neural Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9fb86bea7d596908",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/NN Object Detection/RoIPool.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -45,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "precision ",
+                "query": "difference of gaussian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "09cf02204ec2601b",
@@ -97,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ML4CV/NN Object Detection/R-CNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ML4CV/NN Object Detection/R-CNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ML4CV/NN Object Detection/R-CNN.md"
+              }
             }
           }
         ]
@@ -154,14 +187,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8da355a506c1fb7",
+  "active": "8d4ee9b76b72ae26",
   "lastOpenFiles": [
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
-    "ML4CV/Documents/img/Pasted image 20231025172139.png",
+    "Pasted image 20231108195920.png",
+    "Pasted image 20231108195702.png",
+    "Pasted image 20231108195455.png",
+    "Pasted image 20231108195019.png",
+    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "ML4CV/NN Object Detection/R-CNN.md",
-    "ML4CV/Documents/img/Pasted image 20231025182044.png",
-    "ML4CV/Documents/img/Pasted image 20231025174546.png",
-    "ML4CV/Documents/img/Pasted image 20231025173921.png",
+    "ML4CV/Documents/img/Pasted image 20231108183848.png",
+    "ML4CV/Documents/img/Pasted image 20231108190047.png",
+    "ML4CV/Documents/img/Pasted image 20231108185954.png",
+    "ML4CV/Documents/img/Pasted image 20231108185748.png",
+    "ML4CV/Documents/img/Pasted image 20231108185229.png",
+    "ML4CV/Documents/img/Pasted image 20231108184926.png",
+    "Machine Learning/Supervised Learning/Classification/Neural Network.md",
+    "ML4CV/Documents/img/Pasted image 20231108175859.png",
+    "ML4CV/NN Object Detection/RoIPool.md",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "pasted-image-rename.py",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
@@ -177,26 +220,18 @@
     "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/img/Convolution_arithmetic_-_Padding_strides.gif",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
-    "Image Processing & Computer Vision/img/Pasted image 20230301155727.png",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/ResNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/AlexNet.md",
-    "Machine Learning/Data.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/mcq.pdf",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "ML4CV/Documents/img/Pasted image 20230928111516.png",
     "ML4CV/Documents/img",
-    "ML4CV/Documents/img/Pasted image 20231024142615.png",
     "ML4CV/Documents/Papers/viola-cvpr-01.pdf",
     "ML4CV/Documents/Papers",
-    "ML4CV/Documents/img/Pasted image 20231024153145.png",
-    "ML4CV/Documents/img/Pasted image 20231024152939.png",
     "ML4CV/NN Object Detection",
     "ML4CV/Transformer",
     "ML4CV/Training recipees"

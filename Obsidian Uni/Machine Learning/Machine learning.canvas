@@ -12,7 +12,7 @@
 		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Classification.md","id":"9fdcc303f26291e6","x":-1752,"y":761,"width":400,"height":152},
 		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Support Vector Machines (SVM).md","id":"561124322b9f024f","x":-1630,"y":1599,"width":404,"height":400},
 		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Naive Bayes.md","id":"02e6c4a4b012d6d7","x":-1352,"y":1199,"width":400,"height":400},
-		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Neural Networks (MLP).md","id":"1934c54579a2b417","x":-2683,"y":1624,"width":474,"height":350},
+		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Neural Network.md","id":"1934c54579a2b417","x":-2683,"y":1624,"width":474,"height":350},
 		{"type":"file","file":"Machine Learning/Supervised Learning/Classification/Decision Trees.md","id":"11e39d3f5b94ad38","x":-2152,"y":1199,"width":400,"height":400},
 		{"type":"text","text":"Tuning ","id":"1f0905f9047e7e2e","x":-1582,"y":80,"width":128,"height":50},
 		{"type":"text","text":"Hold-out with validation","id":"651a6bc21739ccb7","x":-1641,"y":240,"width":246,"height":80},

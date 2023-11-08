@@ -1,4 +1,4 @@
-_The algorithm used in [[Neural Networks (MLP)]] to optimize the parameters. (and to perform training)._
+_The algorithm used in [[Neural Network]] to optimize the parameters. (and to perform training)._
 # Optimization
 To solve the curse of dimensionality problem, we convert it to a similar, simpler problem: minimizing a **loss function** which is related to the actual problem.
 This objective function is much simpler to optimize, and if chosen correctly, will result in a good outcome for the original problem.
@@ -27,7 +27,7 @@ Given an example of predicted label, with a softmax activation:
 - If the true class is car, the loss is 2.4 (=-log(0.09)), which is a much higher value, that has much more impact when updating the parameters.
 
 # Gradient descent
-The algorithm that updates the parameters of [[Neural Networks (MLP)]], thus performing the actual learning. 
+The algorithm that updates the parameters of [[Neural Network]], thus performing the actual learning. 
 It kinda resembles the natural way in which [[Neurons]] change their connections with [[Surprise#Prediction error]].
 
 1. **Forward pass** -> compute prediction and its loss
