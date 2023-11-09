@@ -1,22 +1,22 @@
 {
   "noInfinity": true,
   "noZero": true,
-  "allFileExtensions": true,
+  "allFileExtensions": false,
   "showImgThumbnails": true,
   "addUnresolved": true,
   "coTags": true,
-  "defaultSubtypeType": "Adamic Adar",
+  "defaultSubtypeType": "Jaccard",
   "debugMode": false,
   "superDebugMode": false,
   "exclusionRegex": "",
   "exclusionTags": [],
   "algsToShow": [
     "Co-Citations",
-    "HITS",
     "Adamic Adar",
     "Jaccard",
     "Overlap",
     "Label Propagation",
-    "Clustering Coefficient"
+    "Clustering Coefficient",
+    "BoW"
   ]
 }
