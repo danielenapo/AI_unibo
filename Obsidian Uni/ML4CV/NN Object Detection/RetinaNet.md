@@ -44,3 +44,9 @@ For this reason, the classification loss for the j-th box in the i-th image is a
 $$L_{cls}(s^{i,j},y^{i,j})=\sum\limits_{k=1}^{C} WBFL(\sigma(s_{k}^{i,j}),y_{k}^{i,j})$$
 For the final loss, it's summed with the regression loss (for bb correction), and it's computed for **all the anchors in the image**:
 $$L(\theta;x^{i})=\sum\limits_{j=1}^{A} L_{cls}(s^{i,j},y^{i,j}) + \lambda I[y^{i,j}\neq0]SmoothL1(\hat t^{i,j}-t^{i,j})$$
+# Limitations
+1. Anchors are a **brute force approach** to detection (enumerating all possible boxes), very **inefficient**
+2. Obtain a lot of duplicates for a single instance (need to apply [[Non-Maxima Suppression (NMS)]] post processing)
+3. Assignment of anchors to ground truth is based on manally selected threshold and hand-crafted rules
+
+_The natural successor of RetinaNet that solves this issue is the [[CenterNet]]._

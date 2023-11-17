@@ -11,6 +11,28 @@
             "id": "7479cad183cfa581",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "ML4CV/Documents/img/Pasted image 20231117161913.png"
+              }
+            }
+          },
+          {
+            "id": "74adbafc2ff5c866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47aa15b80ec1eb4d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "ML4CV/NN Object Detection/RetinaNet.md",
@@ -19,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md"
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md"
               }
             }
           },
@@ -171,25 +194,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9aa09d116b4be239",
+  "active": "ade3d6409066c43d",
   "lastOpenFiles": [
+    "ML4CV/Semantic segmentation",
+    "ML4CV/Documents/img/Pasted image 20231117161913.png",
+    "ML4CV/Semantic segmentation/Semantic segmentation.md",
     "ML4CV/NN Object Detection/CenterNet.md",
-    "ML4CV/NN Object Detection/One stage detectors.md",
+    "ML4CV/Documents/img/Pasted image 20231117165602.png",
+    "ML4CV/Documents/img/Pasted image 20231117165356.png",
+    "ML4CV/NN Object Detection/RetinaNet.md",
+    "ML4CV/Documents/img/Pasted image 20231117164513.png",
+    "ML4CV/Documents/img/Pasted image 20231117162239.png",
     "ML4CV/NN Object Detection/R-CNN.md",
+    "ML4CV/NN Object Detection/RoIPool.md",
+    "ML4CV/NN Object Detection/One stage detectors.md",
     "ML4CV/Documents/img/Pasted image 20231108195019.png",
     "ML4CV/Documents/img/Pasted image 20231109163000.png",
-    "ML4CV/NN Object Detection/RetinaNet.md",
     "ML4CV/Documents/img/Pasted image 20231109160413.png",
     "ML4CV/Documents/img/Pasted image 20231109125219.png",
     "ML4CV/Documents/img/Pasted image 20231109123934.png",
-    "ML4CV/Documents/img/Pasted image 20231108195920.png",
-    "ML4CV/Documents/img/Pasted image 20231108195702.png",
-    "ML4CV/Documents/img/Pasted image 20231108195455.png",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
-    "ML4CV/Documents/img/Pasted image 20231108183848.png",
-    "ML4CV/Documents/img/Pasted image 20231108190047.png",
     "Machine Learning/Supervised Learning/Classification/Neural Network.md",
-    "ML4CV/NN Object Detection/RoIPool.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Convolutional Layer.md",
     "pasted-image-rename.py",
@@ -208,7 +233,6 @@
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Image Processing & Computer Vision/Computer Vision/Edge Detection/Laplacian of Gaussian (LOG).md",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Local Invariant Feature.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/VGG.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/mcq.pdf",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
