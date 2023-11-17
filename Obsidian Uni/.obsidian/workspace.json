@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7479cad183cfa581",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "ML4CV/Documents/img/Pasted image 20231117161913.png"
-              }
-            }
-          },
-          {
             "id": "74adbafc2ff5c866",
             "type": "leaf",
             "state": {
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "difference of gaussian",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "09cf02204ec2601b",
@@ -108,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -194,8 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ade3d6409066c43d",
+  "active": "74adbafc2ff5c866",
   "lastOpenFiles": [
+    "Pasted image 20231117182009.png",
+    "Pasted image 20231117181746.png",
+    "Pasted image 20231117180118.png",
     "ML4CV/Semantic segmentation",
     "ML4CV/Documents/img/Pasted image 20231117161913.png",
     "ML4CV/Semantic segmentation/Semantic segmentation.md",
@@ -211,8 +205,6 @@
     "ML4CV/Documents/img/Pasted image 20231108195019.png",
     "ML4CV/Documents/img/Pasted image 20231109163000.png",
     "ML4CV/Documents/img/Pasted image 20231109160413.png",
-    "ML4CV/Documents/img/Pasted image 20231109125219.png",
-    "ML4CV/Documents/img/Pasted image 20231109123934.png",
     "Image Processing & Computer Vision/Computer Vision/Local invariant feature/Detector.md",
     "Machine Learning/Supervised Learning/Classification/Neural Network.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Inception.md",
@@ -240,7 +232,6 @@
     "ML4CV/Documents/Papers/viola-cvpr-01.pdf",
     "ML4CV/Documents/Papers",
     "ML4CV/NN Object Detection",
-    "ML4CV/Transformer",
-    "ML4CV/Training recipees"
+    "ML4CV/Transformer"
   ]
 }
