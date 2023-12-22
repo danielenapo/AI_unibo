@@ -48,3 +48,20 @@ a face recognition network trained with a combination of cross-entropy loss and 
 ![[Pasted image 20231215175627.png]]
 
 ## Contrastive loss
+Loss that aims to directly enforce a good clustered embedding.
+It reaches this goal indirectly, by applying this formula for every pair of images:
+![[Pasted image 20231222121726.png]]
+$y^{i,j}$ tells us if i and j are the same person. We enforce a smaller loss for big distances with the minus sign.
+To be less prone to overfitting, the **Hinge Loss** is applied for the case $y^{i,j}$=0:
+![[Pasted image 20231222121949.png]]
+It applies a margin _m_ to stop pushing away clusters of different classes, and reduce overfitting. Finally the equation is put as a single line by multiplicating y and 1-y to each term.
+## Triplet loss       
+Triplet loss achieves the same goal by fulfilling both requirements at once for a triplet of images:
+![[Pasted image 20231222123522.png]]
+Problems: 
+- does not guarantee large inter-class distances 
+- risks training collapse
+Again, **Hinge loss with margin** can solve those problems:
+$L(A,P,N)=max  \{0, ||f(P)-f(A)||_{2}^{2}-||f{N}-f{A}||_{2}^{2}+m\}$        
+![[Pasted image 20231222123820.png]]
+

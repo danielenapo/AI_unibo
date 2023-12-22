@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "09cf02204ec2601b",
@@ -98,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -187,21 +185,21 @@
   },
   "active": "74adbafc2ff5c866",
   "lastOpenFiles": [
-    "Pasted image 20231215175627.png",
-    "Pasted image 20231215174805.png",
-    "Pasted image 20231215174155.png",
-    "Pasted image 20231215173010.png",
-    "Pasted image 20231215172714.png",
-    "Pasted image 20231215172638.png",
-    "Pasted image 20231215171905.png",
-    "Pasted image 20231215171326.png",
-    "Pasted image 20231215171203.png",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
+    "ML4CV/Documents/img/Pasted image 20231215171203.png",
     "ML4CV/Metric learning/Face recognition.md",
+    "ML4CV/Documents/img/Pasted image 20231222123820.png",
+    "ML4CV/Documents/img/Pasted image 20231222123522.png",
+    "ML4CV/Documents/img/Pasted image 20231222121949.png",
+    "ML4CV/Documents/img/Pasted image 20231222121726.png",
+    "ML4CV/Documents/img/Pasted image 20231215175627.png",
+    "ML4CV/Documents/img/Pasted image 20231215174805.png",
+    "ML4CV/Documents/img/Pasted image 20231215174155.png",
+    "ML4CV/Documents/img/Pasted image 20231215173010.png",
+    "ML4CV/Documents/img/Pasted image 20231215172714.png",
+    "ML4CV/Documents/img/Pasted image 20231215172638.png",
+    "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
     "Architectures for AI/Backpropagation.md",
     "ML4CV/Metric learning",
-    "Architectures for AI/img/Pasted image 20231215163937.png",
-    "Architectures for AI/img/Pasted image 20231215162411.png",
     "Architectures for AI/img",
     "ML4CV/Semantic segmentation/Semantic segmentation.md",
     "ML4CV/Semantic segmentation",

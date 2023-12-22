@@ -38,7 +38,7 @@ $$WBFL(p_{t})=-\alpha_{t}\cdot(1-p_{t})^{\gamma}\cdot ln(p_{t})$$
 
 ## RetinaNet Loss
 If we have to predict multiple classes, the prediction **for each box** can have from 1 to C classes, **not assumed to be mutually exclusive**.
-The label head doesn't use softmax with C outputs, rather **C independent sigmoids** (the sum of the class values is >1).
+The label head doesn't use softmax with C outputs, rather **C independent sigmoids** (the sum of the class values is >1).****
 
 For this reason, the classification loss for the j-th box in the i-th image is a **sum of C weighted binary focal losses**:
 $$L_{cls}(s^{i,j},y^{i,j})=\sum\limits_{k=1}^{C} WBFL(\sigma(s_{k}^{i,j}),y_{k}^{i,j})$$
