@@ -20,18 +20,19 @@
             }
           },
           {
-            "id": "47aa15b80ec1eb4d",
+            "id": "24ad81d373b70151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Metric learning/Face recognition.md",
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Metric learning/Face recognition.md",
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Metric learning/Face recognition.md"
+                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md"
               }
             }
           },
@@ -183,28 +184,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74adbafc2ff5c866",
+  "active": "24ad81d373b70151",
   "lastOpenFiles": [
-    "ML4CV/Documents/img/Pasted image 20231215171203.png",
     "ML4CV/Metric learning/Face recognition.md",
-    "ML4CV/Documents/img/Pasted image 20231222123820.png",
-    "ML4CV/Documents/img/Pasted image 20231222123522.png",
-    "ML4CV/Documents/img/Pasted image 20231222121949.png",
-    "ML4CV/Documents/img/Pasted image 20231222121726.png",
-    "ML4CV/Documents/img/Pasted image 20231215175627.png",
-    "ML4CV/Documents/img/Pasted image 20231215174805.png",
-    "ML4CV/Documents/img/Pasted image 20231215174155.png",
-    "ML4CV/Documents/img/Pasted image 20231215173010.png",
-    "ML4CV/Documents/img/Pasted image 20231215172714.png",
-    "ML4CV/Documents/img/Pasted image 20231215172638.png",
+    "ML4CV/Semantic segmentation/Semantic segmentation.md",
+    "ML4CV/Metric learning/Zero-shot classification.md",
+    "ML4CV/Documents/img/Pasted image 20231224104740.png",
+    "ML4CV/Documents/img/Pasted image 20231224120045.png",
+    "ML4CV/Documents/img/Pasted image 20231224182120.png",
+    "ML4CV/Image generation/Image generation.md",
+    "Untitled 1",
+    "Image generation",
+    "ML4CV/Image generation",
+    "ML4CV/Documents/img/Pasted image 20231224122443.png",
+    "ML4CV/Documents/img/Pasted image 20231224181635.png",
+    "ML4CV/Documents/img/Pasted image 20231224181434.png",
+    "ML4CV/Documents/img/Pasted image 20231224180429.png",
+    "ML4CV/Documents/img/Pasted image 20231224180258.png",
+    "ML4CV/Documents/img/Pasted image 20231224115903.png",
+    "ML4CV/Documents/img/Pasted image 20231224114035.png",
+    "Pasted image 20231224104608.png.md",
+    "ML4CV/Transformer/Transformer.md",
+    "ML4CV/Transformer/Attention mechanism.md",
+    "ML4CV/NN Object Detection/RetinaNet.md",
     "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
     "Architectures for AI/Backpropagation.md",
     "ML4CV/Metric learning",
     "Architectures for AI/img",
-    "ML4CV/Semantic segmentation/Semantic segmentation.md",
     "ML4CV/Semantic segmentation",
     "ML4CV/NN Object Detection/CenterNet.md",
-    "ML4CV/NN Object Detection/RetinaNet.md",
     "ML4CV/NN Object Detection/R-CNN.md",
     "ML4CV/NN Object Detection/RoIPool.md",
     "ML4CV/NN Object Detection/One stage detectors.md",
@@ -220,16 +228,8 @@
     "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Image Noise.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Gaussian Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/mcq.pdf",
-    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf",
-    "ML4CV/Documents/img",
-    "ML4CV/Documents/Papers/viola-cvpr-01.pdf",
-    "ML4CV/Documents/Papers"
+    "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf"
   ]
 }

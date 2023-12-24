@@ -2,7 +2,7 @@ The **Attention mechanism** allows to selectively focus on specific parts of th
 It is partially bio-inspired from the [[Selective attention]] mechanism of our brain.
 ## Dot-product attention
 ![[Pasted image 20231012094948.png]]
-1) **Similarity score**: dot product between input embeddings Y (original language) and output X (target language).
+1) **Similarity score**: dot product (_cosine similarity_) between input embeddings Y (original language) and output X (target language).
 2) **Softmax** to compute attention weights, and make the values more stable
 3) **Linear combination** of input embeddings and attention weights (wY)
 

@@ -32,7 +32,7 @@
       "query": "path:ML4CV",
       "color": {
         "a": 1,
-        "rgb": 9194446
+        "rgb": 2021617
       }
     }
   ],
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.10637053930584439,
+  "scale": 0.3234815803908308,
   "close": true
 }

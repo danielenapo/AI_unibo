@@ -62,6 +62,32 @@ Problems:
 - does not guarantee large inter-class distances 
 - risks training collapse
 Again, **Hinge loss with margin** can solve those problems:
-$L(A,P,N)=max  \{0, ||f(P)-f(A)||_{2}^{2}-||f{N}-f{A}||_{2}^{2}+m\}$        
+$L(A,P,N)=max  \{0, ||f(P)-f(A)||_{2}^{2}-||f(N)-f(A)||_{2}^{2}+m\}$        
 ![[Pasted image 20231222123820.png]]
+#### Semi-hard negatives
+The most important part now is to form effective triplets, the **choice of negative examples** is key:
+Since for most of the triplets the constraint of the loss is already satisfied, we want to compute the loss mostly on the **semi-hard negative** cases that contribute to learning:
+$||f(P)-f(A)||_{2}^{2} \le ||f(N)-f(A)||_{2}^{2} \le ||f(P)-f(A)||_{2}^{2}+m$        
+Those examples are the ones **on the margin edge** (thus they are not the hardest negatives since they would lead to poor training).
+
+
+# ArcFace
+Since embeddings are always normalized, they lie on a hyper-sphere
+- similarity can be expressed with an anglular measure, like cosine similarity
+- classification with softmax becomes a better pre-training objective
+![[Pasted image 20231224104740.png]]
+If the weights in the last FC layers are normalized column-wise, the last layer computes angular distances between templates and embedding.
+By adding a constant penalty to the angle formed with the correct class template, the **embeddings cluster along those templates**.
+![[Pasted image 20231224113233.png]]
+## N-pairs/NT-Xent loss
+It is often just referred as contrastive loss (even if it's not).
+$L_{angular\_triplet}(A,P,N)=max\{0,\tilde f(A)^{T}\tilde f(N) - \tilde f(A)^{T} \tilde f(P)\}$  
+Where $\tilde f(A)$ is the embedding of the anchor/template, and the products are the similarities (cosine).
+![[Pasted image 20231224114035.png]]
+To optimize at once distance from multiple negatives, we can extend the max to include multiple of them: $L_{angular\_triplet}(A,P,N)=max\{0,\tilde f(A)^{T}\tilde f(N_{1}) - \tilde f(A)^{T} \tilde f(P),\ ..., \tilde f(A)^{T}\tilde f(N_{n}) - \tilde f(A)^{T} \tilde f(P) \}$ 
+We use softmax to predict probabilities of classes. Instead of using max (not differentiable), we can swithc to its soft approximation _logsumexp_:
+![[Pasted image 20231224115903.png]]
+To make the loss focus on a large set of negatives, we can introduce a temperature $\tau$, obtaining the normalized temperature-scaled cross entropy loss (NT-Xent)
+![[Pasted image 20231224120045.png]]
+
 
