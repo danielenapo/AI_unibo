@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
+                "file": "ML4CV/Semantic segmentation/Segmentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b099a0099cfa8bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Semantic segmentation/Segmentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d87b89b3fb42a6a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Semantic segmentation/Kinect human pose estimation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
+                "file": "ML4CV/Semantic segmentation/Segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md",
+                "file": "ML4CV/Semantic segmentation/Segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Semantic segmentation/Semantic segmentation.md"
+                "file": "ML4CV/Semantic segmentation/Segmentation.md"
               }
             }
           },
@@ -184,25 +208,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ad81d373b70151",
+  "active": "b099a0099cfa8bf4",
   "lastOpenFiles": [
+    "ML4CV/Semantic segmentation/Transposed Convolution.md",
+    "ML4CV/Semantic segmentation/Segmentation.md",
+    "Pasted image 20231226183440.png",
+    "Pasted image 20231226183348.png",
+    "ML4CV/Documents/img/Pasted image 20231226175129.png",
+    "Fully Convolutional Network (FCN).md",
+    "ML4CV/Documents/img/Pasted image 20231226182736.png",
+    "ML4CV/Documents/img/Pasted image 20231226182625.png",
+    "ML4CV/Documents/img/Pasted image 20231226181702.png",
+    "ML4CV/Semantic segmentation/Kinect human pose estimation.md",
+    "ML4CV/Documents/img/Pasted image 20231226180024.png",
+    "ML4CV/Documents/img/Pasted image 20231226175449.png",
+    "ML4CV/Documents/img/Pasted image 20231226175351.png",
     "ML4CV/Metric learning/Face recognition.md",
-    "ML4CV/Semantic segmentation/Semantic segmentation.md",
     "ML4CV/Metric learning/Zero-shot classification.md",
     "ML4CV/Documents/img/Pasted image 20231224104740.png",
-    "ML4CV/Documents/img/Pasted image 20231224120045.png",
-    "ML4CV/Documents/img/Pasted image 20231224182120.png",
     "ML4CV/Image generation/Image generation.md",
     "Untitled 1",
     "Image generation",
     "ML4CV/Image generation",
-    "ML4CV/Documents/img/Pasted image 20231224122443.png",
-    "ML4CV/Documents/img/Pasted image 20231224181635.png",
-    "ML4CV/Documents/img/Pasted image 20231224181434.png",
-    "ML4CV/Documents/img/Pasted image 20231224180429.png",
-    "ML4CV/Documents/img/Pasted image 20231224180258.png",
-    "ML4CV/Documents/img/Pasted image 20231224115903.png",
-    "ML4CV/Documents/img/Pasted image 20231224114035.png",
     "Pasted image 20231224104608.png.md",
     "ML4CV/Transformer/Transformer.md",
     "ML4CV/Transformer/Attention mechanism.md",
@@ -225,9 +252,6 @@
     "Image Processing & Computer Vision/Computer Vision/Computer Vision.md",
     "Image Processing & Computer Vision/Computer Vision/Image classification.md",
     "Image Processing & Computer Vision/Image Processing/Filters/Non-local Means Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Median Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Mean Filter.md",
-    "Image Processing & Computer Vision/Image Processing/Filters/Bilateral Filter.md",
     "Machine Learning/Documents/past exams/questions_ML.pdf",
     "Machine Learning/Documents/past exams/mcq.pdf",
     "Machine Learning/Documents/past exams/Machine Learning - 0901 Questions.pdf"

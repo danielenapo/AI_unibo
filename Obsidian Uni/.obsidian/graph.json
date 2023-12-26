@@ -32,11 +32,11 @@
       "query": "path:ML4CV",
       "color": {
         "a": 1,
-        "rgb": 2021617
+        "rgb": 1140852
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -1.4,
   "nodeSizeMultiplier": 1.36328125,
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3234815803908308,
+  "scale": 0.09775425107248109,
   "close": true
 }
