@@ -1,8 +1,8 @@
 [[Neural Network]] are based on the Gradient Descent algorithm to update the parameters by
-1) Computing the output with a forward pass, and the corresponding loss function.
-2) Computing the gradient of the loss with the analytical Backpropagation algorithm (starting from output nodes to the input).
-3) Updating all the parameters according to the gradients.
-
+1) Computing the output with a **forward pass**, and the corresponding **loss** function.
+2) Computing the **gradient of the loss** with the analytical Backpropagation algorithm.
+3) **Updating all the parameters** according to the gradients.
+![[NN_operations.gif]]
 # Stochastic Gradient Descent
 Stochastic Gradient Descent (SGD)
 $$\theta^{*}=argmin_{\theta \in \Theta} \sum_{i}L(\theta,(x^{i}, y^i)) $$

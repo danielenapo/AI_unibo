@@ -1,3 +1,4 @@
+_An [[Hyperparameter]] used to govern the **pace** at which an algorithm updates or learns the values of a parameter estimate_
 The learning rate factor (lr) in the [[Optimizers#Stochastic Gradient Descent]] formula can either be fixed or dynamic.
 # per-parameter adaptive
 Based on the values of single parameters, we can reach faster convergence by automatically

@@ -1,4 +1,4 @@
-The **Attention mechanism** allows to selectively focus on specific parts of the input data while performing a task by assigning weights to parts of the input.
+_The **Attention mechanism** allows to selectively focus on specific parts of the input data while performing a task by assigning weights to parts of the input._
 It is partially bio-inspired from the [[Selective attention]] mechanism of our brain.
 ## Dot-product attention
 ![[Pasted image 20231012094948.png]]
