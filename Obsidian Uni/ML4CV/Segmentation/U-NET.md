@@ -16,4 +16,3 @@ When applying stride to transposed convolutions, the overlapping kernels gets su
 ![[Pasted image 20240105174305.png]]
 The use of transposed convolutions (also called deconvolutions), can produce **checkerboard artifacts** in the image.
 
-# Dilated convolutions
