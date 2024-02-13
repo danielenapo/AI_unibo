@@ -27,7 +27,7 @@
 		{"id":"47b4544b7f326b0f","x":2974,"y":287,"width":400,"height":400,"type":"file","file":"ML4CV/Segmentation/Panoptic segmentation.md"},
 		{"id":"54bbbde6756ef31a","type":"file","file":"ML4CV/Segmentation/U-NET.md","x":2174,"y":800,"width":400,"height":400},
 		{"id":"782f55431e7d7238","type":"file","file":"ML4CV/Metric learning/Face recognition.md","x":1720,"y":1360,"width":400,"height":400},
-		{"id":"de01c9358ad7d202","type":"file","file":"ML4CV/Metric learning/Zero-shot classification.md","x":2120,"y":1360,"width":400,"height":400},
+		{"id":"de01c9358ad7d202","type":"file","file":"ML4CV/Metric learning/CLIP.md","x":2120,"y":1360,"width":400,"height":400},
 		{"id":"170c06407ccd8b44","type":"file","file":"ML4CV/Segmentation/Kinect human pose estimation.md","x":1640,"y":-242,"width":600,"height":435}
 	],
 	"edges":[

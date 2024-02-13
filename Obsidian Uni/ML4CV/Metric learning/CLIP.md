@@ -1,9 +1,7 @@
+Stands for _Contrastive Language-Image Pre-training_, from OpenAI.
 _Metric learning can be used to extend classification to open-world problems, doing **zero-shot classification**, i.e. perform well on a test dataset without having access to its training set at train time._
 The most effective way is using **natural language supervision** using [[Natural Language Processing]] techniques to pair image and text embeddings.
-It's much easier to scale natural language supervision compare to crowd-sourced labeling sing it doesn't require one-hot encoded annotations.
-
-## CLIP 
-Stands for _Contrastive Language-Image Pre-training_, from OpenAI.
+It's much easier to scale natural language supervision compare to crowd-sourced labeling since it doesn't require one-hot encoded annotations.
 
 ### WIT dataset 
 They also introduced the **WebImageText (WIT) dataset**, using 400M pairs of images with their captions, (from the ALT property of their HTML tags).
@@ -16,12 +14,10 @@ It then uses [[Face recognition#N-pairs/NT-Xent loss]] on each column/row of the
 ![[Pasted image 20231224180258.png]]
 - **Text embedding**: [[Transformer]] model
 - **Image embedding**: they tried both [[Vision Transformer (ViT)]] and [[ResNet]], but the ViT encoder performed the best, since it is more efficient on training, thus it's more successful to scale.
-
 ### Zero-shot CLIP prediction
 1)  create a dataset of possible text labels 
 2) encode both the text labels list and the query image
 3) use the embedding space as a lookup table, where the closest text label (embedding) that matches the image embedding is the final prediction. 
-
 ![[Pasted image 20231224181434.png]]
 As a result, CLIP is also more robust to distribution shifts of a dataset than the classical models (like [[ResNet]]) specifically trained on that dataset.
 ![[Pasted image 20231224181635.png]]

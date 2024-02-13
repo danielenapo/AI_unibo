@@ -11,14 +11,35 @@
             "id": "5f9e9f889a3ddbab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ML4CV/ML4CV.canvas",
-                "viewState": {
-                  "x": 435.5814757967624,
-                  "y": 2613.858829863293,
-                  "zoom": -0.5888452081854196
-                }
+                "file": "ML4CV/Image generation/Image generation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "08f0c40025594cb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Image generation/GAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28b4fb2845199dc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Image generation/Image generation.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -30,7 +51,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 241,
+    "collapsed": true
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -112,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Documents/Papers/sam.pdf",
+                "file": "ML4CV/Image generation/GAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Documents/Papers/sam.pdf",
+                "file": "ML4CV/Image generation/GAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Documents/Papers/sam.pdf"
+                "file": "ML4CV/Image generation/GAN.md"
               }
             }
           },
@@ -182,38 +205,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ade3d6409066c43d",
+  "active": "08f0c40025594cb1",
   "lastOpenFiles": [
-    "ML4CV/Segmentation/Segment Anything Model (SAM).md",
-    "ML4CV/ML4CV.canvas",
-    "ML4CV/Segmentation/Semantic segmentation.md",
+    "Pasted image 20240213175900.png",
+    "ML4CV/Image generation/Image generation.md",
+    "Pasted image 20240213175537.png",
+    "Pasted image 20240213175154.png",
+    "Pasted image 20240213174757.png",
+    "ML4CV/Image generation/Diffusion.md",
+    "ML4CV/Image generation/GAN.md",
+    "Pasted image 20240213173629.png",
+    "Pasted image 20240213173218.png",
+    "Pasted image 20240213172922.png",
+    "Pasted image 20240213171952.png",
+    "Pasted image 20240213164836.png",
+    "Pasted image 20240213164437.png",
     "ML4CV/Segmentation/Instance segmentation.md",
-    "ML4CV/Documents/img/Pasted image 20240116173738.png",
+    "Pasted image 20240119160428.png",
+    "ML4CV/Segmentation/Semantic segmentation.md",
+    "ML4CV/Segmentation/Segment Anything Model (SAM).md",
     "ML4CV/Segmentation/Panoptic segmentation.md",
-    "ML4CV/Documents/img/Pasted image 20240116174633.png",
-    "ML4CV/Documents/img/Pasted image 20240116174613.png",
-    "ML4CV/Documents/img/Pasted image 20240116164734.png",
-    "ML4CV/Documents/img/Pasted image 20240116172751.png",
-    "ML4CV/Documents/img/Pasted image 20240116172739.png",
-    "ML4CV/Documents/img/Pasted image 20240116172705.png",
-    "ML4CV/Documents/img/Pasted image 20240116172653.png",
-    "ML4CV/Documents/img/Pasted image 20240116171252.png",
-    "ML4CV/Documents/img/Pasted image 20240116170945.png",
-    "ML4CV/Segmentation/Segmentation.md",
-    "ML4CV/Segmentation/Kinect human pose estimation.md",
+    "ML4CV/Training recipees/Bias vs Variance.md",
     "ML4CV/Segmentation/U-NET.md",
+    "ML4CV/Segmentation/Segmentation.md",
+    "ML4CV/Metric learning/CLIP.md",
+    "ML4CV/Metric learning/Face recognition.md",
+    "ML4CV/Documents/Papers/sam.pdf",
+    "ML4CV/ML4CV.canvas",
+    "ML4CV/Segmentation/Kinect human pose estimation.md",
     "ML4CV/Transformer/Transformer.md",
     "ML4CV/Transformer/Attention mechanism.md",
-    "ML4CV/Training recipees/Bias vs Variance.md",
     "ML4CV/Training recipees/Regularization.md",
     "ML4CV/Training recipees/Learning Rate.md",
     "ML4CV/Training recipees/Optimizers.md",
     "ML4CV/Documents/img/NN_operations.gif.crdownload",
     "ML4CV/Semantic segmentation/Transposed Convolution.md",
     "Fully Convolutional Network (FCN).md",
-    "ML4CV/Metric learning/Face recognition.md",
-    "ML4CV/Metric learning/Zero-shot classification.md",
-    "ML4CV/Image generation/Image generation.md",
     "Untitled 1",
     "Image generation",
     "ML4CV/Image generation",
@@ -225,10 +252,7 @@
     "Architectures for AI/img",
     "ML4CV/Segmentation",
     "ML4CV/NN Object Detection/CenterNet.md",
-    "ML4CV/NN Object Detection/R-CNN.md",
-    "ML4CV/NN Object Detection/RoIPool.md",
     "pasted-image-rename.py",
-    "Machine Learning/Documents/past exams/questions_ML.pdf",
-    "Machine Learning/Documents/past exams/mcq.pdf"
+    "Machine Learning/Documents/past exams/questions_ML.pdf"
   ]
 }

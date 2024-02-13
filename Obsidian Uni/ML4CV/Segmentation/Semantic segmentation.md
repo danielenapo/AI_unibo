@@ -32,4 +32,3 @@ To obtain a fixed-size representation to feed the fully connected layers:
 ![[Pasted image 20240116165149.png]]
 
 - It's an extension of the [[Inception#Global Average Pooling]] to maintain spatial information.
-Tge 
