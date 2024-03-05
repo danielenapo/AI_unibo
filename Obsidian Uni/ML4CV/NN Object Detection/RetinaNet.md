@@ -19,13 +19,15 @@ SOLUTION:
 2) **Work at the loss level**
 	A new loss based on the standard Binary Crossentropy is used, called **Focal Loss**.
 
-## Focal loss
+# Loss
 Standard Cross Entropy loss has a modest value even when samples are correctly classified. When summed over lots of examples of negative class, those small losses can overwhelm the hard negatives.
-To **down-weight the easy negatives**, the binary focal loss is defined as:
+$$BCL(p_{t})=- ln(p_{t})$$
+ ($p_{t}$ is the probability of true class)
+## Focal loss
+To **down-weight the easy negatives**, the binary focal loss adds the exponent $\gamma$. It is a tunable **"focusing"** [[Hyperparameter]] (usually $\gamma=2$).
 $$BFL(p_{t})=-(1-p_{t})^{\gamma}\cdot ln(p_{t})$$
-where $p_{t}$ is the probability of true class:
 $p_t= p$ if y=1, $p_{t}=(1-p)$ otherwise. p is the probability assigned by the model to have label y=1.
-The exponent $\gamma$ is a tunable **"focusing"** [[Hyperparameter]] (usually $\gamma=2$).
+The 
 ![[Pasted image 20231109160413.png]]
 As we can see for BCE (which is BFC with $\gamma=0$), even when $p_t=0.8$ (very good result), the loss is >0, while for BFC with $\gamma=2$, the loss is zero. 
 FL is always smaller than CE if $\gamma>0$, but the difference between easy and hard samples is magnified according to their difficulty.

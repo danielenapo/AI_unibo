@@ -69,10 +69,11 @@ We could influence those numbers by changing the threshold of minimum confidence
 - low threshold=high recall
 ![[Pasted image 20231024152626.png]]
 
-### Precision-recall curve
+### Average Precision (AP)
 We can actually evaluate the detector across all possible precision/recall regimes **without changing the threshold**, by sorting predictions according to their score, and obtaining a **precision-recall curve**:
 ![[Pasted image 20231024152939.png]]
 The **Average Precision (AP)** is the area under curve.
+### mAP
 For multiple classes. we can compute a **mean AP (mAP)** across classes, that gives a global indication of the model's performance.
 ![[Pasted image 20231024153145.png]]
 # Paper

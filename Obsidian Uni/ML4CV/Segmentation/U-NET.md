@@ -1,4 +1,4 @@
-_[[Segmentation#Fully Convolutional Network (FCN)]] for image [[Segmentation]], with a symmetric **encoder/decoder** architecture_
+_[[Fully Convolutional Network (FCN)]] for image [[Segmentation]], with a symmetric **encoder/decoder** architecture_
 ![[Pasted image 20240105174644.png]]
 - It is similar to an **Autoencoder** network, transforming the original input in a low-dimensional format, then upscaling it back to the original size using [[#Transposed convolutions]].
 - Divided in **stages**. for the decoder, each one doubles the channels and halves the resolution.

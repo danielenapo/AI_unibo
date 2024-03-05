@@ -8,43 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5f9e9f889a3ddbab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML4CV/Image generation/Image generation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "08f0c40025594cb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "ML4CV/Image generation/GAN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28b4fb2845199dc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML4CV/Image generation/Image generation.md",
-                "mode": "source",
-                "source": false
+                "file": "ML4CV/ML4CV.canvas",
+                "viewState": {
+                  "x": 1005.1454886900257,
+                  "y": 355.166422832399,
+                  "zoom": -1.5304241897076132
+                }
               }
             }
           },
           {
             "id": "32dc7924b311278d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Representation Learning/Representation Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6e84e978466538a",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -64,7 +55,7 @@
       {
         "id": "549d1c82c2296115",
         "type": "tabs",
-        "dimension": 67.64705882352942,
+        "dimension": 71.44607843137256,
         "children": [
           {
             "id": "ade3d6409066c43d",
@@ -82,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "youtu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,12 +93,12 @@
         ]
       },
       {
-        "id": "09cf02204ec2601b",
+        "id": "9532d82263dac9ac",
         "type": "tabs",
-        "dimension": 32.35294117647059,
+        "dimension": 28.553921568627448,
         "children": [
           {
-            "id": "c8da355a506c1fb7",
+            "id": "26a58fbde77d3364",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -118,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 241
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -135,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Image generation/GAN.md",
+                "file": "ML4CV/Representation Learning/Representation Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Image generation/GAN.md",
+                "file": "ML4CV/Representation Learning/Representation Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Image generation/GAN.md"
+                "file": "ML4CV/Representation Learning/Representation Learning.md"
               }
             }
           },
@@ -205,54 +195,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08f0c40025594cb1",
+  "active": "32dc7924b311278d",
   "lastOpenFiles": [
-    "Pasted image 20240213175900.png",
-    "ML4CV/Image generation/Image generation.md",
-    "Pasted image 20240213175537.png",
-    "Pasted image 20240213175154.png",
-    "Pasted image 20240213174757.png",
-    "ML4CV/Image generation/Diffusion.md",
-    "ML4CV/Image generation/GAN.md",
-    "Pasted image 20240213173629.png",
-    "Pasted image 20240213173218.png",
-    "Pasted image 20240213172922.png",
-    "Pasted image 20240213171952.png",
-    "Pasted image 20240213164836.png",
-    "Pasted image 20240213164437.png",
+    "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Instance segmentation.md",
-    "Pasted image 20240119160428.png",
+    "ML4CV/ML4CV.canvas",
+    "ML4CV/Representation Learning/Representation Learning.md",
+    "Representation Learning.md",
+    "Pasted image 20240305165800.png",
+    "ML4CV/Training recipees/Regularization.md",
+    "ML4CV/Training recipees/Optimizers.md",
+    "ML4CV/Representation Learning/CLIP.md",
+    "ML4CV/Image Generation/Image generation.md",
+    "ML4CV/Documents/img/Pasted image 20240227170128.png",
+    "ML4CV/Documents/img/Pasted image 20240227181049.png",
+    "ML4CV/Documents/img/Pasted image 20240227171351.png",
+    "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
+    "ML4CV/Documents/img/Pasted image 20240227180407.png",
+    "ML4CV/Documents/img/Pasted image 20240227180127.png",
+    "ML4CV/Documents/img/Pasted image 20240227175923.png",
+    "ML4CV/Documents/img/Pasted image 20240227171034.png",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
+    "Image Processing & Computer Vision/Image Processing/Calibration/Camera calibration.md",
+    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
+    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
+    "ML4CV/Image Generation/Diffusion.md",
+    "ML4CV/Image Generation/Latent diffusion.md",
+    "ML4CV/Image Generation/GAN.md",
+    "ML4CV/Segmentation/Segmentation.md",
+    "ML4CV/Segmentation/Panoptic segmentation.md",
+    "ML4CV/Segmentation/U-NET.md",
     "ML4CV/Segmentation/Semantic segmentation.md",
     "ML4CV/Segmentation/Segment Anything Model (SAM).md",
-    "ML4CV/Segmentation/Panoptic segmentation.md",
-    "ML4CV/Training recipees/Bias vs Variance.md",
-    "ML4CV/Segmentation/U-NET.md",
-    "ML4CV/Segmentation/Segmentation.md",
-    "ML4CV/Metric learning/CLIP.md",
-    "ML4CV/Metric learning/Face recognition.md",
-    "ML4CV/Documents/Papers/sam.pdf",
-    "ML4CV/ML4CV.canvas",
     "ML4CV/Segmentation/Kinect human pose estimation.md",
-    "ML4CV/Transformer/Transformer.md",
-    "ML4CV/Transformer/Attention mechanism.md",
-    "ML4CV/Training recipees/Regularization.md",
-    "ML4CV/Training recipees/Learning Rate.md",
-    "ML4CV/Training recipees/Optimizers.md",
+    "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
+    "ML4CV/NN Object Detection/Object detection.md",
+    "ML4CV/NN Object Detection/Viola Jones Detector.md",
+    "Ethics/Pasted image 20240227115239.png",
+    "ML4CV/Documents/img/Pasted image 20240215165514.png",
+    "Ethics",
+    "ML4CV/Documents/Papers/sam.pdf",
     "ML4CV/Documents/img/NN_operations.gif.crdownload",
-    "ML4CV/Semantic segmentation/Transposed Convolution.md",
-    "Fully Convolutional Network (FCN).md",
     "Untitled 1",
     "Image generation",
-    "ML4CV/Image generation",
-    "Pasted image 20231224104608.png.md",
-    "ML4CV/NN Object Detection/RetinaNet.md",
-    "Image Processing & Computer Vision/Computer Vision/Deep learning/Deep Learning computer vision.md",
-    "Architectures for AI/Backpropagation.md",
-    "ML4CV/Metric learning",
+    "ML4CV/Image Generation",
+    "ML4CV/Representation Learning",
     "Architectures for AI/img",
     "ML4CV/Segmentation",
-    "ML4CV/NN Object Detection/CenterNet.md",
-    "pasted-image-rename.py",
-    "Machine Learning/Documents/past exams/questions_ML.pdf"
+    "pasted-image-rename.py"
   ]
 }

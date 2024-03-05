@@ -1,3 +1,11 @@
+_Set of techniques that allows a system to automatically discover the representations needed for feature  detection or classification from raw data._
+![[Pasted image 20240305165800.png | 500]]
+Organizing the embedding space is key: having nice clusters allows us to easily compute distances, and to better separate the different identities.
+OBJECTIVE: 
+- Distances (in embedding space) between elements of the same class need to be small.
+- Distances (in embedding space)  between elements of different classes need to be large.
+
+# Face recognition
 Given a query face, solve a **one-to-many matching problem**.
 Match should be robust to changes in facial expression, hair, aging, accessories (e.g. glasses, scarf, hat).
 It's an **open-world problem**: need to handle the addition/removal of an identity.
@@ -13,8 +21,8 @@ This is simply unfeasible with such large networks, but we can instead get rid o
 # Face verification
 Organizing the embedding space is key: having nice clusters allows us to easily compute distances, and to better separate the different identities.
 OBJECTIVE: 
-- Distances between elements of the same class need to be small.
-- Distances between elements of different classes need to be large.
+- Distances (in emb. space) between elements of the same class need to be small.
+- Distances (in emb. space)  between elements of different classes need to be large.
 
 We can reach this by training the model to solve the **face verification** problem:
 given two images, confirm they belong to the same identity.
@@ -64,7 +72,7 @@ Problems:
 Again, **Hinge loss with margin** can solve those problems:
 $L(A,P,N)=max  \{0, ||f(P)-f(A)||_{2}^{2}-||f(N)-f(A)||_{2}^{2}+m\}$        
 ![[Pasted image 20231222123820.png]]
-#### Semi-hard negatives
+#### Semi-hard negatives mining
 The most important part now is to form effective triplets, the **choice of negative examples** is key:
 Since for most of the triplets the constraint of the loss is already satisfied, we want to compute the loss mostly on the **semi-hard negative** cases that contribute to learning:
 $||f(P)-f(A)||_{2}^{2} \le ||f(N)-f(A)||_{2}^{2} \le ||f(P)-f(A)||_{2}^{2}+m$        
@@ -75,12 +83,15 @@ Those examples are the ones **on the margin edge** (thus they are not the hardes
 Since embeddings are always normalized, they lie on a hyper-sphere
 - similarity can be expressed with an anglular measure, like cosine similarity
 - classification with softmax becomes a better pre-training objective
+![arcface](https://www.youtube.com/watch?v=2Vc_qwkv6uE)
+
 ![[Pasted image 20231224104740.png]]
 If the weights in the last FC layers are normalized column-wise, the last layer computes angular distances between templates and embedding.
 By adding a constant penalty to the angle formed with the correct class template, the **embeddings cluster along those templates**.
 ![[Pasted image 20231224113233.png]]
 ## N-pairs/NT-Xent loss
 It is often just referred as contrastive loss (even if it's not).
+_Takes the output of the network for a positive example and calculates its distance to an example of the same class and contrasts that with the distance to negative examples. Said another way, the loss is low if positive samples are encoded to similar (closer) representations and negative examples are encoded to different (farther) representations._
 $L_{angular\_triplet}(A,P,N)=max\{0,\tilde f(A)^{T}\tilde f(N) - \tilde f(A)^{T} \tilde f(P)\}$  
 Where $\tilde f(A)$ is the embedding of the anchor/template, and the products are the similarities (cosine).
 ![[Pasted image 20231224114035.png]]

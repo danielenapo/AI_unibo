@@ -10,7 +10,7 @@ Those description can either be basic or really detailed.
 ### Architecture
 The basic idea is to embed both the images and the text captions in the same embedding space, so that the representation of an image and its description (or a cluster of similar words) are spatially close together.
 ![[Pasted image 20231224180429.png]]
-It then uses [[Face recognition#N-pairs/NT-Xent loss]] on each column/row of the matrix:
+It then uses [[ML4CV/Representation Learning/Representation Learning#N-pairs/NT-Xent loss]] on each column/row of the matrix:
 ![[Pasted image 20231224180258.png]]
 - **Text embedding**: [[Transformer]] model
 - **Image embedding**: they tried both [[Vision Transformer (ViT)]] and [[ResNet]], but the ViT encoder performed the best, since it is more efficient on training, thus it's more successful to scale.

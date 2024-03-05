@@ -1,4 +1,5 @@
 _Subtask in image [[Segmentation]] that aims to separate different classes at the pixel level, but **does not separate instances of the same class**._
+Some well-known models that tackle this problem are DeepLab and [[U-NET]].
 
 # DeepLab
 Network for semantic segmentation, based on a [[ResNet]] backbone with [[#Dilated convolutions]], in order to control the resolution of the output feature map.

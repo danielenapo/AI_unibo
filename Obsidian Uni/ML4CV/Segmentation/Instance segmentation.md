@@ -18,7 +18,7 @@ Avoids both quantizations,
 1) Max/average pooling the sampled features on each sub-region
 ![[Pasted image 20240116172751.png]]
 
-## Mask head and loss
+## Loss
 A small flat FCN is used to **predict a binary mask for each class** with 28x28 resolution, only the predicted mask $\hat m_{c^{GT}}$  (corresponding to the correct class $c^{GT}$) contributes to the loss.
 ![[Pasted image 20240116173738.png]]
 
