@@ -15,8 +15,8 @@
               "state": {
                 "file": "ML4CV/ML4CV.canvas",
                 "viewState": {
-                  "x": 1005.1454886900257,
-                  "y": 355.166422832399,
+                  "x": 1434.3807862368485,
+                  "y": 1241.4999332514815,
                   "zoom": -1.5304241897076132
                 }
               }
@@ -28,7 +28,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/Representation Learning/Representation Learning.md",
+                "file": "ML4CV/Representation Learning/Metric Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7066531c0104cec2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Training recipees/Regularization.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Representation Learning/Representation Learning.md",
+                "file": "ML4CV/Training recipees/Regularization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Representation Learning/Representation Learning.md",
+                "file": "ML4CV/Training recipees/Regularization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Representation Learning/Representation Learning.md"
+                "file": "ML4CV/Training recipees/Regularization.md"
               }
             }
           },
@@ -195,14 +207,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "32dc7924b311278d",
+  "active": "7066531c0104cec2",
   "lastOpenFiles": [
+    "ML4CV/Representation Learning/Metric learning losses.md",
+    "Representation Learning.md",
+    "ML4CV/Representation Learning/Metric Learning.md",
+    "ML4CV/ML4CV.canvas",
+    "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Instance segmentation.md",
-    "ML4CV/ML4CV.canvas",
-    "ML4CV/Representation Learning/Representation Learning.md",
-    "Representation Learning.md",
-    "Pasted image 20240305165800.png",
+    "ML4CV/Documents/img/Pasted image 20240305165800.png",
     "ML4CV/Training recipees/Regularization.md",
     "ML4CV/Training recipees/Optimizers.md",
     "ML4CV/Representation Learning/CLIP.md",
@@ -230,7 +244,6 @@
     "ML4CV/Segmentation/Kinect human pose estimation.md",
     "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
     "ML4CV/NN Object Detection/Object detection.md",
-    "ML4CV/NN Object Detection/Viola Jones Detector.md",
     "Ethics/Pasted image 20240227115239.png",
     "ML4CV/Documents/img/Pasted image 20240215165514.png",
     "Ethics",

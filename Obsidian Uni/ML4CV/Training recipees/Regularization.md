@@ -81,6 +81,9 @@ using a cyclic [[Learning Rate]] schedule, we can simulate M trainings in the sp
 ### Distillation or Teacher-student
 Instead of training multiple full-sized networks, we can train only one and "distill" its knowledge into a smaller model.
 ![[Pasted image 20231006111612.png]]
+Uses a combination of **soft labels** (from the pre-trained, big network _teacher_) and **hard labels** (from ground truth) to compute the final loss of the student. 
+Soft labels use softmax with temperature T to get smoother outputs, and lower the values of negative probabilities.
+It's useful when the student is trained with slightly different data wrt teacher.
 ### Exponential moving average (EMA)
 Snapshot in weight space: storing a vector of parameters to use at test time, with an exponential moving average at each step:
 $\theta^{test}=(1-\rho)\theta^{(i+1)}+\rho \theta^{test}$, where $\rho \in [0,1]$
