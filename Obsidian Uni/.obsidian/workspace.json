@@ -8,54 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08f0c40025594cb1",
+            "id": "313c17d6c8673481",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "ML4CV/ML4CV.canvas",
                 "viewState": {
-                  "x": 1434.3807862368485,
-                  "y": 1241.4999332514815,
-                  "zoom": -1.5304241897076132
+                  "x": 1438,
+                  "y": 1257.8915516486059,
+                  "zoom": -1.5753231449066398
                 }
               }
             }
-          },
-          {
-            "id": "32dc7924b311278d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML4CV/Representation Learning/Metric Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7066531c0104cec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML4CV/Training recipees/Regularization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6e84e978466538a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Training recipees/Regularization.md",
+                "file": "ML4CV/ML4CV.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Training recipees/Regularization.md",
+                "file": "ML4CV/ML4CV.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Training recipees/Regularization.md"
+                "file": "ML4CV/ML4CV.canvas"
               }
             }
           },
@@ -207,28 +174,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7066531c0104cec2",
+  "active": "313c17d6c8673481",
   "lastOpenFiles": [
+    "ML4CV/Documents/img/Pasted image 20240311114459.png",
+    "ML4CV/ML4CV.canvas",
+    "ML4CV/Segmentation/Segment Anything.md",
+    "ML4CV/Documents/img/Pasted image 20240311121210.png",
+    "ML4CV/Documents/img/Pasted image 20240311120301.png",
+    "ML4CV/Documents/img/Pasted image 20240311120241.png",
+    "ML4CV/Documents/img/Pasted image 20240311115756.png",
+    "ML4CV/Documents/img/Pasted image 20240311115358.png",
+    "ML4CV/Documents/img/Pasted image 20240311114840.png",
+    "ML4CV/Documents/img/Pasted image 20240311111027.png",
+    "ML4CV/Segmentation/Kinect human pose estimation.md",
+    "ML4CV/Segmentation/Segmentation.md",
+    "ML4CV/Training recipees/Optimizers.md",
+    "ML4CV/Segmentation/Panoptic segmentation.md",
+    "ML4CV/Segmentation/Instance segmentation.md",
+    "ML4CV/Documents/img/Pasted image 20240311103844.png",
+    "ML4CV/Segmentation/Semantic segmentation.md",
+    "ML4CV/Training recipees/Regularization.md",
     "ML4CV/Representation Learning/Metric learning losses.md",
     "Representation Learning.md",
     "ML4CV/Representation Learning/Metric Learning.md",
-    "ML4CV/ML4CV.canvas",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "ML4CV/Depth Estimation.md",
-    "ML4CV/Segmentation/Instance segmentation.md",
     "ML4CV/Documents/img/Pasted image 20240305165800.png",
-    "ML4CV/Training recipees/Regularization.md",
-    "ML4CV/Training recipees/Optimizers.md",
     "ML4CV/Representation Learning/CLIP.md",
     "ML4CV/Image Generation/Image generation.md",
-    "ML4CV/Documents/img/Pasted image 20240227170128.png",
-    "ML4CV/Documents/img/Pasted image 20240227181049.png",
-    "ML4CV/Documents/img/Pasted image 20240227171351.png",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
-    "ML4CV/Documents/img/Pasted image 20240227180407.png",
-    "ML4CV/Documents/img/Pasted image 20240227180127.png",
-    "ML4CV/Documents/img/Pasted image 20240227175923.png",
-    "ML4CV/Documents/img/Pasted image 20240227171034.png",
     "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
     "Image Processing & Computer Vision/Image Processing/Calibration/Camera calibration.md",
     "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
@@ -236,16 +210,9 @@
     "ML4CV/Image Generation/Diffusion.md",
     "ML4CV/Image Generation/Latent diffusion.md",
     "ML4CV/Image Generation/GAN.md",
-    "ML4CV/Segmentation/Segmentation.md",
-    "ML4CV/Segmentation/Panoptic segmentation.md",
     "ML4CV/Segmentation/U-NET.md",
-    "ML4CV/Segmentation/Semantic segmentation.md",
-    "ML4CV/Segmentation/Segment Anything Model (SAM).md",
-    "ML4CV/Segmentation/Kinect human pose estimation.md",
     "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
     "ML4CV/NN Object Detection/Object detection.md",
-    "Ethics/Pasted image 20240227115239.png",
-    "ML4CV/Documents/img/Pasted image 20240215165514.png",
     "Ethics",
     "ML4CV/Documents/Papers/sam.pdf",
     "ML4CV/Documents/img/NN_operations.gif.crdownload",

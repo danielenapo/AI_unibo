@@ -1,0 +1,43 @@
+_A **Foundation Model** for image [[Segmentation]], by META AI "FAIR" research lab (2023), able to perform **Zero-Shot transfer learning**._
+The paper introduces:
+- [[#Promptable Segmentation]] (task)
+- SAM (model)
+- SA-1B (dataset)
+### Promptable Segmentation
+![[Pasted image 20240311111027.png | 400]]
+Solves a new Task: **Promptable image segmentation**.
+Given an input image and any prompt, for example:
+- point -> (x,y) coords
+- Bounding box -> corner coords $((x_{topl}, y_{topl}),(x_{bottomr}, y_{bottomr}))$
+- text -> tokens
+- dense mask 
+predicts multiple masks (for disambiguation) and a confidence score for each 
+# SAM 
+![[Pasted image 20240311114840.png]]
+## Image encoder
+Uses a MAE (Masked Auto-Encoder) pre-trained [[Vision Transformer (ViT)]] for the input image's encoding.
+MAE masks random patches of the image and trains the ViT to reconstruct them (**self-supervised** pre-training).
+![[Pasted image 20240311114459.png | 500]]
+The decoder is thrown away after pre-training, keeping only the encoder.
+## Prompt encoder
+Each kind of prompt uses its encoder:
+- Point and Bounding box coordinates -> positional encoding
+- Dense mask -> CNN 
+- Text -> [[CLIP]]'s text embedding
+## Lightweight mask decoder
+Takes inspiration from Transformer segmentation models, and is similar to a standard [[Transformer#Decoder]].
+Predicts 3 segmentation masks and IoU scores (confidence) for each of them, using token to img and img to token **cross-attention**.
+![[Pasted image 20240311115358.png]]
+## Loss
+- **IoU head:** MSE
+- **Mask head**: Focal Loss + Dice Loss (linear combination)
+![[Pasted image 20240311115756.png]]
+# SA-1B
+They built the biggest segmentation dataset, by keeping the [[#SAM]] model itself in the loop.
+![[Pasted image 20240311120301.png | 400]]
+The model was iteratively trained: as it improved, the gathering process became increasingly automated.
+![[Pasted image 20240311120241.png | 400]]
+Dataset is diverse and well distributed, also spatially for the masks:
+![[Pasted image 20240311121210.png | 400]]
+
+# Zero-Shot transfer

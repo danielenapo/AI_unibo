@@ -4,4 +4,6 @@ _A subtask of image [[Segmentation]], which intersects [[Instance segmentation]]
 It's a modification of the [[Instance segmentation#Mask R-CNN]], that:
 - merges [[R-CNN#Feature Pyramid Network (FPN)]] feature maps to predict a segmentation mask
 - Resolves inconsistencies between "things" and "stuff" masks
-![[Pasted image 20240119160428.png]]
+	- By adding a **stuff FCN** to predict stuff masks
+
+![[Pasted image 20240311103844.png]]

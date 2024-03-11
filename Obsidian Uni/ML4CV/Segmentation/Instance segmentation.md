@@ -7,6 +7,7 @@ It's a modification of the [[R-CNN#Faster R-CNN]] that
 - improves [[RoIPool]] ([[#RoI Align]])
 - adds a branch to the second stage to predict the segmentation mask on each RoI, realized as a small Fully Conv Network
 - A final Mask head predicts (FCN) predicts the mask
+- Per-region network that predicts a mask for each warped proposal
 ![[Pasted image 20240119160428.png]]
 ### RoI Align
 Avoids both quantizations, 

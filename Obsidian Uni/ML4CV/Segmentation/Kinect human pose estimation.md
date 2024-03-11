@@ -21,3 +21,4 @@ To solve this issue, using an [[Ensemble]] of multiple trees (a [[Random forest]
 - variance across trees can provide confidence on estimates
 - high interpretability (explainability)
 - Robust and easy to tune 
+- Uses **Bagging** to improve performance
