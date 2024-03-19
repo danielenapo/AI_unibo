@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
+                "file": "ML4CV/Segmentation/Segment Anything.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f24c1e92654bb3e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/NN Object Detection/RetinaNet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "youtu",
+                "query": "focal loss",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9532d82263dac9ac",
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
+                "file": "ML4CV/NN Object Detection/RetinaNet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
+                "file": "ML4CV/NN Object Detection/RetinaNet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/Segmentation/Panoptic segmentation.md"
+                "file": "ML4CV/NN Object Detection/RetinaNet.md"
               }
             }
           },
@@ -171,11 +185,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8519e6bd4c907b02",
+  "active": "f24c1e92654bb3e2",
   "lastOpenFiles": [
-    "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Segment Anything.md",
     "ML4CV/Segmentation/Panoptic segmentation.md",
+    "ML4CV/Depth Estimation.md",
     "NLP/Documents/Pasted image 20230919131223.png",
     "NLP/Natural Language Processing.md",
     "NLP/Morphology.md",

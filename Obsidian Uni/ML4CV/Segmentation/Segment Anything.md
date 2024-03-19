@@ -30,7 +30,13 @@ Predicts 3 segmentation masks and IoU scores (confidence) for each of them, usin
 ![[Pasted image 20240311115358.png]]
 ## Loss
 - **IoU head:** MSE
-- **Mask head**: Focal Loss + Dice Loss (linear combination)
+- **Mask head**: linear combination (20:1) of
+	- **Focal Loss** ([[RetinaNet#Focal loss]])
+	
+	- **Dice Loss**
+	measure of the dissimilarity between the predicted segmentation and the true segmentation of an image.
+	$$DiceLoss(𝑦,𝑝̅ )=1−\frac{2𝑦𝑝̅ +1}{𝑦+𝑝̅+1}$$
+	Which is actually the inverse of the Dice Similarity Coefficient
 ![[Pasted image 20240311115756.png]]
 # SA-1B
 They built the biggest segmentation dataset, by keeping the [[#SAM]] model itself in the loop.
