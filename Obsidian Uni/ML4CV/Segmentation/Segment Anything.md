@@ -41,3 +41,17 @@ Dataset is diverse and well distributed, also spatially for the masks:
 ![[Pasted image 20240311121210.png | 400]]
 
 # Zero-Shot transfer
+_Zero-shot transfer is the ability of a model to generalize, performing well on unseen dataset or tasks._
+4 different successful experiments are proposed in the paper
+1) Edge detection
+2) Segment everything (object proposal generation)
+3) Segment pre-detected object (instance segmentation)
+4) segmenting object from free-form text (i.e. unstructured, natural)
+### Zero-Shot Edge detection
+### Zero-Shot Text-to-Mask
+
+# Foundation model
+_Models trained on **broad data** at **scale**, adaptable to a wide range of downstram tasks (via fine-tuning)._
+SAM is a first attempt of creating a foundation model for image segmentation, capable of [[#Zero-Shot transfer]] and fine-tunable on specific narrow tasks.
+
+

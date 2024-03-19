@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "171cd8b1e589ef9d",
+        "id": "b14be332113f4649",
         "type": "tabs",
         "children": [
           {
-            "id": "313c17d6c8673481",
+            "id": "8519e6bd4c907b02",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ML4CV/ML4CV.canvas",
-                "viewState": {
-                  "x": 1438,
-                  "y": 1257.8915516486059,
-                  "zoom": -1.5753231449066398
-                }
+                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -77,7 +74,7 @@
         "dimension": 28.553921568627448,
         "children": [
           {
-            "id": "26a58fbde77d3364",
+            "id": "313c17d6c8673481",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/ML4CV.canvas",
+                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/ML4CV.canvas",
+                "file": "ML4CV/Segmentation/Panoptic segmentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/ML4CV.canvas"
+                "file": "ML4CV/Segmentation/Panoptic segmentation.md"
               }
             }
           },
@@ -174,11 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "313c17d6c8673481",
+  "active": "8519e6bd4c907b02",
   "lastOpenFiles": [
-    "ML4CV/Documents/img/Pasted image 20240311114459.png",
-    "ML4CV/ML4CV.canvas",
+    "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Segment Anything.md",
+    "ML4CV/Segmentation/Panoptic segmentation.md",
+    "NLP/Documents/Pasted image 20230919131223.png",
+    "NLP/Natural Language Processing.md",
+    "NLP/Morphology.md",
+    "ML4CV/Segmentation/Segmentation.md",
+    "ML4CV/Segmentation/Semantic segmentation.md",
+    "ML4CV/ML4CV.canvas",
+    "ML4CV/Segmentation/Kinect human pose estimation.md",
+    "ML4CV/Documents/img/Pasted image 20240311114459.png",
     "ML4CV/Documents/img/Pasted image 20240311121210.png",
     "ML4CV/Documents/img/Pasted image 20240311120301.png",
     "ML4CV/Documents/img/Pasted image 20240311120241.png",
@@ -186,20 +191,14 @@
     "ML4CV/Documents/img/Pasted image 20240311115358.png",
     "ML4CV/Documents/img/Pasted image 20240311114840.png",
     "ML4CV/Documents/img/Pasted image 20240311111027.png",
-    "ML4CV/Segmentation/Kinect human pose estimation.md",
-    "ML4CV/Segmentation/Segmentation.md",
     "ML4CV/Training recipees/Optimizers.md",
-    "ML4CV/Segmentation/Panoptic segmentation.md",
     "ML4CV/Segmentation/Instance segmentation.md",
     "ML4CV/Documents/img/Pasted image 20240311103844.png",
-    "ML4CV/Segmentation/Semantic segmentation.md",
     "ML4CV/Training recipees/Regularization.md",
     "ML4CV/Representation Learning/Metric learning losses.md",
     "Representation Learning.md",
     "ML4CV/Representation Learning/Metric Learning.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "ML4CV/Depth Estimation.md",
-    "ML4CV/Documents/img/Pasted image 20240305165800.png",
     "ML4CV/Representation Learning/CLIP.md",
     "ML4CV/Image Generation/Image generation.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
@@ -211,8 +210,6 @@
     "ML4CV/Image Generation/Latent diffusion.md",
     "ML4CV/Image Generation/GAN.md",
     "ML4CV/Segmentation/U-NET.md",
-    "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
-    "ML4CV/NN Object Detection/Object detection.md",
     "Ethics",
     "ML4CV/Documents/Papers/sam.pdf",
     "ML4CV/Documents/img/NN_operations.gif.crdownload",
