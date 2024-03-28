@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "focal loss",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9532d82263dac9ac",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md",
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML4CV/NN Object Detection/RetinaNet.md"
+                "file": "ML4CV/NN Object Detection/Viola Jones Detector.md"
               }
             }
           },
@@ -188,6 +187,15 @@
   "active": "f24c1e92654bb3e2",
   "lastOpenFiles": [
     "ML4CV/Segmentation/Segment Anything.md",
+    "ML4CV/NN Object Detection/Viola Jones Detector.md",
+    "ML4CV/Representation Learning/CLIP.md",
+    "ML4CV/NN Object Detection/One stage detectors.md",
+    "ML4CV/NN Object Detection/RetinaNet.md",
+    "ML4CV/Segmentation/Kinect human pose estimation.md",
+    "ML4CV/NN Object Detection/CenterNet.md",
+    "ML4CV/NN Object Detection/Object detection.md",
+    "ML4CV/NN Object Detection/R-CNN.md",
+    "ML4CV/NN Object Detection/RoIPool.md",
     "ML4CV/Segmentation/Panoptic segmentation.md",
     "ML4CV/Depth Estimation.md",
     "NLP/Documents/Pasted image 20230919131223.png",
@@ -196,7 +204,6 @@
     "ML4CV/Segmentation/Segmentation.md",
     "ML4CV/Segmentation/Semantic segmentation.md",
     "ML4CV/ML4CV.canvas",
-    "ML4CV/Segmentation/Kinect human pose estimation.md",
     "ML4CV/Documents/img/Pasted image 20240311114459.png",
     "ML4CV/Documents/img/Pasted image 20240311121210.png",
     "ML4CV/Documents/img/Pasted image 20240311120301.png",
@@ -213,17 +220,10 @@
     "Representation Learning.md",
     "ML4CV/Representation Learning/Metric Learning.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
-    "ML4CV/Representation Learning/CLIP.md",
     "ML4CV/Image Generation/Image generation.md",
     "Image Processing & Computer Vision/Image Processing/Pinhole Camera model.md",
     "Image Processing & Computer Vision/Image Processing/Calibration/Warping.md",
     "Image Processing & Computer Vision/Image Processing/Calibration/Camera calibration.md",
-    "Image Processing & Computer Vision/Image Processing/Image Digitation.md",
-    "Image Processing & Computer Vision/Image Processing/Image Processing.md",
-    "ML4CV/Image Generation/Diffusion.md",
-    "ML4CV/Image Generation/Latent diffusion.md",
-    "ML4CV/Image Generation/GAN.md",
-    "ML4CV/Segmentation/U-NET.md",
     "Ethics",
     "ML4CV/Documents/Papers/sam.pdf",
     "ML4CV/Documents/img/NN_operations.gif.crdownload",

@@ -11,10 +11,10 @@ Predicts:
 - **Offset** $(\delta x, \delta y): \hat O$ for each center point, to recover the discretization error given by the output stride R.
 - **Bounding box size** $(w,h):\hat S$.
 
-The **backbone** network is and encoder-decoder **fully convolutional** [[Convolutional Neural Network]].
+The **backbone** network is and encoder-decoder **fully** [[Convolutional Neural Network]].
 
 # Inference
-At inference time, given a spatial local maxima in the channel $\hat Y_{c}$ at point $(x^{m}, y^{m})$, the box centered at $(x^{m}+\delta x^{m}, y^{m} + \delta y^{m})$ of size $(w^{m}, h^{m})$ and class c is detected without any further preprocessing! (no need of [[Non-Maxima Suppression (NMS)]], because the local maxima already selects one BB per instance).
+At inference time, given a spatial local maxima in the channel $\hat Y_{c}$ at point $(x^{m}, y^{m})$, the box centered at $(x^{m}+\delta x^{m}, y^{m} + \delta y^{m})$ of size $(w^{m}, h^{m})$ and class c is detected without any further pre-processing! (no need of [[Non-Maxima Suppression (NMS)]], because the local maxima already selects one BB per instance).
 ![[Pasted image 20231117164513.png]]
 
 

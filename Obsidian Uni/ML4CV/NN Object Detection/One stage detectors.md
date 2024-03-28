@@ -1,4 +1,3 @@
-
 [[R-CNN]] is an example of **two stage detector**:
 - **STAGE 1**: feature extractor + FPN
 - **STAGE 2**: [[RoIPool]] + classification + bb correction 
@@ -19,4 +18,5 @@ There are countless variants of one-stage detectors
 - **[[CenterNet]]**
 - **EfficientDet**: 
 	Applies the idea of [[EfficientNet]] to [[Object detection]], scaling the baseline detection model up.
+	
 ![[Pasted image 20231109163000.png]]
