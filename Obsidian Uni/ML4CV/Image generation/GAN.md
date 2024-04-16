@@ -6,7 +6,7 @@
 # Adversarial loss
 It's a **minmax game** between the two rivals:
 - **DISCRIMINATOR (D):**
-Solves a _binary classification task_, thus minimizes the Binary Crossentropy Loss (BCE):
+Solves a _binary classification task_, thus minimizes the **Binary Crossentropy Loss (BCE)**:
 $$BCE(\hat y, y)=-ylog\hat y -(1-y)log(1-\hat y)$$
 Where 1=real, 0=fake, the optimal $\phi^{*}$ parameters for D are chosen as:
 $$argmin_{\phi}\{
@@ -17,6 +17,13 @@ Needs to fool the discriminator, thus should maximize the value function that th
 $$\theta=argmax_{\theta}\{
 min_{\theta}[-\frac{1}{I}\sum\limits_{i=1}^{I}logD(x_{i}; \phi) 
 -\frac{1}{J}\sum\limits_{j=1}^{J}log(1-D(G(z_{j}; \theta);\phi))]\}$$
+#### Best loss
+- best discriminator loss: 
+$$L_{D}=\frac{p_{real}(x)}{p_{real}(x)+p_{gen}(x)}$$
+- best generator loss: 
+	By plugging the optimal discriminator loss in the generator's loss, after some derivations we get:
+$$-2D_{JS}(p_{real}(x)||p_{gen}(x))+log4$$
+	which is reached when $p_{real}(x)=p_{gen}(x)$ (real and generated images are indistinguishable), thus: $$L_{G}=log4$$
 # Training
 Need to jointly train both D and G:
 1) Sample a random minibatch of latent vectors for D: $z_{1}, ..., z_{J}$
