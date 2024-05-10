@@ -1,3 +1,4 @@
+- [[One stage detectors]]
 - built on top of [[ResNet]] -> **Backbone**
 - [[R-CNN#Feature Pyramid Network (FPN)]] -> **Neck**
 - Classification and regression are composed of two independent stacks of 3x3 convolution (don't share weights) -> **2 Heads**
@@ -6,7 +7,7 @@
 ### Class imbalance
 Object detection is an **imbalanced problem**: the number of negatives far outweight the positives, this can cause two problems:
 1. easy negatives (clearly background) can overwhelm training and lead to models that can't distinguish positive and negative patches.
-2. training is inefficient as m most locations are easy negatives, that have no meaningful contributions
+2. training is inefficient as most locations are easy negatives, that have no meaningful contributions
 
 Two stage classifiers solve this problem by only training on top-scoring proposal (similarly to cascades in [[Viola Jones Detector]]).
 

@@ -6,6 +6,7 @@ The first commercial success of [[Segmentation]] was human pose estimation throu
 The use of **synthetic data** was crucial to generalize to all kinds and shapes of bodies, while only using a handful of actors to record the movements (using motion capture data). This process was iterated multiple times to get a perfect dataset.
 ![[Pasted image 20231117182009.png]]
 ### Simple depth comparison features
+Similar to [[Edge Detection]], but with depth.
 At each pixel location p, compute **simple depth comparison features** given by Depth D and Offset $\theta$
 ![[Pasted image 20231226175351.png]]
 ![[Pasted image 20231226175449.png]]
@@ -16,9 +17,12 @@ This property is necessary to ensure the same world offset is applied to compute
 ## Random forest
 [[Decision Trees]] can handle missing values and diverse ranges, but that generalize poorly: they are **low bias, high variance** ([[Bias vs Variance]])
 To solve this issue, using an [[Ensemble]] of multiple trees (a [[Random forest]]), averages the single results **reducing variance** (the errors of single trees will be averaged out, like noise in [[Mean Filter]]).
+![[Pasted image 20240510103448.png]]
 - fast to train and test
 - parallelizable
 - variance across trees can provide confidence on estimates
 - high interpretability (explainability)
 - Robust and easy to tune 
 - Uses **Bagging** to improve performance
+
+![[Pasted image 20240510103516.png]]

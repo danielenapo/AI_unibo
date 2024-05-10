@@ -4,7 +4,7 @@
 
 In commercial environments, often speed is preferred over accuracy. Since the first stage does most of the job, we can use the [[R-CNN#Region Proposal Network (RPN)]] to predict both class and final BB.
 ![[Pasted image 20231109123934.png]]
-We can also keep the objectness score prediction, and use it to perform [[Non-Maxima Suppression (NMS)]]
+We can also keep the objectness score prediction, and use it to perform [[Non-Maxima Suppression (NMS)]], like in [[Viola Jones Detector]].
 
 There are countless variants of one-stage detectors
 - **YOLO**:

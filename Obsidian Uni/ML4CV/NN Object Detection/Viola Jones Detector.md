@@ -11,7 +11,7 @@ Agorithm steps:
 1) given N training samples, initialize weights $w^{i}$ for each of them
 2)  for j=1,...,M weak learners:
 	1) fit $WL_{j}$ to the weighted training data
-	2) compute weighted error rate $\epsilon_{j}=\sum\limits_{i:x^{i}missclassified}w^{i}$
+	2) compute weighted error rate $$\epsilon_{j}=\sum\limits_{i:x^{i}missclassified}w^{i}$$
 	3) compute $\beta_{j}=\frac{1-\epsilon_{j}}{\epsilon_{j}}$ 
 	4) Update weights for wrongly classified examples: $w^{i}=w^{i}\beta_{j}$   
 	5) re-normalize $w^{i}$ to rum to one

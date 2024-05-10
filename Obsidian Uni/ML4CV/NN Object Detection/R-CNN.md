@@ -6,6 +6,7 @@ It only predicts:
 
 To solve this problem, we can simply take any standard [[Image classification]] network as **backbone network**, and add a **regression head**  that predicts the bounding box, in parallel to the **classification head**.
 ![[Pasted image 20231025172139.png]]
+The total **loss** is a weighted sum of CrossEntropy loss (for the classification head), and MSE for the regression head (bounding box coordinates x,y,w,h as continuous numerical values)
 
 # Region Proposals
 We can apply a classification CNN as a sliding window detector

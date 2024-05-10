@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b14be332113f4649",
+        "id": "68375ba90a173416",
         "type": "tabs",
         "children": [
           {
-            "id": "f24c1e92654bb3e2",
+            "id": "3e87b66c57a0d970",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML4CV/Image Generation/GAN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -31,7 +27,7 @@
       {
         "id": "549d1c82c2296115",
         "type": "tabs",
-        "dimension": 71.44607843137256,
+        "dimension": 68.0089485458613,
         "children": [
           {
             "id": "ade3d6409066c43d",
@@ -49,7 +45,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "focal ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,10 +67,10 @@
       {
         "id": "9532d82263dac9ac",
         "type": "tabs",
-        "dimension": 28.553921568627448,
+        "dimension": 31.991051454138702,
         "children": [
           {
-            "id": "313c17d6c8673481",
+            "id": "f24c1e92654bb3e2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -85,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241,
-    "collapsed": true
+    "width": 303.00418853759766
   },
   "right": {
     "id": "324eb4fa233332e4",
@@ -102,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML4CV/Image Generation/GAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML4CV/Image Generation/GAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML4CV/Image Generation/GAN.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,44 +163,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f24c1e92654bb3e2",
+  "active": "3e87b66c57a0d970",
   "lastOpenFiles": [
-    "ML4CV/Image Generation/Image generation.md",
-    "ML4CV/Image Generation/GAN.md",
-    "ML4CV/Representation Learning/Metric learning losses.md",
+    "ML4CV/Documents/img/Pasted image 20240116164734.png",
+    "ML4CV/Documents/img/Pasted image 20240510155250.png",
+    "ML4CV/Segmentation/Panoptic segmentation.md",
+    "ML4CV/Segmentation/Segment Anything.md",
+    "ML4CV/Segmentation/Segmentation.md",
+    "ML4CV/Segmentation/Kinect human pose estimation.md",
+    "ML4CV/Segmentation/Instance segmentation.md",
+    "ML4CV/Segmentation/Semantic segmentation.md",
+    "ML4CV/Documents/img/Pasted image 20240510160219.png",
+    "ML4CV/Segmentation/U-NET.md",
     "ML4CV/ML4CV.canvas",
+    "ML4CV/Documents/img/Pasted image 20240510115737.png",
+    "ML4CV/Documents/img/Pasted image 20240510121427.png",
+    "ML4CV/NN Object Detection/RetinaNet.md",
+    "ML4CV/NN Object Detection/CenterNet.md",
+    "ML4CV/Documents/img/Pasted image 20240510103448.png",
+    "Machine Learning/Supervised Learning/Classifier Evaluation.md",
+    "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
+    "ML4CV/Documents/img/Pasted image 20240510103516.png",
+    "ML4CV/NN Object Detection/One stage detectors.md",
+    "ML4CV/NN Object Detection/R-CNN.md",
+    "ML4CV/NN Object Detection/RoIPool.md",
+    "ML4CV/Transformer/Vision Transformer (ViT).md",
+    "ML4CV/Transformer/Attention mechanism.md",
+    "ML4CV/Transformer/Transformer.md",
+    "ML4CV/NN Object Detection/Object detection.md",
+    "ML4CV/NN Object Detection/Viola Jones Detector.md",
+    "ML4CV/Documents/img/Pasted image 20240213175900.png",
+    "ML4CV/Image Generation/GAN.md",
+    "ML4CV/Image Generation/Image generation.md",
+    "ML4CV/Representation Learning/Metric learning losses.md",
     "ML4CV/Image Generation/Diffusion.md",
     "ML4CV/Image Generation/Latent diffusion.md",
-    "ML4CV/NN Object Detection/RoIPool.md",
-    "ML4CV/NN Object Detection/Viola Jones Detector.md",
-    "ML4CV/Segmentation/Segment Anything.md",
     "ML4CV/Representation Learning/CLIP.md",
-    "ML4CV/NN Object Detection/One stage detectors.md",
-    "ML4CV/NN Object Detection/RetinaNet.md",
-    "ML4CV/Segmentation/Kinect human pose estimation.md",
-    "ML4CV/NN Object Detection/CenterNet.md",
-    "ML4CV/NN Object Detection/Object detection.md",
-    "ML4CV/NN Object Detection/R-CNN.md",
-    "ML4CV/Segmentation/Panoptic segmentation.md",
-    "ML4CV/Depth Estimation.md",
     "NLP/Documents/Pasted image 20230919131223.png",
-    "NLP/Natural Language Processing.md",
-    "NLP/Morphology.md",
-    "ML4CV/Segmentation/Segmentation.md",
-    "ML4CV/Segmentation/Semantic segmentation.md",
     "ML4CV/Documents/img/Pasted image 20240311114459.png",
-    "ML4CV/Documents/img/Pasted image 20240311121210.png",
-    "ML4CV/Documents/img/Pasted image 20240311120301.png",
-    "ML4CV/Documents/img/Pasted image 20240311120241.png",
-    "ML4CV/Documents/img/Pasted image 20240311115756.png",
-    "ML4CV/Documents/img/Pasted image 20240311115358.png",
-    "ML4CV/Documents/img/Pasted image 20240311114840.png",
-    "ML4CV/Documents/img/Pasted image 20240311111027.png",
-    "ML4CV/Training recipees/Optimizers.md",
-    "ML4CV/Segmentation/Instance segmentation.md",
-    "ML4CV/Documents/img/Pasted image 20240311103844.png",
-    "ML4CV/Training recipees/Regularization.md",
-    "Representation Learning.md",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Ethics",
     "ML4CV/Documents/Papers/sam.pdf",

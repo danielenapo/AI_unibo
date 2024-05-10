@@ -1,5 +1,5 @@
 _Subtask in image [[Segmentation]] that aims to separate different classes at the pixel level, but **does not separate instances of the same class**._
-Some well-known models that tackle this problem are DeepLab and [[U-NET]].
+Some well-known models that tackle this problem are [[#DeepLab]],  [[U-NET]] and [[Fully Convolutional Network (FCN)]].
 
 # DeepLab
 Network for semantic segmentation, based on a [[ResNet]] backbone with [[#Dilated convolutions]], in order to control the resolution of the output feature map.
@@ -19,12 +19,14 @@ Uses a mixture of V3 and [[U-NET]] to compute the final prediction
 - adds parameter **r** of the **dilation rate**, which adds holes between weights to dilate the convolutional process.
 - r=1 is the standard convolution
 ![[Pasted image 20240116162116.png]]
+![[Pasted image 20240510115737.png]]
 - If we stack convolutions with exponentially increasing dilation rates: $r_{l}=2^{l}$, 
 	- the **receptive field grows _exponentially_** with the number of layers 
 	- the **number of parameter grows _linearly_** with the number of layers
 - When using dilated convolutions, there is no need to down sample using stride
 ![[Pasted image 20240116163034.png]] 
-
+With dilated convolution you lose much less spatial information, as opposed to downsampling and upsampling:
+![[Pasted image 20240510121427.png]]
 ## Atrous Spatial Pyramid Pooling (ASPP)
 To obtain a fixed-size representation to feed the fully connected layers:
 1) the variable-size convolutional feature map is **max-pooled** with a fixed number n x n of **variable-size windows**
@@ -33,3 +35,9 @@ To obtain a fixed-size representation to feed the fully connected layers:
 ![[Pasted image 20240116165149.png]]
 
 - It's an extension of the [[Inception#Global Average Pooling]] to maintain spatial information.
+Deeplab uses a variation which does not use avg pooling, rather only increasing dilation  rates on 3x3 conv layers. 
+Concatenates outputs and feeds to a final 1x1 conv layer with ch=num. of classes (scoring layer).
+![[Pasted image 20240510155250.png]]
+## DeepLab V3+
+It is a mix between DeepLab V3 and [[U-NET]]
+![[Pasted image 20240510160219.png]]

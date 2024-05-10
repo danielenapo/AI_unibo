@@ -1,4 +1,4 @@
-_Single stage [[Object detection]] network that **represents objects as points** (instead of bounding boxes), and regress their size afterwards._
+_[[One stage detectors]] network that **represents objects as points** (instead of bounding boxes), and regress their size afterwards._
 ![[Pasted image 20231117161913.png]]
 Detecting an object becomes the problem of **detecting a keypoint**, which is the center of the bouding box.
 Finding width and height becomes a secondary task.
