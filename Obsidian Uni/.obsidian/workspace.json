@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "68375ba90a173416",
+        "id": "93574467997c5f33",
         "type": "tabs",
         "children": [
           {
-            "id": "3e87b66c57a0d970",
+            "id": "58a657eb21064f1c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,12 +163,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e87b66c57a0d970",
+  "active": "58a657eb21064f1c",
   "lastOpenFiles": [
+    "ML4CV/Segmentation/Segment Anything.md",
+    "ML4CV/Representation Learning/Metric Learning.md",
+    "ML4CV/Representation Learning/CLIP.md",
+    "ML4CV/Transformer/Vision Transformer (ViT).md",
+    "ML4CV/Transformer/Transformer.md",
+    "ML4CV/Transformer/Attention mechanism.md",
     "ML4CV/Documents/img/Pasted image 20240116164734.png",
     "ML4CV/Documents/img/Pasted image 20240510155250.png",
     "ML4CV/Segmentation/Panoptic segmentation.md",
-    "ML4CV/Segmentation/Segment Anything.md",
     "ML4CV/Segmentation/Segmentation.md",
     "ML4CV/Segmentation/Kinect human pose estimation.md",
     "ML4CV/Segmentation/Instance segmentation.md",
@@ -187,9 +192,6 @@
     "ML4CV/NN Object Detection/One stage detectors.md",
     "ML4CV/NN Object Detection/R-CNN.md",
     "ML4CV/NN Object Detection/RoIPool.md",
-    "ML4CV/Transformer/Vision Transformer (ViT).md",
-    "ML4CV/Transformer/Attention mechanism.md",
-    "ML4CV/Transformer/Transformer.md",
     "ML4CV/NN Object Detection/Object detection.md",
     "ML4CV/NN Object Detection/Viola Jones Detector.md",
     "ML4CV/Documents/img/Pasted image 20240213175900.png",
@@ -198,7 +200,6 @@
     "ML4CV/Representation Learning/Metric learning losses.md",
     "ML4CV/Image Generation/Diffusion.md",
     "ML4CV/Image Generation/Latent diffusion.md",
-    "ML4CV/Representation Learning/CLIP.md",
     "NLP/Documents/Pasted image 20230919131223.png",
     "ML4CV/Documents/img/Pasted image 20240311114459.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",

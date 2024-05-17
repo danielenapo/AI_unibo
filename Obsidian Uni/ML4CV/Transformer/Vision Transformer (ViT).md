@@ -3,7 +3,7 @@ Directly using pixels would have been unfeasible for memory reasons, and also no
 
 Much like [[Bag of words]], the best way is using patches of the full image, and feed them as tokens to the unchanged Transformer.
 ![[Pasted image 20231024115630.png]]
-For [[Image classification]], one extra token ("**CLS**") has been added to represent the class prediction.
+For [[Image classification]], one extra token ("**CLS**") has been added to represent the class prediction (similarly to how te BERT architecture works).
 ![[Pasted image 20231024115946.png]]
 ### ViT vs CNN
 Compared to [[ResNet]], the ViT reach similar results when given big datasets, but performs poorly with smaller datasets (standard ImageNet).
