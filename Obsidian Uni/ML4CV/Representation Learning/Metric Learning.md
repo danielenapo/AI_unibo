@@ -39,8 +39,11 @@ Face recognition network by Facebook.
 DeepFace uses a [[VGG]], but substitutes the last two convolutional layers with locally connected layers.
 [[Convolutional Layer]]s share parameters across rows.
 Locally connected layers instead don0t share weights across different locations.
-(This means they are not equivariant to translations and can't adapt to varying imput sizes)
+This means they are 
+- **not** equivariant to translation
+- can't adapt to varying input sizes
 ![[Pasted image 20231215174155.png]]
+![[Pasted image 20240523174438.png]]
 This kind of convolution is applied since we want to better process **details** to compute better representation for faces.
 Moreover, frontalized faces have the main features (eyes, mouth, nose, ...) roughly in the same positions, so loosing those invariance properties is not much of a problem.
 
@@ -48,7 +51,7 @@ DeepFace is trained first to solve face verification. Uses siamese training to s
 ![[Pasted image 20231215174805.png]]
 
 ## DeepID2
-a face recognition network trained with a combination of cross-entropy loss and **contrastive loss**, with heavy test-time augmentation and post-processing to obtain a good embedding space.
+a face recognition network trained with a combination of cross-entropy loss and [[Metric learning losses#Contrastive loss]], with heavy test-time augmentation and post-processing to obtain a good embedding space.
 ![[Pasted image 20231215175627.png]]
 
 # ArcFace

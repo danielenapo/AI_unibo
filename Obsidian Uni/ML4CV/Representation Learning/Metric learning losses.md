@@ -22,6 +22,12 @@ Since for most of the triplets the constraint of the loss is already satisfied, 
 $||f(P)-f(A)||_{2}^{2} \le ||f(N)-f(A)||_{2}^{2} \le ||f(P)-f(A)||_{2}^{2}+m$        
 Those examples are the ones **on the margin edge** (thus they are not the hardest negatives since they would lead to poor training).
 
+# Angular triplet loss
+Using [[Metric Learning#ArcFace]], there is no need to do semi-hard negative mining.
+Distances are computed as cosine similarities, since features are normalized and lyin on a hypersphere.
+The triplet loss, without margin, becomes:
+$L(A,P,N)_{angular}=max  \{0, ||f(A)^{T}f(N) - f(A)^{T}f(P)\}$        
+![[Pasted image 20240523180811.png]]
 # NT-Xent  (or N-pairs) loss
 _Takes the output of the network for a positive example and calculates its distance to an example of the same class and contrasts that with the distance to negative examples. Said another way, the loss is low if positive samples are encoded to similar (closer) representations and negative examples are encoded to different (farther) representations._
 It is often just referred as contrastive loss (even if it's not).
@@ -29,7 +35,8 @@ $L_{angular\_triplet}(A,P,N)=max\{0,\tilde f(A)^{T}\tilde f(N) - \tilde f(A)^{T}
 Where $\tilde f(A)$ is the embedding of the anchor/template, and the products are the similarities (cosine).
 ![[Pasted image 20231224114035.png]]
 To optimize at once distance from multiple negatives, we can extend the max to include multiple of them: $L_{angular\_triplet}(A,P,N)=max\{0,\tilde f(A)^{T}\tilde f(N_{1}) - \tilde f(A)^{T} \tilde f(P),\ ..., \tilde f(A)^{T}\tilde f(N_{n}) - \tilde f(A)^{T} \tilde f(P) \}$ 
-We use softmax to predict probabilities of classes. Instead of using max (not differentiable), we can swithc to its soft approximation _logsumexp_:
+We use softmax to predict probabilities of classes. 
+Instead of using max (not differentiable), we can switch to its soft approximation _logsumexp_:
 ![[Pasted image 20231224115903.png]]
 To make the loss focus on a large set of negatives, we can introduce a temperature $\tau$, obtaining the normalized temperature-scaled cross entropy loss (NT-Xent)
 ![[Pasted image 20231224120045.png]]

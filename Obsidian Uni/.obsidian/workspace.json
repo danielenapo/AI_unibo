@@ -11,8 +11,12 @@
             "id": "84b6f8875711027b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ML4CV/Representation Learning/Metric learning losses.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -45,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "focal ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ML4CV/Representation Learning/Metric learning losses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ML4CV/Representation Learning/Metric learning losses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ML4CV/Representation Learning/Metric learning losses.md"
+              }
             }
           },
           {
@@ -165,11 +173,17 @@
   },
   "active": "84b6f8875711027b",
   "lastOpenFiles": [
+    "Pasted image 20240523180811.png",
+    "ML4CV/Representation Learning/Metric Learning.md",
+    "ML4CV/Representation Learning/Metric learning losses.md",
+    "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
+    "Pasted image 20240523174438.png",
     "ML4CV/ML4CV.canvas",
+    "ML4CV/Representation Learning/CLIP.md",
+    "ML4CV/Image generation/Image generation.md",
+    "Machine Learning/CRISP-DM.md",
     "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Segment Anything.md",
-    "ML4CV/Representation Learning/Metric Learning.md",
-    "ML4CV/Representation Learning/CLIP.md",
     "ML4CV/Transformer/Vision Transformer (ViT).md",
     "ML4CV/Transformer/Transformer.md",
     "ML4CV/Transformer/Attention mechanism.md",
@@ -188,7 +202,6 @@
     "ML4CV/NN Object Detection/CenterNet.md",
     "ML4CV/Documents/img/Pasted image 20240510103448.png",
     "Machine Learning/Supervised Learning/Classifier Evaluation.md",
-    "ML4CV/Segmentation/Fully Convolutional Network (FCN).md",
     "ML4CV/Documents/img/Pasted image 20240510103516.png",
     "ML4CV/NN Object Detection/One stage detectors.md",
     "ML4CV/NN Object Detection/R-CNN.md",
@@ -196,11 +209,7 @@
     "ML4CV/NN Object Detection/Object detection.md",
     "ML4CV/NN Object Detection/Viola Jones Detector.md",
     "ML4CV/Documents/img/Pasted image 20240213175900.png",
-    "ML4CV/Image Generation/GAN.md",
-    "ML4CV/Image Generation/Image generation.md",
-    "ML4CV/Representation Learning/Metric learning losses.md",
     "NLP/Documents/Pasted image 20230919131223.png",
-    "ML4CV/Documents/img/Pasted image 20240311114459.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
     "Ethics",
     "ML4CV/Documents/Papers/sam.pdf",
