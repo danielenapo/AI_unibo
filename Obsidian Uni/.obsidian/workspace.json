@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "93574467997c5f33",
+        "id": "eadfc877d0fba0ce",
         "type": "tabs",
         "children": [
           {
-            "id": "58a657eb21064f1c",
+            "id": "84b6f8875711027b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,8 +163,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58a657eb21064f1c",
+  "active": "84b6f8875711027b",
   "lastOpenFiles": [
+    "ML4CV/ML4CV.canvas",
+    "ML4CV/Depth Estimation.md",
     "ML4CV/Segmentation/Segment Anything.md",
     "ML4CV/Representation Learning/Metric Learning.md",
     "ML4CV/Representation Learning/CLIP.md",
@@ -180,7 +182,6 @@
     "ML4CV/Segmentation/Semantic segmentation.md",
     "ML4CV/Documents/img/Pasted image 20240510160219.png",
     "ML4CV/Segmentation/U-NET.md",
-    "ML4CV/ML4CV.canvas",
     "ML4CV/Documents/img/Pasted image 20240510115737.png",
     "ML4CV/Documents/img/Pasted image 20240510121427.png",
     "ML4CV/NN Object Detection/RetinaNet.md",
@@ -198,8 +199,6 @@
     "ML4CV/Image Generation/GAN.md",
     "ML4CV/Image Generation/Image generation.md",
     "ML4CV/Representation Learning/Metric learning losses.md",
-    "ML4CV/Image Generation/Diffusion.md",
-    "ML4CV/Image Generation/Latent diffusion.md",
     "NLP/Documents/Pasted image 20230919131223.png",
     "ML4CV/Documents/img/Pasted image 20240311114459.png",
     "Image Processing & Computer Vision/Image Processing & Computer Vision.canvas",
